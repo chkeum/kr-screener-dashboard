@@ -205,17 +205,72 @@
   .prime-card::before {
     content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
   }
-  .prime-card.rank-1::before { background: linear-gradient(90deg, #ffd700, #ffaa00); }
-  .prime-card.rank-2::before { background: linear-gradient(90deg, #d0d0d0, #9a9a9a); }
-  .prime-card.rank-3::before { background: linear-gradient(90deg, #cd7f32, #8a5a1a); }
+  .prime-card.rank-1::before { background: linear-gradient(90deg, #ffd700, #ffaa00); height: 5px; }
+  .prime-card.rank-2::before { background: linear-gradient(90deg, #e8e8e8, #9a9a9a); height: 5px; }
+  .prime-card.rank-3::before { background: linear-gradient(90deg, #cd7f32, #8a5a1a); height: 5px; }
   .prime-card.rank-4::before, .prime-card.rank-5::before { background: linear-gradient(90deg, var(--bull), var(--info)); }
 
-  .prime-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
-  .prime-head-left { display: flex; flex-direction: column; gap: 2px; }
+  .prime-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; gap: 12px; }
+  .prime-head-left { display: flex; align-items: flex-start; gap: 12px; flex: 1; min-width: 0; }
   .prime-rank {
-    font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
-    color: var(--text-2);
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 48px; height: 48px; border-radius: 50%;
+    font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: 900;
+    letter-spacing: -0.03em; flex-shrink: 0;
+    background: var(--bg-3); color: var(--text-1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    position: relative;
   }
+  .prime-rank::before {
+    position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
+    font-size: 18px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
+  }
+  .prime-card.rank-1 .prime-rank {
+    background: linear-gradient(135deg, #ffd700 0%, #ffaa00 100%);
+    color: #2a1800;
+    box-shadow: 0 0 16px rgba(255, 215, 0, 0.55), 0 2px 10px rgba(0,0,0,0.35);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+  }
+  .prime-card.rank-1 .prime-rank::before { content: '🏆'; }
+  .prime-card.rank-2 .prime-rank {
+    background: linear-gradient(135deg, #e8e8e8 0%, #9a9a9a 100%);
+    color: #1a1a1a;
+    box-shadow: 0 0 12px rgba(200,200,200,0.45), 0 2px 10px rgba(0,0,0,0.3);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+  }
+  .prime-card.rank-2 .prime-rank::before { content: '🥈'; }
+  .prime-card.rank-3 .prime-rank {
+    background: linear-gradient(135deg, #e89861 0%, #8a5a1a 100%);
+    color: #2a1200;
+    box-shadow: 0 0 12px rgba(205, 127, 50, 0.5), 0 2px 10px rgba(0,0,0,0.3);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+  }
+  .prime-card.rank-3 .prime-rank::before { content: '🥉'; }
+  .prime-card.rank-4 .prime-rank, .prime-card.rank-5 .prime-rank {
+    background: linear-gradient(135deg, var(--bull) 0%, var(--info) 100%);
+    color: #0a0e19;
+    box-shadow: 0 0 10px rgba(94, 176, 255, 0.35), 0 2px 8px rgba(0,0,0,0.3);
+  }
+  .prime-head-body { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1; }
+  .claude-rank-chip {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 3px 8px; border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700;
+    background: linear-gradient(135deg, rgba(181, 127, 255, 0.2), rgba(94, 176, 255, 0.15));
+    border: 1px solid rgba(181, 127, 255, 0.5);
+    color: #d4baff;
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+    align-self: flex-start;
+    box-shadow: 0 0 8px rgba(181, 127, 255, 0.2);
+  }
+  .claude-rank-chip.c1 {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.22), rgba(255, 170, 0, 0.15));
+    border-color: rgba(255, 215, 0, 0.6); color: #ffd76a;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+  }
+  .claude-rank-chip.c2 { border-color: rgba(220, 220, 220, 0.55); color: #e8e8e8; }
+  .claude-rank-chip.c3 { border-color: rgba(205, 127, 50, 0.55); color: #e89861; }
   .prime-ticker {
     font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: 700;
     letter-spacing: -0.02em; line-height: 1.1;
@@ -308,7 +363,16 @@
   .strong-card:hover { transform: translateY(-1px); border-color: var(--border-strong); }
   .strong-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
   .strong-head-left { display: flex; align-items: baseline; gap: 8px; }
-  .strong-rank { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-3); font-weight: 700; }
+  .strong-rank {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 28px; height: 24px; padding: 0 8px;
+    border-radius: 7px;
+    font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 800;
+    background: linear-gradient(135deg, var(--info-soft), var(--bg-3));
+    color: var(--info);
+    border: 1px solid rgba(94, 176, 255, 0.4);
+    letter-spacing: -0.02em;
+  }
   .strong-ticker { font-family: 'JetBrains Mono', monospace; font-size: 17px; font-weight: 700; letter-spacing: -0.02em; }
   .strong-price { text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
   .strong-score { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--bull); font-size: 13px; }
@@ -331,7 +395,32 @@
   }
   .watch-card:hover { background: var(--bg-3); transform: translateY(-1px); }
   .watch-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
-  .watch-rank { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--text-3); font-weight: 700; }
+  .watch-rank {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 24px; height: 20px; padding: 0 6px;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 800;
+    background: var(--bg-3);
+    color: var(--text-1);
+    border: 1px solid var(--border);
+    letter-spacing: -0.02em;
+  }
+  .strong-card.has-claude-rank {
+    border-color: rgba(181, 127, 255, 0.45);
+    box-shadow: 0 0 0 1px rgba(181, 127, 255, 0.15);
+  }
+  .watch-card.has-claude-rank {
+    border-color: rgba(181, 127, 255, 0.4);
+    background: linear-gradient(135deg, rgba(181, 127, 255, 0.06), var(--bg-2));
+  }
+  .claude-rank-chip-mini {
+    display: inline-flex; align-items: center; gap: 3px;
+    padding: 2px 6px; border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 800;
+    background: rgba(181, 127, 255, 0.15);
+    border: 1px solid rgba(181, 127, 255, 0.5);
+    color: #d4baff; letter-spacing: 0.02em;
+  }
   .watch-ticker { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700; letter-spacing: -0.02em; }
   .watch-score { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: var(--bull); }
   .watch-bars { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 3px; margin-bottom: 5px; }
@@ -847,13 +936,18 @@ function primeCardHTML(t) {
   const chgClass = (t.change_pct || 0) >= 0 ? 'up' : 'down';
   const chgSign = (t.change_pct || 0) >= 0 ? '+' : '';
   const hasStrategy = t.entry != null && t.tp1 != null && t.sl != null;
+  const claudeChipClass = t.claude_rank ? `c${t.claude_rank}` : '';
+  const claudeChip = t.claude_rank ? `<div class="claude-rank-chip ${claudeChipClass}">🤖 Claude #${t.claude_rank}</div>` : '';
   return `
     <div class="prime-card rank-${t.rank}" data-ticker="${t.ticker}">
       <div class="prime-head">
         <div class="prime-head-left">
-          <div class="prime-rank">#${t.rank}</div>
-          <div class="prime-ticker">${t.ticker}</div>
-          <div class="prime-name">${t.name || t.sector_full || t.sector || ''}</div>
+          <div class="prime-rank">${t.rank}</div>
+          <div class="prime-head-body">
+            ${claudeChip}
+            <div class="prime-ticker">${t.ticker}</div>
+            <div class="prime-name">${t.name || t.sector_full || t.sector || ''}</div>
+          </div>
         </div>
         <div class="prime-head-right">
           ${t.price != null ? `<div class="prime-price">₩${fmt(t.price)}</div>` : ''}
@@ -903,12 +997,15 @@ function renderStrong(d) {
     const qm = QUAD_META[q];
     const chgClass = (t.change_pct || 0) >= 0 ? 'up' : 'down';
     const chgSign = (t.change_pct || 0) >= 0 ? '+' : '';
+    const claudeBadge = t.claude_rank ? `<span class="claude-rank-chip-mini">🤖 #${t.claude_rank}</span>` : '';
+    const cardClass = t.claude_rank ? 'strong-card has-claude-rank' : 'strong-card';
     return `
-      <div class="strong-card" data-ticker="${t.ticker}">
+      <div class="${cardClass}" data-ticker="${t.ticker}">
         <div class="strong-head">
           <div class="strong-head-left">
             <span class="strong-rank">#${t.rank}</span>
             <span class="strong-ticker">${t.ticker}</span>
+            ${claudeBadge}
           </div>
           <div class="strong-price">
             ${t.price != null ? `₩${fmt(t.price)} ` : ''}
@@ -945,11 +1042,14 @@ function renderWatch(d) {
   el.innerHTML = watch.map(t => {
     const q = quadFor(t);
     const qm = QUAD_META[q];
+    const wClaudeBadge = t.claude_rank ? `<span class="claude-rank-chip-mini">🤖 #${t.claude_rank}</span>` : '';
+    const wCardClass = t.claude_rank ? 'watch-card has-claude-rank' : 'watch-card';
     return `
-      <div class="watch-card" data-ticker="${t.ticker}">
+      <div class="${wCardClass}" data-ticker="${t.ticker}">
         <div class="watch-head">
-          <span class="watch-rank">#${t.rank}</span>
+          <span class="watch-rank">${t.rank}</span>
           <span class="watch-ticker">${t.ticker}</span>
+          ${wClaudeBadge}
           <span class="watch-score">${(t.score_total||0).toFixed(1)}</span>
         </div>
         <div class="watch-bars">
