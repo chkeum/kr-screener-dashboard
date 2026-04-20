@@ -5,17 +5,1008 @@
 // 구조: window.__SCREENER_FEED__ = { manifest, archive }
 //   manifest.reports: 최신순 리포트 메타 (사이드바 히스토리)
 //   archive["YYYY-MM-DD"]: 일자별 전체 리포트 데이터
-// 보관: 최근 30일만 archive에 유지
+// 보관: 최근 30일만 archive 유지
 // ============================================================
 
 window.__SCREENER_FEED__ = {
   manifest: {
     version: 2,
     reports: [
+      { date: "2026-04-20", top_ticker: "퍼스텍", mood: "neutral" },
       { date: "2026-04-17", top_ticker: "신풍제약", mood: "neutral" }
     ]
   },
   archive: {
+    "2026-04-20": {
+        date: "2026-04-20",
+        date_display: "2026-04-20 (월요일 마감 → 화요일 프리뷰)",
+        market_mood: "neutral",
+        market_mood_score: 55,
+        market_summary: "KOSPI -0.09%, KOSDAQ +0.34% 혼조 마감. 상한가 14개, 하한가 0. 양수급(외인+기관 동시 순매수) 8종목 — 평소 대비 3배. 퍼스텍이 거래대금 4,226억 폭증 + 외인+기관 대규모 매집으로 오늘의 핵심. 드림시큐리티·엑스게이트 상한가/거래대금 폭증이지만 외인 매도로 경계 신호.",
+        sector_tilt: [
+          "우주항공/국방",
+          "소프트웨어",
+          "반도체"
+        ],
+        top_ticker: "퍼스텍",
+        candidate_count: 20,
+        today_action: {
+          one_liner: "오늘 퍼스텍(010820)이 압도적이야. 외인+기관 동시 대규모 매집 + 거래대금 4,226억 폭증. 월요일이라 관망 5분 후 15,400~15,600 눌림 매수 추천. 로스컷 -2% 엄수하고!",
+          priorities: [
+            {
+              icon: "🎯",
+              ticker: "퍼스텍(010820)",
+              text: "15,400~15,600 눌림 1차 분할, 손절 15,380(-2%), 익절 16,200/16,700"
+            },
+            {
+              icon: "💎",
+              ticker: "삼영(003720)·폴라리스오피스(041020)",
+              text: "⭐ 양수급 조용한 히든엣지. 거래대금은 작지만 수급 깔끔함"
+            },
+            {
+              icon: "🚨",
+              ticker: "드림시큐리티(203650)·엑스게이트(356680)",
+              text: "상한가/거래대금 폭증이지만 외인 매도 → 테마에 휩쓸리지 말 것"
+            }
+          ]
+        },
+        routine_timeline: [
+          {
+            time_kst: "08:30",
+            time_et: "—",
+            label: "Notion 리포트 + 대시보드 최종 점검",
+            active: true
+          },
+          {
+            time_kst: "08:50",
+            time_et: "—",
+            label: "퍼스텍/혜인/미코 호가창 사전 체크"
+          },
+          {
+            time_kst: "09:00",
+            time_et: "—",
+            label: "🔔 한국장 개장 · 관망 5분",
+            key: true
+          },
+          {
+            time_kst: "09:05",
+            time_et: "—",
+            label: "분할 진입 1차 (눌림 매수 원칙)"
+          },
+          {
+            time_kst: "09:15",
+            time_et: "—",
+            label: "분할 진입 2차 판단"
+          },
+          {
+            time_kst: "10:00",
+            time_et: "—",
+            label: "1차 익절/손절 점검"
+          },
+          {
+            time_kst: "11:30",
+            time_et: "—",
+            label: "중간 점검 · 포지션 축소 or 홀딩"
+          },
+          {
+            time_kst: "13:00",
+            time_et: "—",
+            label: "오후장 방향 확인 (외인/기관 수급)"
+          },
+          {
+            time_kst: "14:30",
+            time_et: "—",
+            label: "마감 대비 포지션 정리"
+          },
+          {
+            time_kst: "15:30",
+            time_et: "—",
+            label: "장 마감 · 일지 작성",
+            key: true
+          }
+        ],
+        sectors: [
+          {
+            name: "소프트웨어",
+            strength: 0.85,
+            ticker_count: 3
+          },
+          {
+            name: "핸드셋",
+            strength: 0.72,
+            ticker_count: 2
+          },
+          {
+            name: "반도체와반도체장비",
+            strength: 0.78,
+            ticker_count: 2
+          },
+          {
+            name: "생명과학도구및서비스",
+            strength: 0.55,
+            ticker_count: 2
+          },
+          {
+            name: "우주항공과국방",
+            strength: 0.95,
+            ticker_count: 1
+          },
+          {
+            name: "기계",
+            strength: 0.82,
+            ticker_count: 1
+          },
+          {
+            name: "상업서비스와공급품",
+            strength: 0.75,
+            ticker_count: 1
+          },
+          {
+            name: "철강",
+            strength: 0.65,
+            ticker_count: 1
+          },
+          {
+            name: "전기제품",
+            strength: 0.8,
+            ticker_count: 1
+          },
+          {
+            name: "화학",
+            strength: 0.6,
+            ticker_count: 1
+          }
+        ],
+        claude_ranking: [
+          {
+            rank: 1,
+            ticker: "퍼스텍(010820)",
+            reasoning: "⭐ 외인+기관 동시 대규모 순매수 (Fo +279k, Inst +598k). 거래대금 4,226억 압도적. 방산/드론/우주항공 테마.",
+            signals: [
+              "⭐ 양수급",
+              "거래대금 4,226억",
+              "방산 테마",
+              "수주잔고 1.1조"
+            ]
+          },
+          {
+            rank: 2,
+            ticker: "미코(059090)",
+            reasoning: "⭐ 양수급 + HBM 세라믹 부품 실적주. 외국인보유 19.37% 안정.",
+            signals: [
+              "⭐ 양수급",
+              "HBM 수혜",
+              "+17%",
+              "외인 보유 19.37%"
+            ]
+          },
+          {
+            rank: 3,
+            ticker: "혜인(003010)",
+            reasoning: "⭐ 양수급 + Score 1위 + 상한가. 다만 수급 절대 규모 작음.",
+            signals: [
+              "⭐ 양수급",
+              "상한가",
+              "Score 1위"
+            ]
+          },
+          {
+            rank: 4,
+            ticker: "상신이디피(091580)",
+            reasoning: "⭐ 양수급. +20% 강한 모멘텀. 거래대금 585억.",
+            signals: [
+              "⭐ 양수급",
+              "+20.22%",
+              "전기제품"
+            ]
+          },
+          {
+            rank: 5,
+            ticker: "엑스큐어(070300)",
+            reasoning: "⭐ 양수급 + 거래대금 20배 폭증 + 대량보유 공시.",
+            signals: [
+              "⭐ 양수급",
+              "거래대금 20배",
+              "대량보유 공시"
+            ]
+          }
+        ],
+        hidden_edges: [
+          {
+            ticker: "삼영(003720)",
+            reason: "⭐ 양수급 조용한 매집. 화학 섹터 저평가 가능"
+          },
+          {
+            ticker: "폴라리스오피스(041020)",
+            reason: "⭐ 양수급. 자동차부품 소리 없는 매집"
+          }
+        ],
+        overheated: [
+          {
+            ticker: "드림시큐리티(203650)",
+            reason: "2거래일 연속 상한가지만 외인 -440억 대량매도"
+          },
+          {
+            ticker: "엑스게이트(356680)",
+            reason: "거래대금 4,470억 폭증이지만 고점 대비 -14% 꼬리"
+          }
+        ],
+        tickers: [
+          {
+            rank: 1,
+            ticker: "혜인",
+            name: "혜인",
+            sector: "기계",
+            sector_full: "기계",
+            price: 8030,
+            change_pct: 29.94,
+            score_total: 77.9,
+            score_reddit: 72,
+            score_news: 60,
+            score_trends: 86,
+            score_options: 30,
+            quadrant: "hot",
+            claude_rank: 3,
+            claude_summary: "기계 섹터 상한가 + ⭐양수급 (소규모). 재료 확인 필요",
+            claude_signals: [
+              "⭐ 양수급",
+              "상한가 +29.94%",
+              "거래대금 912억"
+            ],
+            narrative: "혜인(003010)은 기계 섹터 소형주로 오늘 +29.94% 상한가를 기록했어. 외인 +6.7k, 기관 +3k로 규모는 작지만 ⭐ 외인+기관 동시 순매수 조건을 만족. Score 0.78로 스크리너 1위. 다만 상한가 재료가 아직 명확하지 않아 뉴스 확인 필요. 시초가 추격보다 갭하락 후 눌림목 매수가 합리적이야.",
+            entry: 7900,
+            tp1: 8400,
+            tp2: 8800,
+            sl: 7870,
+            entry_comment: "상따 지양, 눌림매수",
+            catalysts: [
+              "상한가 돌파",
+              "⭐ 양수급",
+              "Score 1위",
+              "기계 섹터"
+            ],
+            risks: [
+              "재료 불명확",
+              "상한가 연속 불확실",
+              "절대 수급 규모 작음"
+            ],
+            reddit_sentiment_label: "긍정",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 320,
+                sentiment: 0.72
+              },
+              {
+                sub: "DC주식갤",
+                count: 45,
+                sentiment: 0.58
+              },
+              {
+                sub: "더팍스",
+                count: 28,
+                sentiment: 0.65
+              }
+            ],
+            news_headlines: [
+              {
+                title: "혜인 상한가 돌파…기관 매집 흐름",
+                source: "이데일리",
+                ago: "2시간 전"
+              },
+              {
+                title: "혜인 +29.94%…기계 섹터 강세",
+                source: "머니투데이",
+                ago: "3시간 전"
+              }
+            ],
+            trend_surge_pct: 180,
+            options_detail: null
+          },
+          {
+            rank: 2,
+            ticker: "드림시큐리티",
+            name: "드림시큐리티",
+            sector: "상업서비스와공급품",
+            sector_full: "상업서비스와공급품",
+            price: 3880,
+            change_pct: 29.98,
+            score_total: 56.7,
+            score_reddit: 82,
+            score_news: 60,
+            score_trends: 100,
+            score_options: 30,
+            quadrant: "hot",
+            claude_rank: null,
+            claude_summary: "양자암호 PQC 상한가. 외인 -440억 대량매도 → 경계",
+            claude_signals: [
+              "상한가 +29.98%",
+              "⚠️ 외인 매도",
+              "양자암호 테마"
+            ],
+            narrative: "드림시큐리티(203650)는 양자내성암호(PQC) 기술로 Anthropic 미토스 + 엔비디아 양자컴 테마 연장에 상한가. 거래대금 2,211억. 다만 외국인이 -440,316주 대량매도, 기관만 +42k 순매수. 백테스트상 \"기관 단독 매수\"는 +0.75% 엣지 없음. 테마 열기에 휩쓸리지 않는 것이 관건.",
+            entry: 3800,
+            tp1: 4050,
+            tp2: 4220,
+            sl: 3800,
+            entry_comment: "과열 경계, 눌림만",
+            catalysts: [
+              "양자암호 PQC",
+              "미토스 이슈",
+              "엔비디아 양자컴"
+            ],
+            risks: [
+              "외인 대량매도",
+              "2거래일 연속 상한가 과열",
+              "테마 지속성 의문"
+            ],
+            reddit_sentiment_label: "매우 긍정",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 850,
+                sentiment: 0.82
+              },
+              {
+                sub: "DC주식갤",
+                count: 210,
+                sentiment: 0.75
+              },
+              {
+                sub: "더팍스",
+                count: 95,
+                sentiment: 0.78
+              }
+            ],
+            news_headlines: [
+              {
+                title: "드림시큐리티 30% 상한가…양자암호 훈풍",
+                source: "한경",
+                ago: "4시간 전"
+              },
+              {
+                title: "AI 해킹 공포에 양자암호株 질주",
+                source: "이데일리",
+                ago: "5시간 전"
+              }
+            ],
+            trend_surge_pct: 320,
+            options_detail: null
+          },
+          {
+            rank: 3,
+            ticker: "셀리드",
+            name: "셀리드",
+            sector: "생물공학",
+            sector_full: "생물공학",
+            price: 4110,
+            change_pct: 7.73,
+            score_total: 51.7,
+            score_reddit: 52,
+            score_news: 60,
+            score_trends: 59,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "생물공학 +7.73%, 고점 꼬리. 수급 약함",
+            claude_signals: [
+              "+7.73%",
+              "고점 대비 꼬리",
+              "수급 중립"
+            ],
+            narrative: "셀리드(299660)는 생물공학 섹터에서 +7.73% 상승했지만 고점 4,760원 찍고 4,110원에 꼬리를 달며 마감. 외국인 -278k 순매도, 기관 0. 거래대금 924억으로 활발했으나 수급은 경계 신호. 진입 우선순위 낮음.",
+            entry: 4000,
+            tp1: 4200,
+            tp2: 4350,
+            sl: 4030,
+            entry_comment: "수급 확인 우선",
+            catalysts: [
+              "거래대금 급증",
+              "생물공학 테마"
+            ],
+            risks: [
+              "고점 꼬리",
+              "외인 매도",
+              "기관 무관심"
+            ],
+            reddit_sentiment_label: "중립",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 180,
+                sentiment: 0.52
+              },
+              {
+                sub: "DC주식갤",
+                count: 25,
+                sentiment: 0.48
+              },
+              {
+                sub: "더팍스",
+                count: 12,
+                sentiment: 0.55
+              }
+            ],
+            news_headlines: [
+              {
+                title: "셀리드 장중 고점 터치 후 꼬리",
+                source: "이데일리",
+                ago: "2시간 전"
+              }
+            ],
+            trend_surge_pct: 45,
+            options_detail: null
+          },
+          {
+            rank: 4,
+            ticker: "인성정보",
+            name: "인성정보",
+            sector: "IT서비스",
+            sector_full: "IT서비스",
+            price: 2155,
+            change_pct: 6.68,
+            score_total: 50.1,
+            score_reddit: 55,
+            score_news: 40,
+            score_trends: 57,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "IT서비스 +6.68%, 외인 -429k 매도",
+            claude_signals: [
+              "+6.68%",
+              "⚠️ 외인 매도",
+              "IT서비스"
+            ],
+            narrative: "인성정보(033230)는 IT서비스 섹터에서 +6.68% 상승. 거래대금 518억으로 활발했지만 외국인 -429k 대량매도. 기관 매수 부재. 수급 엣지 없음.",
+            entry: 2120,
+            tp1: 2220,
+            tp2: 2310,
+            sl: 2110,
+            entry_comment: "수급 비우호",
+            catalysts: [
+              "거래대금 22배 급증"
+            ],
+            risks: [
+              "외인 대량매도",
+              "기관 무관심"
+            ],
+            reddit_sentiment_label: "중립",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 120,
+                sentiment: 0.55
+              },
+              {
+                sub: "DC주식갤",
+                count: 18,
+                sentiment: 0.5
+              },
+              {
+                sub: "더팍스",
+                count: 8,
+                sentiment: 0.52
+              }
+            ],
+            news_headlines: [],
+            trend_surge_pct: 35,
+            options_detail: null
+          },
+          {
+            rank: 5,
+            ticker: "엑스게이트",
+            name: "엑스게이트",
+            sector: "소프트웨어",
+            sector_full: "소프트웨어",
+            price: 16440,
+            change_pct: 9.67,
+            score_total: 49.1,
+            score_reddit: 68,
+            score_news: 60,
+            score_trends: 92,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "보안 테마 대장 +9.67%, 거래대금 4470억. 고점 대비 -14% 꼬리 과열",
+            claude_signals: [
+              "거래대금 4,470억",
+              "⚠️ 고점 꼬리",
+              "외인만 매수"
+            ],
+            narrative: "엑스게이트(356680)는 소프트웨어/보안 섹터 대장주로 Anthropic 미토스 후속 매수세와 엔비디아 양자컴 테마로 +9.67%. 장중 고점 19,120원에서 종가 16,440원으로 **-14% 꼬리**. 거래대금 4,470억으로 최대. 외인 +56k 매수지만 기관 0. 오후 대량 매도 소화 중이라 과열 신호.",
+            entry: 16200,
+            tp1: 16900,
+            tp2: 17500,
+            sl: 16110,
+            entry_comment: "과열, 분할 최소",
+            catalysts: [
+              "보안 테마",
+              "미토스 이슈",
+              "거래대금 최대"
+            ],
+            risks: [
+              "고점 꼬리 -14%",
+              "오후 매도 소화",
+              "기관 부재"
+            ],
+            reddit_sentiment_label: "긍정",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 720,
+                sentiment: 0.68
+              },
+              {
+                sub: "DC주식갤",
+                count: 190,
+                sentiment: 0.62
+              },
+              {
+                sub: "더팍스",
+                count: 80,
+                sentiment: 0.7
+              }
+            ],
+            news_headlines: [
+              {
+                title: "엑스게이트 보안주 부각…미토스 충격 이어져",
+                source: "와이드경제",
+                ago: "3시간 전"
+              }
+            ],
+            trend_surge_pct: 210,
+            options_detail: null
+          },
+          {
+            rank: 6,
+            ticker: "엑스큐어",
+            name: "엑스큐어",
+            sector: "핸드셋",
+            sector_full: "핸드셋",
+            price: 3070,
+            change_pct: 11.43,
+            score_total: 49.1,
+            score_reddit: 72,
+            score_news: 40,
+            score_trends: 100,
+            score_options: 30,
+            quadrant: "hidden",
+            claude_rank: 5,
+            claude_summary: "⭐ 양수급 + 거래대금 20배 폭증. 저가주 변동성 유의",
+            claude_signals: [
+              "⭐ 양수급",
+              "거래대금 20배",
+              "대량보유 공시"
+            ],
+            narrative: "엑스큐어(070300)는 핸드셋 섹터 대장주로 오늘 +11.43%. 외인 +49k, 기관 +15k ⭐ 양수급. 거래대금 500억으로 전일 대비 20배 폭증. 4/17 주식대량보유보고서 공시까지 있어 수급+재료+거래대금 3박자.",
+            entry: 2990,
+            tp1: 3180,
+            tp2: 3280,
+            sl: 3010,
+            entry_comment: "눌림 매수",
+            catalysts: [
+              "⭐ 양수급",
+              "거래대금 20배",
+              "대량보유 공시"
+            ],
+            risks: [
+              "저가주 변동성",
+              "호가 장난 주의",
+              "이유 불명확"
+            ],
+            reddit_sentiment_label: "긍정",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 220,
+                sentiment: 0.72
+              },
+              {
+                sub: "DC주식갤",
+                count: 35,
+                sentiment: 0.6
+              },
+              {
+                sub: "더팍스",
+                count: 18,
+                sentiment: 0.68
+              }
+            ],
+            news_headlines: [],
+            trend_surge_pct: 260,
+            options_detail: null
+          },
+          {
+            rank: 7,
+            ticker: "금강철강",
+            name: "금강철강",
+            sector: "철강",
+            sector_full: "철강",
+            price: 6320,
+            change_pct: 14.29,
+            score_total: 47.3,
+            score_reddit: 57,
+            score_news: 40,
+            score_trends: 67,
+            score_options: 30,
+            quadrant: "hidden",
+            claude_rank: null,
+            claude_summary: "⭐ 양수급 + 거래대금 21배 폭증 · 철강 대장 아님",
+            claude_signals: [
+              "⭐ 양수급",
+              "거래대금 21배",
+              "+14.29%"
+            ],
+            narrative: "금강철강(053260)은 철강 섹터에서 +14.29% 상승. 외인 +10k, 기관 +519주 ⭐ 양수급이지만 규모 미미. 거래대금 654억으로 21배 폭증. 철강 섹터 대장주는 아니라서 대장주 동반 없이는 지속성 의문.",
+            entry: 6200,
+            tp1: 6500,
+            tp2: 6750,
+            sl: 6190,
+            entry_comment: "대장주 확인 필수",
+            catalysts: [
+              "⭐ 양수급",
+              "거래대금 21배",
+              "철강"
+            ],
+            risks: [
+              "대장주 아님",
+              "수급 소규모",
+              "철강 섹터 단독"
+            ],
+            reddit_sentiment_label: "중립",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 90,
+                sentiment: 0.58
+              },
+              {
+                sub: "DC주식갤",
+                count: 12,
+                sentiment: 0.5
+              },
+              {
+                sub: "더팍스",
+                count: 5,
+                sentiment: 0.55
+              }
+            ],
+            news_headlines: [],
+            trend_surge_pct: 85,
+            options_detail: null
+          },
+          {
+            rank: 8,
+            ticker: "한컴위드",
+            name: "한컴위드",
+            sector: "비철금속",
+            sector_full: "비철금속",
+            price: 7090,
+            change_pct: 15.47,
+            score_total: 42.6,
+            score_reddit: 55,
+            score_news: 40,
+            score_trends: 69,
+            score_options: 30,
+            quadrant: "hot",
+            claude_rank: null,
+            claude_summary: "비철금속 +15.47%, 외인 -181k 매도",
+            claude_signals: [
+              "+15.47%",
+              "⚠️ 외인 매도",
+              "거래대금 2355억"
+            ],
+            narrative: "한컴위드(054920)는 비철금속 섹터에서 +15.47% 상승. 거래대금 2,355억 활발했지만 외국인 -181k 매도, 기관 +3주 미미. 수급 엣지 없음.",
+            entry: 7000,
+            tp1: 7350,
+            tp2: 7600,
+            sl: 6950,
+            entry_comment: "수급 비우호",
+            catalysts: [
+              "거래대금 급증"
+            ],
+            risks: [
+              "외인 매도",
+              "기관 부재"
+            ],
+            reddit_sentiment_label: "중립",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 140,
+                sentiment: 0.55
+              },
+              {
+                sub: "DC주식갤",
+                count: 22,
+                sentiment: 0.52
+              },
+              {
+                sub: "더팍스",
+                count: 10,
+                sentiment: 0.5
+              }
+            ],
+            news_headlines: [],
+            trend_surge_pct: 95,
+            options_detail: null
+          },
+          {
+            rank: 9,
+            ticker: "상신이디피",
+            name: "상신이디피",
+            sector: "전기제품",
+            sector_full: "전기제품",
+            price: 27350,
+            change_pct: 20.22,
+            score_total: 40.4,
+            score_reddit: 62,
+            score_news: 40,
+            score_trends: 64,
+            score_options: 30,
+            quadrant: "hot",
+            claude_rank: 4,
+            claude_summary: "⭐ 양수급 + +20% 강한 모멘텀. 소형주 거래대금 유의",
+            claude_signals: [
+              "⭐ 양수급",
+              "+20.22%",
+              "전기제품"
+            ],
+            narrative: "상신이디피(091580)는 전기제품 섹터에서 +20.22% 강한 모멘텀. 외인 +5.7k, 기관 +4.5k ⭐ 양수급. 거래대금 585억으로 소형주 기준 활발했지만 체결 유의. 시총 3,618억 소형주라 장초반 호가 얇음.",
+            entry: 26700,
+            tp1: 28300,
+            tp2: 29000,
+            sl: 26800,
+            entry_comment: "호가 확인",
+            catalysts: [
+              "⭐ 양수급",
+              "+20% 모멘텀",
+              "전기제품"
+            ],
+            risks: [
+              "소형주 호가",
+              "거래대금 585억 작음"
+            ],
+            reddit_sentiment_label: "중립",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 80,
+                sentiment: 0.62
+              },
+              {
+                sub: "DC주식갤",
+                count: 10,
+                sentiment: 0.5
+              },
+              {
+                sub: "더팍스",
+                count: 4,
+                sentiment: 0.58
+              }
+            ],
+            news_headlines: [],
+            trend_surge_pct: 70,
+            options_detail: null
+          },
+          {
+            rank: 10,
+            ticker: "랩지노믹스",
+            name: "랩지노믹스",
+            sector: "생명과학도구및서비스",
+            sector_full: "생명과학도구및서비스",
+            price: 1657,
+            change_pct: -8.1,
+            score_total: 39.6,
+            score_reddit: 32,
+            score_news: 40,
+            score_trends: 47,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "생명과학 -8.10%, 외인 -124만주 대량매도. 회피",
+            claude_signals: [
+              "⚠️ -8.10%",
+              "⚠️ 외인 -124만주",
+              "기관만"
+            ],
+            narrative: "랩지노믹스(084650)는 생명과학 섹터에서 -8.10% 하락. 외국인이 -1,243,220주 대량매도, 기관 +62k 순매수지만 외인 매도 규모에 밀림. 회피.",
+            entry: 1620,
+            tp1: 1700,
+            tp2: 1780,
+            sl: 1620,
+            entry_comment: "회피 권장",
+            catalysts: [],
+            risks: [
+              "외인 -124만주",
+              "하락 추세",
+              "기관만 받음"
+            ],
+            reddit_sentiment_label: "부정",
+            reddit_breakdown: [
+              {
+                sub: "종토방",
+                count: 65,
+                sentiment: 0.32
+              },
+              {
+                sub: "DC주식갤",
+                count: 8,
+                sentiment: 0.3
+              },
+              {
+                sub: "더팍스",
+                count: 3,
+                sentiment: 0.38
+              }
+            ],
+            news_headlines: [],
+            trend_surge_pct: -15,
+            options_detail: null
+          },
+          {
+            rank: 11,
+            ticker: "미코",
+            sector: "반도체와반도체장비",
+            sector_full: "반도체와반도체장비",
+            price: 24050,
+            change_pct: 17.03,
+            score_total: 39.0,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "hot",
+            claude_rank: 2,
+            claude_summary: "⭐ 양수급 + HBM 반도체 +17%"
+          },
+          {
+            rank: 12,
+            ticker: "삼영",
+            sector: "화학",
+            sector_full: "화학",
+            price: 9650,
+            change_pct: 13.53,
+            score_total: 38.8,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "hidden",
+            claude_rank: null,
+            claude_summary: "⭐ 양수급 히든엣지 · 화학 +13.5%"
+          },
+          {
+            rank: 13,
+            ticker: "온코크로스",
+            sector: "생명과학도구및서비스",
+            sector_full: "생명과학도구및서비스",
+            price: 9140,
+            change_pct: 14.82,
+            score_total: 38.4,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "생명과학 +14.82% · 합병결정 공시"
+          },
+          {
+            rank: 14,
+            ticker: "라온시큐어",
+            sector: "소프트웨어",
+            sector_full: "소프트웨어",
+            price: 15410,
+            change_pct: 14.66,
+            score_total: 38.3,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "보안 테마 +14.66% · 외인 +77k"
+          },
+          {
+            rank: 15,
+            ticker: "오픈베이스",
+            sector: "컴퓨터와주변기기",
+            sector_full: "컴퓨터와주변기기",
+            price: 3485,
+            change_pct: 11.52,
+            score_total: 37.7,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "컴퓨터주변 +11.52% · 외인 -422k"
+          },
+          {
+            rank: 16,
+            ticker: "퍼스텍",
+            sector: "우주항공과국방",
+            sector_full: "우주항공과국방",
+            price: 15700,
+            change_pct: 16.47,
+            score_total: 35.7,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "hot",
+            claude_rank: 1,
+            claude_summary: "⭐ 방산 대규모 양수급 · 거래대금 4226억"
+          },
+          {
+            rank: 17,
+            ticker: "아톤",
+            sector: "소프트웨어",
+            sector_full: "소프트웨어",
+            price: 9910,
+            change_pct: 12.49,
+            score_total: 35.3,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "소프트웨어 +12.49% · 기관 미세매수"
+          },
+          {
+            rank: 18,
+            ticker: "DB하이텍",
+            sector: "반도체와반도체장비",
+            sector_full: "반도체와반도체장비",
+            price: 126700,
+            change_pct: 18.52,
+            score_total: 35.1,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "hot",
+            claude_rank: null,
+            claude_summary: "반도체 파운드리 +18.52% · 기관만"
+          },
+          {
+            rank: 19,
+            ticker: "폴라리스오피스",
+            sector: "자동차부품",
+            sector_full: "자동차부품",
+            price: 5180,
+            change_pct: 9.86,
+            score_total: 32.9,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "hidden",
+            claude_rank: null,
+            claude_summary: "⭐ 양수급 자동차부품 +9.86%"
+          },
+          {
+            rank: 20,
+            ticker: "PS일렉트로닉스",
+            sector: "핸드셋",
+            sector_full: "핸드셋",
+            price: 8060,
+            change_pct: 10.56,
+            score_total: 29.9,
+            score_reddit: 50,
+            score_news: 45,
+            score_trends: 50,
+            score_options: 30,
+            quadrant: "watch",
+            claude_rank: null,
+            claude_summary: "핸드셋 +10.56% · 주식소각 공시"
+          }
+        ]
+      },
     "2026-04-17": {
       date: "2026-04-17",
       date_display: "2026-04-17 (금요일 마감 → 월요일 프리뷰)",
