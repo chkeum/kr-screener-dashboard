@@ -12,11 +12,1044 @@ window.__SCREENER_FEED__ = {
   manifest: {
     version: 2,
     reports: [
+      { date: "2026-04-21", top_ticker: "삼성SDI", mood: "neutral" },
       { date: "2026-04-20", top_ticker: "퍼스텍", mood: "neutral" },
       { date: "2026-04-17", top_ticker: "신풍제약", mood: "neutral" }
     ]
   },
   archive: {
+    "2026-04-21": {
+      date: "2026-04-21",
+      date_display: "2026-04-21 (화요일 마감 → 수요일 프리뷰)",
+      market_mood: "neutral",
+      market_mood_score: 62,
+      market_summary: "KOSPI +0.56%, KOSDAQ -0.10% 혼조 마감. 상한가 15개. 외국인 KOSPI +1.1조원 대규모 순매수, 기관도 +9,181억 동반 매수(코스피 양수급 장세). 삼성SDI가 벤츠와 10조원 규모 NCM 각형 배터리 다년 계약 체결 → BMW·아우디·벤츠 독일 빅3 공급망 완성, 52주 신고가. 이차전지(삼성SDI·한중엔시에스·제이오·APS이노베이션·대주전자재료·이수스페셜티케미컬) 섹터 로테이션이 오늘의 숨은 시그널.",
+      sector_tilt: [
+        "전기제품",
+        "조선",
+        "디스플레이장비및부품"
+      ],
+      top_ticker: "삼성SDI",
+      candidate_count: 20,
+      today_action: {
+        one_liner: "오늘은 삼성SDI(006400)가 넘사벽이야. 벤츠 10조 계약 + 외인+기관 대규모 매집 + 거래대금 1.5조 압도적. 고가주니까 사이즈 작게, 635,000~640,000 눌림에서 분할 진입. 로스컷 -2% 꼭 지켜!",
+        priorities: [
+          {
+            icon: "🎯",
+            ticker: "삼성SDI(006400)",
+            text: "635,000~640,000 눌림 1차 분할, 손절 631,000(-2.2%), 익절 665,000/685,000"
+          },
+          {
+            icon: "💎",
+            ticker: "이수스페셜티케미컬(457190)·대주전자재료(078600)",
+            text: "⭐ 양수급 이차전지 밸류체인 히든엣지. NXT⭐⭐ 종목, 섹터 로테이션 수혜"
+          },
+          {
+            icon: "🚨",
+            ticker: "파인텍(131760)·KEC(092220)",
+            text: "상한가/급등이지만 외인 대량매도 → 백테스트상 엣지 없음. 회피"
+          }
+        ]
+      },
+      routine_timeline: [
+        {
+          time_kst: "08:30",
+          time_et: "—",
+          label: "Notion 리포트 + 대시보드 최종 점검",
+          active: true
+        },
+        {
+          time_kst: "08:50",
+          time_et: "—",
+          label: "삼성SDI·한중엔시에스·제이오 호가창 갭 체크"
+        },
+        {
+          time_kst: "09:00",
+          time_et: "—",
+          label: "🔔 한국장 개장 · 관망 5분",
+          key: true
+        },
+        {
+          time_kst: "09:05",
+          time_et: "—",
+          label: "분할 진입 1차 (눌림 매수)"
+        },
+        {
+          time_kst: "09:15",
+          time_et: "—",
+          label: "분할 진입 2차 판단"
+        },
+        {
+          time_kst: "10:00",
+          time_et: "—",
+          label: "1차 익절/손절 점검"
+        },
+        {
+          time_kst: "11:30",
+          time_et: "—",
+          label: "중간 점검 · 포지션 축소 판단"
+        },
+        {
+          time_kst: "13:00",
+          time_et: "—",
+          label: "오후장 수급 재확인"
+        },
+        {
+          time_kst: "14:30",
+          time_et: "—",
+          label: "마감 대비 포지션 정리"
+        },
+        {
+          time_kst: "15:20",
+          time_et: "—",
+          label: "종가 매매 리스크 점검"
+        },
+        {
+          time_kst: "15:30",
+          time_et: "—",
+          label: "장 마감 · 일지 작성",
+          key: true
+        }
+      ],
+      sectors: [
+        {
+          name: "전기제품",
+          strength: 0.95,
+          ticker_count: 4
+        },
+        {
+          name: "조선",
+          strength: 0.7,
+          ticker_count: 3
+        },
+        {
+          name: "디스플레이장비및부품",
+          strength: 0.72,
+          ticker_count: 2
+        },
+        {
+          name: "화학",
+          strength: 0.65,
+          ticker_count: 2
+        },
+        {
+          name: "반도체와반도체장비",
+          strength: 0.6,
+          ticker_count: 2
+        },
+        {
+          name: "건설(2차전지)",
+          strength: 0.68,
+          ticker_count: 1
+        },
+        {
+          name: "소프트웨어(보안)",
+          strength: 0.5,
+          ticker_count: 1
+        },
+        {
+          name: "통신장비(방산)",
+          strength: 0.55,
+          ticker_count: 1
+        }
+      ],
+      claude_ranking: [
+        {
+          rank: 1,
+          ticker: "삼성SDI(006400)",
+          reasoning: "⭐ 외인+기관 동시 대규모 매수 + 거래대금 1조5,524억 압도적. 벤츠 10조 계약 실질 재료 + 독일 빅3 공급망 완성 중장기 내러티브. 대형주 안정성·명분 모두 최고.",
+          signals: [
+            "양수급 ⭐",
+            "거래대금 1.5조",
+            "벤츠 10조 계약",
+            "52주 신고가",
+            "NXT⭐⭐"
+          ]
+        },
+        {
+          rank: 2,
+          ticker: "한중엔시에스(107640)",
+          reasoning: "⭐ 양수급 + 상한가 + NXT⭐⭐ + 수냉식 ESS 국내 독점 + 2H26 美 생산거점 양산 모멘텀. Score 1위.",
+          signals: [
+            "양수급 ⭐",
+            "상한가",
+            "거래대금 1,866억",
+            "ESS 독점",
+            "NXT⭐⭐"
+          ]
+        },
+        {
+          rank: 3,
+          ticker: "제이오(418550)",
+          reasoning: "⭐ 양수급(Fo +198k, Inst +50k) + SWCNT 美 EPA 허가 임박 + LFP 도전재 NET 인증. 이차전지 테마 동반강세 기대.",
+          signals: [
+            "양수급 ⭐",
+            "거래대금 1,044억",
+            "SWCNT 재료"
+          ]
+        },
+        {
+          rank: 4,
+          ticker: "이수스페셜티케미컬(457190)",
+          reasoning: "⭐ 양수급(Fo +172k, Inst +70k) + NXT⭐⭐ + 전고체 전해질. 거래대금 1,894억 풍부.",
+          signals: [
+            "양수급 ⭐",
+            "거래대금 1,894억",
+            "전고체",
+            "NXT⭐⭐"
+          ]
+        },
+        {
+          rank: 5,
+          ticker: "대주전자재료(078600)",
+          reasoning: "⭐ 양수급(Fo +131k, Inst +73k) + NXT⭐⭐ + 실리콘 음극재 대장주. 이차전지 동반강세.",
+          signals: [
+            "양수급 ⭐",
+            "거래대금 1,431억",
+            "실리콘 음극재",
+            "NXT⭐⭐"
+          ]
+        }
+      ],
+      hidden_edges: [
+        {
+          ticker: "수산세보틱스(017550)",
+          reason: "⭐ 양수급 조용한 매집(Fo +22k, Inst +25k). +10.97% 과열 아님. 기계 섹터 저평가 후보."
+        },
+        {
+          ticker: "대주전자재료(078600)",
+          reason: "NXT⭐⭐ + 양수급. 이차전지 로테이션 초입, 실리콘 음극재 대장주인데 덜 알려짐."
+        }
+      ],
+      overheated: [
+        {
+          ticker: "파인텍(131760)",
+          reason: "상한가지만 외국인 -135,706주 대량매도. 폴더블 재료 선반영 후 차익실현 가능성."
+        },
+        {
+          ticker: "KEC(092220)",
+          reason: "외인 -2,843,315주 초대량 매도. 기관 +61k 소액 → 수급 엣지 약함."
+        },
+        {
+          ticker: "한국정보통신(025770)",
+          reason: "당일 -14.33% 급락. 재료·수급 모두 불확실."
+        }
+      ],
+      tickers: [
+        {
+          rank: 1,
+          ticker: "한중엔시에스",
+          name: "한중엔시에스",
+          sector: "전기장비",
+          sector_full: "전기제품 / 전기장비(ESS)",
+          price: 72500,
+          change_pct: 29.93,
+          score_total: 72,
+          score_reddit: 82,
+          score_news: 75,
+          score_trends: 78,
+          score_options: 50,
+          quadrant: "hot",
+          claude_rank: 2,
+          claude_summary: "⭐ 양수급 + 상한가 + 수냉식 ESS 독점 + NXT⭐⭐",
+          claude_signals: [
+            "양수급 ⭐",
+            "상한가",
+            "NXT⭐⭐",
+            "ESS 독점"
+          ],
+          narrative: "한중엔시에스는 국내 유일 수냉식 ESS 양산 기업으로 독점적 지위를 보유. 2025년 4월 美 인디애나주 1.6만평 규모 생산거점 확보, 2H26 ESS 부품 양산 예정. 오늘 상한가로 +29.93% 직행 + ⭐ 외국인 +101,481 + 기관 +3,950 동시 순매수. 거래대금 1,866억으로 수급이 실질적. NXT 거래대상 ⭐⭐ 프리미엄 종목.",
+          entry: 72500,
+          tp1: 75000,
+          tp2: 78000,
+          sl: 71000,
+          entry_comment: "상따는 위험. 갭하락 시 71,000~71,500 눌림 확인 후 분할",
+          catalysts: [
+            "美 인디애나 생산거점 2H26 양산",
+            "국내 유일 수냉식 ESS",
+            "NXT⭐⭐"
+          ],
+          risks: [
+            "상한가 다음날 평균 -2.11% (백테스트)",
+            "ESS 피크아웃 우려"
+          ],
+          reddit_sentiment_label: "매우 긍정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 680,
+              sentiment: 0.78
+            },
+            {
+              sub: "DC주식갤",
+              count: 250,
+              sentiment: 0.72
+            },
+            {
+              sub: "더팍스",
+              count: 180,
+              sentiment: 0.8
+            }
+          ],
+          news_headlines: [
+            {
+              title: "한중엔시에스, 美 인디애나 ESS 양산라인 구축 완료",
+              source: "한경",
+              ago: "3일 전"
+            },
+            {
+              title: "국내 유일 수냉식 ESS 양산 한중엔시에스 급등",
+              source: "이데일리",
+              ago: "당일"
+            }
+          ],
+          trend_surge_pct: 420,
+          options_detail: null
+        },
+        {
+          rank: 2,
+          ticker: "파인텍",
+          name: "파인텍",
+          sector: "디스플레이",
+          sector_full: "디스플레이장비및부품 / BLU·LCM·TSM",
+          price: 2040,
+          change_pct: 29.69,
+          score_total: 65,
+          score_reddit: 75,
+          score_news: 60,
+          score_trends: 68,
+          score_options: 40,
+          quadrant: "overheat",
+          claude_rank: null,
+          claude_summary: "상한가지만 외국인 대량매도 → 경계",
+          claude_signals: [
+            "상한가",
+            "외인 -136k 매도 경계",
+            "조회공시요구"
+          ],
+          narrative: "파인텍은 모바일 디스플레이 모듈(BLU·LCM·TSM) 기업. 폴더블폰 출하량 증가 수혜 기대. 오늘 상한가 +29.69% 직행했지만 외국인 -135,706주 대량매도 + 기관 순매매 0. 조회공시요구(현저한시황변동) 수신 상태로 내일 답변에 따라 변동성 크게 벌어질 수 있음.",
+          entry: 2040,
+          tp1: 2200,
+          tp2: 2350,
+          sl: 2000,
+          entry_comment: "회피 권장. 외인 매도 + 조회공시 리스크 중첩",
+          catalysts: [
+            "폴더블폰 출하량 증가"
+          ],
+          risks: [
+            "외인 -136k 대량매도",
+            "조회공시요구 답변 리스크",
+            "저가주 변동성 극심"
+          ],
+          reddit_sentiment_label: "긍정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 920,
+              sentiment: 0.68
+            },
+            {
+              sub: "DC주식갤",
+              count: 520,
+              sentiment: 0.55
+            },
+            {
+              sub: "더팍스",
+              count: 180,
+              sentiment: 0.6
+            }
+          ],
+          news_headlines: [
+            {
+              title: "파인텍, 폴더블폰 수혜주로 상한가",
+              source: "머니투데이",
+              ago: "당일"
+            }
+          ],
+          trend_surge_pct: 380,
+          options_detail: null
+        },
+        {
+          rank: 3,
+          ticker: "제이오",
+          name: "제이오",
+          sector: "건설(2차전지)",
+          sector_full: "건설 / 탄소나노튜브 도전재·플랜트 EPC",
+          price: 14400,
+          change_pct: 22.76,
+          score_total: 63,
+          score_reddit: 74,
+          score_news: 78,
+          score_trends: 70,
+          score_options: 45,
+          quadrant: "hot",
+          claude_rank: 3,
+          claude_summary: "⭐ 양수급 + SWCNT 美 EPA 임박 + LFP NET 인증",
+          claude_signals: [
+            "양수급 ⭐",
+            "SWCNT 美 EPA",
+            "LFP 도전재 NET"
+          ],
+          narrative: "제이오는 이차전지용 탄소나노튜브 도전재 + 플랜트 EPC 기업. SWCNT(단일벽 CNT) 美 EPA 허가 신청 진행 중 + LFP 도전재 NET(신기술) 인증 획득. 오늘 ⭐ 외국인 +198,431 + 기관 +49,797 대량 매수. 거래대금 1,044억.",
+          entry: 14100,
+          tp1: 14800,
+          tp2: 15300,
+          sl: 14100,
+          entry_comment: "13,900~14,100 눌림 1차 분할",
+          catalysts: [
+            "SWCNT 美 EPA 허가 임박",
+            "LFP 도전재 NET 인증",
+            "이차전지 밸류체인 재평가"
+          ],
+          risks: [
+            "소재주 개별 변동성",
+            "이차전지 단기 과열 우려"
+          ],
+          reddit_sentiment_label: "긍정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 420,
+              sentiment: 0.75
+            },
+            {
+              sub: "DC주식갤",
+              count: 180,
+              sentiment: 0.68
+            },
+            {
+              sub: "더팍스",
+              count: 120,
+              sentiment: 0.72
+            }
+          ],
+          news_headlines: [
+            {
+              title: "제이오, SWCNT 美 EPA 허가 신청 완료",
+              source: "이데일리",
+              ago: "1월"
+            },
+            {
+              title: "제이오 LFP 도전재 신기술인증(NET) 획득",
+              source: "서울경제",
+              ago: "2025.12"
+            }
+          ],
+          trend_surge_pct: 220,
+          options_detail: null
+        },
+        {
+          rank: 4,
+          ticker: "한농화성",
+          name: "한농화성",
+          sector: "화학",
+          sector_full: "화학 / 전고체 전해질",
+          price: 25250,
+          change_pct: 10.5,
+          score_total: 55,
+          score_reddit: 70,
+          score_news: 75,
+          score_trends: 65,
+          score_options: 35,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "전고체 테마주, 외인·기관 소폭 매도 경계",
+          claude_signals: [
+            "전고체 테마",
+            "NXT⭐",
+            "수급 중립"
+          ],
+          narrative: "한농화성은 산업부 주관 전고체 고분자 전해질 국책과제 주관기관으로 LG화학·화학연구원과 공동 개발. 오늘 +10.50%이지만 외국인 -11,125 + 기관 -389 소폭 매도. 수급 엣지는 없지만 삼성SDI 벤츠 계약으로 전고체 테마 전반 재평가 기대.",
+          entry: 24800,
+          tp1: 26000,
+          tp2: 26800,
+          sl: 24700,
+          entry_comment: "24,500~24,800 눌림 대기, 수급 재확인",
+          catalysts: [
+            "전고체 전해질 국책과제 주관",
+            "LG화학·화학연구원 공동개발",
+            "NXT⭐"
+          ],
+          risks: [
+            "외국인 소폭 매도",
+            "테마 순환 피로도"
+          ],
+          reddit_sentiment_label: "중립",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 380,
+              sentiment: 0.62
+            },
+            {
+              sub: "DC주식갤",
+              count: 140,
+              sentiment: 0.58
+            },
+            {
+              sub: "더팍스",
+              count: 90,
+              sentiment: 0.6
+            }
+          ],
+          news_headlines: [
+            {
+              title: "한농화성, 전고체 전해질 밸류체인 재평가 기대",
+              source: "와이드경제",
+              ago: "1월"
+            }
+          ],
+          trend_surge_pct: 120,
+          options_detail: null
+        },
+        {
+          rank: 5,
+          ticker: "APS이노베이션",
+          name: "APS이노베이션",
+          sector: "전기제품",
+          sector_full: "전기제품 / OLED 장비",
+          price: 7770,
+          change_pct: 25.53,
+          score_total: 58,
+          score_reddit: 68,
+          score_news: 70,
+          score_trends: 72,
+          score_options: 40,
+          quadrant: "hot",
+          claude_rank: 6,
+          claude_summary: "⭐ 양수급 + OLED Capa 2배 확대 투자",
+          claude_signals: [
+            "양수급 ⭐",
+            "OLED 장비",
+            "AP시스템 600억 인수"
+          ],
+          narrative: "APS이노베이션은 OLED 증착·패널 장비 기업. AP시스템 600억원 공장 매입으로 Capa 2배 확대. BOE 11조원 8세대 OLED 투자 + 비전옥스 연동 수혜. 오늘 +25.53% + ⭐ 외국인 +155k + 기관 +8.7k 양수급.",
+          entry: 7550,
+          tp1: 8000,
+          tp2: 8300,
+          sl: 7610,
+          entry_comment: "7,550~7,700 눌림 1차 분할",
+          catalysts: [
+            "OLED Capa 2배 확대",
+            "BOE 11조 8세대 OLED 투자",
+            "AP시스템 600억 인수"
+          ],
+          risks: [
+            "기관 참여 작음",
+            "중국 OLED 투자 불확실성"
+          ],
+          reddit_sentiment_label: "긍정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 320,
+              sentiment: 0.7
+            },
+            {
+              sub: "DC주식갤",
+              count: 150,
+              sentiment: 0.65
+            },
+            {
+              sub: "더팍스",
+              count: 85,
+              sentiment: 0.68
+            }
+          ],
+          news_headlines: [
+            {
+              title: "AP시스템, 600억원 OLED 장비 Capa 2배 확대",
+              source: "전자신문",
+              ago: "6개월 전"
+            }
+          ],
+          trend_surge_pct: 180,
+          options_detail: null
+        },
+        {
+          rank: 6,
+          ticker: "SGA솔루션즈",
+          name: "SGA솔루션즈",
+          sector: "소프트웨어",
+          sector_full: "소프트웨어 / 보안",
+          price: 1168,
+          change_pct: 11.66,
+          score_total: 52,
+          score_reddit: 66,
+          score_news: 72,
+          score_trends: 70,
+          score_options: 30,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "N2SF 5월 시행 수혜, 기관만 매수",
+          claude_signals: [
+            "N2SF 시행",
+            "기관만 매수",
+            "미토스 이슈 연장"
+          ],
+          narrative: "SGA솔루션즈는 제로트러스트(SGA ZTA) + 시스템 보안(RedCastle) + ICAM 솔루션 보유. 5월 '국가 사이버보안 기본지침' 시행 수혜. 오늘 +11.66%, 외국인 -168k 매도 + 기관 0으로 수급 취약.",
+          entry: 1130,
+          tp1: 1210,
+          tp2: 1250,
+          sl: 1145,
+          entry_comment: "수급 취약, 소액 테스트만",
+          catalysts: [
+            "N2SF 5월 시행",
+            "미토스 이슈 연장",
+            "N2SF ZTA 수주"
+          ],
+          risks: [
+            "외국인 매도",
+            "테마 과열"
+          ],
+          reddit_sentiment_label: "긍정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 380,
+              sentiment: 0.66
+            },
+            {
+              sub: "DC주식갤",
+              count: 180,
+              sentiment: 0.6
+            },
+            {
+              sub: "더팍스",
+              count: 95,
+              sentiment: 0.62
+            }
+          ],
+          news_headlines: [
+            {
+              title: "국가 사이버보안 기본지침 시행 수혜 SGA솔루션즈 14%↑",
+              source: "이데일리",
+              ago: "당일"
+            }
+          ],
+          trend_surge_pct: 160,
+          options_detail: null
+        },
+        {
+          rank: 7,
+          ticker: "한국정보통신",
+          name: "한국정보통신",
+          sector: "IT서비스",
+          sector_full: "IT서비스 / 결제 인프라",
+          price: 13630,
+          change_pct: -14.33,
+          score_total: 42,
+          score_reddit: 35,
+          score_news: 45,
+          score_trends: 40,
+          score_options: 25,
+          quadrant: "overheat",
+          claude_rank: null,
+          claude_summary: "-14.33% 급락, 회피 권장",
+          claude_signals: [
+            "급락",
+            "외인·기관 매도",
+            "NXT⭐"
+          ],
+          narrative: "한국정보통신은 VAN·결제 인프라 기업. 최근 급등 후 오늘 -14.33% 급락. 외국인 -65k + 기관 -1.4k 매도. 차익실현 매물 + 재료 소멸 추정. 회피 권장.",
+          entry: 13500,
+          tp1: 14200,
+          tp2: 14600,
+          sl: 13300,
+          entry_comment: "회피 권장. 급락 중 잡지 말 것",
+          catalysts: [
+            "NXT⭐ 거래대상"
+          ],
+          risks: [
+            "-14.33% 급락",
+            "외인·기관 매도",
+            "재료 소멸"
+          ],
+          reddit_sentiment_label: "부정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 280,
+              sentiment: 0.32
+            },
+            {
+              sub: "DC주식갤",
+              count: 160,
+              sentiment: 0.28
+            },
+            {
+              sub: "더팍스",
+              count: 80,
+              sentiment: 0.35
+            }
+          ],
+          news_headlines: [],
+          trend_surge_pct: -50,
+          options_detail: null
+        },
+        {
+          rank: 8,
+          ticker: "LIG아큐버",
+          name: "LIG아큐버",
+          sector: "통신장비(방산)",
+          sector_full: "통신장비 / AI·방산·항공 확장",
+          price: 55300,
+          change_pct: 14.97,
+          score_total: 52,
+          score_reddit: 60,
+          score_news: 65,
+          score_trends: 62,
+          score_options: 30,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "외인만 매수, 기관 매도 혼합",
+          claude_signals: [
+            "외인만 +96k",
+            "기관 -20k",
+            "사명변경 확장"
+          ],
+          narrative: "LIG아큐버(구 이노와이어리스)는 통신장비에서 AI·방산·항공 사업으로 확장 중. K-방산 수주잔고 110조 훈풍 수혜 기대. 오늘 외국인 +95,801 매수지만 기관 -20,108 매도로 수급 혼합. 거래대금 2,298억 풍부.",
+          entry: 54500,
+          tp1: 56800,
+          tp2: 58500,
+          sl: 54200,
+          entry_comment: "54,200~55,000 눌림 소액 테스트",
+          catalysts: [
+            "AI·방산·항공 확장",
+            "K-방산 수주잔고 110조"
+          ],
+          risks: [
+            "기관 매도",
+            "사명변경 후 정체성 모호"
+          ],
+          reddit_sentiment_label: "중립",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 220,
+              sentiment: 0.6
+            },
+            {
+              sub: "DC주식갤",
+              count: 95,
+              sentiment: 0.58
+            },
+            {
+              sub: "더팍스",
+              count: 65,
+              sentiment: 0.62
+            }
+          ],
+          news_headlines: [
+            {
+              title: "LIG아큐버 AI·방산·항공 사업 확장",
+              source: "한경",
+              ago: "1개월 전"
+            }
+          ],
+          trend_surge_pct: 140,
+          options_detail: null
+        },
+        {
+          rank: 9,
+          ticker: "삼성SDI",
+          name: "삼성SDI",
+          sector: "전기제품",
+          sector_full: "전기제품 / 2차전지 · ESS",
+          price: 645000,
+          change_pct: 19.89,
+          score_total: 78,
+          score_reddit: 88,
+          score_news: 92,
+          score_trends: 85,
+          score_options: 75,
+          quadrant: "hot",
+          claude_rank: 1,
+          claude_summary: "⭐ 양수급 대규모 + 벤츠 10조 계약 + 거래대금 1.5조",
+          claude_signals: [
+            "양수급 ⭐",
+            "벤츠 10조 계약",
+            "거래대금 1.5조",
+            "52주 신고가",
+            "NXT⭐⭐"
+          ],
+          narrative: "삼성SDI가 메르세데스-벤츠와 차세대 전기차용 NCM 각형 배터리 다년 계약 체결. 배터리업계 추정 10조원 규모. 2028년부터 하이니켈(80%+) 공급 예정. BMW·아우디·벤츠 독일 프리미엄 빅3 공급망 완성. 2026년 턴어라운드 원년 선언, ESS 풀가동 + 각형 LFP 미국 현지양산 + 46파이 원통형 수주 완료로 실적 기반 구축. 오늘 52주 신고가 경신 + ⭐ 외국인 +103,896 + 기관 +143,197 대규모 동시 매수 + 거래대금 1조 5,524억 압도적.",
+          entry: 640000,
+          tp1: 665000,
+          tp2: 685000,
+          sl: 631000,
+          entry_comment: "635,000~640,000 눌림 1차 분할. 고가주 포지션 사이즈 작게",
+          catalysts: [
+            "벤츠 10조 NCM 각형 계약",
+            "독일 빅3 공급망 완성",
+            "2026 턴어라운드 원년",
+            "46파이 수주 완료",
+            "NXT⭐⭐"
+          ],
+          risks: [
+            "2026 1Q 영업적자 예상",
+            "중국 LFP 가격 경쟁"
+          ],
+          reddit_sentiment_label: "매우 긍정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 1850,
+              sentiment: 0.86
+            },
+            {
+              sub: "DC주식갤",
+              count: 780,
+              sentiment: 0.78
+            },
+            {
+              sub: "더팍스",
+              count: 420,
+              sentiment: 0.84
+            }
+          ],
+          news_headlines: [
+            {
+              title: "'벤츠 배터리 공급' 삼성SDI 신고가",
+              source: "파이낸셜뉴스",
+              ago: "당일"
+            },
+            {
+              title: "삼성SDI, 벤츠와 첫 공급계약 10조원 빅딜",
+              source: "머니투데이",
+              ago: "당일"
+            },
+            {
+              title: "벤츠 미래차 심장은 K배터리, 삼성SDI 빅딜",
+              source: "파이낸셜뉴스",
+              ago: "1일 전"
+            }
+          ],
+          trend_surge_pct: 580,
+          options_detail: {
+            cp_ratio: 0.58,
+            unusual: false
+          }
+        },
+        {
+          rank: 10,
+          ticker: "엠플러스",
+          name: "엠플러스",
+          sector: "전기제품",
+          sector_full: "전기제품 / 2차전지 조립장비",
+          price: 18860,
+          change_pct: 18.02,
+          score_total: 54,
+          score_reddit: 64,
+          score_news: 65,
+          score_trends: 68,
+          score_options: 35,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "외인만 매수, 각형 수주 모멘텀",
+          claude_signals: [
+            "외인 +165k",
+            "기관 -39k",
+            "각형 수주"
+          ],
+          narrative: "엠플러스는 이차전지 조립장비 1세대 기업. 각형 중심 수주 본격화로 2026+ 성장 예상. 2027년 Capa 1조 목표. 오늘 외국인 +164,985 매수지만 기관 -39,158 매도 혼합.",
+          entry: 18500,
+          tp1: 19400,
+          tp2: 20000,
+          sl: 18500,
+          entry_comment: "18,400~18,600 눌림 소액",
+          catalysts: [
+            "삼성SDI 각형 배터리 수주 기대",
+            "2027 Capa 1조"
+          ],
+          risks: [
+            "기관 매도",
+            "이차전지 장비주 변동성"
+          ],
+          reddit_sentiment_label: "긍정",
+          reddit_breakdown: [
+            {
+              sub: "종토방",
+              count: 280,
+              sentiment: 0.66
+            },
+            {
+              sub: "DC주식갤",
+              count: 130,
+              sentiment: 0.62
+            },
+            {
+              sub: "더팍스",
+              count: 85,
+              sentiment: 0.64
+            }
+          ],
+          news_headlines: [],
+          trend_surge_pct: 150,
+          options_detail: null
+        },
+        {
+          rank: 11,
+          ticker: "선익시스템",
+          sector: "디스플레이",
+          sector_full: "디스플레이장비및부품 / OLED 증착",
+          price: 118000,
+          change_pct: 16.95,
+          score_total: 48,
+          score_reddit: 55,
+          score_news: 58,
+          score_trends: 60,
+          score_options: 25,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "기관 +138k, 외인 미세매도, OLED 증착"
+        },
+        {
+          rank: 12,
+          ticker: "HD현대마린솔루션",
+          sector: "조선",
+          sector_full: "조선 / 친환경 선박 개조",
+          price: 230000,
+          change_pct: 17.53,
+          score_total: 50,
+          score_reddit: 60,
+          score_news: 70,
+          score_trends: 58,
+          score_options: 30,
+          quadrant: "hidden",
+          claude_rank: null,
+          claude_summary: "기관 +118k 집중, 친환경 개조 실적"
+        },
+        {
+          rank: 13,
+          ticker: "STX엔진",
+          sector: "조선",
+          sector_full: "조선 / 선박엔진·방산",
+          price: 50500,
+          change_pct: 9.31,
+          score_total: 46,
+          score_reddit: 55,
+          score_news: 60,
+          score_trends: 50,
+          score_options: 25,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "기관 +319k 대량, 외인 -268k 반대 수급"
+        },
+        {
+          rank: 14,
+          ticker: "제주반도체",
+          sector: "반도체",
+          sector_full: "반도체와반도체장비 / 온디바이스 AI 메모리",
+          price: 46850,
+          change_pct: 8.95,
+          score_total: 52,
+          score_reddit: 68,
+          score_news: 72,
+          score_trends: 65,
+          score_options: 30,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "외인만 +408k 대량, 거래대금 4,560억"
+        },
+        {
+          rank: 15,
+          ticker: "대주전자재료",
+          sector: "전자장비",
+          sector_full: "전자장비와기기 / 실리콘 음극재",
+          price: 149400,
+          change_pct: 14.92,
+          score_total: 56,
+          score_reddit: 68,
+          score_news: 70,
+          score_trends: 65,
+          score_options: 35,
+          quadrant: "hidden",
+          claude_rank: 5,
+          claude_summary: "⭐ 양수급 + NXT⭐⭐ + 실리콘 음극재"
+        },
+        {
+          rank: 16,
+          ticker: "이수스페셜티케미컬",
+          sector: "화학",
+          sector_full: "화학 / 전고체 전해질",
+          price: 127000,
+          change_pct: 13.8,
+          score_total: 56,
+          score_reddit: 68,
+          score_news: 72,
+          score_trends: 66,
+          score_options: 35,
+          quadrant: "hidden",
+          claude_rank: 4,
+          claude_summary: "⭐ 양수급 + NXT⭐⭐ + 전고체"
+        },
+        {
+          rank: 17,
+          ticker: "한화엔진",
+          sector: "조선",
+          sector_full: "조선 / 선박엔진",
+          price: 60600,
+          change_pct: 11.6,
+          score_total: 44,
+          score_reddit: 55,
+          score_news: 60,
+          score_trends: 50,
+          score_options: 25,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "기관 +506k 초대량, 외인 반대 매도"
+        },
+        {
+          rank: 18,
+          ticker: "상신이디피",
+          sector: "전기제품",
+          sector_full: "전기제품 / 2차전지 CAN·CAP",
+          price: 30700,
+          change_pct: 12.25,
+          score_total: 42,
+          score_reddit: 52,
+          score_news: 55,
+          score_trends: 50,
+          score_options: 22,
+          quadrant: "watch",
+          claude_rank: null,
+          claude_summary: "기관 +384k, 외인 -240k 반대 수급"
+        },
+        {
+          rank: 19,
+          ticker: "KEC",
+          sector: "반도체",
+          sector_full: "반도체와반도체장비",
+          price: 1418,
+          change_pct: 15.94,
+          score_total: 38,
+          score_reddit: 42,
+          score_news: 38,
+          score_trends: 45,
+          score_options: 20,
+          quadrant: "overheat",
+          claude_rank: null,
+          claude_summary: "외인 -2,843k 초대량 매도 — 회피"
+        },
+        {
+          rank: 20,
+          ticker: "수산세보틱스",
+          sector: "기계",
+          sector_full: "기계 / 로봇",
+          price: 3490,
+          change_pct: 10.97,
+          score_total: 40,
+          score_reddit: 50,
+          score_news: 48,
+          score_trends: 52,
+          score_options: 22,
+          quadrant: "hidden",
+          claude_rank: 7,
+          claude_summary: "⭐ 양수급 조용한 매집, 과열 아님"
+        }
+      ]
+    },
     "2026-04-20": {
         date: "2026-04-20",
         date_display: "2026-04-20 (월요일 마감 → 화요일 프리뷰)",
