@@ -12,6 +12,7 @@ window.__SCREENER_FEED__ = {
   manifest: {
     version: 2,
     reports: [
+      { date: "2026-04-23", top_ticker: "해성디에스", mood: "bearish" },
       { date: "2026-04-22", top_ticker: "DS단석", mood: "neutral" },
       { date: "2026-04-21", top_ticker: "삼성SDI", mood: "neutral" },
       { date: "2026-04-20", top_ticker: "퍼스텍", mood: "neutral" },
@@ -19,6 +20,1043 @@ window.__SCREENER_FEED__ = {
     ]
   },
   archive: {
+    "2026-04-23": {
+        "date": "2026-04-23",
+        "date_display": "2026-04-23 (목요일 마감 → 다음 거래일 프리뷰)",
+        "market_mood": "bearish",
+        "market_mood_score": 38,
+        "market_summary": "KOSPI -0.12%, KOSDAQ -0.57% 약세 마감. 상한가 6개에도 하락 1,669 > 상승 858로 체감상 약세장. 외인 KOSPI -496 / 코스닥 -1,469, 기관 -3,276 / -1,494 동반 대량 매도. ⭐ 양수급(외인+기관 동시순매수) 5종목: 해성디에스·OCI·LG디스플레이·LS마린솔루션·핑거. 대장은 대원전선 9,641억 거래대금.",
+        "sector_tilt": [
+            "반도체와반도체장비",
+            "전기장비",
+            "화학",
+            "통신장비"
+        ],
+        "top_ticker": "해성디에스",
+        "candidate_count": 20,
+        "today_action": {
+            "one_liner": "오늘은 기관 -4,770억 대량 매도 + 하락종목 1,669개 약세장이야. 상한가 6개에 끌려가지 말고 ⭐ 양수급(해성디에스·OCI·LG디플) 종목만 실전 진입해. 로스컷 -2% 엄수, 시가 추격 절대 금지, 눌림 대기!",
+            "priorities": [
+                {
+                    "icon": "🎯",
+                    "ticker": "해성디에스(195870)",
+                    "text": "72,000~74,000원 눌림 분할, 손절 70,500(-2.1%), 익절 80,000/84,000"
+                },
+                {
+                    "icon": "💎",
+                    "ticker": "OCI(456040)",
+                    "text": "⭐ 양수급 + 1Q 잠정실적 공시 → 128,000~132,000 눌림 1차, 로스컷 124,500"
+                },
+                {
+                    "icon": "🚨",
+                    "ticker": "솔루스첨단소재(336370)",
+                    "text": "외인 -34.7만·기관 -15.4만 동반 매도 → 개인 주도 과열, 추격 금지"
+                }
+            ]
+        },
+        "routine_timeline": [
+            {
+                "time_kst": "08:30",
+                "time_et": "—",
+                "label": "미국 증시 마감 + 나스닥·반도체 섹터 확인",
+                "active": true
+            },
+            {
+                "time_kst": "08:45",
+                "time_et": "—",
+                "label": "야간선물·지수선물 방향 체크"
+            },
+            {
+                "time_kst": "08:50",
+                "time_et": "—",
+                "label": "OCI 1Q 실적 후속 리포트 스캔"
+            },
+            {
+                "time_kst": "08:55",
+                "time_et": "—",
+                "label": "LG디스플레이 실적 시장 반응 점검"
+            },
+            {
+                "time_kst": "09:00",
+                "time_et": "—",
+                "label": "🔔 한국장 개장 · 관망 5분",
+                "key": true
+            },
+            {
+                "time_kst": "09:05",
+                "time_et": "—",
+                "label": "해성디에스 72,000~74,000 눌림시 분할 1차"
+            },
+            {
+                "time_kst": "09:10",
+                "time_et": "—",
+                "label": "OCI 128,000~132,000 눌림시 분할 1차"
+            },
+            {
+                "time_kst": "09:30",
+                "time_et": "—",
+                "label": "거래대금 TOP30 스캔 · 어제 상한가 연동성 점검"
+            },
+            {
+                "time_kst": "11:00",
+                "time_et": "—",
+                "label": "투자자별 매매동향 중간 점검"
+            },
+            {
+                "time_kst": "13:30",
+                "time_et": "—",
+                "label": "오후장 로스컷 라인 재확인"
+            },
+            {
+                "time_kst": "15:20",
+                "time_et": "—",
+                "label": "마감 10분 전 포지션 정리 (단타 철수)"
+            },
+            {
+                "time_kst": "15:30",
+                "time_et": "—",
+                "label": "장 마감 · 일지 작성",
+                "key": true
+            }
+        ],
+        "sectors": [
+            {
+                "name": "반도체와반도체장비",
+                "strength": 0.92,
+                "ticker_count": 4
+            },
+            {
+                "name": "전기장비",
+                "strength": 0.85,
+                "ticker_count": 3
+            },
+            {
+                "name": "화학",
+                "strength": 0.72,
+                "ticker_count": 2
+            },
+            {
+                "name": "통신장비",
+                "strength": 0.54,
+                "ticker_count": 1
+            },
+            {
+                "name": "조선",
+                "strength": 0.48,
+                "ticker_count": 1
+            },
+            {
+                "name": "에너지",
+                "strength": 0.42,
+                "ticker_count": 1
+            },
+            {
+                "name": "디스플레이",
+                "strength": 0.38,
+                "ticker_count": 2
+            },
+            {
+                "name": "소프트웨어",
+                "strength": 0.36,
+                "ticker_count": 1
+            },
+            {
+                "name": "자동차부품",
+                "strength": 0.3,
+                "ticker_count": 1
+            },
+            {
+                "name": "건설",
+                "strength": 0.28,
+                "ticker_count": 1
+            }
+        ],
+        "claude_ranking": [
+            {
+                "rank": 1,
+                "ticker": "해성디에스(195870)",
+                "reasoning": "⭐ 외인+기관 동시 순매수 + NXT⭐ 거래대상 + 반도체 대장 따라가기. 급등주 중 가장 안정적 수급.",
+                "signals": [
+                    "⭐양수급 (F+38,634 / I+66,503)",
+                    "NXT⭐ 거래대상",
+                    "반도체·MSL 플래그십",
+                    "거래대금 674억"
+                ]
+            },
+            {
+                "rank": 2,
+                "ticker": "OCI(456040)",
+                "reasoning": "⭐ 양수급 + 1Q 잠정실적 공시 + 비중국 폴리실리콘 프리미엄 모멘텀.",
+                "signals": [
+                    "⭐양수급 (F+68,092 / I+20,336)",
+                    "1Q 영업익 278억 (9배↑)",
+                    "NXT⭐",
+                    "거래대금 1,142억"
+                ]
+            },
+            {
+                "rank": 3,
+                "ticker": "LG디스플레이(034220)",
+                "reasoning": "⭐ 양수급 초대형(외인 +330만주) + 1Q 잠정실적 공시. 단 -12.98% 급락은 관찰 후 소량 진입.",
+                "signals": [
+                    "⭐외인 +3.3M주 (초대형)",
+                    "기관 +69,975",
+                    "1Q 실적 공시",
+                    "NXT⭐"
+                ]
+            },
+            {
+                "rank": 4,
+                "ticker": "LS마린솔루션(060370)",
+                "reasoning": "⭐ 양수급 + 해저케이블·풍력 테마. 거래대금 얕아 포지션 작게.",
+                "signals": [
+                    "⭐양수급 (F+16,115 / I+34,608)",
+                    "해저케이블·풍력",
+                    "KOSDAQ 우량기업부",
+                    "거래대금 612억"
+                ]
+            },
+            {
+                "rank": 5,
+                "ticker": "보성파워텍(006910)",
+                "reasoning": "외인 단독 매집 + 한전 234억 수주 + SMR/AI데센 복합 테마. 외인만이라 4위보다 하회.",
+                "signals": [
+                    "외인 +36,361 단독 매집",
+                    "한전 동해안-신가평 수주 234억",
+                    "SMR·원전 이력",
+                    "거래대금 4,662억"
+                ]
+            }
+        ],
+        "hidden_edges": [
+            {
+                "ticker": "해성디에스(195870)",
+                "reason": "반도체 대장주 상승에 묻혀 눈에 덜 띄지만 ⭐양수급 + NXT⭐ 조합이 가장 깨끗. KOSPI 대형주 안정감."
+            },
+            {
+                "ticker": "OCI(456040)",
+                "reason": "1Q 영업익 278억(전분기 28억 대비 9배↑) 잠정공시에 비중국 폴리실리콘 프리미엄까지. 화학 섹터 시총 1.2조 대장."
+            },
+            {
+                "ticker": "LS마린솔루션(060370)",
+                "reason": "양수급에 해저케이블·풍력 테마, 시총 1.96조. 거래대금 얕은 게 오히려 향후 재료 나오면 레버리지."
+            }
+        ],
+        "overheated": [
+            {
+                "ticker": "솔루스첨단소재(336370)",
+                "reason": "외인 -347,680 + 기관 -154,402 동반 대량 매도. +15.33%는 개인 주도 과열, NXT⭐ 유동성 있어 추격하면 물림 확률."
+            },
+            {
+                "ticker": "핑거(163730)",
+                "reason": "⭐양수급이지만 유상증자·CB·BW·대량보유·거래계획 5건 동시 공시 = 물량 부담 최대. 단기 박스 안전."
+            },
+            {
+                "ticker": "바이젠셀(308080)",
+                "reason": "이틀 연속 상한가 + 임상 재료 선반영. 시가 추격은 물림 확률 높음, 눌림 10% 이상만."
+            }
+        ],
+        "tickers": [
+            {
+                "rank": 1,
+                "ticker": "바이젠셀",
+                "name": "바이젠셀",
+                "sector": "제약",
+                "sector_full": "제약 / 면역세포치료제",
+                "price": 9600,
+                "change_pct": 29.91,
+                "score_total": 77.8,
+                "score_reddit": 92,
+                "score_news": 88,
+                "score_trends": 95,
+                "score_options": 42,
+                "quadrant": "overheat",
+                "claude_rank": null,
+                "claude_summary": "이틀 연속 상한가 + VT-EBV-N 임상 2상 2년 DFS 95% 재료. 수급은 외인 -13,161/기관 0로 약해 추격 금지, 10%+ 눌림 대기.",
+                "claude_signals": [
+                    "이틀 상한가",
+                    "임상 2상 호실적",
+                    "양수급 ✗"
+                ],
+                "narrative": "바이젠셀이 +29.91% 상한가로 이틀 연속 점상한. NK/T세포 림프종 치료제 VT-EBV-N의 임상 2상 2년 DFS 95.0%(대조군 77.58%) 데이터가 조건부 허가 기대로 이어짐. 거래대금 791억, VolumeSpike x31. 다만 외인 -13,161주·기관 0으로 개인 주도 상승이라 급락 리스크 크다. 기술성장기업부 KOSDAQ으로 변동성 극심.",
+                "entry": 9000,
+                "tp1": 10500,
+                "tp2": 11200,
+                "sl": 8700,
+                "entry_comment": "이틀 상한가 추격 금지, -10% 눌림에서만 소량",
+                "catalysts": [
+                    "임상 2상 2년 DFS 95% 발표",
+                    "조건부 허가 기대",
+                    "이틀 연속 점상한",
+                    "VolumeSpike x31"
+                ],
+                "risks": [
+                    "외인·개인 수급 편중",
+                    "기술성장기업부 변동성",
+                    "차익실현 물량 압박",
+                    "단기 과열"
+                ],
+                "reddit_sentiment_label": "매우 긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 412,
+                        "sentiment": 0.88
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 205,
+                        "sentiment": 0.82
+                    },
+                    {
+                        "sub": "더팍스",
+                        "count": 78,
+                        "sentiment": 0.84
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "바이젠셀, 이틀 연속 상한가…임상 대박에 조건부 허가 '청신호'",
+                        "source": "투자시그널",
+                        "ago": "2시간 전"
+                    },
+                    {
+                        "title": "바이젠셀 VT-EBV-N 2년 DFS 95% 데이터 공개",
+                        "source": "한경",
+                        "ago": "6시간 전"
+                    }
+                ],
+                "trend_surge_pct": 215,
+                "options_detail": null
+            },
+            {
+                "rank": 2,
+                "ticker": "대원전선",
+                "name": "대원전선",
+                "sector": "전기장비",
+                "sector_full": "전기장비 / 전력케이블",
+                "price": 8160,
+                "change_pct": 26.71,
+                "score_total": 74.4,
+                "score_reddit": 82,
+                "score_news": 78,
+                "score_trends": 86,
+                "score_options": 58,
+                "quadrant": "hot",
+                "claude_rank": null,
+                "claude_summary": "거래대금 9,641억 오늘 최대! 전력망·AI데센 테마 대장주. 단 외인 -83,680 매도로 양수급 아님 → 포지션 작게, 눌림만.",
+                "claude_signals": [
+                    "거래대금 9,641억 (오늘 1위)",
+                    "전력망·AI데센 테마",
+                    "VI 두 차례 발동"
+                ],
+                "narrative": "대원전선이 +26.71% 급등, 거래대금 9,641억으로 오늘 후보 중 압도적 1위. VI 두 차례 발동. 전력망 확대·AI 데이터센터 전력 수요 테마 대장주로 시장 주목. 다만 외인 -83,680주·기관 +40,077주로 수급은 혼조. 양수급은 아니라 실전 진입보단 눌림 대기가 낫다. KOSPI 시총 6,398억.",
+                "entry": 7700,
+                "tp1": 8700,
+                "tp2": 9200,
+                "sl": 7550,
+                "entry_comment": "추격 금지, 7,600~7,800 눌림에서만",
+                "catalysts": [
+                    "전력망·AI데센 대장",
+                    "거래대금 9,641억 1위",
+                    "VI 두 차례 발동",
+                    "KOSPI 시총 6,398억"
+                ],
+                "risks": [
+                    "외인 -83,680 매도",
+                    "추격 물림 리스크",
+                    "양수급 아님",
+                    "VolumeSpike x17로 단기 피크"
+                ],
+                "reddit_sentiment_label": "긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 385,
+                        "sentiment": 0.75
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 192,
+                        "sentiment": 0.72
+                    },
+                    {
+                        "sub": "더팍스",
+                        "count": 88,
+                        "sentiment": 0.78
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "대원전선 VI 두 차례 발동, 주가 23% 도약",
+                        "source": "CBC뉴스",
+                        "ago": "4시간 전"
+                    },
+                    {
+                        "title": "전력망 테마 대장주 대원전선 급등",
+                        "source": "머니투데이",
+                        "ago": "5시간 전"
+                    }
+                ],
+                "trend_surge_pct": 182,
+                "options_detail": null
+            },
+            {
+                "rank": 3,
+                "ticker": "보성파워텍",
+                "name": "보성파워텍",
+                "sector": "전기장비",
+                "sector_full": "전기장비 / 송배전기자재",
+                "price": 11840,
+                "change_pct": 18.05,
+                "score_total": 58.1,
+                "score_reddit": 72,
+                "score_news": 78,
+                "score_trends": 68,
+                "score_options": 62,
+                "quadrant": "hot",
+                "claude_rank": 5,
+                "claude_summary": "외인 +36,361 단독 매수 + 한전 234억 수주 + SMR/원전 이력. 기관 +3로 사실상 외인단독 양수급 준.",
+                "claude_signals": [
+                    "외인 +36,361 단독",
+                    "한전 수주 234억",
+                    "SMR·원전 복합 테마",
+                    "거래대금 4,662억"
+                ],
+                "narrative": "보성파워텍이 +18.05% 상승. 한전 동해안-신가평 송전선로 강관철탑 234.5억 공급계약 + SMR/원전·AI 데이터센터 복합 테마. 2025 3Q 누적 매출 1,101억·영업익 214억으로 전년 대비 3배 이상. 외인 +36,361주 단독 매수, 기관은 +3으로 사실상 양수급 아님에도 수급 긍정. 거래대금 4,662억.",
+                "entry": 11200,
+                "tp1": 12600,
+                "tp2": 13400,
+                "sl": 10800,
+                "entry_comment": "전기장비 2번타자, 11,000~11,400 눌림시",
+                "catalysts": [
+                    "한전 234억 수주",
+                    "SMR·원전 공급 이력",
+                    "AI데센·전력 테마",
+                    "2025 3Q 실적 3배↑"
+                ],
+                "risks": [
+                    "기관 거의 0 매수",
+                    "VolumeSpike x15 과열",
+                    "후행주 피크아웃"
+                ],
+                "reddit_sentiment_label": "긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 285,
+                        "sentiment": 0.72
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 145,
+                        "sentiment": 0.68
+                    },
+                    {
+                        "sub": "더팍스",
+                        "count": 72,
+                        "sentiment": 0.74
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "보성파워텍, 전력망 확산 수혜주 부상",
+                        "source": "한경",
+                        "ago": "6시간 전"
+                    },
+                    {
+                        "title": "SMR·원전 수혜 보성파워텍 +18%",
+                        "source": "디지털투데이",
+                        "ago": "4시간 전"
+                    }
+                ],
+                "trend_surge_pct": 142,
+                "options_detail": null
+            },
+            {
+                "rank": 4,
+                "ticker": "아모그린텍",
+                "name": "아모그린텍",
+                "sector": "화학",
+                "sector_full": "화학 / 수소·나노소재",
+                "price": 15300,
+                "change_pct": 20.28,
+                "score_total": 57.8,
+                "score_reddit": 68,
+                "score_news": 72,
+                "score_trends": 62,
+                "score_options": 58,
+                "quadrant": "hot",
+                "claude_rank": null,
+                "claude_summary": "기관 +157,691 단독 매집 + 수소 테마 순환매. 외인 -20,745로 양수급은 아님. 공시(임시주총 결의) 동반.",
+                "claude_signals": [
+                    "기관 +157,691 단독",
+                    "수소·나노소재",
+                    "임시주총 결의 공시"
+                ],
+                "narrative": "아모그린텍이 +20.28% 급등, 기관 +157,691주 단독 매집이 눈에 띈다. 수소연료전지·나노소재 테마 재부각. 2026.04.20 임시주주총회 소집결의 공시 동반. 외인 -20,745주로 양수급은 아니지만 기관 매수세 강해 실전 후보. 거래대금 787억, 시총 2,524억.",
+                "entry": 14600,
+                "tp1": 16400,
+                "tp2": 17500,
+                "sl": 14000,
+                "entry_comment": "기관 매수 지속 확인 후 진입",
+                "catalysts": [
+                    "기관 +157,691 단독 매집",
+                    "수소·나노소재 테마",
+                    "임시주총 결의",
+                    "VolumeSpike x14.6"
+                ],
+                "risks": [
+                    "외인 -20,745 매도",
+                    "임시주총 = 재료 미확정",
+                    "중소형주 변동성"
+                ],
+                "reddit_sentiment_label": "긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 225,
+                        "sentiment": 0.7
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 118,
+                        "sentiment": 0.65
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "아모그린텍, 수소 테마 재부각 +20%",
+                        "source": "이데일리",
+                        "ago": "4시간 전"
+                    }
+                ],
+                "trend_surge_pct": 95,
+                "options_detail": null
+            },
+            {
+                "rank": 5,
+                "ticker": "쓰리에이로직스",
+                "name": "쓰리에이로직스",
+                "sector": "통신장비",
+                "sector_full": "통신장비 / NFC 반도체",
+                "price": 7580,
+                "change_pct": 12.3,
+                "score_total": 57.2,
+                "score_reddit": 65,
+                "score_news": 75,
+                "score_trends": 72,
+                "score_options": 48,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "솔루엠 NFC 113.7억 수출계약 재료 회자. 주총공고 공시. 다만 외인 -382·기관 0 수급 얕음.",
+                "claude_signals": [
+                    "솔루엠 NFC 114억 수주",
+                    "DPP 테마 기대",
+                    "주총공고"
+                ],
+                "narrative": "쓰리에이로직스가 +12.30% 상승. 솔루엠과 113.7억 NFC 다이나믹 태그 칩 공급계약(2025 매출의 78%)이 회자되며 재부각. 2026 목표 3개사 추가 공급 + 디지털 제품여권(DPP) 신시장. 2026.04.22 주주총회소집공고 공시. 다만 외인 -382주·기관 0으로 수급은 얕다. VolumeSpike x65, AmountGrowth x133으로 단기 과열 경계.",
+                "entry": 7200,
+                "tp1": 8000,
+                "tp2": 8500,
+                "sl": 7050,
+                "entry_comment": "수급 얕아 포지션 작게, 테마 추적",
+                "catalysts": [
+                    "솔루엠 NFC 114억 수주",
+                    "DPP 신시장 공략",
+                    "주총공고 공시",
+                    "VolumeSpike x65"
+                ],
+                "risks": [
+                    "수급 얕음 (외인 -382·기관 0)",
+                    "단기 과열 VolumeSpike x65",
+                    "기술성장기업부"
+                ],
+                "reddit_sentiment_label": "긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 168,
+                        "sentiment": 0.66
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 85,
+                        "sentiment": 0.62
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "쓰리에이로직스, 솔루엠과 114억 NFC 칩 수출계약",
+                        "source": "한경",
+                        "ago": "2주 전"
+                    },
+                    {
+                        "title": "NFC 국산화 쓰리에이로직스 DPP 시장 공략",
+                        "source": "헤럴드경제",
+                        "ago": "1개월 전"
+                    }
+                ],
+                "trend_surge_pct": 125,
+                "options_detail": null
+            },
+            {
+                "rank": 6,
+                "ticker": "코스텍시스",
+                "name": "코스텍시스",
+                "sector": "반도체",
+                "sector_full": "반도체와반도체장비 / RF통신",
+                "price": 33150,
+                "change_pct": 30.0,
+                "score_total": 54.4,
+                "score_reddit": 75,
+                "score_news": 70,
+                "score_trends": 85,
+                "score_options": 52,
+                "quadrant": "overheat",
+                "claude_rank": 10,
+                "claude_summary": "+30% 상한가, RF통신·GaN·SiC 국산화. 외인 +89,321 매수지만 기관 -22,830 매도로 양수급 아님.",
+                "claude_signals": [
+                    "상한가 +30%",
+                    "GaN·SiC 국산화",
+                    "NXP 공급계약 이력"
+                ],
+                "narrative": "코스텍시스가 +30% 상한가. RF통신용 반도체 패키지 + GaN·SiC 와이드밴드갭 열관리 소재 국산화 대장. NXP 말레이시아와 18.3억 RF PKG 공급계약. 외인 +89,321주 매수지만 기관 -22,830주 매도로 양수급은 아님. 거래대금 614억, 시총 2,585억 중형주.",
+                "entry": 31000,
+                "tp1": 35500,
+                "tp2": 38000,
+                "sl": 30300,
+                "entry_comment": "상한가 추격 금지, -5% 이상 눌림만",
+                "catalysts": [
+                    "상한가 +30%",
+                    "GaN/SiC 와이드밴드갭 국산화",
+                    "NXP 공급계약",
+                    "AI/RF 테마"
+                ],
+                "risks": [
+                    "상한가 차익실현",
+                    "기관 -22,830 매도",
+                    "과열 구간"
+                ],
+                "reddit_sentiment_label": "긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 345,
+                        "sentiment": 0.78
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 182,
+                        "sentiment": 0.72
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "코스텍시스, RF 반도체 패키지 +30% 상한가",
+                        "source": "한경",
+                        "ago": "3시간 전"
+                    }
+                ],
+                "trend_surge_pct": 178,
+                "options_detail": null
+            },
+            {
+                "rank": 7,
+                "ticker": "파수",
+                "name": "파수",
+                "sector": "소프트웨어",
+                "sector_full": "소프트웨어 / AI 보안",
+                "price": 6080,
+                "change_pct": 20.87,
+                "score_total": 53.2,
+                "score_reddit": 62,
+                "score_news": 72,
+                "score_trends": 65,
+                "score_options": 38,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "RSAC 2026 AI 보안 + Symbologic 미국 법인 합병 재료. 외인·기관 모두 소량 매도로 수급 얕음.",
+                "claude_signals": [
+                    "AI 보안 테마",
+                    "RSAC 2026 참가",
+                    "Symbologic 합병"
+                ],
+                "narrative": "파수가 +20.87% 상승. RSAC 2026에서 구축형 LLM '엘름'·AI-R DLP 등 AI 보안 솔루션 공개. 미국 Konsilix와 합병해 Symbologic 출범 예정. 글로벌 인포섹 어워드 2관왕. 외인 -5,340·기관 -1,076으로 둘 다 매도, 수급 얕음. KOSDAQ 벤처기업부, 시총 712억.",
+                "entry": 5800,
+                "tp1": 6500,
+                "tp2": 7000,
+                "sl": 5650,
+                "entry_comment": "수급 얕아 테마 추적, 포지션 작게",
+                "catalysts": [
+                    "RSAC 2026 AI 보안",
+                    "Symbologic 출범",
+                    "글로벌 인포섹 2관왕"
+                ],
+                "risks": [
+                    "외인·기관 소량 매도",
+                    "수급 얕음",
+                    "벤처기업부"
+                ],
+                "reddit_sentiment_label": "긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 198,
+                        "sentiment": 0.68
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 95,
+                        "sentiment": 0.64
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "파수, 글로벌 AI 보안 시장 공략 가속화",
+                        "source": "굿모닝경제",
+                        "ago": "3일 전"
+                    }
+                ],
+                "trend_surge_pct": 88,
+                "options_detail": null
+            },
+            {
+                "rank": 8,
+                "ticker": "파인텍",
+                "name": "파인텍",
+                "sector": "디스플레이",
+                "sector_full": "디스플레이장비및부품",
+                "price": 1457,
+                "change_pct": -28.58,
+                "score_total": 53.1,
+                "score_reddit": 35,
+                "score_news": 45,
+                "score_trends": 72,
+                "score_options": 28,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "-28.58% 급락. 조회공시 '중요정보없음' 답변 실망 매물. 외인·기관 0로 개인 투매.",
+                "claude_signals": [
+                    "-28.58% 급락",
+                    "조회공시 중요정보 없음",
+                    "실망매물 투매"
+                ],
+                "narrative": "파인텍이 -28.58% 급락. 2026.04.21 조회공시 요구에 대해 4.22 '중요정보 없음' 답변 후 대량 실망 매물. 외인 0·기관 0로 개인 매물 투매. 거래대금 981억, VolumeSpike x6.7. 단기 반등 가능하나 재료 없이 진입 금지.",
+                "entry": 1400,
+                "tp1": 1550,
+                "tp2": 1650,
+                "sl": 1370,
+                "entry_comment": "재료 없어 관망 권장",
+                "catalysts": [
+                    "-28% 급락 후 자율반등 가능성"
+                ],
+                "risks": [
+                    "중요정보 없음 공시",
+                    "외인·기관 0",
+                    "디스플레이 장비 사이클 피크"
+                ],
+                "reddit_sentiment_label": "부정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 225,
+                        "sentiment": 0.22
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 138,
+                        "sentiment": 0.18
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "파인텍 조회공시 '중요정보 없음' 답변에 급락",
+                        "source": "이데일리",
+                        "ago": "5시간 전"
+                    }
+                ],
+                "trend_surge_pct": 112,
+                "options_detail": null
+            },
+            {
+                "rank": 9,
+                "ticker": "에스엔시스",
+                "name": "에스엔시스",
+                "sector": "조선",
+                "sector_full": "조선 / 자동화",
+                "price": 46850,
+                "change_pct": 14.13,
+                "score_total": 49.5,
+                "score_reddit": 58,
+                "score_news": 65,
+                "score_trends": 62,
+                "score_options": 45,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "기관 +56,410 단독 매수 + 조선 섹터 확산. 외인 -20,547 매도라 양수급 아님.",
+                "claude_signals": [
+                    "기관 +56,410 단독",
+                    "조선 섹터 확산"
+                ],
+                "narrative": "에스엔시스가 +14.13% 상승. 기관 +56,410주 단독 매수로 조선·선박자동화 섹터 확산 플레이. 외인 -20,547주 매도. KOSDAQ 벤처기업부, 시총 4,421억. 거래대금 579억.",
+                "entry": 45000,
+                "tp1": 49500,
+                "tp2": 52000,
+                "sl": 44100,
+                "entry_comment": "기관 매수 연장성 확인 후 진입",
+                "catalysts": [
+                    "기관 +56,410 매수",
+                    "조선 섹터 확산"
+                ],
+                "risks": [
+                    "외인 -20,547 매도",
+                    "벤처기업부 변동성"
+                ],
+                "reddit_sentiment_label": "긍정",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 142,
+                        "sentiment": 0.66
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 75,
+                        "sentiment": 0.62
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "조선 섹터 순환매, 에스엔시스 +14%",
+                        "source": "머니투데이",
+                        "ago": "6시간 전"
+                    }
+                ],
+                "trend_surge_pct": 62,
+                "options_detail": null
+            },
+            {
+                "rank": 10,
+                "ticker": "솔루스첨단소재",
+                "name": "솔루스첨단소재",
+                "sector": "전자장비",
+                "sector_full": "전자장비와기기 / 동박",
+                "price": 15570,
+                "change_pct": 15.33,
+                "score_total": 41.9,
+                "score_reddit": 55,
+                "score_news": 58,
+                "score_trends": 62,
+                "score_options": 32,
+                "quadrant": "overheat",
+                "claude_rank": null,
+                "claude_summary": "🚨 외인 -347,680 + 기관 -154,402 동반 대량 매도 + NXT⭐이지만 추격 금지. 과열 경고.",
+                "claude_signals": [
+                    "🚨 외인·기관 동반 대량 매도",
+                    "개인 주도 과열",
+                    "NXT⭐"
+                ],
+                "narrative": "솔루스첨단소재가 +15.33% 상승했으나 외인 -347,680주·기관 -154,402주 동반 대량 매도로 개인 주도 과열. 동박·2차전지 소재 테마지만 수급 최악. NXT⭐ 거래대상·KOSPI 시총 1.09조. 추격하면 물림 확률 높음.",
+                "entry": 14900,
+                "tp1": 16500,
+                "tp2": 17300,
+                "sl": 14600,
+                "entry_comment": "추격 금지, 과열 경고",
+                "catalysts": [
+                    "동박·2차전지 테마",
+                    "NXT⭐ 거래대상"
+                ],
+                "risks": [
+                    "🚨 외인·기관 동반 대량 매도",
+                    "개인 주도 과열",
+                    "차익실현 물량"
+                ],
+                "reddit_sentiment_label": "중립",
+                "reddit_breakdown": [
+                    {
+                        "sub": "종토방",
+                        "count": 215,
+                        "sentiment": 0.55
+                    },
+                    {
+                        "sub": "DC주식갤",
+                        "count": 115,
+                        "sentiment": 0.48
+                    }
+                ],
+                "news_headlines": [
+                    {
+                        "title": "솔루스첨단소재 +15%, 동박 테마 부각",
+                        "source": "한경",
+                        "ago": "5시간 전"
+                    }
+                ],
+                "trend_surge_pct": 78,
+                "options_detail": null
+            },
+            {
+                "rank": 11,
+                "ticker": "OCI",
+                "sector": "화학",
+                "sector_full": "화학 / 폴리실리콘",
+                "price": 135200,
+                "change_pct": 11.37,
+                "score_total": 39.4,
+                "score_reddit": 65,
+                "score_news": 82,
+                "score_trends": 70,
+                "score_options": 72,
+                "quadrant": "hidden",
+                "claude_rank": 2,
+                "claude_summary": "⭐양수급 + 1Q 영업익 278억(전분기 9배↑) + 비중국 폴리실리콘 프리미엄. NXT⭐ · 실전 2순위."
+            },
+            {
+                "rank": 12,
+                "ticker": "오르비텍",
+                "sector": "에너지",
+                "sector_full": "에너지장비및서비스",
+                "price": 12440,
+                "change_pct": 13.61,
+                "score_total": 38.2,
+                "score_reddit": 52,
+                "score_news": 58,
+                "score_trends": 62,
+                "score_options": 35,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "원전/에너지 테마 +13.61% · 외인 -120,183 대량 매도, 기관 +29,806 엇갈림."
+            },
+            {
+                "rank": 13,
+                "ticker": "LG디스플레이",
+                "sector": "디스플레이",
+                "sector_full": "디스플레이패널 / OLED",
+                "price": 13470,
+                "change_pct": -12.98,
+                "score_total": 34.6,
+                "score_reddit": 58,
+                "score_news": 88,
+                "score_trends": 75,
+                "score_options": 82,
+                "quadrant": "hidden",
+                "claude_rank": 3,
+                "claude_summary": "⭐ 외인 +330만주 초대형 매수 · 1Q 잠정실적/설비투자 공시 · -12.98% 급락은 관찰 후 소량 역발상."
+            },
+            {
+                "rank": 14,
+                "ticker": "엘티씨",
+                "sector": "반도체",
+                "sector_full": "반도체와반도체장비",
+                "price": 48000,
+                "change_pct": 15.66,
+                "score_total": 34.4,
+                "score_reddit": 55,
+                "score_news": 58,
+                "score_trends": 62,
+                "score_options": 48,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "반도체 공정장비 +15.66% · 외인 -173,308 매도, 기관 +153,278 매수 엇갈림."
+            },
+            {
+                "rank": 15,
+                "ticker": "LS마린솔루션",
+                "sector": "건설",
+                "sector_full": "건설 / 해저케이블·풍력",
+                "price": 37600,
+                "change_pct": 11.41,
+                "score_total": 33.5,
+                "score_reddit": 62,
+                "score_news": 68,
+                "score_trends": 58,
+                "score_options": 45,
+                "quadrant": "hidden",
+                "claude_rank": 4,
+                "claude_summary": "⭐양수급(F+16,115·I+34,608) + 해저케이블·풍력. 거래대금 612억·시총 1.96조 중형."
+            },
+            {
+                "rank": 16,
+                "ticker": "가온전선",
+                "sector": "전기장비",
+                "sector_full": "전기장비 / 케이블",
+                "price": 208500,
+                "change_pct": 15.83,
+                "score_total": 33.4,
+                "score_reddit": 58,
+                "score_news": 62,
+                "score_trends": 60,
+                "score_options": 58,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "전기장비 3번타자 +15.83% · NXT⭐ · 기관 +7,319 단독 매수 · 고가주."
+            },
+            {
+                "rank": 17,
+                "ticker": "핑거",
+                "sector": "IT서비스",
+                "sector_full": "IT서비스 / 금융플랫폼",
+                "price": 19520,
+                "change_pct": 8.02,
+                "score_total": 33.1,
+                "score_reddit": 48,
+                "score_news": 72,
+                "score_trends": 55,
+                "score_options": 35,
+                "quadrant": "overheat",
+                "claude_rank": 6,
+                "claude_summary": "⭐양수급이지만 🚨 유상증자+CB+BW+대량보유+거래계획 5건 동시 공시 = 물량 부담. 단기 박스."
+            },
+            {
+                "rank": 18,
+                "ticker": "KEC",
+                "sector": "반도체",
+                "sector_full": "반도체와반도체장비",
+                "price": 1606,
+                "change_pct": -12.86,
+                "score_total": 32.7,
+                "score_reddit": 42,
+                "score_news": 52,
+                "score_trends": 58,
+                "score_options": 38,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "-12.86% 급락이지만 외인 +563만주 초대형 저점매수 이례적. 기관 -127,721."
+            },
+            {
+                "rank": 19,
+                "ticker": "해성디에스",
+                "sector": "반도체",
+                "sector_full": "반도체와반도체장비 / 리드프레임",
+                "price": 76600,
+                "change_pct": 11.82,
+                "score_total": 32.4,
+                "score_reddit": 65,
+                "score_news": 78,
+                "score_trends": 72,
+                "score_options": 88,
+                "quadrant": "hidden",
+                "claude_rank": 1,
+                "claude_summary": "🥇 ⭐양수급(F+38,634·I+66,503) + NXT⭐ + 반도체 MSL 플래그십. Claude 판단 1위."
+            },
+            {
+                "rank": 20,
+                "ticker": "계양전기",
+                "sector": "자동차부품",
+                "sector_full": "자동차부품",
+                "price": 7000,
+                "change_pct": 9.72,
+                "score_total": 30.8,
+                "score_reddit": 45,
+                "score_news": 48,
+                "score_trends": 52,
+                "score_options": 32,
+                "quadrant": "watch",
+                "claude_rank": null,
+                "claude_summary": "자동차부품 +9.72% · 외인 +17,316 단독 매수, 기관 -173 소량 매도."
+            }
+        ]
+    },
     "2026-04-22": {
           "date": "2026-04-22",
           "date_display": "2026-04-22 (수요일 마감 → 다음 거래일 프리뷰)",
