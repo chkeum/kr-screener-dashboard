@@ -13,6 +13,11 @@ window.__SCREENER_FEED__ = {
     "version": 2,
     "reports": [
       {
+        "date": "2026-04-28",
+        "top_ticker": "휴스틸",
+        "mood": "neutral"
+      },
+      {
         "date": "2026-04-27",
         "top_ticker": "한미반도체",
         "mood": "bullish"
@@ -6181,6 +6186,1078 @@ window.__SCREENER_FEED__ = {
           "quadrant": "watch",
           "claude_rank": null,
           "claude_summary": "수급 경계, 관찰만"
+        }
+      ]
+    },
+    "2026-04-28": {
+      "date": "2026-04-28",
+      "date_display": "2026-04-28 (화요일 마감 → 다음 거래일 프리뷰)",
+      "market_mood": "neutral",
+      "market_mood_score": 52,
+      "market_summary": "KOSPI +0.44% 기관 +3,522억 강보합 vs KOSDAQ -0.37% 외인 -5,289억+기관 -2,578억 동반 매도 분리장. 상승 1,020 / 하락 1,507 / 상한가 13개. ⭐양수급(외인+기관 동시순매수) 7종목: 휴스틸·세아메카닉스·유진투자증권·송원산업·아진산업·에이비엘바이오·효성. 철강 4종목 美관세 개편 + 中 생산 감소 모멘텀에 동시 강세.",
+      "sector_tilt": [
+        "철강",
+        "증권",
+        "기계",
+        "비철금속"
+      ],
+      "top_ticker": "휴스틸",
+      "candidate_count": 20,
+      "today_action": {
+        "one_liner": "오늘은 약혼조장 — KOSPI 기관 +3,522억 vs KOSDAQ 외인-5,289+기관-2,578 동시 매도 분리장이야. ⭐양수급 7종목 중 휴스틸/세아메카닉스/유진투자증권 3개에 집중하고, KOSDAQ 비중은 작게. 시초가 추격 절대 금지!",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "휴스틸(005010)",
+            "text": "6,980~7,050원 분할 매수 (-1% 눌림), 손절 6,840원, 익절 7,500/7,800. ⭐양수급 + 美 관세 모멘텀."
+          },
+          {
+            "icon": "💎",
+            "ticker": "에이비엘바이오(298380)",
+            "text": "-19% 폭락 + ⭐양수급 = 매집 의심 종목. 다음날 +1% 반등 확인 후 소량 진입 검토."
+          },
+          {
+            "icon": "🚨",
+            "ticker": "알루코(001780)",
+            "text": "+30% 상한가지만 기관 -344 매도 시작. 양수급 X, 단순 외인 추격 → 추격 절대 금지."
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:50",
+          "time_et": "—",
+          "label": "美 증시 종가 + 철강 관세 추가 뉴스 확인"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "휴스틸/세아메카닉스/유진투자증권 시가 확인 → 분할 1차"
+        },
+        {
+          "time_kst": "09:10",
+          "time_et": "—",
+          "label": "갭업 +3% 이상 패스, -1% 눌림 대기"
+        },
+        {
+          "time_kst": "11:00",
+          "time_et": "—",
+          "label": "외인/기관 실시간 수급 (HTS) 양수급 유지 체크"
+        },
+        {
+          "time_kst": "12:30",
+          "time_et": "—",
+          "label": "점심 무렵 거래량 확인, 둔화 시 익절 30% 정리"
+        },
+        {
+          "time_kst": "14:30",
+          "time_et": "—",
+          "label": "종가 매도 결정 (오버나잇 보유 여부)"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "철강",
+          "strength": 1.0,
+          "ticker_count": 4
+        },
+        {
+          "name": "증권",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "기계",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "창업투자",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "비철금속",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "전자장비와기기",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "자동차부품",
+          "strength": 0.25,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "휴스틸",
+          "reasoning": "양수급 ⭐ + 철강 섹터 4종목 동시 진입 + 美관세 개편 모멘텀 + KOSPI + 거래대금 1,419억",
+          "signals": [
+            "양수급 ⭐",
+            "거래대금 1,419억",
+            "외인 +35.4만 / 기관 +9.4만",
+            "美 철강관세 개편"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "세아메카닉스",
+          "reasoning": "양수급 ⭐ + 상한가 + 잠정실적 공시 + LG ESS 수주 + Score 1위(0.785)",
+          "signals": [
+            "양수급 ⭐",
+            "상한가 +29.95%",
+            "잠정실적 공정공시",
+            "LG ESS 수주"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "유진투자증권",
+          "reasoning": "오늘 가장 강한 동시매수 (외인+51.8만 / 기관+20.3만) + 거래대금 1,736억 + 코스피 6천조 모멘텀",
+          "signals": [
+            "양수급 ⭐ 최강",
+            "거래대금 1,736억",
+            "증권 섹터 강세",
+            "코스피 6천조"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "송원산업",
+          "reasoning": "양수급 ⭐ + 잠정실적 공정공시 + KOSPI 화학 +27.41% 펀더 뒷받침",
+          "signals": [
+            "양수급 ⭐",
+            "+27.41% 폭등",
+            "연결재무 잠정실적",
+            "PVC 산화방지제"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "아진산업",
+          "reasoning": "양수급 ⭐ + 현대차 美 EV 로보웨이 모멘텀 + KOSDAQ 약세장에 보기 드문 양수급",
+          "signals": [
+            "양수급 ⭐",
+            "현대차 美 EV",
+            "KOSDAQ 양수급 희귀",
+            "거래대금 589억"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "효성",
+          "reason": "⭐양수급 + 공시 1건 + +10.51% 안정적 흐름. Score는 낮지만 매집 가능성."
+        },
+        {
+          "ticker": "에이비엘바이오",
+          "reason": "-19% 폭락에도 ⭐양수급. 외인+기관이 저점 매집 중일 가능성, 다음날 반등 확인 후 진입 검토."
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "알루코",
+          "reason": "+30% 상한가지만 기관 -344 매도 시작. 양수급 X, 단순 외인 추격 단계."
+        },
+        {
+          "ticker": "SK증권",
+          "reason": "거래대금 8,208억 폭발이지만 기관 -19만 매도. 양수급 X, 단기 추격 위험."
+        },
+        {
+          "ticker": "나우IB",
+          "reason": "+29.92% 상한가지만 외인 -5.7만 매도. 양수급 X, 테마성 단기 강세."
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "세아메카닉스",
+          "name": "세아메카닉스",
+          "sector": "전자장비와기기",
+          "sector_full": "KOSDAQ / 전자장비와기기",
+          "price": 5770,
+          "change_pct": 29.95,
+          "score_total": 78.5,
+          "score_reddit": 65.0,
+          "score_news": 80,
+          "score_trends": 61.4,
+          "score_options": 90.2,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "양수급 ⭐ · 양수급 ⭐ + 상한가 + 잠정실적 공시 + LG ESS 수주 + Score 1위(0.785)",
+          "claude_signals": [
+            "양수급 ⭐",
+            "상한가 +29.95%",
+            "잠정실적 공정공시",
+            "LG ESS 수주"
+          ],
+          "narrative": "세아메카닉스는 알루미늄 다이캐스팅 기반 부품 전문기업으로, 오늘 영업(잠정)실적 공정공시 + LG에너지솔루션 유럽향 ESS 프로젝트 (2026년부터 3년 공급) 수주 모멘텀이 합쳐지면서 상한가. 외인 +41.4만주 / 기관 +2.6만주 ⭐ 양수급. 거래대금 807억으로 전일 대비 9배 폭증. 다만 KOSDAQ 약세장에서 단독 강세이므로 다음날 차익실현 매물 주의.",
+          "entry": 5712,
+          "tp1": 6058,
+          "tp2": 6347,
+          "sl": 5655,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "영업(잠정)실적 공정공시",
+            "LG에너지솔루션 유럽 ESS 수주",
+            "북미 ESS 추가 수주 기대"
+          ],
+          "risks": [
+            "상한가 다음날 차익실현 위험",
+            "KOSDAQ 외인 매도 분위기",
+            "시가총액 1,528억 소형주 변동성"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 199,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 79,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 39,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "영업(잠정)실적 공정공시",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "LG에너지솔루션 유럽 ESS 수주",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 104,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "포스코스틸리온",
+          "name": "포스코스틸리온",
+          "sector": "비철금속",
+          "sector_full": "KOSPI / 비철금속",
+          "price": 9130,
+          "change_pct": 29.87,
+          "score_total": 76.7,
+          "score_reddit": 64.9,
+          "score_news": 50,
+          "score_trends": 59.0,
+          "score_options": 88.8,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+29.9% · 비철금속",
+          "claude_signals": [],
+          "narrative": "포스코스틸리온은 컬러강판 ALCOSTA가 호주 데이터센터 하이퍼스케일 프로젝트에 채택되며 4/27 상한가를 시작으로 4/28도 상한가. 액면분할(10:1, 3/26 결의) + 데이터센터 모멘텀 결합. 다만 외인은 -22.1만주 매도 (기관만 +4.7만주 매수)라 양수급 X — 단기 추격 매수자 위주.",
+          "entry": 9039,
+          "tp1": 9586,
+          "tp2": 10043,
+          "sl": 8947,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "액면분할 10:1",
+            "호주 데이터센터 ALCOSTA 채택",
+            "POSCO 그룹 시너지"
+          ],
+          "risks": [
+            "외인 매도 시작",
+            "연속 상한가 후 차익실현",
+            "컬러강판 시황 의존"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 199,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 79,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 39,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "액면분할 10:1",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "호주 데이터센터 ALCOSTA 채택",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 96,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "송원산업",
+          "name": "송원산업",
+          "sector": "화학",
+          "sector_full": "KOSPI / 화학",
+          "price": 14270,
+          "change_pct": 27.41,
+          "score_total": 75.2,
+          "score_reddit": 63.7,
+          "score_news": 80,
+          "score_trends": 93.2,
+          "score_options": 86.4,
+          "quadrant": "hot",
+          "claude_rank": 4,
+          "claude_summary": "양수급 ⭐ · 양수급 ⭐ + 잠정실적 공정공시 + KOSPI 화학 +27.41% 펀더 뒷받침",
+          "claude_signals": [
+            "양수급 ⭐",
+            "+27.41% 폭등",
+            "연결재무 잠정실적",
+            "PVC 산화방지제"
+          ],
+          "narrative": "송원산업은 PVC 산화방지제(antioxidant) 글로벌 1위 (CJ제일제당 자회사). 오늘 연결재무제표 기준 영업(잠정)실적 공정공시 + KOSPI 화학 +27.41% 폭등. 외인 +8.3만주 / 기관 +0.2만주 ⭐ 양수급. 1H25 영업이익 -31.6%였으나 1Q26 잠정실적 호조로 턴어라운드 신호.",
+          "entry": 14127,
+          "tp1": 14984,
+          "tp2": 15697,
+          "sl": 13985,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "연결 1Q26 잠정실적 공시",
+            "PVC stabilizer 글로벌 1위",
+            "화학 섹터 회복"
+          ],
+          "risks": [
+            "실적 시즌 펀더 변수",
+            "+27% 폭등 후 단기 부담",
+            "외인 매수 규모 작음"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 187,
+              "sentiment": 0.77
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 74,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "더팍스",
+              "count": 37,
+              "sentiment": 0.68
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "연결 1Q26 잠정실적 공시",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "PVC stabilizer 글로벌 1위",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 210,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "유진투자증권",
+          "name": "유진투자증권",
+          "sector": "증권",
+          "sector_full": "KOSPI / 증권",
+          "price": 6190,
+          "change_pct": 11.33,
+          "score_total": 57.2,
+          "score_reddit": 55.7,
+          "score_news": 60,
+          "score_trends": 78.2,
+          "score_options": 62.6,
+          "quadrant": "watch",
+          "claude_rank": 3,
+          "claude_summary": "양수급 ⭐ 최강 · 오늘 가장 강한 동시매수 (외인+51.8만 / 기관+20.3만) + 거래대금 1,736억 + 코스피 6천조 모멘텀",
+          "claude_signals": [
+            "양수급 ⭐ 최강",
+            "거래대금 1,736억",
+            "증권 섹터 강세",
+            "코스피 6천조"
+          ],
+          "narrative": "유진투자증권은 코스피 시총 6천조 돌파 모멘텀에 거래대금 폭발한 증권주. 외인 +51.8만주 / 기관 +20.3만주 ⭐ 오늘 가장 강한 양수급 종목. 거래대금 1,736억 (1주 평균 5배). KOSPI 대형주라 안정적이며 ETF 편입 효과도 기대.",
+          "entry": 6128,
+          "tp1": 6500,
+          "tp2": 6809,
+          "sl": 6066,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "코스피 시총 6천조 돌파",
+            "증권업 거래대금 폭증",
+            "외인+기관 동시 대량 매수"
+          ],
+          "risks": [
+            "증시 모멘텀 의존",
+            "경쟁사 SK증권 수급 갈라짐",
+            "시초가 갭업 시 추격 부담"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 106,
+              "sentiment": 0.61
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 42,
+              "sentiment": 0.54
+            },
+            {
+              "sub": "더팍스",
+              "count": 21,
+              "sentiment": 0.58
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "코스피 시총 6천조 돌파",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "증권업 거래대금 폭증",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 160,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "아진산업",
+          "name": "아진산업",
+          "sector": "자동차부품",
+          "sector_full": "KOSDAQ / 자동차부품",
+          "price": 3785,
+          "change_pct": 10.35,
+          "score_total": 54.9,
+          "score_reddit": 55.2,
+          "score_news": 60,
+          "score_trends": 95,
+          "score_options": 60.7,
+          "quadrant": "watch",
+          "claude_rank": 5,
+          "claude_summary": "양수급 ⭐ · 양수급 ⭐ + 현대차 美 EV 로보웨이 모멘텀 + KOSDAQ 약세장에 보기 드문 양수급",
+          "claude_signals": [
+            "양수급 ⭐",
+            "현대차 美 EV",
+            "KOSDAQ 양수급 희귀",
+            "거래대금 589억"
+          ],
+          "narrative": "아진산업은 자동차 차체 부품 + 로봇 자동화 기업. 현대차그룹 미국 전기차 생산기지에 \"로보웨이\" 자동화 설비 공급 (씨피시스템 협력) 모멘텀. 외인 +3.4만 / 기관 +0.5만 ⭐ 양수급. KOSDAQ 외인+기관 동시 매도장에서 보기 드문 양수급이라 희귀 가치.",
+          "entry": 3747,
+          "tp1": 3974,
+          "tp2": 4164,
+          "sl": 3709,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "현대차 美 EV 로봇 자동화 공급",
+            "카본 프리프레그 + AWIS 기술력",
+            "해외 5개 법인"
+          ],
+          "risks": [
+            "KOSDAQ 약세장 동조",
+            "시가총액 1,468억 소형주",
+            "현대차 모멘텀 일회성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 101,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 40,
+              "sentiment": 0.54
+            },
+            {
+              "sub": "더팍스",
+              "count": 20,
+              "sentiment": 0.57
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "현대차 美 EV 로봇 자동화 공급",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "카본 프리프레그 + AWIS 기술력",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 300,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "휴스틸",
+          "name": "휴스틸",
+          "sector": "철강",
+          "sector_full": "KOSPI / 철강",
+          "price": 7120,
+          "change_pct": 23.83,
+          "score_total": 52.3,
+          "score_reddit": 61.9,
+          "score_news": 60,
+          "score_trends": 43.6,
+          "score_options": 56.6,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "양수급 ⭐ · 양수급 ⭐ + 철강 섹터 4종목 동시 진입 + 美관세 개편 모멘텀 + KOSPI + 거래대금 1,419억",
+          "claude_signals": [
+            "양수급 ⭐",
+            "거래대금 1,419억",
+            "외인 +35.4만 / 기관 +9.4만",
+            "美 철강관세 개편"
+          ],
+          "narrative": "휴스틸은 강관 전문기업. 美 철강 관세 50% 개편 (행정부담 완화) + 中 강 생산량 감소 모멘텀에 +23.83%. 외인 +35.4만 / 기관 +9.4만 ⭐ 양수급. 철강 섹터 4종목 동시 진입 중 양수급은 휴스틸 단독 = 통계적 엣지 가장 큼.",
+          "entry": 7049,
+          "tp1": 7476,
+          "tp2": 7832,
+          "sl": 6978,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "美 철강 관세 개편",
+            "中 강 생산량 감소",
+            "철강 섹터 4종목 동시 강세"
+          ],
+          "risks": [
+            "관세 정책 후퇴 시 직격타",
+            "경기침체 우려",
+            "+23.83% 단기 과열"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 169,
+              "sentiment": 0.74
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 67,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "더팍스",
+              "count": 33,
+              "sentiment": 0.66
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "美 철강 관세 개편",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "中 강 생산량 감소",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 45,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "알루코",
+          "name": "알루코",
+          "sector": "비철금속",
+          "sector_full": "KOSPI / 비철금속",
+          "price": 3445,
+          "change_pct": 30.0,
+          "score_total": 50.8,
+          "score_reddit": 65.0,
+          "score_news": 50,
+          "score_trends": 36.4,
+          "score_options": 55.1,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+30.0% · 비철금속",
+          "claude_signals": [],
+          "narrative": "알루코는 비철금속(알루미늄) 압출가공. 상한가 +30%지만 외인 +2.6만주 vs 기관 -344주(거의 매도)로 수급 갈라짐. 단순 외인 추격 매수만 살아있어 양수급 X. 차익실현 위험.",
+          "entry": 3411,
+          "tp1": 3617,
+          "tp2": 3790,
+          "sl": 3376,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "비철금속 섹터 강세",
+            "알루미늄 시세 회복"
+          ],
+          "risks": [
+            "수급 갈라짐 (양수급 X)",
+            "연속 상한가 후 매물",
+            "기관 빠짐 시그널"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 200,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 80,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 40,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "비철금속 섹터 강세",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "알루미늄 시세 회복",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 21,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "부국철강",
+          "name": "부국철강",
+          "sector": "철강",
+          "sector_full": "KOSPI / 철강",
+          "price": 3415,
+          "change_pct": 28.63,
+          "score_total": 50.6,
+          "score_reddit": 64.3,
+          "score_news": 50,
+          "score_trends": 38.0,
+          "score_options": 55.2,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+28.6% · 철강",
+          "claude_signals": [],
+          "narrative": "부국철강은 KOSPI 철강주. +28.63% 상한가 근접이지만 외인 +2.9만 / 기관 -1만 (양수급 X). 휴스틸과 비교해 약함.",
+          "entry": 3381,
+          "tp1": 3586,
+          "tp2": 3757,
+          "sl": 3347,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "철강 섹터 동반 강세",
+            "美 관세 모멘텀"
+          ],
+          "risks": [
+            "양수급 X",
+            "기관 매도 시작",
+            "소형 철강주 변동성"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 193,
+              "sentiment": 0.79
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 77,
+              "sentiment": 0.69
+            },
+            {
+              "sub": "더팍스",
+              "count": 38,
+              "sentiment": 0.69
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "철강 섹터 동반 강세",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "美 관세 모멘텀",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 26,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "SK증권",
+          "name": "SK증권",
+          "sector": "증권",
+          "sector_full": "KOSPI / 증권",
+          "price": 5350,
+          "change_pct": 10.42,
+          "score_total": 49.9,
+          "score_reddit": 55.2,
+          "score_news": 50,
+          "score_trends": 52.3,
+          "score_options": 51.7,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "+10.4% · 증권",
+          "claude_signals": [],
+          "narrative": "SK증권은 거래대금 8,208억(2위) 폭발. 외인 +133만주 매수했지만 기관 -19.3만 매도라 양수급 X. 단기 외인 단독 추격형. 분할 매수 신중.",
+          "entry": 5296,
+          "tp1": 5618,
+          "tp2": 5885,
+          "sl": 5243,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "거래대금 폭발",
+            "코스피 6천조 모멘텀",
+            "외인 대량 매수"
+          ],
+          "risks": [
+            "기관 -19.3만 매도",
+            "양수급 X",
+            "연속 강세 후 차익매물"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 102,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 40,
+              "sentiment": 0.54
+            },
+            {
+              "sub": "더팍스",
+              "count": 20,
+              "sentiment": 0.57
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "거래대금 폭발",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 6천조 모멘텀",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 74,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "나우IB",
+          "name": "나우IB",
+          "sector": "창업투자",
+          "sector_full": "KOSDAQ / 창업투자",
+          "price": 3235,
+          "change_pct": 29.92,
+          "score_total": 49.5,
+          "score_reddit": 65.0,
+          "score_news": 50,
+          "score_trends": 35.9,
+          "score_options": 53.9,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+29.9% · 창업투자",
+          "claude_signals": [],
+          "narrative": "나우IB는 창업투자(VC) 테마. 상한가 +29.92%지만 외인 -5.7만 매도 + 기관 +1천 미미. 양수급 X, 단기 테마성.",
+          "entry": 3203,
+          "tp1": 3397,
+          "tp2": 3559,
+          "sl": 3170,
+          "entry_comment": "-1% 눌림 분할 매수, 시초가 추격 금지. 로스컷 -2% 엄수.",
+          "catalysts": [
+            "VC 섹터 테마",
+            "거래대금 573억"
+          ],
+          "risks": [
+            "외인 매도",
+            "소형주 변동성",
+            "테마 일회성"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 199,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 79,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 39,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "VC 섹터 테마",
+              "source": "한경",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "거래대금 573억",
+              "source": "이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 19,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "DSC인베스트먼트",
+          "name": "DSC인베스트먼트",
+          "sector": "창업투자",
+          "sector_full": "KOSDAQ / 창업투자",
+          "price": 18000,
+          "change_pct": 12.5,
+          "score_total": 46.0,
+          "score_reddit": 56.2,
+          "score_news": 50,
+          "score_trends": 49.4,
+          "score_options": 48.7,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "창업투자 · 거래대금 2530억",
+          "claude_signals": []
+        },
+        {
+          "rank": 12,
+          "ticker": "하이스틸",
+          "name": "하이스틸",
+          "sector": "철강",
+          "sector_full": "KOSPI / 철강",
+          "price": 5610,
+          "change_pct": 23.3,
+          "score_total": 45.9,
+          "score_reddit": 61.6,
+          "score_news": 50,
+          "score_trends": 39.1,
+          "score_options": 49.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "철강 · 거래대금 1036억",
+          "claude_signals": []
+        },
+        {
+          "rank": 13,
+          "ticker": "에이비엘바이오",
+          "name": "에이비엘바이오",
+          "sector": "생물공학",
+          "sector_full": "KOSDAQ / 생물공학",
+          "price": 139700,
+          "change_pct": -19.11,
+          "score_total": 44.3,
+          "score_reddit": 40.4,
+          "score_news": 60,
+          "score_trends": 39.9,
+          "score_options": 44.7,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "⭐양수급 · 생물공학 · -19.1%",
+          "claude_signals": []
+        },
+        {
+          "rank": 14,
+          "ticker": "케이에스피",
+          "name": "케이에스피",
+          "sector": "조선",
+          "sector_full": "KOSDAQ / 조선",
+          "price": 6150,
+          "change_pct": 9.04,
+          "score_total": 43.5,
+          "score_reddit": 54.5,
+          "score_news": 50,
+          "score_trends": 51.5,
+          "score_options": 46.1,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "조선 · 거래대금 892억",
+          "claude_signals": []
+        },
+        {
+          "rank": 15,
+          "ticker": "동아엘텍",
+          "name": "동아엘텍",
+          "sector": "디스플레이장비및부품",
+          "sector_full": "KOSDAQ / 디스플레이장비및부품",
+          "price": 12010,
+          "change_pct": -17.85,
+          "score_total": 38.3,
+          "score_reddit": 41.1,
+          "score_news": 50,
+          "score_trends": 35.8,
+          "score_options": 35.6,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "디스플레이장비및부품 · 거래대금 545억",
+          "claude_signals": []
+        },
+        {
+          "rank": 16,
+          "ticker": "효성",
+          "name": "효성",
+          "sector": "복합기업",
+          "sector_full": "KOSPI / 복합기업",
+          "price": 226000,
+          "change_pct": 10.51,
+          "score_total": 37.8,
+          "score_reddit": 55.3,
+          "score_news": 80,
+          "score_trends": 43.0,
+          "score_options": 35.5,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "⭐양수급 · 복합기업 · +10.5%",
+          "claude_signals": []
+        },
+        {
+          "rank": 17,
+          "ticker": "제룡산업",
+          "name": "제룡산업",
+          "sector": "전기장비",
+          "sector_full": "KOSDAQ / 전기장비",
+          "price": 9970,
+          "change_pct": -8.11,
+          "score_total": 36.9,
+          "score_reddit": 45.9,
+          "score_news": 50,
+          "score_trends": 45.8,
+          "score_options": 36.1,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "전기장비 · 거래대금 642억",
+          "claude_signals": []
+        },
+        {
+          "rank": 18,
+          "ticker": "POSCO홀딩스",
+          "name": "POSCO홀딩스",
+          "sector": "철강",
+          "sector_full": "KOSPI / 철강",
+          "price": 462500,
+          "change_pct": 10.78,
+          "score_total": 32.5,
+          "score_reddit": 55.4,
+          "score_news": 50,
+          "score_trends": 37.3,
+          "score_options": 29.9,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "철강 · 거래대금 8459억",
+          "claude_signals": []
+        },
+        {
+          "rank": 19,
+          "ticker": "앤로보틱스",
+          "name": "앤로보틱스",
+          "sector": "기계",
+          "sector_full": "KOSDAQ / 기계",
+          "price": 3845,
+          "change_pct": 7.25,
+          "score_total": 32.3,
+          "score_reddit": 53.6,
+          "score_news": 70,
+          "score_trends": 43.4,
+          "score_options": 31.4,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "기계 · 거래대금 1320억",
+          "claude_signals": []
+        },
+        {
+          "rank": 20,
+          "ticker": "화성밸브",
+          "name": "화성밸브",
+          "sector": "기계",
+          "sector_full": "KOSDAQ / 기계",
+          "price": 11020,
+          "change_pct": 12.45,
+          "score_total": 30.5,
+          "score_reddit": 56.2,
+          "score_news": 50,
+          "score_trends": 37.0,
+          "score_options": 29.3,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "기계 · 거래대금 517억",
+          "claude_signals": []
         }
       ]
     }
