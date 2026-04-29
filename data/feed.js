@@ -13,6 +13,11 @@ window.__SCREENER_FEED__ = {
     "version": 2,
     "reports": [
       {
+        "date": "2026-04-29",
+        "top_ticker": "LS에코에너지",
+        "mood": "bullish"
+      },
+      {
         "date": "2026-04-28",
         "top_ticker": "휴스틸",
         "mood": "neutral"
@@ -7258,6 +7263,1053 @@ window.__SCREENER_FEED__ = {
           "claude_rank": null,
           "claude_summary": "기계 · 거래대금 517억",
           "claude_signals": []
+        }
+      ]
+    },
+    "2026-04-29": {
+      "date": "2026-04-29",
+      "date_display": "2026-04-29 (수 마감 → 목 프리뷰)",
+      "market_mood": "bullish",
+      "market_mood_score": 75,
+      "market_summary": "코스피 6,690.90 +0.75%, 코스닥 1,220.26 +0.39% 동반 강세 마감. 호르무즈 봉쇄 장기화 + UAE 원유 협력 + AI 케이블 수요 3중 모멘텀으로 화학·정유·전선·전기장비 4섹터 폭발. 상한가 5종목, 외인+기관 동반 매도 vs 개인 매수 구도. 30일 FOMC 경계감 부담 but 어닝시즌 호조로 추세 유지 중.",
+      "sector_tilt": [
+        "화학",
+        "전기장비",
+        "정유"
+      ],
+      "top_ticker": "LS에코에너지",
+      "candidate_count": 20,
+      "today_action": {
+        "one_liner": "호르무즈+UAE+AI 3중 모멘텀에 화학·정유·전선 폭발한 강세장. 펀더 받쳐주는 LS에코에너지·SK이노가 안전한 진입처야!",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "LS에코에너지",
+            "text": "-1.5% 눌림 진입, 1Q 어닝+희토류+해저케이블 펀더 백업 강함"
+          },
+          {
+            "icon": "💎",
+            "ticker": "SK이노베이션",
+            "text": "정유+배터리 양면, 시총 6.4조 안정 대형주, NXT⭐"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "롯데케미칼",
+            "text": "+24.87% 갭업 후 평균 -2.11% 통계, 추격 절대 금지"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 진입 1차 (LS에코·SK이노 -1% 눌림)"
+        },
+        {
+          "time_kst": "10:00",
+          "time_et": "—",
+          "label": "수급 점검 · 외인/기관 흐름 확인"
+        },
+        {
+          "time_kst": "11:30",
+          "time_et": "—",
+          "label": "중간 점검 · 익절 1차 검토"
+        },
+        {
+          "time_kst": "13:00",
+          "time_et": "—",
+          "label": "오후장 시작 · 미국 선물 영향 체크"
+        },
+        {
+          "time_kst": "14:30",
+          "time_et": "—",
+          "label": "마감 1시간 전 · 포지션 정리 시작"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "전기장비",
+          "strength": 1.0,
+          "ticker_count": 5
+        },
+        {
+          "name": "?",
+          "strength": 1.0,
+          "ticker_count": 5
+        },
+        {
+          "name": "화학",
+          "strength": 1.0,
+          "ticker_count": 3
+        },
+        {
+          "name": "정유",
+          "strength": 0.6666666666666666,
+          "ticker_count": 2
+        },
+        {
+          "name": "IT보안",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        },
+        {
+          "name": "창투",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        },
+        {
+          "name": "전기제품",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        },
+        {
+          "name": "에너지서비스",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        },
+        {
+          "name": "생명과학",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "LS에코에너지",
+          "reasoning": "펀더 백업(1Q 어닝 +31%, 목표가 85,000원) + NXT⭐ + 신사업 가시화 트리플",
+          "signals": [
+            "1Q 영업익 +31%",
+            "목표가 85,000원",
+            "NXT⭐",
+            "희토류·해저케이블"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "대한유화",
+          "reasoning": "화학 섹터 거래대금 1,880억 최대 매수세 + NXT⭐",
+          "signals": [
+            "거래대금 1,880억",
+            "NXT⭐",
+            "화학 동반"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "SK이노베이션",
+          "reasoning": "정유+배터리 양면 모멘텀 + 시총 6.4조 안정",
+          "signals": [
+            "시총 6.4조",
+            "NXT⭐",
+            "정유+배터리"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "롯데케미칼",
+          "reasoning": "화학 대장주 거래대금 1,179억 NXT⭐ but 갭업 리스크",
+          "signals": [
+            "거래대금 1,179억",
+            "NXT⭐",
+            "UAE 협력"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "S-Oil",
+          "reasoning": "정유 대장 시총 1.2조 안정 + 호르무즈 직접 수혜",
+          "signals": [
+            "시총 1.2조",
+            "NXT⭐",
+            "정제마진 확대"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "SK이노베이션",
+          "reason": "정유+배터리 양면이지만 시장은 정유에만 집중. 배터리 회복 시 추가 +α"
+        },
+        {
+          "ticker": "금호석유화학",
+          "reason": "화학 후발주자 +9.08% 거래대금 1,501억으로 매수세 충분, 추격 여력"
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "롯데케미칼",
+          "reason": "+24.87% 급등 후 갭업 위험. 백테스트상 익일 평균 -2.11%."
+        },
+        {
+          "ticker": "대원전선",
+          "reason": "5거래일 연속 신고가, 상한가 또 갱신. 차익실현 압력 임박."
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "롯데케미칼",
+          "name": "롯데케미칼",
+          "sector": "화학",
+          "sector_full": "화학 / KOSPI",
+          "price": 118000,
+          "change_pct": 24.87,
+          "score_total": 82.2,
+          "score_reddit": 85.0,
+          "score_news": 69.1,
+          "score_trends": 62.2,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 4,
+          "claude_summary": "거래대금 1,179억 NXT⭐, 화학 대장 but 갭업 리스크",
+          "narrative": "롯데케미칼은 호르무즈 봉쇄 장기화로 화학 제품가 인상 기대감과 UAE의 한국 우선공급 약속이 맞물려 +24.87% 폭등. 거래대금 1,179억으로 화학 대장주 매수세가 집중됐어. NXT⭐ 거래대상이고 시총 8천억대 안정주. 다만 25% 갭업 후 익일 평균 -2.11% 통계가 있어 갭업 추격은 절대 금지. 펀더는 OK but 단기 차익실현 압력 경계.",
+          "entry": 116820,
+          "tp1": 121540,
+          "tp2": 125080,
+          "sl": 115640,
+          "entry_comment": "시초 -1% 눌림 분할",
+          "catalysts": [
+            "호르무즈 봉쇄 장기화",
+            "UAE 원유 협력",
+            "화학 제품가 인상 기대"
+          ],
+          "risks": [
+            "갭업 후 평균 -2.11%",
+            "유가 합의시 즉시 갭다운",
+            "외국인 차익실현"
+          ],
+          "claude_signals": [
+            "거래대금 1,179억",
+            "NXT⭐",
+            "UAE 협력"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 5945,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 208,
+              "sentiment": 0.8075
+            },
+            {
+              "sub": "더팍스",
+              "count": 1773,
+              "sentiment": 0.867
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "롯데케미칼 +24.9%, 화학 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "롯데케미칼 거래대금 1,179억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 99,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "LS에코에너지",
+          "name": "LS에코에너지",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / KOSPI",
+          "price": 90900,
+          "change_pct": 25.03,
+          "score_total": 79.8,
+          "score_reddit": 88.0,
+          "score_news": 60.3,
+          "score_trends": 62.6,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "펀더 백업 + NXT⭐, 추가 상승 여력 1순위",
+          "narrative": "LS에코에너지는 1Q26 매출 +30%, 영업익 +31% 어닝 서프라이즈에 희토류·해저케이블 신사업 가시화로 LS증권 목표가 85,000원 상향까지 받았어. 펀더+모멘텀 동시 보유로 Claude 1위. 거래대금 909억, NXT⭐, 시총 1.2조. 베트남 LSCV 정련설비 + 해저케이블 베트남-싱가포르 9월 승인 임박. 추가 상승 여력 가장 높음.",
+          "entry": 89536,
+          "tp1": 94536,
+          "tp2": 98172,
+          "sl": 89082,
+          "entry_comment": "-1.5% 눌림 분할 또는 5분봉 close 위",
+          "catalysts": [
+            "1Q26 매출 +30% 영업익 +31%",
+            "목표가 85,000원",
+            "희토류 베트남 정련설비",
+            "해저케이블 9월 승인"
+          ],
+          "risks": [
+            "빠른 상승 후 차익실현",
+            "20일선 이탈 시 손절",
+            "희토류 가격 변동"
+          ],
+          "claude_signals": [
+            "1Q26 영업익 +31%",
+            "목표가 85,000원",
+            "해저케이블·희토류",
+            "NXT⭐"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 4595,
+              "sentiment": 0.88
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 210,
+              "sentiment": 0.836
+            },
+            {
+              "sub": "더팍스",
+              "count": 1368,
+              "sentiment": 0.8976000000000001
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "LS에코에너지 +25.0%, 전기장비 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "LS에코에너지 거래대금 909억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 100,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "대한유화",
+          "name": "대한유화",
+          "sector": "화학",
+          "sector_full": "화학 / KOSPI",
+          "price": 188000,
+          "change_pct": 19.14,
+          "score_total": 72.0,
+          "score_reddit": 72.0,
+          "score_news": 85.6,
+          "score_trends": 47.9,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "거래대금 1,880억 화학섹터 최대 매수세",
+          "narrative": "대한유화는 거래대금 1,880억으로 화학섹터 내 최대 매수세 집중. NXT⭐ 거래대상이지만 시총 1,095억으로 변동성 큰 편. 호르무즈 수혜 2차 매수처로 부상. 화학 테마 강세 지속 시 추가 상승 가능, 다만 시총 작아 빠른 진입/청산 필요.",
+          "entry": 186120,
+          "tp1": 193640,
+          "tp2": 197400,
+          "sl": 184240,
+          "entry_comment": "화학 섹터 강세 확인 후 진입",
+          "catalysts": [
+            "거래대금 1,880억",
+            "NXT⭐",
+            "호르무즈 수혜 2차"
+          ],
+          "risks": [
+            "시총 1,095억 변동성 큼",
+            "화학 약세 시 즉시 매도"
+          ],
+          "claude_signals": [
+            "거래대금 1,880억",
+            "NXT⭐",
+            "화학 테마 동반"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 9450,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 163,
+              "sentiment": 0.6839999999999999
+            },
+            {
+              "sub": "더팍스",
+              "count": 2825,
+              "sentiment": 0.7343999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "대한유화 +19.1%, 화학 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "대한유화 거래대금 1,880억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 76,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "대원전선",
+          "name": "대원전선",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / KOSPI",
+          "price": 13090,
+          "change_pct": 29.99,
+          "score_total": 63.9,
+          "score_reddit": 70.0,
+          "score_news": 40.4,
+          "score_trends": 75.0,
+          "score_options": 30.0,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "전기장비 · 거래대금 130억 · +30.0%",
+          "narrative": "대원전선 +29.99% 상한가. 글로벌 전력망 투자 + AI 데이터센터 케이블 수요 + 미·이란 종전협상 기대감으로 5거래일째 신고가 행진. NXT 비대상이라 양수급 백업 약함. 상한가 다음날 변동폭 ±5%, 갭업 추격은 금지.",
+          "entry": 12697,
+          "tp1": 13482,
+          "tp2": 13744,
+          "sl": 12828,
+          "entry_comment": "갭업 시 패스, -3% 눌림에서 소량만",
+          "catalysts": [
+            "AI 데이터센터 케이블",
+            "글로벌 전력망 투자",
+            "5거래일 신고가"
+          ],
+          "risks": [
+            "NXT 비대상",
+            "상한가 후 변동성",
+            "고점 추격"
+          ],
+          "claude_signals": [],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 704,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 249,
+              "sentiment": 0.6649999999999999
+            },
+            {
+              "sub": "더팍스",
+              "count": 201,
+              "sentiment": 0.714
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "대원전선 +30.0%, 전기장비 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "대원전선 거래대금 130억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 119,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "S-Oil",
+          "name": "S-Oil",
+          "sector": "정유",
+          "sector_full": "석유와가스 / KOSPI",
+          "price": 134300,
+          "change_pct": 13.14,
+          "score_total": 62.8,
+          "score_reddit": 66.0,
+          "score_news": 60.5,
+          "score_trends": 32.9,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 5,
+          "claude_summary": "거래대금 1,342억, 정제마진 확대 기대",
+          "narrative": "S-Oil은 정유 대장 NXT⭐ 시총 1.2조 안정주. 호르무즈 봉쇄로 정제마진 확대 기대 +13.14%, 거래대금 1,342억. 유가 합의 시 갭다운 위험 있지만 시총 큰 만큼 회복 빠름. 안전판 역할.",
+          "entry": 132957,
+          "tp1": 138329,
+          "tp2": 141015,
+          "sl": 131614,
+          "entry_comment": "호르무즈 뉴스 확인 후 진입",
+          "catalysts": [
+            "정제마진 확대",
+            "호르무즈 직접 수혜",
+            "NXT⭐",
+            "시총 1.2조 안정"
+          ],
+          "risks": [
+            "유가 합의 시 갭다운",
+            "외국인 매수 의존도"
+          ],
+          "claude_signals": [
+            "시총 1.2조",
+            "호르무즈 수혜",
+            "NXT⭐"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 6760,
+              "sentiment": 0.66
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 115,
+              "sentiment": 0.627
+            },
+            {
+              "sub": "더팍스",
+              "count": 2018,
+              "sentiment": 0.6732
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "S-Oil +13.1%, 정유 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "S-Oil 거래대금 1,342억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 52,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "SK이노베이션",
+          "name": "SK이노베이션",
+          "sector": "정유",
+          "sector_full": "석유와가스 / KOSPI",
+          "price": 149800,
+          "change_pct": 12.63,
+          "score_total": 62.6,
+          "score_reddit": 68.0,
+          "score_news": 65.1,
+          "score_trends": 31.6,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "정유+배터리 양면 모멘텀, 안정적 추세",
+          "narrative": "SK이노베이션은 정유+배터리 양면 모멘텀. 시총 6.4조 안정 대형주, 거래대금 1,497억. 호르무즈 수혜 + 배터리 사업 모두 호재. NXT⭐. 안정적 추세 진입처로 Claude 3위 평가.",
+          "entry": 148302,
+          "tp1": 154294,
+          "tp2": 157290,
+          "sl": 146804,
+          "entry_comment": "-1% 눌림 분할",
+          "catalysts": [
+            "정유+배터리 양면",
+            "시총 6.4조",
+            "NXT⭐",
+            "거래대금 1,497억"
+          ],
+          "risks": [
+            "배터리 업황 둔화",
+            "유가 변동성"
+          ],
+          "claude_signals": [
+            "시총 6.4조",
+            "호르무즈 수혜",
+            "NXT⭐"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 7535,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 111,
+              "sentiment": 0.646
+            },
+            {
+              "sub": "더팍스",
+              "count": 2250,
+              "sentiment": 0.6936000000000001
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "SK이노베이션 +12.6%, 정유 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "SK이노베이션 거래대금 1,497억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 50,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "에스투더블유",
+          "name": "에스투더블유",
+          "sector": "IT보안",
+          "sector_full": "IT서비스 / KOSDAQ",
+          "price": 26100,
+          "change_pct": 25.78,
+          "score_total": 62.1,
+          "score_reddit": 78.0,
+          "score_news": 39.6,
+          "score_trends": 64.5,
+          "score_options": 50.0,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "IT보안 · 거래대금 260억 · NXT⭐ +25.8%",
+          "narrative": "에스투더블유는 사이버 안보 수요 확대 단독 강세 +25.78%. 일본 정부기관 보안AI 재계약 3.5배, 2026 매출 240억·영업익 39억 흑자전환 기대. 시총 4조 NXT⭐. 다만 25% 급등으로 단기 변동성 큼.",
+          "entry": 25708,
+          "tp1": 27144,
+          "tp2": 27927,
+          "sl": 25578,
+          "entry_comment": "-1.5% 눌림 분할",
+          "catalysts": [
+            "사이버 안보 수요 확대",
+            "일본 재계약 3.5배",
+            "흑자전환 기대"
+          ],
+          "risks": [
+            "25% 급등 후 차익실현",
+            "IT섹터 단독 약세"
+          ],
+          "claude_signals": [],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1352,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 216,
+              "sentiment": 0.741
+            },
+            {
+              "sub": "더팍스",
+              "count": 395,
+              "sentiment": 0.7956000000000001
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "에스투더블유 +25.8%, IT보안 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "에스투더블유 거래대금 260억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 103,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "제일일렉트릭",
+          "name": "제일일렉트릭",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / KOSDAQ",
+          "price": 16640,
+          "change_pct": 30.0,
+          "score_total": 59.3,
+          "score_reddit": 62.0,
+          "score_news": 41.5,
+          "score_trends": 75.0,
+          "score_options": 30.0,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "전기장비 · 거래대금 166억 · +30.0%",
+          "narrative": "제일일렉트릭 +30% 상한가. 전선·변압기 테마 동반 폭발에 편승. 시총 3,697억 중형주. NXT 비대상. 다음날 갭업 가능성 높지만 추격 진입 절대 금지.",
+          "entry": 16140,
+          "tp1": 17139,
+          "tp2": 17472,
+          "sl": 16307,
+          "entry_comment": "갭업 시 패스, -3% 눌림에서 관찰",
+          "catalysts": [
+            "전선·변압기 테마",
+            "상한가 동반 폭발"
+          ],
+          "risks": [
+            "NXT 비대상",
+            "상한가 후 변동성",
+            "테마 약세 시 급락"
+          ],
+          "claude_signals": [],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 882,
+              "sentiment": 0.62
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 250,
+              "sentiment": 0.589
+            },
+            {
+              "sub": "더팍스",
+              "count": 254,
+              "sentiment": 0.6324
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "제일일렉트릭 +30.0%, 전기장비 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "제일일렉트릭 거래대금 166억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 120,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "아주IB투자",
+          "name": "아주IB투자",
+          "sector": "창투",
+          "sector_full": "창업투자 / KOSDAQ",
+          "price": 16580,
+          "change_pct": 11.34,
+          "score_total": 58.9,
+          "score_reddit": 50.0,
+          "score_news": 95,
+          "score_trends": 28.4,
+          "score_options": 30.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "창투 · 거래대금 8,078억 · +11.3%",
+          "narrative": "아주IB투자 거래대금 8,078억 폭증으로 창투사 테마 단기 트레이딩 후보. 시총 2조 안정주이지만 +11.34% 변동성 큼. 단기 모멘텀만 활용.",
+          "entry": 16414,
+          "tp1": 16911,
+          "tp2": 17243,
+          "sl": 16248,
+          "entry_comment": "단기 트레이딩, 장기 보유 금지",
+          "catalysts": [
+            "거래대금 8,078억 폭증",
+            "창투사 테마"
+          ],
+          "risks": [
+            "테마 소멸 시 급락",
+            "장기 추세 부재"
+          ],
+          "claude_signals": [],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 40441,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 100,
+              "sentiment": 0.475
+            },
+            {
+              "sub": "더팍스",
+              "count": 12122,
+              "sentiment": 0.51
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "아주IB투자 +11.3%, 창투 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "아주IB투자 거래대금 8,078억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 45,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "LS머트리얼즈",
+          "name": "LS머트리얼즈",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / KOSDAQ",
+          "price": 31250,
+          "change_pct": 16.39,
+          "score_total": 56.4,
+          "score_reddit": 60.0,
+          "score_news": 30.1,
+          "score_trends": 41.0,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "전기제품 · 거래대금 312억 · NXT⭐ +16.4%",
+          "narrative": "LS머트리얼즈는 시총 11.4조 대형주, 전기제품 섹터 동반 강세 +16.39%. NXT⭐. 안정 진입처지만 거래대금 312억으로 매수세 집중도는 약함.",
+          "entry": 30937,
+          "tp1": 32187,
+          "tp2": 32812,
+          "sl": 30625,
+          "entry_comment": "전기제품 섹터 강세 확인 후",
+          "catalysts": [
+            "전기제품 섹터 강세",
+            "시총 11.4조 안정",
+            "NXT⭐"
+          ],
+          "risks": [
+            "거래대금 312억으로 약함",
+            "대형주 추세 둔화"
+          ],
+          "claude_signals": [],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1612,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 141,
+              "sentiment": 0.57
+            },
+            {
+              "sub": "더팍스",
+              "count": 473,
+              "sentiment": 0.612
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "LS머트리얼즈 +16.4%, 전기제품 강세에 동반 상승",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "LS머트리얼즈 거래대금 312억 폭증",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 65,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "선도전기",
+          "name": "선도전기",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / KOSPI",
+          "price": 6500,
+          "change_pct": 30.0,
+          "score_total": 56.4,
+          "score_reddit": 50.0,
+          "score_news": 38.2,
+          "score_trends": 75.0,
+          "score_options": 30.0,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "전기장비 · 거래대금 65억 · +30.0%"
+        },
+        {
+          "rank": 12,
+          "ticker": "HD현대에너지솔루션",
+          "name": "HD현대에너지솔루션",
+          "sector": "에너지서비스",
+          "sector_full": "에너지장비및서비스 / KOSPI",
+          "price": 215500,
+          "change_pct": 9.11,
+          "score_total": 56.3,
+          "score_reddit": 50.0,
+          "score_news": 82.8,
+          "score_trends": 22.8,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "에너지서비스 · 거래대금 2,155억 · NXT⭐ +9.1%"
+        },
+        {
+          "rank": 13,
+          "ticker": "금호석유화학",
+          "name": "금호석유화학",
+          "sector": "화학",
+          "sector_full": "화학 / KOSPI",
+          "price": 150200,
+          "change_pct": 9.08,
+          "score_total": 55.3,
+          "score_reddit": 50.0,
+          "score_news": 60.9,
+          "score_trends": 22.7,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "화학 · 거래대금 1,501억 · NXT⭐ +9.1%"
+        },
+        {
+          "rank": 14,
+          "ticker": "나노엔텍",
+          "name": "나노엔텍",
+          "sector": "생명과학",
+          "sector_full": "생명과학도구및서비스 / KOSDAQ",
+          "price": 7350,
+          "change_pct": 29.86,
+          "score_total": 54.7,
+          "score_reddit": 50.0,
+          "score_news": 38.3,
+          "score_trends": 74.7,
+          "score_options": 30.0,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "생명과학 · 거래대금 73억 · +29.9%"
+        },
+        {
+          "rank": 15,
+          "ticker": "피앤씨테크",
+          "name": "피앤씨테크",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / KOSDAQ",
+          "price": 6730,
+          "change_pct": 29.92,
+          "score_total": 54.1,
+          "score_reddit": 50.0,
+          "score_news": 38.1,
+          "score_trends": 74.8,
+          "score_options": 30.0,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "전기장비 · 거래대금 67억 · +29.9%"
+        },
+        {
+          "rank": 16,
+          "ticker": "현대로템",
+          "name": "현대로템",
+          "sector": "?",
+          "sector_full": "? / KOSPI",
+          "price": 264000,
+          "change_pct": 7.98,
+          "score_total": 54.1,
+          "score_reddit": 50.0,
+          "score_news": 95,
+          "score_trends": 20.0,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "? · 거래대금 2,635억 · NXT⭐ +8.0%"
+        },
+        {
+          "rank": 17,
+          "ticker": "HD현대",
+          "name": "HD현대",
+          "sector": "?",
+          "sector_full": "? / KOSPI",
+          "price": 301000,
+          "change_pct": 7.31,
+          "score_total": 52.4,
+          "score_reddit": 50.0,
+          "score_news": 95,
+          "score_trends": 18.3,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "? · 거래대금 3,010억 · NXT⭐ +7.3%"
+        },
+        {
+          "rank": 18,
+          "ticker": "SK가스",
+          "name": "SK가스",
+          "sector": "?",
+          "sector_full": "? / KOSPI",
+          "price": 284500,
+          "change_pct": 6.75,
+          "score_total": 51.3,
+          "score_reddit": 50.0,
+          "score_news": 95,
+          "score_trends": 16.9,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "? · 거래대금 2,840억 · NXT⭐ +6.8%"
+        },
+        {
+          "rank": 19,
+          "ticker": "유니드",
+          "name": "유니드",
+          "sector": "?",
+          "sector_full": "? / KOSPI",
+          "price": 98000,
+          "change_pct": 6.99,
+          "score_total": 51.1,
+          "score_reddit": 50.0,
+          "score_news": 41.0,
+          "score_trends": 17.5,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "? · 거래대금 979억 · NXT⭐ +7.0%"
+        },
+        {
+          "rank": 20,
+          "ticker": "미래에셋벤처투자",
+          "name": "미래에셋벤처투자",
+          "sector": "?",
+          "sector_full": "? / KOSDAQ",
+          "price": 57000,
+          "change_pct": 5.47,
+          "score_total": 50.9,
+          "score_reddit": 50.0,
+          "score_news": 71.4,
+          "score_trends": 13.7,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "? · 거래대금 1,945억 · NXT⭐ +5.5%"
         }
       ]
     }
