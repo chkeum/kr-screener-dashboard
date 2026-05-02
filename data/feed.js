@@ -14,7 +14,7 @@ window.__SCREENER_FEED__ = {
     "reports": [
       {
         "date": "2026-04-30",
-        "top_ticker": "KBI메탈",
+        "top_ticker": "산일전기",
         "mood": "bearish"
       },
       {
@@ -8322,33 +8322,32 @@ window.__SCREENER_FEED__ = {
       "date": "2026-04-30",
       "date_display": "2026-04-30 (목요일 마감 → 5/4 월요일 프리뷰)",
       "market_mood": "bearish",
-      "market_mood_score": 32,
-      "market_summary": "KOSPI -1.00%, KOSDAQ -0.73% 동반 약세. 상승 628 vs 하락 1932로 약세 우세. 상한가 9/하한가 1. 외인 KOSPI -14,562억 + KOSDAQ -2,110억 동반 매도, 코스닥은 기관까지 -3,048억 합류. ⭐⭐ 양수급 3종목(KBI메탈/제일일렉트릭/퀄리타스반도체)만 통계적 엣지. 변압기·데이터센터 모멘텀은 살아있음. 5/4 월요일 시초가 추격 절대 금지, 눌림 분할 + 로스컷 -2% 엄수.",
+      "market_mood_score": 35,
+      "market_summary": "KOSPI 평균 -1.05% / KOSDAQ -0.92% 약세 마감. 상승 643 vs 하락 1900, 상한가 9/하한가 1. 외인 KOSPI -14,559억 / KOSDAQ -2,112억 동반 매도. ⭐ 양수급(외인+기관 동시순매수) 3종: 산일전기·한화비전·퀄리타스반도체. 5/1 근로자의날 휴장, 다음 거래일 5/4(월).",
       "sector_tilt": [
         "전기장비",
-        "반도체와반도체장비",
-        "제약",
-        "전자장비와기기"
+        "기계",
+        "반도체와반도체장비"
       ],
-      "top_ticker": "KBI메탈",
-      "candidate_count": 10,
+      "top_ticker": "산일전기",
+      "candidate_count": 12,
       "today_action": {
-        "one_liner": "오늘은 약세장(KOSPI -1%, 외인 -1.4조 매도)이지만 ⭐⭐ 양수급 3종목(KBI메탈/제일일렉트릭/퀄리타스반도체)만 통계적 엣지! 시초가 5분 관찰 → -1% 눌림 분할, 로스컷 -2% 엄수. 시가 추격 절대 금지!",
+        "one_liner": "오늘 KOSPI -1.05% / KOSDAQ -0.92% 약세지만 ⭐ 양수급 3종(산일전기·한화비전·퀄리타스) 발견했어. 다음 영업일은 5/4(월), 시초 5분 관찰하고 분할 진입만! 갭업 추격 절대 금지, 로스컷 -2% 엄수~",
         "priorities": [
           {
             "icon": "🎯",
-            "ticker": "KBI메탈(024840)",
-            "text": "5,000~5,200원 눌림 분할, 손절 5,000(-2%), 익절 5,250/5,400. 외인+기관 양수급 1순위."
+            "ticker": "산일전기(062040)",
+            "text": "⭐ 양수급+502억 데이터센터 공시. 26만 초반 눌림 분할, SL 254,800"
           },
           {
             "icon": "💎",
-            "ticker": "퀄리타스반도체(432720)",
-            "text": "24,300~24,600원 분할, AI 반도체 IP 양수급 + 거래대금 2,238억"
+            "ticker": "한화비전(489790)",
+            "text": "외인+기관 동시 대량 매수 NXT. 8.4만 초반 분할, SL 82,400"
           },
           {
             "icon": "🚨",
-            "ticker": "산일전기(062040)",
-            "text": "외인 -12만주 매도 + 26.8만원 가격 부담. 시가 추격 절대 금지!"
+            "ticker": "KBI메탈(024840)",
+            "text": "상한가지만 외인 -54.5만 강매도, 개인주도 과열. 갭업 추격 금지"
           }
         ]
       },
@@ -8356,821 +8355,643 @@ window.__SCREENER_FEED__ = {
         {
           "time_kst": "08:30",
           "time_et": "—",
-          "label": "美 증시(다우/나스닥/S&P) 마감 + 환율·유가 점검"
+          "label": "미국 증시 마감 + AI/반도체 섹터 확인",
+          "active": true
         },
         {
-          "time_kst": "08:35",
+          "time_kst": "08:45",
           "time_et": "—",
-          "label": "KBI메탈/제일일렉트릭/퀄리타스반도체 시간외+호가 확인"
+          "label": "야간선물·NXT 거래(한화비전) 확인"
         },
         {
           "time_kst": "08:50",
           "time_et": "—",
-          "label": "Notion 리포트 + 대시보드 최종 점검"
+          "label": "산일전기 블룸에너지 공시 후속 리포트 스캔"
+        },
+        {
+          "time_kst": "08:55",
+          "time_et": "—",
+          "label": "중동 긴장 헤드라인 점검(비료/유가)"
         },
         {
           "time_kst": "09:00",
           "time_et": "—",
-          "label": "🔔 한국장 개장 · 관망 5분 (시초가 추격 금지!)",
+          "label": "🔔 한국장 개장 · 관망 5분",
           "key": true
         },
         {
           "time_kst": "09:05",
           "time_et": "—",
-          "label": "⭐⭐ 양수급 종목 1차 분할 매수 (-1% 눌림)"
+          "label": "산일전기 26만 초반 눌림시 분할 1차"
         },
         {
-          "time_kst": "10:00",
+          "time_kst": "09:10",
           "time_et": "—",
-          "label": "1차 점검 (수익률 / 거래대금)"
+          "label": "한화비전 8.4만 초반 눌림시 분할 1차"
         },
         {
-          "time_kst": "11:30",
+          "time_kst": "09:30",
           "time_et": "—",
-          "label": "익절 1차 (+3%) 진행 여부 결정"
+          "label": "거래대금 TOP30 스캔 · 어제 상한가 연동성 점검"
         },
         {
-          "time_kst": "13:00",
+          "time_kst": "11:00",
           "time_et": "—",
-          "label": "오후장 흐름 재점검"
+          "label": "투자자별 매매동향 중간 점검"
         },
         {
-          "time_kst": "14:30",
+          "time_kst": "13:30",
           "time_et": "—",
-          "label": "마감 30분 전 포지션 정리 결정"
+          "label": "오후장 로스컷 라인 재확인"
+        },
+        {
+          "time_kst": "15:20",
+          "time_et": "—",
+          "label": "마감 10분 전 포지션 정리"
         },
         {
           "time_kst": "15:30",
           "time_et": "—",
-          "label": "🔔 장 마감 · 일지 작성",
+          "label": "장 마감 · 일지 작성",
           "key": true
         }
       ],
       "sectors": [
         {
           "name": "전기장비",
-          "strength": 1.0,
-          "ticker_count": 4
+          "strength": 0.84,
+          "ticker_count": 3
+        },
+        {
+          "name": "기계",
+          "strength": 0.66,
+          "ticker_count": 2
         },
         {
           "name": "반도체와반도체장비",
-          "strength": 0.5,
+          "strength": 0.66,
           "ticker_count": 2
         },
         {
-          "name": "제약",
-          "strength": 0.5,
+          "name": "화학",
+          "strength": 0.66,
           "ticker_count": 2
-        },
-        {
-          "name": "전자장비와기기",
-          "strength": 0.25,
-          "ticker_count": 1
-        },
-        {
-          "name": "통신장비",
-          "strength": 0.25,
-          "ticker_count": 1
         }
       ],
       "claude_ranking": [
         {
           "rank": 1,
-          "ticker": "KBI메탈",
-          "reasoning": "⭐⭐ 양수급 끝판왕 + 사실상 상한가 + 외인 +33.9만주. 백테스트 통계 엣지 가장 큼.",
+          "ticker": "산일전기",
+          "reasoning": "⭐ 양수급에 502억 미국 데이터센터 공급계약 실공시까지 떴어. 1번이야.",
           "signals": [
-            "양수급 ⭐",
-            "상한가 +29.94%",
-            "외인 +33.9만주",
-            "기관 +2.5만주",
-            "거래대금 1,808억"
+            "⭐ 외인+기관 동시 순매수",
+            "블룸에너지 502억 변압기 공시",
+            "LS증권 BUY 215k / 유안타 239k",
+            "거래대금 6,603억 폭발"
           ]
         },
         {
           "rank": 2,
-          "ticker": "제일일렉트릭",
-          "reasoning": "⭐⭐ 양수급 + 변압기 섹터 동반 강세 + 거래대금 3,500억. 안정적 수급.",
+          "ticker": "한화비전",
+          "reasoning": "외인 46만+기관 19만 동반 강매수, NXT까지. 대형주 중 가장 깨끗한 양수급.",
           "signals": [
-            "양수급 ⭐",
-            "변압기 섹터 강세",
-            "외인 +47,594",
-            "기관 +6,248",
-            "거래대금 3,500억"
+            "⭐ 외인+기관 동시 대량 순매수(46만+19만)",
+            "NXT 거래대상 ⭐⭐",
+            "ISC WEST 2026 AI VMS BLAZE 공개",
+            "외인 19.95% 보유"
           ]
         },
         {
           "rank": 3,
           "ticker": "퀄리타스반도체",
-          "reasoning": "⭐⭐ 양수급 + AI 반도체 IP 모멘텀. 미세하지만 깨끗한 수급.",
+          "reasoning": "AI/칩렛 IP 대장 + 양수급. 고변동 수반하지만 모멘텀은 살아있어.",
           "signals": [
-            "양수급 ⭐",
-            "AI 반도체 IP",
-            "PCIe·UCIe PHY",
-            "+13.50%",
-            "거래대금 2,238억"
+            "⭐ 외인+기관 동시 순매수",
+            "PCIe 6.0/UCIe 칩렛 IP",
+            "AI 데이터센터 인터커넥트",
+            "거래대금 2,341억"
           ]
         },
         {
           "rank": 4,
-          "ticker": "산일전기",
-          "reasoning": "거래대금 1위 5,901억 + 데이터센터 변압기 모멘텀. 단, 외인 매도라 양수급 X. 가격 부담.",
+          "ticker": "나우로보틱스",
+          "reasoning": "상한가 + 한양로보틱스 합병 호재. 외인순매수도 살아있어.",
           "signals": [
-            "거래대금 1위 5,901억",
-            "데이터센터 변압기",
-            "Bloom Energy 502억",
-            "+21.27%",
-            "기관 +15,951"
+            "상한가 +30%",
+            "한양로보틱스 합병 호재",
+            "외인 +134,716주",
+            "거래대금 545억 +33배"
           ]
         },
         {
           "rank": 5,
-          "ticker": "아진엑스텍",
-          "reasoning": "Score 1위 + 거래대금 33배 폭증 + 외인 매수. 다만 기관 0이라 단타용으로만.",
+          "ticker": "남해화학",
+          "reasoning": "중동 긴장 + 농협 비료납품 31% 확대. 외인 매수+상한가까지.",
           "signals": [
-            "Score 1위",
-            "거래대금 33배 폭증",
-            "외인 +32,857",
-            "+25.23%",
-            "모션제어 ASIC"
+            "상한가 +24.36%",
+            "중동 긴장→비료 테마",
+            "농협 무기질비료 3,150억 31%↑",
+            "외인 +73,064주"
           ]
         }
       ],
       "hidden_edges": [
         {
-          "ticker": "퀄리타스반도체(432720)",
-          "reason": "양수급 미세하지만 깨끗 + AI 반도체 IP 모멘텀 + +13.5% 후 추가 여력"
+          "ticker": "한화비전",
+          "reason": "대형주에서 외인 46만+기관 19만 동시 매수는 드문 시그널. NXT 야간거래 가능."
         },
         {
-          "ticker": "한화비전(489790)",
-          "reason": "1Q26 어닝 서프라이즈 가능성 + NXT ⭐ + 세미텍 분리 후 재평가 시나리오"
+          "ticker": "퀄리타스반도체",
+          "reason": "AI/칩렛 IP 라이선스 비즈니스로 향후 멀티 고객사 수주시 점프 가능."
         }
       ],
       "overheated": [
         {
-          "ticker": "산일전기(062040)",
-          "reason": "26.8만원 + 외인 -12만주 매도 → 차익실현 압박. 시가 추격 절대 금지"
+          "ticker": "KBI메탈",
+          "reason": "상한가지만 외인 -54.5만 강매도. 개인 주도 단발성 강세 — 갭업 추격 절대 금지."
         },
         {
-          "ticker": "제룡산업(147830)",
-          "reason": "외인 -58.3만주 초대량 매도 → 변압기 섹터 동반 부각이지만 수급 경계 강함"
+          "ticker": "대원전선",
+          "reason": "외인 -118.9만 대량 순매도. 1Q 불성실공시 이력 기관 편입 제한 리스크."
         }
       ],
       "tickers": [
         {
           "rank": 1,
-          "ticker": "아진엑스텍",
-          "name": "아진엑스텍",
-          "sector": "반도체와반도체장",
-          "sector_full": "반도체와반도체장비",
-          "price": 9480,
-          "change_pct": 25.23,
-          "score_total": 73,
-          "score_reddit": 73,
-          "score_news": 60,
-          "score_trends": 95,
-          "score_options": 63,
-          "quadrant": "hot",
-          "claude_rank": 5,
-          "claude_summary": "Score 1위 + 거래대금 33배 폭증 + 외인 매수. 다만 기관 0이라 단타용으로만.",
+          "ticker": "나우로보틱스",
+          "name": "나우로보틱스",
+          "sector": "기계",
+          "sector_full": "기계 / 협동로봇",
+          "price": 30550,
+          "change_pct": 30.0,
+          "score_total": 64.1,
+          "score_reddit": 85,
+          "score_news": 95,
+          "score_trends": 65,
+          "score_options": 30,
+          "quadrant": "overheat",
+          "claude_rank": 4,
+          "claude_summary": "상한가 + 한양로보틱스 합병 호재. 외인순매수도 살아있어.",
           "claude_signals": [
-            "Score 1위",
-            "거래대금 33배 폭증",
-            "외인 +32,857",
-            "+25.23%",
-            "모션제어 ASIC"
+            "상한가 +30%",
+            "한양로보틱스 합병 호재",
+            "외인 +134,716주",
+            "거래대금 545억 +33배"
           ],
-          "narrative": "아진엑스텍(059120)은 오늘 +25.23%로 마감. 거래대금 1017.0억(전일대비 33.2배), 외인 +32,857주, 기관 +0주. 섹터: 반도체와반도체장비. Score 1위 + 거래대금 33배 폭증 + 외인 매수. 다만 기관 0이라 단타용으로만.",
-          "entry": 9400,
-          "tp1": 9800,
-          "tp2": 10000,
-          "sl": 9300,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
+          "narrative": "나우로보틱스가 4/30 상한가 +30%로 마감. 한양로보틱스와의 합병이 핵심 재료로, 시장은 한양로보틱스의 생산시설·고객기반·해외 네트워크 결합으로 인한 사업확장 가속을 평가. 엔비디아發 글로벌 로보틱스/AI 협력 모멘텀이 국내 로봇주 전반 강세를 견인. 외인 +134,716주 매수 vs 기관 -3,681주 약매도 — 양수급은 아니지만 외인 단독 매수는 백테스트 상 +0.4% 평균. 다만 상한가 익일 갭업 추격은 백테스트 상 평균 -2.11%니까 절대 금지.",
+          "entry": 29800,
+          "tp1": 33000,
+          "tp2": 36000,
+          "sl": 29200,
+          "entry_comment": "갭업 추격 절대 금지 → -1% 눌림 대기, 시초 5분 관찰",
           "catalysts": [
-            "반도체 장비·이차전지 장비 모션제어 ASIC",
-            "거래대금 33배 폭증",
-            "외인 신규 매수"
+            "한양로보틱스 합병",
+            "엔비디아發 글로벌 로보틱스 협력",
+            "외인 13.4만주 순매수",
+            "거래대금 33배 폭증"
           ],
           "risks": [
-            "기관 순매수 0 → 양수급 미충족",
-            "+25% 급등 후 차익실현 압박",
-            "단타성 거래대금"
+            "상한가 익일 갭업 평균 -2.11%(백테스트)",
+            "기관 미세 매도",
+            "합병 비율/일정 미공개"
           ],
-          "reddit_sentiment_label": "긍정",
+          "reddit_sentiment_label": "매우 긍정",
           "reddit_breakdown": [
             {
               "sub": "종토방",
-              "count": 203,
+              "count": 780,
               "sentiment": 0.85
             },
             {
               "sub": "DC주식갤",
-              "count": 81,
-              "sentiment": 0.9
+              "count": 520,
+              "sentiment": 0.81
             },
             {
               "sub": "더팍스",
-              "count": 60,
-              "sentiment": 0.8
+              "count": 280,
+              "sentiment": 0.79
             }
           ],
           "news_headlines": [
             {
-              "title": "아진엑스텍, 모션제어 ASIC/SoC 반도체·이차전지 장비향 부각",
-              "source": "기업IR",
-              "ago": "최근"
+              "title": "[특징주] 나우로보틱스, 한양로보틱스 합병·로봇주 호재로 상한가",
+              "source": "바이오타임즈",
+              "ago": "당일"
             }
           ],
-          "trend_surge_pct": 220,
+          "trend_surge_pct": 520,
           "options_detail": null
         },
         {
           "rank": 2,
+          "ticker": "아진엑스텍",
+          "name": "아진엑스텍",
+          "sector": "반도체",
+          "sector_full": "반도체와반도체장비",
+          "price": 8910,
+          "change_pct": 17.7,
+          "score_total": 63.6,
+          "score_reddit": 66,
+          "score_news": 47,
+          "score_trends": 80,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "아진엑스텍 — 모션제어 +17.7%, 거래대금 1,503억 양호하나 외인 -20만 매도"
+        },
+        {
+          "rank": 3,
           "ticker": "KBI메탈",
           "name": "KBI메탈",
           "sector": "전기장비",
           "sector_full": "전기장비",
           "price": 5100,
           "change_pct": 29.94,
-          "score_total": 57,
-          "score_reddit": 72,
-          "score_news": 70,
-          "score_trends": 95,
-          "score_options": 47,
+          "score_total": 56.9,
+          "score_reddit": 84,
+          "score_news": 59,
+          "score_trends": 51,
+          "score_options": 30,
           "quadrant": "hot",
-          "claude_rank": 1,
-          "claude_summary": "⭐⭐ 양수급 끝판왕 + 사실상 상한가 + 외인 +33.9만주. 백테스트 통계 엣지 가장 큼.",
+          "claude_rank": null,
+          "claude_summary": "KBI메탈 — 상한가 +29.94%, 구리/전력인프라 테마, 외인 -54.5만 부담"
+        },
+        {
+          "rank": 4,
+          "ticker": "남해화학",
+          "name": "남해화학",
+          "sector": "화학",
+          "sector_full": "화학 / 비료",
+          "price": 11740,
+          "change_pct": 24.36,
+          "score_total": 55.7,
+          "score_reddit": 76,
+          "score_news": 94,
+          "score_trends": 59,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 5,
+          "claude_summary": "중동 긴장 + 농협 비료납품 31% 확대. 외인 매수+상한가까지.",
           "claude_signals": [
-            "양수급 ⭐",
-            "상한가 +29.94%",
-            "외인 +33.9만주",
-            "기관 +2.5만주",
-            "거래대금 1,808억"
+            "상한가 +24.36%",
+            "중동 긴장→비료 테마",
+            "농협 무기질비료 3,150억 31%↑",
+            "외인 +73,064주"
           ],
-          "narrative": "KBI메탈(024840)은 오늘 +29.94%로 마감. 거래대금 1808.6억(전일대비 7.2배), 외인 +339,771주, 기관 +25,763주. 섹터: 전기장비. ⭐⭐ 외인+기관 동시 순매수로 백테스트 통계 엣지가 확보된 양수급 종목. ⭐⭐ 양수급 끝판왕 + 사실상 상한가 + 외인 +33.9만주. 백테스트 통계 엣지 가장 큼.",
-          "entry": 5000,
-          "tp1": 5300,
-          "tp2": 5400,
-          "sl": 5000,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
+          "narrative": "남해화학이 +24.36% 강한 상승. 두 가지 재료 동시 작용: (1) 미국·이스라엘과 이란 전쟁 격화로 호르무즈 봉쇄→요소 등 비료 원료 교역 차단→가격 급등, (2) 농협경제지주와 2026년 무기질비료 납품계약이 전년 2,405억→3,150억(31% 확대)으로 수급 폭발. 외인 +73,064주 vs 기관 -96,257주 — 외인 매수가 핵심 지지력. 비료섹터 동반강세(조비 +7.2%)로 테마 확산력 양호.",
+          "entry": 11400,
+          "tp1": 12800,
+          "tp2": 14000,
+          "sl": 11200,
+          "entry_comment": "1.14만 눌림 분할, 1.227 고점 돌파시 추세 추가",
           "catalysts": [
-            "변압기·전선 소재",
-            "외인+기관 동시 대량 매수",
-            "전기장비 섹터 강세 + 사실상 상한가"
+            "중동 긴장→호르무즈 봉쇄→요소 가격",
+            "농협 비료납품 3,150억 31%↑",
+            "외인 7.3만주 매수",
+            "비료섹터 동반 강세"
           ],
           "risks": [
-            "상한가 다음날 갭상 추격 시 백테스트 -2.11%",
-            "차익실현 압박",
-            "사실상 상한가 후 변동성 폭증"
+            "기관 9.6만주 순매도",
+            "중동 긴장 완화시 모멘텀 소멸",
+            "상한가 후 차익실현"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 520,
+              "sentiment": 0.74
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 310,
+              "sentiment": 0.69
+            },
+            {
+              "sub": "더팍스",
+              "count": 180,
+              "sentiment": 0.72
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "중동 긴장에 비료 테마 동반 강세 — 남해화학 상한가",
+              "source": "한경",
+              "ago": "당일"
+            },
+            {
+              "title": "남해화학, 농협 무기질비료 납품 3,150억 31%↑",
+              "source": "이데일리",
+              "ago": "4월"
+            }
+          ],
+          "trend_surge_pct": 210,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "산일전기",
+          "name": "산일전기",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / 변압기·리액터",
+          "price": 266000,
+          "change_pct": 20.36,
+          "score_total": 43.0,
+          "score_reddit": 70,
+          "score_news": 90,
+          "score_trends": 37,
+          "score_options": 30,
+          "quadrant": "hidden",
+          "claude_rank": 1,
+          "claude_summary": "⭐ 양수급에 502억 미국 데이터센터 공급계약 실공시까지 떴어. 1번이야.",
+          "claude_signals": [
+            "⭐ 외인+기관 동시 순매수",
+            "블룸에너지 502억 변압기 공시",
+            "LS증권 BUY 215k / 유안타 239k",
+            "거래대금 6,603억 폭발"
+          ],
+          "narrative": "산일전기가 4/30 미국 Bloom Energy와 502.7억(매출 10%) 변압기 공급계약을 공시하면서 단숨에 +20% 급등 마감했어. 핵심은 단순 수주가 아니라 \"미국 AI 데이터센터向\" 변압기라는 점 — Bloom은 SK·델·아마존향 SOFC 공급사로 데이터센터 전력망의 핵심 노드야. 외국인 +15,714주, 기관 +66,050주 동반 순매수로 ⭐ 양수급 시그널 발생. LS증권은 1Q26 실적 호조 + 신재생/특수변압기 고성장으로 BUY 215,000원 제시했고, 유안타는 239,000원으로 상향. AI 데이터센터 변압기 슈퍼사이클의 핵심 플레이어로 멀티플 리레이팅 진행 중. 다만 +20% 급등 직후라 시초가 추격은 절대 금지, 분할매수만.",
+          "entry": 260000,
+          "tp1": 278000,
+          "tp2": 292000,
+          "sl": 254800,
+          "entry_comment": "시초 5분 관망 → 26만 초반 눌림 분할, 시초 추격 금지",
+          "catalysts": [
+            "미국 Bloom Energy 502.7억 변압기 공급계약 공시(4/30)",
+            "AI 데이터센터向 변압기 슈퍼사이클",
+            "LS증권/유안타 목표가 상향",
+            "1Q26 실적 호조 전망(YoY 대호조)"
+          ],
+          "risks": [
+            "+20% 급등 직후 단기 차익실현 매물",
+            "PER 멀티플 부담(고밸류)",
+            "환율 변동 영향(USD 매출 비중)"
           ],
           "reddit_sentiment_label": "매우 긍정",
           "reddit_breakdown": [
             {
               "sub": "종토방",
-              "count": 361,
-              "sentiment": 0.9
+              "count": 620,
+              "sentiment": 0.82
             },
             {
               "sub": "DC주식갤",
-              "count": 144,
-              "sentiment": 0.95
+              "count": 340,
+              "sentiment": 0.78
             },
             {
               "sub": "더팍스",
-              "count": 108,
+              "count": 210,
               "sentiment": 0.85
             }
           ],
           "news_headlines": [
             {
-              "title": "KBI메탈 사실상 상한가, 변압기·전선 소재 수급 폭주",
-              "source": "장중관찰",
-              "ago": "오늘"
+              "title": "산일전기, 미국 Data Center용 변압기 502.7억 공급계약",
+              "source": "네이트뉴스",
+              "ago": "당일"
+            },
+            {
+              "title": "산일전기, 블룸에너지향 503억 수주에 25% 급등",
+              "source": "이데일리",
+              "ago": "당일"
+            },
+            {
+              "title": "산일전기 1Q26 YoY 대호조 전망 — 목표가 215k",
+              "source": "LS증권",
+              "ago": "4/9"
             }
           ],
-          "trend_surge_pct": 285,
-          "options_detail": null
-        },
-        {
-          "rank": 3,
-          "ticker": "폴라리스AI파마",
-          "name": "폴라리스AI파마",
-          "sector": "제약",
-          "sector_full": "제약",
-          "price": 7640,
-          "change_pct": 7.15,
-          "score_total": 51,
-          "score_reddit": 51,
-          "score_news": 60,
-          "score_trends": 95,
-          "score_options": 41,
-          "quadrant": "watch",
-          "claude_rank": null,
-          "claude_summary": "폴라리스AI파마 +7.15% 단기 모멘텀",
-          "claude_signals": [],
-          "narrative": "폴라리스AI파마(041910)은 오늘 +7.15%로 마감. 거래대금 1215.4억(전일대비 28.1배), 외인 -1,249주, 기관 +0주. 섹터: 제약. ",
-          "entry": 7600,
-          "tp1": 7900,
-          "tp2": 8100,
-          "sl": 7500,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
-          "catalysts": [
-            "폴라리스오피스 그룹 인수 후 AI+제약 13개 신사업 추진",
-            "천식치료제 수출 증가",
-            "AI 파마 테마성"
-          ],
-          "risks": [
-            "외인 -1,249주 미세 매도",
-            "AI 파마는 테마성 강해 휘발성 큼",
-            "기관 0"
-          ],
-          "reddit_sentiment_label": "긍정",
-          "reddit_breakdown": [
-            {
-              "sub": "종토방",
-              "count": 243,
-              "sentiment": 0.65
-            },
-            {
-              "sub": "DC주식갤",
-              "count": 97,
-              "sentiment": 0.7
-            },
-            {
-              "sub": "더팍스",
-              "count": 72,
-              "sentiment": 0.6
-            }
-          ],
-          "news_headlines": [
-            {
-              "title": "사명 바꾼 폴라리스AI파마, 사업 다각화 추진…13개 신사업 주목",
-              "source": "메디코파마",
-              "ago": "최근"
-            }
-          ],
-          "trend_surge_pct": 110,
-          "options_detail": null
-        },
-        {
-          "rank": 4,
-          "ticker": "산일전기",
-          "name": "산일전기",
-          "sector": "전기장비",
-          "sector_full": "전기장비",
-          "price": 268000,
-          "change_pct": 21.27,
-          "score_total": 42,
-          "score_reddit": 42,
-          "score_news": 70,
-          "score_trends": 95,
-          "score_options": 32,
-          "quadrant": "hot",
-          "claude_rank": 4,
-          "claude_summary": "거래대금 1위 5,901억 + 데이터센터 변압기 모멘텀. 단, 외인 매도라 양수급 X. 가격 부담.",
-          "claude_signals": [
-            "거래대금 1위 5,901억",
-            "데이터센터 변압기",
-            "Bloom Energy 502억",
-            "+21.27%",
-            "기관 +15,951"
-          ],
-          "narrative": "산일전기(062040)은 오늘 +21.27%로 마감. 거래대금 5901.4억(전일대비 5.0배), 외인 -120,028주, 기관 +15,951주. 섹터: 전기장비. 거래대금 1위 5,901억 + 데이터센터 변압기 모멘텀. 단, 외인 매도라 양수급 X. 가격 부담.",
-          "entry": 265000,
-          "tp1": 276000,
-          "tp2": 284000,
-          "sl": 263000,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
-          "catalysts": [
-            "Bloom Energy 502억 데이터센터 변압기 공급 계약",
-            "SK증권 2026 매출 6,565억(+30.8%) 추정",
-            "AI 데이터센터 EPC·BESS 수주 가시화"
-          ],
-          "risks": [
-            "외인 -120,028주 대량 매도",
-            "양수급 X",
-            "26.8만원 가격 부담"
-          ],
-          "reddit_sentiment_label": "긍정",
-          "reddit_breakdown": [
-            {
-              "sub": "종토방",
-              "count": 1180,
-              "sentiment": 0.65
-            },
-            {
-              "sub": "DC주식갤",
-              "count": 472,
-              "sentiment": 0.7
-            },
-            {
-              "sub": "더팍스",
-              "count": 354,
-              "sentiment": 0.6
-            }
-          ],
-          "news_headlines": [
-            {
-              "title": "산일전기, 美 데이터센터 변압기 수주에 강세···장중 21%대 상승",
-              "source": "뉴스웨이",
-              "ago": "수시간 전"
-            },
-            {
-              "title": "산일전기, 데이터센터 수혜주로 재평가 기대 - SK증권",
-              "source": "다음",
-              "ago": "1주일 전"
-            },
-            {
-              "title": "산일전기, AI 데이터센터 수주…'몸값 22만원' 재평가",
-              "source": "경제타임스",
-              "ago": "최근"
-            }
-          ],
-          "trend_surge_pct": 180,
-          "options_detail": null
-        },
-        {
-          "rank": 5,
-          "ticker": "제일일렉트릭",
-          "name": "제일일렉트릭",
-          "sector": "전기장비",
-          "sector_full": "전기장비",
-          "price": 17510,
-          "change_pct": 5.23,
-          "score_total": 42,
-          "score_reddit": 57,
-          "score_news": 60,
-          "score_trends": 95,
-          "score_options": 32,
-          "quadrant": "hidden",
-          "claude_rank": 2,
-          "claude_summary": "⭐⭐ 양수급 + 변압기 섹터 동반 강세 + 거래대금 3,500억. 안정적 수급.",
-          "claude_signals": [
-            "양수급 ⭐",
-            "변압기 섹터 강세",
-            "외인 +47,594",
-            "기관 +6,248",
-            "거래대금 3,500억"
-          ],
-          "narrative": "제일일렉트릭(199820)은 오늘 +5.23%로 마감. 거래대금 3499.6억(전일대비 2.4배), 외인 +47,594주, 기관 +6,248주. 섹터: 전기장비. ⭐⭐ 외인+기관 동시 순매수로 백테스트 통계 엣지가 확보된 양수급 종목. ⭐⭐ 양수급 + 변압기 섹터 동반 강세 + 거래대금 3,500억. 안정적 수급.",
-          "entry": 17300,
-          "tp1": 18000,
-          "tp2": 18600,
-          "sl": 17200,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
-          "catalysts": [
-            "미국 데이터센터 변압기 수주 모멘텀",
-            "5조 서해 에너지고속도로 사업 동반",
-            "외인+기관 양수급"
-          ],
-          "risks": [
-            "변압기 섹터 차익실현 시 동반 하락 위험"
-          ],
-          "reddit_sentiment_label": "긍정",
-          "reddit_breakdown": [
-            {
-              "sub": "종토방",
-              "count": 699,
-              "sentiment": 0.55
-            },
-            {
-              "sub": "DC주식갤",
-              "count": 279,
-              "sentiment": 0.6
-            },
-            {
-              "sub": "더팍스",
-              "count": 209,
-              "sentiment": 0.5
-            }
-          ],
-          "news_headlines": [
-            {
-              "title": "변압기 3사 5조 서해 에너지고속도로 수주 올인",
-              "source": "한국경제",
-              "ago": "최근"
-            }
-          ],
-          "trend_surge_pct": 95,
+          "trend_surge_pct": 380,
           "options_detail": null
         },
         {
           "rank": 6,
           "ticker": "세아메카닉스",
           "name": "세아메카닉스",
-          "sector": "전자장비와기기",
+          "sector": "전자장비",
           "sector_full": "전자장비와기기",
-          "price": 5840,
-          "change_pct": 9.77,
-          "score_total": 36,
-          "score_reddit": 36,
-          "score_news": 70,
-          "score_trends": 45,
-          "score_options": 26,
-          "quadrant": "overheat",
+          "price": 5900,
+          "change_pct": 10.9,
+          "score_total": 36.7,
+          "score_reddit": 56,
+          "score_news": 40,
+          "score_trends": 58,
+          "score_options": 30,
+          "quadrant": "watch",
           "claude_rank": null,
-          "claude_summary": "세아메카닉스 +9.77% 단기 모멘텀",
-          "claude_signals": [],
-          "narrative": "세아메카닉스(396300)은 오늘 +9.77%로 마감. 거래대금 999.3억(전일대비 3.0배), 외인 -260,818주, 기관 +138,386주. 섹터: 전자장비와기기. ",
-          "entry": 5800,
-          "tp1": 6000,
-          "tp2": 6200,
-          "sl": 5700,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
-          "catalysts": [
-            "전자장비 단기 테마성",
-            "기관 +138,386 강한 매집",
-            "외인 대량 매도"
-          ],
-          "risks": [
-            "외인 -260,818 대량 매도",
-            "양수급 X",
-            "단기 테마성"
-          ],
-          "reddit_sentiment_label": "긍정",
-          "reddit_breakdown": [
-            {
-              "sub": "종토방",
-              "count": 199,
-              "sentiment": 0.55
-            },
-            {
-              "sub": "DC주식갤",
-              "count": 79,
-              "sentiment": 0.6
-            },
-            {
-              "sub": "더팍스",
-              "count": 59,
-              "sentiment": 0.5
-            }
-          ],
-          "news_headlines": [
-            {
-              "title": "세아메카닉스 기관 매집 부각, 외인 차익실현은 부담",
-              "source": "장중관찰",
-              "ago": "오늘"
-            }
-          ],
-          "trend_surge_pct": 45,
-          "options_detail": null
+          "claude_summary": "세아메카닉스 — LG엔솔 ESS 모멘텀 잔존, 외인 -61.2만 약함, 단기 보수"
         },
         {
           "rank": 7,
-          "ticker": "차백신연구소",
-          "name": "차백신연구소",
-          "sector": "제약",
-          "sector_full": "제약",
-          "price": 4242,
-          "change_pct": 8.91,
-          "score_total": 34,
-          "score_reddit": 34,
-          "score_news": 60,
-          "score_trends": 95,
-          "score_options": 24,
-          "quadrant": "overheat",
+          "ticker": "대원전선",
+          "name": "대원전선",
+          "sector": "전기장비",
+          "sector_full": "전기장비",
+          "price": 15050,
+          "change_pct": 14.97,
+          "score_total": 36.3,
+          "score_reddit": 62,
+          "score_news": 44,
+          "score_trends": 32,
+          "score_options": 30,
+          "quadrant": "watch",
           "claude_rank": null,
-          "claude_summary": "차백신연구소 +8.91% 단기 모멘텀",
-          "claude_signals": [],
-          "narrative": "차백신연구소(261780)은 오늘 +8.91%로 마감. 거래대금 612.6억(전일대비 28.7배), 외인 -198,314주, 기관 +10주. 섹터: 제약. ",
-          "entry": 4200,
-          "tp1": 4370,
-          "tp2": 4500,
-          "sl": 4160,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
-          "catalysts": [
-            "대상포진 예방백신 임상2상 IND 승인",
-            "GSK 싱그릭스 대조 안전성 확보",
-            "신경영진 사업 재편"
-          ],
-          "risks": [
-            "외인 -198,314 대량 매도",
-            "기관 +10에 불과",
-            "임상 결과 발표까지 모멘텀 공백"
-          ],
-          "reddit_sentiment_label": "긍정",
-          "reddit_breakdown": [
-            {
-              "sub": "종토방",
-              "count": 122,
-              "sentiment": 0.55
-            },
-            {
-              "sub": "DC주식갤",
-              "count": 48,
-              "sentiment": 0.6
-            },
-            {
-              "sub": "더팍스",
-              "count": 36,
-              "sentiment": 0.5
-            }
-          ],
-          "news_headlines": [
-            {
-              "title": "차백신연구소, 대상포진 예방백신 국내 임상 2상 IND 승인",
-              "source": "핀테크경제신문",
-              "ago": "최근"
-            },
-            {
-              "title": "차백신연구소, 3대 승부수 앞세워 턴어라운드 도전",
-              "source": "뉴스1",
-              "ago": "최근"
-            }
-          ],
-          "trend_surge_pct": 140,
-          "options_detail": null
+          "claude_summary": "대원전선 — 전선 슈퍼사이클 대장 거래대금 1.27조, 그러나 외인 -118.9만 매도 부담"
         },
         {
           "rank": 8,
           "ticker": "퀄리타스반도체",
           "name": "퀄리타스반도체",
-          "sector": "반도체와반도체장",
-          "sector_full": "반도체와반도체장비",
-          "price": 24800,
-          "change_pct": 13.5,
-          "score_total": 33,
-          "score_reddit": 48,
-          "score_news": 60,
-          "score_trends": 75,
-          "score_options": 23,
+          "sector": "반도체",
+          "sector_full": "반도체와반도체장비 / 고속 인터커넥트 IP",
+          "price": 25050,
+          "change_pct": 14.65,
+          "score_total": 34.3,
+          "score_reddit": 61,
+          "score_news": 84,
+          "score_trends": 38,
+          "score_options": 30,
           "quadrant": "hidden",
           "claude_rank": 3,
-          "claude_summary": "⭐⭐ 양수급 + AI 반도체 IP 모멘텀. 미세하지만 깨끗한 수급.",
+          "claude_summary": "AI/칩렛 IP 대장 + 양수급. 고변동 수반하지만 모멘텀은 살아있어.",
           "claude_signals": [
-            "양수급 ⭐",
-            "AI 반도체 IP",
-            "PCIe·UCIe PHY",
-            "+13.50%",
-            "거래대금 2,238억"
+            "⭐ 외인+기관 동시 순매수",
+            "PCIe 6.0/UCIe 칩렛 IP",
+            "AI 데이터센터 인터커넥트",
+            "거래대금 2,341억"
           ],
-          "narrative": "퀄리타스반도체(432720)은 오늘 +13.50%로 마감. 거래대금 2237.6억(전일대비 5.8배), 외인 +2,755주, 기관 +472주. 섹터: 반도체와반도체장비. ⭐⭐ 외인+기관 동시 순매수로 백테스트 통계 엣지가 확보된 양수급 종목. ⭐⭐ 양수급 + AI 반도체 IP 모멘텀. 미세하지만 깨끗한 수급.",
-          "entry": 24600,
-          "tp1": 25500,
-          "tp2": 26300,
-          "sl": 24300,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
+          "narrative": "퀄리타스반도체는 4/30 +14.65% 급등. 외인 +84,431주, 기관 +22,138주 동반 순매수로 ⭐ 양수급 만족. PCIe 6.0, UCIe, MIPI, 100G SERDES 등 차세대 인터커넥트 IP를 보유 중이고, 칩렛 시장 성장(2035년 $57B 전망, 약 10x)이 직접 모멘텀. AI 데이터센터/자율주행 데이터 폭증에 수혜. 다만 52주 변동폭이 5,880~19,610으로 매우 크니까 포지션 사이즈 작게.",
+          "entry": 24000,
+          "tp1": 27500,
+          "tp2": 29800,
+          "sl": 23500,
+          "entry_comment": "2.4만 초반 눌림 분할, 27,950 단기 고점 돌파시 추세",
           "catalysts": [
-            "SerDes/PCIe·UCIe PHY IP",
-            "AI 데이터센터 IP 수혜",
-            "외인+기관 양수급"
+            "외인+기관 동시 순매수",
+            "PCIe 6.0/UCIe IP 라이선스 모멘텀",
+            "칩렛 시장 10x 성장 전망",
+            "AI 인터커넥트 수요"
           ],
           "risks": [
-            "미세한 양수급 → 모멘텀 약화 가능성",
-            "+13.5% 후 차익실현 압박"
+            "고변동성(52주 5,880~19,610)",
+            "수주 가시성 제한",
+            "단기 +14.65% 급등 부담"
           ],
           "reddit_sentiment_label": "긍정",
           "reddit_breakdown": [
             {
               "sub": "종토방",
-              "count": 447,
-              "sentiment": 0.7
+              "count": 380,
+              "sentiment": 0.72
             },
             {
               "sub": "DC주식갤",
-              "count": 178,
-              "sentiment": 0.75
+              "count": 220,
+              "sentiment": 0.65
             },
             {
               "sub": "더팍스",
-              "count": 134,
-              "sentiment": 0.65
+              "count": 130,
+              "sentiment": 0.74
             }
           ],
           "news_headlines": [
             {
-              "title": "퀄리타스반도체, SerDes·PCIe·UCIe PHY로 AI 데이터센터 IP 라인 확대",
-              "source": "기업IR",
-              "ago": "최근"
+              "title": "퀄리타스반도체, AI 속도 책임질 기술력 — 칩렛 10배 성장",
+              "source": "아시아경제",
+              "ago": "4월"
             }
           ],
-          "trend_surge_pct": 75,
+          "trend_surge_pct": 145,
           "options_detail": null
         },
         {
           "rank": 9,
-          "ticker": "제룡산업",
-          "name": "제룡산업",
-          "sector": "전기장비",
-          "sector_full": "전기장비",
-          "price": 12060,
-          "change_pct": 7.87,
-          "score_total": 31,
-          "score_reddit": 31,
-          "score_news": 60,
-          "score_trends": 40,
-          "score_options": 21,
-          "quadrant": "overheat",
+          "ticker": "조비",
+          "name": "조비",
+          "sector": "화학",
+          "sector_full": "화학",
+          "price": 15930,
+          "change_pct": 7.2,
+          "score_total": 33.1,
+          "score_reddit": 50,
+          "score_news": 37,
+          "score_trends": 59,
+          "score_options": 30,
+          "quadrant": "watch",
           "claude_rank": null,
-          "claude_summary": "제룡산업 +7.87% 단기 모멘텀",
-          "claude_signals": [],
-          "narrative": "제룡산업(147830)은 오늘 +7.87%로 마감. 거래대금 1530.4억(전일대비 1.0배), 외인 -583,013주, 기관 +2,062주. 섹터: 전기장비. ",
-          "entry": 11900,
-          "tp1": 12400,
-          "tp2": 12800,
-          "sl": 11800,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
-          "catalysts": [
-            "변압기 섹터 동반 부각",
-            "거래대금 1,530억"
-          ],
-          "risks": [
-            "외인 -583,013 초대량 매도",
-            "양수급 X",
-            "수급 경계"
-          ],
-          "reddit_sentiment_label": "긍정",
-          "reddit_breakdown": [
-            {
-              "sub": "종토방",
-              "count": 306,
-              "sentiment": 0.55
-            },
-            {
-              "sub": "DC주식갤",
-              "count": 122,
-              "sentiment": 0.6
-            },
-            {
-              "sub": "더팍스",
-              "count": 91,
-              "sentiment": 0.5
-            }
-          ],
-          "news_headlines": [
-            {
-              "title": "제룡산업, 변압기 섹터 동반 강세에 거래대금 1,530억",
-              "source": "장중관찰",
-              "ago": "오늘"
-            }
-          ],
-          "trend_surge_pct": 40,
-          "options_detail": null
+          "claude_summary": "조비 — 비료 동반 +7.2%, 거래대금 537억으로 작은 편, 모멘텀만"
         },
         {
           "rank": 10,
+          "ticker": "차백신연구소",
+          "name": "차백신연구소",
+          "sector": "제약",
+          "sector_full": "제약",
+          "price": 4100,
+          "change_pct": 5.26,
+          "score_total": 30.3,
+          "score_reddit": 47,
+          "score_news": 35,
+          "score_trends": 57,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "차백신연구소 — 백신 모멘텀 +5.26%, 거래량 폭증 9.4배지만 양수급 미달"
+        },
+        {
+          "rank": 11,
           "ticker": "한화비전",
           "name": "한화비전",
           "sector": "통신장비",
-          "sector_full": "통신장비",
-          "price": 87000,
-          "change_pct": 6.49,
-          "score_total": 20,
-          "score_reddit": 20,
-          "score_news": 80,
-          "score_trends": 60,
-          "score_options": 20,
-          "quadrant": "overheat",
-          "claude_rank": null,
-          "claude_summary": "한화비전 +6.49% 단기 모멘텀",
-          "claude_signals": [],
-          "narrative": "한화비전(489790)은 오늘 +6.49%로 마감. 거래대금 1820.4억(전일대비 2.0배), 외인 -165,406주, 기관 -803주. 섹터: 통신장비. ",
-          "entry": 86000,
-          "tp1": 90000,
-          "tp2": 92000,
-          "sl": 85000,
-          "entry_comment": "시초가 5분 관찰 후 -1% 눌림 분할 매수, 로스컷 -2% 엄수.",
+          "sector_full": "통신장비 / AI 영상보안·방산",
+          "price": 86200,
+          "change_pct": 5.51,
+          "score_total": 27.3,
+          "score_reddit": 48,
+          "score_news": 75,
+          "score_trends": 32,
+          "score_options": 50,
+          "quadrant": "hidden",
+          "claude_rank": 2,
+          "claude_summary": "외인 46만+기관 19만 동반 강매수, NXT까지. 대형주 중 가장 깨끗한 양수급.",
+          "claude_signals": [
+            "⭐ 외인+기관 동시 대량 순매수(46만+19만)",
+            "NXT 거래대상 ⭐⭐",
+            "ISC WEST 2026 AI VMS BLAZE 공개",
+            "외인 19.95% 보유"
+          ],
+          "narrative": "한화비전이 4/30 +5.51%로 안정적 상승 마감. 핵심 시그널은 외인 +463,988주, 기관 +194,713주의 압도적 양수급 — 대형주에서 이 정도 동시 매수는 드물어. ISC WEST 2026(라스베이거스 4/25-27) AI 영상관제솔루션 BLAZE 공개로 글로벌 모멘텀 확보. NXT 거래대상이라 야간거래 가능. 시총 4.35조 대형주라 변동성은 낮지만 안정적 추세 매매 가능. 외인 보유율 19.95%로 추가 매수 여력도 충분.",
+          "entry": 84000,
+          "tp1": 89500,
+          "tp2": 93000,
+          "sl": 82400,
+          "entry_comment": "8.4만 초반 눌림시 분할, 단기 91,800 신고가 돌파 시 추세 추가",
           "catalysts": [
-            "1Q26 영업이익 185억 어닝 서프라이즈 기대",
-            "AI 카메라 와이즈넷9 8종 출시",
-            "NXT 거래대상"
+            "외인 46만+기관 19만 동시 순매수",
+            "ISC WEST 2026 AI VMS BLAZE 공개",
+            "한화에어로 1Q 실적 연동",
+            "글로벌 보안 캠페인 Now You See"
           ],
           "risks": [
-            "외인+기관 동반 매도 ⚠️",
-            "어닝 발표 전 변동성",
-            "+6.49%로 모멘텀 둔화 신호"
+            "1Q 실적 컨센서스 미스 가능성",
+            "대형주 변동성 제한",
+            "지수 약세 동조"
           ],
           "reddit_sentiment_label": "긍정",
           "reddit_breakdown": [
             {
               "sub": "종토방",
-              "count": 364,
-              "sentiment": 0.4
+              "count": 410,
+              "sentiment": 0.68
             },
             {
               "sub": "DC주식갤",
-              "count": 145,
-              "sentiment": 0.45
+              "count": 180,
+              "sentiment": 0.62
             },
             {
               "sub": "더팍스",
-              "count": 109,
-              "sentiment": 0.35
+              "count": 150,
+              "sentiment": 0.71
             }
           ],
           "news_headlines": [
             {
-              "title": "한화비전 1Q26 매출 4,427억 영업이익 185억 어닝 서프라이즈 예상",
-              "source": "키움증권",
-              "ago": "수일 전"
+              "title": "한화비전, ISC WEST 2026서 AI VMS BLAZE 공개",
+              "source": "전자신문",
+              "ago": "4/26"
             },
             {
-              "title": "와이즈넷9 탑재 AI 카메라 8종 상생협력 기업 공급",
-              "source": "보도",
-              "ago": "최근"
+              "title": "할리우드 스타 사이프리드 합류 글로벌 캠페인",
+              "source": "한경",
+              "ago": "4/27"
             }
           ],
-          "trend_surge_pct": 60,
-          "options_detail": null
+          "trend_surge_pct": 75,
+          "options_detail": {
+            "cp_ratio": 1.12,
+            "unusual": false
+          }
+        },
+        {
+          "rank": 12,
+          "ticker": "두산로보틱스",
+          "name": "두산로보틱스",
+          "sector": "기계",
+          "sector_full": "기계",
+          "price": 110200,
+          "change_pct": 7.83,
+          "score_total": 24.7,
+          "score_reddit": 51,
+          "score_news": 37,
+          "score_trends": 48,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "두산로보틱스 — 로봇주 동반 강세 +7.83%, 외인+기관 양매도 → 단기 보수"
         }
       ]
     }
