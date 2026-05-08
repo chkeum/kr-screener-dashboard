@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Generated: 2026-05-07T06:56:29.508248
+// Generated: 2026-05-08T06:57:37.132222
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-08",
+        "top_ticker": "현대오토에버",
+        "mood": "neutral"
+      },
       {
         "date": "2026-05-07",
         "top_ticker": "우림피티에스",
@@ -11976,6 +11981,989 @@ window.__SCREENER_FEED__ = {
           "quadrant": "watch",
           "claude_rank": null,
           "claude_summary": null
+        }
+      ]
+    },
+    "2026-05-08": {
+      "date": "2026-05-08",
+      "date_display": "2026-05-08 (금 마감 → 다음 거래일 프리뷰)",
+      "market_mood": "neutral",
+      "market_mood_score": 55,
+      "market_summary": "KOSPI +0.09% / KOSDAQ +0.30%, 상승 1136 vs 하락 1401. 외인 KOSPI 5,590억 순매도지만 기관 1,549억 + 코스닥 외인+기관 동반 매수로 방어. 상한가 14개로 테마 쏠림 강함. 자동차+로봇이 주인공. 양수급은 드림씨아이에스 1개.",
+      "sector_tilt": [
+        "자동차부품",
+        "로봇·기계",
+        "소프트웨어"
+      ],
+      "top_ticker": "현대오토에버",
+      "candidate_count": 18,
+      "today_action": {
+        "one_liner": "현대차그룹 피지컬 AI(아틀라스 영상) 효과로 자동차+로봇 동시 폭발한 날. 양수급은 드림씨아이에스 1개 → 핵심 진입. 외인 KOSPI 5,590억 매도라 다음 거래일 시초 갭업 추격은 절대 금지!",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "드림씨아이에스 (223250)",
+            "text": "⭐ 유일한 양수급 종목. 6,950~7,150원 분할 매수, TP1 7,400 / SL 6,950. 비중 30~35%."
+          },
+          {
+            "icon": "💎",
+            "ticker": "현대오토에버 (307950)",
+            "text": "상한가 다음날 시나리오. 갭업 -2~3% 눌림 시 1차 분할(1/3). 588k~595k 진입, SL 575k."
+          },
+          {
+            "icon": "🚨",
+            "ticker": "HB테크놀러지·휴림로봇",
+            "text": "외인 대거 이탈(-876k/-356k주). 테마 노출되지만 수급 최악, 추격 절대 금지."
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "NXT 호가 체크: 현대오토에버·현대모비스·레인보우·현대위아"
+        },
+        {
+          "time_kst": "08:55",
+          "time_et": "—",
+          "label": "미국 증시 마감 확인 (반도체·로봇 ETF)"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 진입 1차 (눌림 시)"
+        },
+        {
+          "time_kst": "09:30",
+          "time_et": "—",
+          "label": "TP1·SL 라인 자동주문 세팅"
+        },
+        {
+          "time_kst": "11:30",
+          "time_et": "—",
+          "label": "점심 전 포지션 점검"
+        },
+        {
+          "time_kst": "14:00",
+          "time_et": "—",
+          "label": "외인·기관 수급 변동 체크"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "자동차부품",
+          "strength": 1.0,
+          "ticker_count": 4
+        },
+        {
+          "name": "소프트웨어",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "기계",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "전기장비",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "IT서비스",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "제약",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "전자장비와기기",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "건강관리장비와용품",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "항공화물운송과물류",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "전기제품",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "디스플레이장비및부품",
+          "strength": 0.25,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "현대오토에버 (307950)",
+          "reasoning": "상한가 +29.97% + 기관 강한 매수(+18,612주) + 거래대금 6,272억 + 그룹 SDV·로봇 핵심 수혜.",
+          "signals": [
+            "⭐ 상한가",
+            "기관 +18,612주",
+            "거래대금 6,272억",
+            "NXT",
+            "로봇 테마 대장"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "드림씨아이에스 (223250) ⭐",
+          "reasoning": "오늘 유일한 외인+기관 동시 순매수. 백테스트 기준 통계적 엣지 보유. 비중 30~35%까지 OK.",
+          "signals": [
+            "⭐ 양수급(외인+기관)",
+            "외인 +36,941주",
+            "CRO·오가노이드",
+            "신한투자증권 긍정"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "현대모비스 (012330)",
+          "reasoning": "거래대금 시장 1위(8,072억) + 기관 +10,443주 + PE시스템 펀더멘털. 대형주 안정.",
+          "signals": [
+            "거래대금 1위",
+            "기관 매수",
+            "PE시스템 자체개발",
+            "NXT"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "레인보우로보틱스 (277810)",
+          "reasoning": "휴머노이드 직진 테마 + 삼성전자 협력 + 기관 +8,149주 + 거래대금 5,549억.",
+          "signals": [
+            "휴머노이드 직진",
+            "삼성전자 협력",
+            "기관 매수",
+            "NXT"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "현대글로비스 (086280)",
+          "reasoning": "기관 +16,307주 + 거래대금 3,461억 + NXT. 다른 종목보다 등락 작지만 안정적.",
+          "signals": [
+            "기관 +16,307주",
+            "NXT",
+            "물류 대형주",
+            "수급 양호"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "드림씨아이에스 (223250)",
+          "reason": "⭐ 오늘 유일한 외인+기관 동시 순매수. 백테스트상 통계적 엣지 +0.75%/trade. CRO·오가노이드 테마."
+        },
+        {
+          "ticker": "현대글로비스 (086280)",
+          "reason": "기관 +16,307주 매수, 거래대금 3,461억, NXT. 다른 종목보다 안정적."
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "HB테크놀러지 (078150)",
+          "reason": "외인 -876,328주 대거 매도. 거래대금 큰데 외인 이탈로 추격 절대 금지."
+        },
+        {
+          "ticker": "휴림로봇 (090710)",
+          "reason": "외인 -356,683주 + 기관 -4,139주. 로봇 테마지만 수급 최악."
+        },
+        {
+          "ticker": "모베이스전자 (012860)",
+          "reason": "BDC 재료는 좋지만 외인 -189,949주 매도. 차익실현 압력."
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "현대오토에버",
+          "name": "현대오토에버",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / 기타",
+          "price": 592000,
+          "change_pct": 29.97,
+          "score_total": 92,
+          "score_reddit": 80,
+          "score_news": 75,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "상한가 + 기관 +18,612주 매수 + 거래대금 6,272억. 그룹 SDV/로봇 핵심 수혜.",
+          "narrative": "현대차그룹 피지컬 AI 전략의 핵심 사업자로 부각. 보스턴다이내믹스 아틀라스 개발형 영상 공개 + 그룹 SDV·모셔널 로보택시·미국 RMAC 신사업 일정이 일제히 부상. 거래대금 6,272억으로 시장 폭발적 관심, 기관 +18,612주 강한 매수. 외인은 KOSPI 전체 매도 기조 영향으로 -3,744주지만 흐름상 큰 부정 시그널 아님. 다만 상한가 다음날 갭업은 통계상 평균 -2.11% 회귀 → 추격 금지하고 시초 5분 관찰 후 분할 진입.",
+          "entry": 588000,
+          "tp1": 615000,
+          "tp2": 645000,
+          "sl": 575000,
+          "entry_comment": "시초 5분 관찰. -2~3% 눌림 시 1차 분할 매수, +2% 갭업 시 추격 금지.",
+          "catalysts": [
+            "보스턴다이내믹스 아틀라스 영상 공개",
+            "현대차그룹 SDV 로드맵",
+            "모셔널 로보택시 상용화",
+            "RMAC(美 로봇 훈련센터) 개소",
+            "52주 신고가"
+          ],
+          "risks": [
+            "상한가 다음날 갭업 후 매물",
+            "외인 KOSPI 전반 매도 흐름",
+            "로봇 테마 차익실현"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 420,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 210,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "더팍스",
+              "count": 85,
+              "sentiment": 0.82
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "현대오토에버, 10%대 상승…현대차그룹 개발형 로봇 공개 영향",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            },
+            {
+              "title": "현대오토에버, 전날 상승 이어 26% 급등…52주 최고가 경신",
+              "source": "이코노뉴스",
+              "ago": "4시간 전"
+            },
+            {
+              "title": "로봇·자율주행 신사업 수혜, 미래에셋 \"현대차그룹 핵심\"",
+              "source": "미래에셋",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 170,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "드림씨아이에스",
+          "name": "드림씨아이에스",
+          "sector": "제약",
+          "sector_full": "제약 / 기타",
+          "price": 7120,
+          "change_pct": 13.92,
+          "score_total": 90,
+          "score_reddit": 64,
+          "score_news": 67,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "hidden",
+          "claude_rank": 2,
+          "claude_summary": "⭐ 오늘 유일한 외인+기관 동시 순매수. 백테스트 기준 통계적 엣지 보유.",
+          "narrative": "오늘의 ⭐ 유일한 외인+기관 동시 순매수 종목. 글로벌 임상 CRO + 오가노이드 테마 부각. 외인 +36,941주, 기관 +100주(미세하지만 양수). 신한투자증권 보고서가 글로벌 임상·오가노이드 성장 포인트 강조. 백테스트 기준 외인+기관 동시 순매수 종목은 +0.75%/trade 통계적 엣지 보유 → 오늘의 핵심 진입 후보. 상승률 +13.92%로 과열은 아니지만 시초 갭업 시 매수 자제, -1~2% 눌림 분할 매수.",
+          "entry": 7050,
+          "tp1": 7400,
+          "tp2": 7650,
+          "sl": 6950,
+          "entry_comment": "⭐ 양수급 종목, 비중 30~35%까지 OK. -1% 눌림 시 분할 진입.",
+          "catalysts": [
+            "⭐ 외인+기관 동시 순매수",
+            "글로벌 CRO 사업 성장",
+            "오가노이드 테마 부각",
+            "신한투자증권 긍정 코멘트"
+          ],
+          "risks": [
+            "기관 매수 +100주 미세함",
+            "CRO 업황 변동성",
+            "코스닥 전반 박스권"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 140,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 40,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "더팍스",
+              "count": 25,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "드림씨아이에스, 외국인 매수에 13%대 강세 - CRO 모멘텀",
+              "source": "매일경제",
+              "ago": "3시간 전"
+            },
+            {
+              "title": "신한투자증권 \"드림씨아이에스 글로벌 임상·오가노이드 성장\"",
+              "source": "신한투자증권",
+              "ago": "7시간 전"
+            }
+          ],
+          "trend_surge_pct": 106,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "MDS테크",
+          "name": "MDS테크",
+          "sector": "소프트웨어",
+          "sector_full": "소프트웨어 / 기타",
+          "price": 3160,
+          "change_pct": 13.26,
+          "score_total": 88,
+          "score_reddit": 63,
+          "score_news": 67,
+          "score_trends": 77,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "등락률 13.3%, 거래대금 774억. 관망.",
+          "narrative": "액면병합 후 첫 거래일에서 상한가 인근 +13.26%. 거래대금 774억으로 시총 대비 폭증. 5G 특화망 + 양자보안 결합 보안기술 IITP 과제 참여 보도. 다만 외인·기관 모두 순매매 0주(거래량 폭증인데 외부 주체 진입 미미) → 개인 주도 단기 테마 가능성. 추격 신중, 시초 갭업 시 익절 우선.",
+          "entry": 3120,
+          "tp1": 3280,
+          "tp2": 3400,
+          "sl": 3050,
+          "entry_comment": "외인·기관 0주, 개인 주도 단기 테마. 시초 갭업 매도 우위.",
+          "catalysts": [
+            "액면병합 첫날",
+            "5G+양자보안 기술 개발",
+            "엔비디아 수혜 모멘텀(과거)"
+          ],
+          "risks": [
+            "외인·기관 미진입",
+            "액면병합 후 변동성",
+            "개인 주도 단타"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 30,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 15,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한울반도체·MDS테크, 액면병합 후 첫날 상한가",
+              "source": "한국경제",
+              "ago": "4시간 전"
+            },
+            {
+              "title": "MDS테크, 5G·양자보안 결합 보안기술 개발",
+              "source": "이투데이",
+              "ago": "6시간 전"
+            }
+          ],
+          "trend_surge_pct": 103,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "모베이스전자",
+          "name": "모베이스전자",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품 / 자동차부품",
+          "price": 4365,
+          "change_pct": 11.64,
+          "score_total": 70,
+          "score_reddit": 62,
+          "score_news": 66,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "외인 -189,949주 대거 이탈, 추격 금지.",
+          "narrative": "현대·기아차에 2026년부터 6년간 BDC(차체제어 컨트롤러) 1조원 공급 보도. 스마트키·TPMS·ROA·UIP 통합 제어. 강력한 펀더 + 자동차부품 섹터 강세 동반. 다만 외인 -189,949주 큰 폭 매도(차익실현 가능성) → 시초가 추격 금지, 외인 매도 지속 시 진입 보류. 사이즈는 평소보다 작게.",
+          "entry": 4350,
+          "tp1": 4580,
+          "tp2": 4700,
+          "sl": 4270,
+          "entry_comment": "외인 -190k주 매도 부담. -2% 눌림 시에만 진입.",
+          "catalysts": [
+            "현대기아차 BDC 1조원 6년 공급",
+            "자동차부품 섹터 강세",
+            "전장부품 본격 수주"
+          ],
+          "risks": [
+            "⚠️ 외인 -189,949주 대량 매도",
+            "차익실현 압력",
+            "상승 후 단기 과열"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 30,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 15,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "모베이스전자, 현대·기아차 BDC 6년간 1조원 공급",
+              "source": "이데일리",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 97,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "현대모비스",
+          "name": "현대모비스",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품 / 자동차부품",
+          "price": 509000,
+          "change_pct": 15.29,
+          "score_total": 69,
+          "score_reddit": 65,
+          "score_news": 68,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "거래대금 시장 1위(8,072억) + 기관 매수 + PE시스템 펀더멘털.",
+          "narrative": "거래대금 8,072억으로 시장 전체 1위. 160kW PE시스템 자체개발 성공 발표 + 보스턴다이내믹스 아틀라스 영상 효과. 장중 +19% 고점, 종가 +15.29%. 기관 +10,443주 매수, 외인 -2,510주 소폭 매도. 대형주라 상승 폭은 작지만 안정성 높음. NXT 야간 거래대상으로 다음 거래일 시초가 미리 체크 가능.",
+          "entry": 505000,
+          "tp1": 525000,
+          "tp2": 545000,
+          "sl": 498000,
+          "entry_comment": "대형주 안정 흐름. 9:05 양봉 + 거래량 확인 후 진입.",
+          "catalysts": [
+            "거래대금 시장 1위",
+            "160kW PE시스템 자체개발",
+            "아틀라스 영상 시너지",
+            "기관 매수",
+            "NXT"
+          ],
+          "risks": [
+            "대형주 변동성 제한",
+            "외인 KOSPI 전반 매도",
+            "장중 고점 대비 하락"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 380,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 150,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 70,
+              "sentiment": 0.74
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 현대차 10%·현대모비스 19% 급등…아틀라스 영상에 로봇주 강세",
+              "source": "이투데이",
+              "ago": "4시간 전"
+            },
+            {
+              "title": "현대모비스, 160kW PE시스템 자체개발 성공 발표",
+              "source": "한국경제",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 111,
+          "options_detail": {
+            "cp_ratio": 0.92,
+            "unusual": false
+          }
+        },
+        {
+          "rank": 6,
+          "ticker": "슈어소프트테크",
+          "name": "슈어소프트테크",
+          "sector": "소프트웨어",
+          "sector_full": "소프트웨어 / 기타",
+          "price": 8170,
+          "change_pct": 8.07,
+          "score_total": 68,
+          "score_reddit": 58,
+          "score_news": 50,
+          "score_trends": 83,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "등락률 8.1%, 거래대금 825억. 관망.",
+          "narrative": "자동차 SW 전문, +8.07%. 기관 +4,773주 매수, 외인은 -93,137주 매도. 자동차 SW 테마 동반 효과로 분류. 거래대금 825억으로 그렇게 크지 않음.",
+          "entry": 8100,
+          "tp1": 8500,
+          "tp2": 8800,
+          "sl": 7950,
+          "entry_comment": "기관 매수, 외인 매도. 미시 진입만.",
+          "catalysts": [
+            "자동차 SW 테마 동반",
+            "기관 매수"
+          ],
+          "risks": [
+            "외인 매도 ↘",
+            "거래대금 중간"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 30,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 15,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [],
+          "trend_surge_pct": 82,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "에스오에스랩",
+          "name": "에스오에스랩",
+          "sector": "전자장비와기기",
+          "sector_full": "전자장비와기기 / 기타",
+          "price": 17270,
+          "change_pct": 8.28,
+          "score_total": 66,
+          "score_reddit": 58,
+          "score_news": 50,
+          "score_trends": 82,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "등락률 8.3%, 거래대금 818억. 관망.",
+          "narrative": "라이다 전문기업, CES 2026 라이더 포트폴리오 공개. 자율주행 + 로보틱스 + 스마트인프라 전분야 라이다 SL-U/ML-U 신제품. 외인·기관 모두 매도(-63,927/-5,142). 거래대금 818억. 기술 모멘텀 vs 단기 수급 충돌.",
+          "entry": 17100,
+          "tp1": 18000,
+          "tp2": 18800,
+          "sl": 16700,
+          "entry_comment": "외인+기관 동시 매도, 진입 보류 권장.",
+          "catalysts": [
+            "CES 2026 라이다 포트폴리오",
+            "SL-U·ML-U 신제품",
+            "자율주행 장기 수혜"
+          ],
+          "risks": [
+            "외인+기관 동반 매도",
+            "CES 모멘텀 노이즈"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 30,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 15,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "에스오에스랩 주가, 급등세… CES 2026 훈풍",
+              "source": "금강일보",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 83,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "현대위아",
+          "name": "현대위아",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품 / 자동차부품",
+          "price": 90500,
+          "change_pct": 8.64,
+          "score_total": 64,
+          "score_reddit": 59,
+          "score_news": 50,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "등락률 8.6%, 거래대금 1710억. 관망.",
+          "narrative": "현대차그룹 자동차부품 + 로봇 부품·공작기계 가치사슬. +8.64%, 외인 +38,661주 매수(단독 양수). 기관은 -4,579주 매도. 자동차+로봇 양 테마 수혜. NXT 종목.",
+          "entry": 89000,
+          "tp1": 93000,
+          "tp2": 96500,
+          "sl": 87300,
+          "entry_comment": "외인 단독 매수. 시초 양봉 + 거래량 확인 후 진입.",
+          "catalysts": [
+            "자동차부품 + 로봇 부품 양 테마",
+            "현대차그룹 풀세트",
+            "외인 +38,661주",
+            "NXT"
+          ],
+          "risks": [
+            "기관 매도",
+            "자동차 사이클"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 30,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 15,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한온시스템·기아·HL만도·현대위아·현대차·현대모비스, 자동차주 상승세",
+              "source": "CBC뉴스",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 85,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "레인보우로보틱스",
+          "name": "레인보우로보틱스",
+          "sector": "기계",
+          "sector_full": "기계 / 기타",
+          "price": 784000,
+          "change_pct": 12.48,
+          "score_total": 63,
+          "score_reddit": 62,
+          "score_news": 50,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 4,
+          "claude_summary": "로봇 테마 직접 수혜 + 기관 +8,149주 매수 + 거래대금 5,549억.",
+          "narrative": "휴머노이드 로봇 직진 테마. 삼성전자 협력 + 보스턴다이내믹스 아틀라스 영상 효과 직접 수혜. 거래대금 5,549억, 기관 +8,149주 매수. 외인 -17,486주 소폭 매도. NXT 야간거래.",
+          "entry": 778000,
+          "tp1": 815000,
+          "tp2": 845000,
+          "sl": 768000,
+          "entry_comment": "9시 자동차/로봇 ETF 동향 같이 보기. 분할 진입.",
+          "catalysts": [
+            "휴머노이드 직진 테마",
+            "삼성전자 협력",
+            "보스턴다이내믹스 영상 효과",
+            "기관 +8,149주",
+            "NXT"
+          ],
+          "risks": [
+            "외인 소폭 매도",
+            "로봇 테마 차익실현"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 260,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 120,
+              "sentiment": 0.74
+            },
+            {
+              "sub": "더팍스",
+              "count": 40,
+              "sentiment": 0.78
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[테마시황] 현대차·삼성발 훈풍에 로봇 테마 '직진'",
+              "source": "인포스탁",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 100,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "수젠텍",
+          "name": "수젠텍",
+          "sector": "건강관리장비와용",
+          "sector_full": "건강관리장비와용품 / 기타",
+          "price": 6250,
+          "change_pct": 13.02,
+          "score_total": 61,
+          "score_reddit": 63,
+          "score_news": 50,
+          "score_trends": 84,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "등락률 13.0%, 거래대금 841억. 관망.",
+          "narrative": "헬스케어 진단키트, +13.02%. 외인 +23,073주 매수(단독). 거래대금 841억. 기관은 0주(중립). 코스닥 헬스케어 동반 강세 일부.",
+          "entry": 6200,
+          "tp1": 6500,
+          "tp2": 6750,
+          "sl": 6080,
+          "entry_comment": "외인 단독 매수. 시초 양봉 시에만.",
+          "catalysts": [
+            "외인 +23,073주 매수",
+            "헬스케어 동반 강세"
+          ],
+          "risks": [
+            "기관 미진입",
+            "헬스케어 변동성"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 30,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 15,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [],
+          "trend_surge_pct": 102,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "현대글로비스",
+          "name": "현대글로비스",
+          "sector": "항공화물운송과물",
+          "sector_full": "항공화물운송과물류 / 기타",
+          "price": 251000,
+          "change_pct": 8.89,
+          "score_total": 61,
+          "score_reddit": 59,
+          "score_news": 50,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": 5,
+          "claude_summary": "기관 +16,307주 + 거래대금 3,461억 + NXT. 안정적 흐름."
+        },
+        {
+          "rank": 12,
+          "ticker": "금호석유화학",
+          "name": "금호석유화학",
+          "sector": "화학",
+          "sector_full": "화학 / 기타",
+          "price": 150800,
+          "change_pct": 14.42,
+          "score_total": 61,
+          "score_reddit": 64,
+          "score_news": 50,
+          "score_trends": 69,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "등락률 14.4%, 거래대금 686억. 관망."
+        },
+        {
+          "rank": 13,
+          "ticker": "한국피아이엠",
+          "name": "한국피아이엠",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품 / 자동차부품",
+          "price": 137600,
+          "change_pct": 13.72,
+          "score_total": 59,
+          "score_reddit": 64,
+          "score_news": 50,
+          "score_trends": 91,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "등락률 13.7%, 거래대금 909억. 관망."
+        },
+        {
+          "rank": 14,
+          "ticker": "에스피지",
+          "name": "에스피지",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / 기타",
+          "price": 135300,
+          "change_pct": 8.94,
+          "score_total": 56,
+          "score_reddit": 59,
+          "score_news": 50,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "등락률 8.9%, 거래대금 2048억. 관망."
+        },
+        {
+          "rank": 15,
+          "ticker": "제룡산업",
+          "name": "제룡산업",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / 기타",
+          "price": 13730,
+          "change_pct": 5.78,
+          "score_total": 54,
+          "score_reddit": 56,
+          "score_news": 50,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "등락률 5.8%, 거래대금 1681억. 관망."
+        },
+        {
+          "rank": 16,
+          "ticker": "HB테크놀러지",
+          "name": "HB테크놀러지",
+          "sector": "디스플레이장비및",
+          "sector_full": "디스플레이장비및부품 / 기타",
+          "price": 4830,
+          "change_pct": 6.62,
+          "score_total": 54,
+          "score_reddit": 57,
+          "score_news": 50,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "외인 -876,328주 대거 이탈, 추격 금지."
+        },
+        {
+          "rank": 17,
+          "ticker": "휴림로봇",
+          "name": "휴림로봇",
+          "sector": "기계",
+          "sector_full": "기계 / 기타",
+          "price": 12790,
+          "change_pct": 6.58,
+          "score_total": 52,
+          "score_reddit": 57,
+          "score_news": 50,
+          "score_trends": 100,
+          "score_options": 30,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "외인 -356,683주 대거 이탈, 추격 금지."
+        },
+        {
+          "rank": 18,
+          "ticker": "선도전기",
+          "name": "선도전기",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / 기타",
+          "price": 9900,
+          "change_pct": -5.89,
+          "score_total": 50,
+          "score_reddit": 44,
+          "score_news": 50,
+          "score_trends": 71,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "등락률 -5.9%, 거래대금 710억. 관망."
         }
       ]
     }
