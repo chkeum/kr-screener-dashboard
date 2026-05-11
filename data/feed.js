@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Generated: 2026-05-08T06:57:37.132222
+// Generated: 2026-05-11T07:00:27.935167
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-11",
+        "top_ticker": "에이치브이엠",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-08",
         "top_ticker": "현대오토에버",
@@ -12964,6 +12969,757 @@ window.__SCREENER_FEED__ = {
           "quadrant": "watch",
           "claude_rank": null,
           "claude_summary": "등락률 -5.9%, 거래대금 710억. 관망."
+        }
+      ]
+    },
+    "2026-05-11": {
+      "date": "2026-05-11",
+      "date_display": "2026-05-11 (월 마감 → 5/12 화 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 32,
+      "market_summary": "월요일 한국장 약세 마감 — 상승 590 vs 하락 2023. KOSPI -1.33%, KOSDAQ -0.99%. 외인은 KOSPI 3.5조 순매도, 그래도 상한가 9개로 개별주 모멘텀 살아있어. 오늘 핵심은 양수급 4종목(에스비비테크/에이치브이엠/현대오토에버/로보티즈) — 약세장 속 진짜 매수 주체가 모인 자리야. 5/12 화요일은 야간 미국장 + 환율 체크 후 분할 진입이 정석.",
+      "sector_tilt": [
+        "기계",
+        "자동차부품",
+        "반도체",
+        "비철금속",
+        "IT서비스"
+      ],
+      "top_ticker": "에이치브이엠",
+      "candidate_count": 8,
+      "today_action": {
+        "one_liner": "약세장 속 양수급 4종목이 진짜 진입 후보야. 에이치브이엠/로보티즈/현대오토에버를 우선순위로, 시초가 5분 관망 후 분할 진입. 손절 -2% 엄수, 동시 포지션 2~3개 제한.",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "에이치브이엠",
+            "text": "⭐양수급 + NXT + 우주 Tier 1. 105,000원 진입, +2%/+4% 익절, -2% 손절"
+          },
+          {
+            "icon": "💎",
+            "ticker": "로보티즈",
+            "text": "⭐양수급 + 휴머노이드 액추에이터 100만개. 외인 매수 압도적. 분할 진입"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "한온시스템",
+            "text": "+20% 급등이지만 외인+기관 동시 매도. 펀더 좋아도 수급 위반 — 패스"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "야간 미국장 종가 + 환율 체크",
+          "active": true
+        },
+        {
+          "time_kst": "08:45",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검"
+        },
+        {
+          "time_kst": "08:50",
+          "time_et": "—",
+          "label": "진입 후보 3개로 좁히기"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 진입 1차 (눌림 대기)"
+        },
+        {
+          "time_kst": "09:30",
+          "time_et": "—",
+          "label": "1차 익절/손절 라인 점검"
+        },
+        {
+          "time_kst": "11:00",
+          "time_et": "—",
+          "label": "점심 전 포지션 정리"
+        },
+        {
+          "time_kst": "13:00",
+          "time_et": "—",
+          "label": "오후장 추가 진입 판단"
+        },
+        {
+          "time_kst": "15:20",
+          "time_et": "—",
+          "label": "종가 매매 준비"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "기계",
+          "strength": 0.92,
+          "ticker_count": 2
+        },
+        {
+          "name": "자동차부품",
+          "strength": 0.78,
+          "ticker_count": 2
+        },
+        {
+          "name": "반도체",
+          "strength": 0.7,
+          "ticker_count": 1
+        },
+        {
+          "name": "비철금속",
+          "strength": 0.85,
+          "ticker_count": 1
+        },
+        {
+          "name": "IT서비스",
+          "strength": 0.88,
+          "ticker_count": 1
+        },
+        {
+          "name": "디스플레이",
+          "strength": 0.5,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "에이치브이엠",
+          "reasoning": "양수급 + NXT + 우주산업 장기 모멘텀. 오늘 가장 안정적 진입 후보.",
+          "signals": [
+            "양수급 ⭐",
+            "거래대금 753억",
+            "스페이스X Tier 1",
+            "2공장 3,500억 캐파",
+            "NXT⭐⭐"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "로보티즈",
+          "reasoning": "양수급 + 휴머노이드 메가테마 + 액추에이터 100만개 시대.",
+          "signals": [
+            "양수급 ⭐ (외인 강력 매수)",
+            "거래대금 2,849억",
+            "휴머노이드 액추에이터 100만개",
+            "중국 휴머노이드 7배 성장"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "현대오토에버",
+          "reasoning": "양수급 + NXT + 대형주 안정성. 단 5/8 +30% 후 단기 과열 주의.",
+          "signals": [
+            "양수급 ⭐",
+            "NXT⭐⭐",
+            "거래대금 6,889억",
+            "SDV/로보틱스 성장",
+            "컨센 목표가 56만원"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "에스비비테크",
+          "reasoning": "양수급이지만 상한가 진입 — 갭다운 통계(-2.11%) 보수적으로.",
+          "signals": [
+            "양수급 ⭐",
+            "상한가 +29.89%",
+            "거래대금 6.4배 급증",
+            "휴머노이드 감속기 테마"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "미래반도체",
+          "reasoning": "상한가지만 외인 매도. 양수급 룰 위반.",
+          "signals": [
+            "상한가 +29.17%",
+            "외인 -47,755 매도",
+            "HBM 테마",
+            "기관만 매수"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "에이치브이엠",
+          "reason": "우주산업 Tier 1 + 2공장 3,500억 캐파 — 시장이 아직 우주 사이클을 충분히 반영 안 함"
+        },
+        {
+          "ticker": "로보티즈",
+          "reason": "액추에이터 100만개 시대 + 중국 7배 성장 — 휴머노이드 부품 1티어"
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "에스비비테크",
+          "reason": "상한가 진입 + 거래량 6.4배 급증 — 다음날 평균 -2.11% 갭다운 룰 적용"
+        },
+        {
+          "ticker": "한온시스템",
+          "reason": "+20% 급등이지만 외인+기관 동시 매도 — 개미만 받은 위험 패턴"
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "에스비비테크",
+          "name": "에스비비테크",
+          "sector": "기계",
+          "sector_full": "기계",
+          "price": 93000,
+          "change_pct": 29.89,
+          "score_total": 55.7,
+          "score_reddit": 60.1,
+          "score_news": 77.2,
+          "score_trends": 80.0,
+          "score_options": 0,
+          "quadrant": "overheat",
+          "claude_rank": 4,
+          "claude_summary": "⭐양수급 + 휴머노이드 감속기 테마. 상한가 진입은 갭다운 위험.",
+          "claude_signals": [
+            "양수급 ⭐ (F+82,999 I+7,072)",
+            "거래대금 1,247억(6.4배 급증)",
+            "상한가 +29.89%",
+            "휴머노이드 액추에이터 테마"
+          ],
+          "narrative": "에스비비테크는 정밀 감속기·로봇 부품 전문 기업이야. 오늘 상한가 +29.89% 진입했고, 외인+기관 동시 순매수가 들어왔다는 점이 가장 큰 매력 포인트. 휴머노이드 로봇 액추에이터 시대 진입 모멘텀으로 기계 섹터 대장주가 됐어. 다만 백테스트상 상한가 다음날 평균 -2.11% 갭다운 룰이 있어서 추격 진입은 보수적으로. 시초가 -1% 눌림 대기 + 분할 매수가 정석. 손절 -2% 엄수.",
+          "entry": 93000,
+          "tp1": 94860,
+          "tp2": 96720,
+          "sl": 91140,
+          "entry_comment": "9:05 분할 진입, -1% 눌림 대기",
+          "catalysts": [
+            "휴머노이드 액추에이터 100만개 시대",
+            "거래량 6.4배 급증",
+            "외인+기관 동시 매수"
+          ],
+          "risks": [
+            "상한가 다음날 갭다운 통계(-2.11%)",
+            "단발성 모멘텀 가능성",
+            "거래소 감시 종목 가능성"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1240,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 380,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "더팍스",
+              "count": 95,
+              "sentiment": 0.75
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "에스비비테크 상한가… 휴머노이드 감속기 테마 부각",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            }
+          ],
+          "trend_surge_pct": 320,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "미래반도체",
+          "name": "미래반도체",
+          "sector": "반도체와반도체장비",
+          "sector_full": "반도체와반도체장비",
+          "price": 39850,
+          "change_pct": 29.17,
+          "score_total": 47.6,
+          "score_reddit": 42.8,
+          "score_news": 40.2,
+          "score_trends": 60.0,
+          "score_options": 0,
+          "quadrant": "overheat",
+          "claude_rank": 5,
+          "claude_summary": "상한가지만 외인 -47,755 매도. 양수급 룰 위반 — 통계적 비추.",
+          "claude_signals": [
+            "상한가 +29.17%",
+            "외인 매도(-47,755) / 기관 매수(+21,460) 혼조",
+            "HBM 테마 재차 부각",
+            "거래대금 847억"
+          ],
+          "narrative": "미래반도체는 삼성전자 반도체 대리점 + 메모리 AS센터 운영 기업. HBM/낸드 테마로 상한가 +29.17% 갔지만, 외인이 4.7만주 순매도하고 기관만 받은 구조라 양수급 룰엔 부합 안 해. HBM 모멘텀은 살아있는데 수급이 깔끔하지 않아서 단기 추격은 위험. 만약 진입한다면 -1.5% 눌림 대기 + 비중 절반.",
+          "entry": 39850,
+          "tp1": 40647,
+          "tp2": 41444,
+          "sl": 39053,
+          "entry_comment": "관망 또는 비중 절반",
+          "catalysts": [
+            "HBM4 하이브리드 본딩 테마",
+            "AI 메모리 수요 확대",
+            "낸드플래시 회복 기대"
+          ],
+          "risks": [
+            "외인 순매도",
+            "상한가 갭다운 룰",
+            "재료 단기 소진 가능성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 920,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 310,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "더팍스",
+              "count": 70,
+              "sentiment": 0.62
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[오전 이슈] HBM 테마… 미래반도체 등 부각",
+              "source": "파이낸셜뉴스",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 240,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "한온시스템",
+          "name": "한온시스템",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품",
+          "price": 5745,
+          "change_pct": 20.44,
+          "score_total": 44.8,
+          "score_reddit": 40.3,
+          "score_news": 68.7,
+          "score_trends": 45.0,
+          "score_options": 0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+20% 급등이지만 외인+기관 동시 매도. 개미만 받은 위험한 패턴.",
+          "claude_signals": [
+            "+20.44% 급등",
+            "외인 -1,275,236 대규모 매도",
+            "기관 -544,507 매도",
+            "거래대금 7,437억(폭증)"
+          ],
+          "narrative": "한온시스템은 자동차 열관리 시스템 1위. 1Q26 매출 2.7조/영업이익 972억 발표 + 한국타이어 인수 진행으로 +20% 급등했지만, 외인과 기관 모두 대규모로 던졌어. 거래대금 7,437억 폭증의 매수 주체는 개인. 가장 위험한 패턴이라 패스가 답. 펀더는 좋아도 수급 룰 어기면 진입 안 하는 게 백테스트 결론.",
+          "entry": 5745,
+          "tp1": 5859,
+          "tp2": 5974,
+          "sl": 5630,
+          "entry_comment": "관망 또는 비중 절반",
+          "catalysts": [
+            "1Q26 실적 호조",
+            "한국타이어 인수 진행",
+            "BNK증권 신규 커버"
+          ],
+          "risks": [
+            "외인+기관 동시 대규모 매도",
+            "개인 매수 비중 과다",
+            "인수합병 단기 모멘텀 소진"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 850,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 280,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "더팍스",
+              "count": 65,
+              "sentiment": 0.58
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한온시스템, 전동화 수혜로 유럽·국내 전기차 질주",
+              "source": "머니투데이",
+              "ago": "오늘"
+            },
+            {
+              "title": "한온시스템 1Q26 영업이익 972억",
+              "source": "한국경제",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 180,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "에이치브이엠",
+          "name": "에이치브이엠",
+          "sector": "비철금속",
+          "sector_full": "비철금속",
+          "price": 105000,
+          "change_pct": 16.8,
+          "score_total": 36.5,
+          "score_reddit": 42.8,
+          "score_news": 48.8,
+          "score_trends": 37.5,
+          "score_options": 25.5,
+          "quadrant": "hidden",
+          "claude_rank": 1,
+          "claude_summary": "⭐양수급 + NXT + 우주산업 장기 모멘텀. 오늘 1순위 진입 후보.",
+          "claude_signals": [
+            "양수급 ⭐ (F+39,706 I+22,804)",
+            "NXT 거래대상 ⭐⭐",
+            "우주산업 Tier 1 공급사",
+            "2공장 3,500억 캐파 추가"
+          ],
+          "narrative": "에이치브이엠은 고청정 진공용해 첨단금속 제조 기업이야. 스페이스X로 추정되는 미국 민간 우주기업 Tier 1 공급사 승인을 받았고, 2공장 가동으로 3,500억 추가 캐파를 확보 중. 차세대 발사체 양산 사이클 진입으로 장기 모멘텀이 살아있어. 오늘 +16.80%로 외인+기관 동시 순매수 + NXT 야간 거래까지 가능한 안정적 진입 후보. 시초가 -1% 눌림 분할 매수가 베스트.",
+          "entry": 105000,
+          "tp1": 107100,
+          "tp2": 109200,
+          "sl": 102900,
+          "entry_comment": "9:05 분할 진입, -1% 눌림 대기",
+          "catalysts": [
+            "스페이스X Tier 1 공급사 승인",
+            "2공장 가동 3,500억 캐파",
+            "우주 발사체 양산 사이클",
+            "특수합금 수요 확대"
+          ],
+          "risks": [
+            "우주산업 지연 가능성",
+            "단기 과열",
+            "소재 가격 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 410,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 150,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 35,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "에이치브이엠, 우주 발사체 양산과 함께 특수합금 수요 증가",
+              "source": "한국경제",
+              "ago": "1주일 전"
+            }
+          ],
+          "trend_surge_pct": 150,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "현대오토에버",
+          "name": "현대오토에버",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스",
+          "price": 643000,
+          "change_pct": 8.61,
+          "score_total": 36.2,
+          "score_reddit": 42.6,
+          "score_news": 86.0,
+          "score_trends": 70.0,
+          "score_options": 25.4,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "⭐양수급 + NXT + 대형주 안전성. 단 5/8 +30% 이후 추가 상승이라 비중 절반.",
+          "claude_signals": [
+            "양수급 ⭐ (F+82,560 I+51,643)",
+            "NXT 거래대상 ⭐⭐",
+            "거래대금 6,889억(대형주 상단)",
+            "5/8 +30% 후 연속 상승"
+          ],
+          "narrative": "현대오토에버는 현대차 그룹 IT/SDV(소프트웨어 정의 차량) 핵심사. 1Q26 매출 9,357억(+12.3% YoY) 발표 후 5/8 +29.97% 갭상승, 오늘 +8.61% 추가 상승. 외인+기관 동시 순매수가 깔끔하게 들어왔고 NXT 거래대상이라 야간 갭 위험도 낮아. 유진/KB증권 목표가 70만원, 컨센서스 56만원. 다만 단기 과열 신호 있으니 비중은 평소의 절반, 시초가 강세 시 -1% 눌림 대기.",
+          "entry": 643000,
+          "tp1": 655860,
+          "tp2": 668720,
+          "sl": 630140,
+          "entry_comment": "9:05 분할 진입, -1% 눌림 대기",
+          "catalysts": [
+            "1Q26 매출 +12.3% YoY",
+            "SDV·로보틱스 성장 스토리",
+            "외인+기관 동시 순매수",
+            "유진증권 목표가 70만원"
+          ],
+          "risks": [
+            "5/8 +30% 후 단기 과열",
+            "영업이익 -20.7% YoY",
+            "대형주 단기 변동성"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1820,
+              "sentiment": 0.88
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 520,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "더팍스",
+              "count": 130,
+              "sentiment": 0.8
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "현대오토에버 1Q26 매출 9,357억… SDV/로보틱스 성장 가속",
+              "source": "한국경제",
+              "ago": "3일 전"
+            },
+            {
+              "title": "유진투자증권, 현대오토에버 목표가 70만원 유지",
+              "source": "이데일리",
+              "ago": "3일 전"
+            }
+          ],
+          "trend_surge_pct": 280,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "로보티즈",
+          "name": "로보티즈",
+          "sector": "기계",
+          "sector_full": "기계",
+          "price": 379500,
+          "change_pct": 13.45,
+          "score_total": 35.9,
+          "score_reddit": 42.3,
+          "score_news": 36.3,
+          "score_trends": 52.5,
+          "score_options": 0,
+          "quadrant": "hidden",
+          "claude_rank": 2,
+          "claude_summary": "⭐양수급 + 휴머노이드 메가테마 + 액추에이터 100만개. 2순위 진입 추천.",
+          "claude_signals": [
+            "양수급 ⭐ (F+139,197 I+71,609)",
+            "외인 매수 압도적",
+            "휴머노이드 액추에이터 100만개 시대",
+            "거래대금 2,849억"
+          ],
+          "narrative": "로보티즈는 휴머노이드·로봇 액추에이터(관절) 핵심 기업. 2025년 매출 389억으로 흑자 전환, 2026년 매출·영업이익 2배 성장 전망. 액추에이터 주문량이 25년 40만개 → 26년 100만개 돌파 예상으로 공급 초과 상태. 중국 휴머노이드 7배 성장 모멘텀까지 더해져 외인이 강하게 들어왔고 기관도 동반 매수. 오늘 +13.45%로 양수급 룰 부합. 분할 진입 추천.",
+          "entry": 379500,
+          "tp1": 387090,
+          "tp2": 394680,
+          "sl": 371910,
+          "entry_comment": "9:05 분할 진입, -1% 눌림 대기",
+          "catalysts": [
+            "액추에이터 100만개 시대",
+            "중국 휴머노이드 7배 성장",
+            "외인 매수 압도적",
+            "AI Worker 양팔 휴머노이드 공개"
+          ],
+          "risks": [
+            "휴머노이드 단기 과열",
+            "액추에이터 가격 경쟁",
+            "중국 경쟁사 부상"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 740,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 240,
+              "sentiment": 0.76
+            },
+            {
+              "sub": "더팍스",
+              "count": 60,
+              "sentiment": 0.74
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "로보티즈, 액추에이터 100만개 시대… 휴머노이드 수요 확대 수혜",
+              "source": "뉴스핌",
+              "ago": "2주 전"
+            },
+            {
+              "title": "로보티즈, 범용 휴머노이드 전격 공개",
+              "source": "로봇신문",
+              "ago": "최근"
+            }
+          ],
+          "trend_surge_pct": 210,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "현대모비스",
+          "name": "현대모비스",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품",
+          "price": 559000,
+          "change_pct": 9.82,
+          "score_total": 30.9,
+          "score_reddit": 27.8,
+          "score_news": 36.5,
+          "score_trends": 20.0,
+          "score_options": 21.6,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "NXT + 기관 +222,138 강력 매수지만 외인 매도. 중장기 분할 매수만.",
+          "claude_signals": [
+            "NXT 거래대상 ⭐⭐",
+            "기관 +222,138 최대 매수",
+            "외인 -57,743 매도 (11일 연속 매수 끝)",
+            "대형주 안전성"
+          ],
+          "narrative": "현대모비스는 자동차 부품 1위 대형주. 1Q26 순이익 8,830억(YoY -14.4%)으로 실적은 부진했지만, 외인이 11일 연속 순매수를 이어오던 종목이야. 다만 오늘은 외인이 차익실현, 기관이 22만주 강력 매수로 받음. 27/0 강력매수 컨센서스에 대형 안전주. 단기 트레이드보다는 중장기 분할 매수 후보로 보면 돼. 양수급 아니라 데이트레이드 적합도 떨어짐.",
+          "entry": 559000,
+          "tp1": 570180,
+          "tp2": 581360,
+          "sl": 547820,
+          "entry_comment": "관망 또는 비중 절반",
+          "catalysts": [
+            "외인 11일 연속 매수 흐름",
+            "강력매수 컨센서스 27/0",
+            "기관 강력 매수",
+            "NXT 거래대상"
+          ],
+          "risks": [
+            "1Q26 순이익 -14.4% YoY",
+            "외인 매도 전환",
+            "대형주 변동성 제한"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 620,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 180,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 45,
+              "sentiment": 0.52
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "현대모비스, 외국인 11일 연속 순매수 행진",
+              "source": "한국경제",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 80,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "HB테크놀러지",
+          "name": "HB테크놀러지",
+          "sector": "디스플레이장비및부품",
+          "sector_full": "디스플레이장비및부품",
+          "price": 5080,
+          "change_pct": 5.18,
+          "score_total": 19.8,
+          "score_reddit": 17.8,
+          "score_news": 36.5,
+          "score_trends": 27.5,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "폴더블+유리기판 테마. 외인만 들어와 양수급 X. 관망.",
+          "claude_signals": [
+            "+5.18% 약한 상승",
+            "외인 +65,496 / 기관 -506",
+            "유리기판/폴더블 테마",
+            "거래대금 1,732억"
+          ],
+          "narrative": "HB테크놀러지는 삼성디스플레이 OLED AOI 90%+ 점유율 보유한 검사장비 1위. 폴더블 아이폰 + 유리기판 양산 테마로 매수세 유입됐지만, 오늘은 외인만 들어오고 기관은 0이라 양수급 아냐. 다른 후보들 대비 모멘텀 약함. 진입보다는 관망.",
+          "entry": 5080,
+          "tp1": 5181,
+          "tp2": 5283,
+          "sl": 4978,
+          "entry_comment": "관망 또는 비중 절반",
+          "catalysts": [
+            "폴더블 아이폰 테마",
+            "유리기판 양산 기대",
+            "OLED AOI 90%+ 점유율"
+          ],
+          "risks": [
+            "양수급 아님",
+            "거래대금 상대적 부족",
+            "단기 모멘텀 약화"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 380,
+              "sentiment": 0.66
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 120,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "더팍스",
+              "count": 30,
+              "sentiment": 0.58
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "HB테크놀러지, 차세대 디스플레이/AI 기술로 글로벌 시장 공략",
+              "source": "핀포인트뉴스",
+              "ago": "1주일 전"
+            }
+          ],
+          "trend_surge_pct": 110,
+          "options_detail": null
         }
       ]
     }
