@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-14
+// Updated: 2026-05-15
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-15",
+        "top_ticker": "로보스타",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-14",
         "top_ticker": "LG디스플레이",
@@ -16650,6 +16655,838 @@ window.__SCREENER_FEED__ = {
           "claude_rank": null,
           "claude_summary": null,
           "claude_signals": null
+        }
+      ]
+    },
+    "2026-05-15": {
+      "date": "2026-05-15",
+      "date_display": "2026-05-15 (금 마감 → 5/18(월) 한국장 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 28,
+      "market_summary": "약세장 (상승 377 vs 하락 2,242). KOSPI 평균 -2.47%, KOSDAQ -3.61%. 트럼프 이란 강경 발언으로 외인 매도 확대(KOSPI 외인 -56,043, 기관 -17,332). 그래도 로봇·반도체 테마 살아있고 상한가 8개. 5/18(월) 양수급 로보스타만 메인, 나머지는 시초 관망 후 진입.",
+      "sector_tilt": [
+        "도로와철도운송 (재개발 테마)",
+        "복합기업 (SK·LG)",
+        "기계 (로봇)"
+      ],
+      "top_ticker": "로보스타",
+      "candidate_count": 9,
+      "today_action": {
+        "one_liner": "약세장이지만 ⭐양수급 로보스타 1종목 + 거래대금 9,590억 1위 두산로보틱스 두 축으로 압축. 추격 절대 금지, 시초 5분 관망 후 눌림목만 노려라.",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "로보스타",
+            "text": "⭐양수급 유일. 시초 -1~2% 눌림 85,000원 진입, 손절 84,500"
+          },
+          {
+            "icon": "💎",
+            "ticker": "두산로보틱스",
+            "text": "거래대금 1위 + 엔비디아 모멘텀. NXT 야간 가능, 시초 121,000 눌림"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "LG디스플레이",
+            "text": "외인 +5.6조 폭풍매수 vs -9.84% 갭하락. 반등 확인 후만"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "미 증시 마감 + 트럼프/이란 주말 뉴스 확인",
+          "active": true
+        },
+        {
+          "time_kst": "08:40",
+          "time_et": "—",
+          "label": "환율/원-달러 1,400원 돌파 여부",
+          "key": false
+        },
+        {
+          "time_kst": "08:50",
+          "time_et": "—",
+          "label": "DART 주말 신규 공시 확인",
+          "key": false
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 5분 관망 절대 사수",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 매수 1차 (양수급 로보스타 우선)",
+          "key": false
+        },
+        {
+          "time_kst": "09:30",
+          "time_et": "—",
+          "label": "1차 손익 점검 / 손절 라인 재확인",
+          "key": false
+        },
+        {
+          "time_kst": "10:00",
+          "time_et": "—",
+          "label": "테마 강도 점검 (로봇/반도체)",
+          "key": false
+        },
+        {
+          "time_kst": "14:30",
+          "time_et": "—",
+          "label": "후반전 시작, 익절/추가 매수 판단",
+          "key": false
+        },
+        {
+          "time_kst": "15:20",
+          "time_et": "—",
+          "label": "동시호가 진입, 청산 준비",
+          "key": false
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "도로와철도운송",
+          "strength": 0.6666666666666666,
+          "ticker_count": 2
+        },
+        {
+          "name": "복합기업",
+          "strength": 0.6666666666666666,
+          "ticker_count": 2
+        },
+        {
+          "name": "기계",
+          "strength": 0.6666666666666666,
+          "ticker_count": 2
+        },
+        {
+          "name": "제약",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        },
+        {
+          "name": "반도체와반도체장비",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        },
+        {
+          "name": "디스플레이패널",
+          "strength": 0.3333333333333333,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "로보스타",
+          "reasoning": "오늘 유일한 ⭐양수급 종목. 외인+기관 동시 순매수 = 백테스트 검증된 유일 엣지. LG전자 로봇 액추에이터 협력 모멘텀 + 약세장 상대 강세.",
+          "signals": [
+            "⭐양수급(외인+기관 동시 매수)",
+            "LG전자 33.40% 최대주주",
+            "CES 2026 LG 액추에이터 부각",
+            "거래대금 ×3.2 폭증"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "두산로보틱스",
+          "reasoning": "거래대금 9,590억으로 압도적 1위. 기관 +71,985 강력 매수. 엔비디아 협업 + 북미 자동화. NXT 야간거래도 가능. 외인 차익실현 시작은 부담.",
+          "signals": [
+            "거래대금 9,590억 1위",
+            "기관 +71,985 매수",
+            "엔비디아 협업 + 휴머노이드",
+            "NXT 야간거래",
+            "1Q26 매출 +189.7% YoY"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "SK네트웍스",
+          "reasoning": "외인 +217,637 강력 매수 + 1Q 영업이익 +102.4% 호실적 + 흥국증권 목표가 8,200→10,000원 상향. 다만 기관 -199,496 매도와 충돌.",
+          "signals": [
+            "외인 +217,637 강력 매수",
+            "1Q 영업익 +102.4% YoY",
+            "흥국 목표가 1만원 상향",
+            "SK인텔릭스 실적 정상화"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "하나마이크론",
+          "reasoning": "DRAM +232.8% YoY 슈퍼사이클 본격. 4월 수출물가 28년 만의 최고. 마이크론 美 +15% 폭등 영향. 기관 +138,980 매수 강력. 외인 매도는 부담.",
+          "signals": [
+            "DRAM +232% YoY 슈퍼사이클",
+            "기관 +138,980 매수",
+            "마이크론 美 +15% 폭등",
+            "거래대금 6,513억"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "LG디스플레이",
+          "reasoning": "외인 +5.6조 단일종목 폭풍 매수(1위) + NXT + P/B 0.7배 저평가. 다만 -9.84% 갭하락은 추격 위험 → 반등 확인 후만 진입.",
+          "signals": [
+            "외인 +5,617,671 폭풍매수",
+            "NXT 야간거래",
+            "P/B 0.7배 저평가",
+            "OLED 매출 비중 60%",
+            "-9.84% 갭하락 주의"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "로보스타",
+          "reason": "약세장에서 유일하게 외인+기관 동시 매수. 거래대금 1,829억은 폭주 아니지만 양수급 시그널 + LG전자 모멘텀"
+        },
+        {
+          "ticker": "LG디스플레이",
+          "reason": "시장에서는 -9.84% 갭하락만 보지만 외인은 5.6조 규모로 매수 1위. 월요일 반등 확인 시 저평가 매수 기회"
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "동양고속",
+          "reason": "고터 재개발 테마로 +22.24%, 5연상 가까운 폭주. 지분 0.17%로 실질 수혜 미미, 단기 과열"
+        },
+        {
+          "ticker": "차백신연구소",
+          "reason": "40억 CB 발행 결정 + 외인 -188,460 강력 매도. 희석 우려로 -19.81% 폭등은 함정일 수 있음"
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "동양고속",
+          "name": "동양고속",
+          "sector": "도로와철도운",
+          "sector_full": "도로와철도운송",
+          "price": 68700,
+          "change_pct": 22.24,
+          "score_total": 69.6,
+          "score_reddit": 95,
+          "score_news": 50,
+          "score_trends": 95,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "서울고속버스터미널(반포) 부지 60층 초고층 주상복합 재개발 호재. 신세계센트럴/서울고속터미널 사전협상 착수 소식에 동반 급등. 동양고속은 터미널 지분 0.17%만 보유라 자산 가치 영향은 제한적이지만 테마주로 묶여 폭주. 5연상 가까운 흐름, 단기 과열 극심. 본업(고속버스)은 만년 적자라 펀더 무관.",
+          "entry": 66000,
+          "tp1": 70000,
+          "tp2": 74000,
+          "sl": 64000,
+          "entry_comment": "추격 금지, 눌림목 -3% 이상에서만 소액",
+          "catalysts": [
+            "고속버스터미널 부지 재개발 테마",
+            "서울시 사전협상 착수",
+            "연속 상한가 모멘텀"
+          ],
+          "risks": [
+            "지분 0.17%로 실질 수혜 미미",
+            "본업 적자 지속",
+            "단기 과열, 추격매수 위험",
+            "외인+기관 동시 순매도"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 228,
+              "sentiment": 0.9
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 76,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "더팍스",
+              "count": 57,
+              "sentiment": 0.8
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "동양고속, 고터 재개발 호재에 5연상 가까운 폭주",
+              "source": "뉴시스",
+              "ago": "장중"
+            },
+            {
+              "title": "오전 이슈 [토지 자산주] : 동양고속, 천일고속, 대성산업",
+              "source": "파이낸셜뉴스",
+              "ago": "2일 전"
+            }
+          ],
+          "trend_surge_pct": 2364.5,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "천일고속",
+          "name": "천일고속",
+          "sector": "도로와철도운",
+          "sector_full": "도로와철도운송",
+          "price": 349500,
+          "change_pct": 18.47,
+          "score_total": 64.7,
+          "score_reddit": 95,
+          "score_news": 50,
+          "score_trends": 95,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "서울고속버스터미널 지분 16.67% 보유(2대주주). 동양고속과 묶이는 핵심 자산주 테마. 동양고속보다 펀더는 좋지만 만년 적자 탈출 미지수. 변동성 극심, 일중 27%까지 흔들림.",
+          "entry": 335000,
+          "tp1": 360000,
+          "tp2": 380000,
+          "sl": 325000,
+          "entry_comment": "시초 5분 관찰 + 시가 -3% 눌림만",
+          "catalysts": [
+            "터미널 지분 16.67% 직접 수혜",
+            "자산 재평가 모멘텀",
+            "동양고속 연계 매수세"
+          ],
+          "risks": [
+            "본업 실적 부진",
+            "테마 휘발 시 급락",
+            "외인+기관 순매도"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 161,
+              "sentiment": 0.9
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 53,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "더팍스",
+              "count": 40,
+              "sentiment": 0.8
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "천일고속 다음은 동양고속? 5연상 불기둥",
+              "source": "이데일리",
+              "ago": "장중"
+            },
+            {
+              "title": "천일고속, 만년 적자 탈출 언제 가능할까",
+              "source": "다음",
+              "ago": "전월"
+            }
+          ],
+          "trend_surge_pct": 1210.7,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "SK네트웍스",
+          "name": "SK네트웍스",
+          "sector": "복합기업",
+          "sector_full": "복합기업",
+          "price": 8890,
+          "change_pct": 12.53,
+          "score_total": 60.0,
+          "score_reddit": 88,
+          "score_news": 80,
+          "score_trends": 76,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "외인 매수 +217,637(백만) + 1Q 호실적 +102.4% + 흥국 목표가 1만원 상향",
+          "claude_signals": [
+            "외인 +217,637 강력 매수",
+            "1Q 영업익 +102.4% YoY",
+            "흥국 목표가 8200→10,000",
+            "거래대금 5,723억"
+          ],
+          "narrative": "1Q 영업이익 334억원으로 전년 대비 +102.4% 폭증. 흥국증권 목표주가 8,200→10,000원 상향. SK인텔릭스 실적 정상화 + 정보통신/워커힐/스피드메이트 전 부문 성장. 외인 +217,637 강력 매수했지만 기관 -199,496 매도라 수급 엇갈림 주의.",
+          "entry": 8700,
+          "tp1": 9100,
+          "tp2": 9400,
+          "sl": 8700,
+          "entry_comment": "8,700원 지지 확인 후 분할",
+          "catalysts": [
+            "1Q 영업이익 +102.4% YoY",
+            "흥국 목표가 8200→10,000원",
+            "SK인텔릭스 정상화",
+            "2026E 영업익 +43.5%"
+          ],
+          "risks": [
+            "기관 -199,496 매도 대치",
+            "약세장 환경",
+            "대형주라 변동성 작음"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 572,
+              "sentiment": 0.81325
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 190,
+              "sentiment": 0.7784444444444445
+            },
+            {
+              "sub": "더팍스",
+              "count": 143,
+              "sentiment": 0.7505999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "SK네트웍스, 실적 호조에 재평가 지속…목표가 1만원으로 상향",
+              "source": "다음/흥국",
+              "ago": "오늘 08:13"
+            },
+            {
+              "title": "SK네트웍스, 1분기 영업익 334억..전년 대비 102.4%↑",
+              "source": "머니투데이",
+              "ago": "어제"
+            }
+          ],
+          "trend_surge_pct": 454.6,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "차백신연구소",
+          "name": "차백신연구소",
+          "sector": "제약",
+          "sector_full": "제약",
+          "price": 4445,
+          "change_pct": 19.81,
+          "score_total": 55.1,
+          "score_reddit": 95,
+          "score_news": 50,
+          "score_trends": 95,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "40억 규모 전환사채(CB) 발행 결정. 운영자금/R&D 사용. 희석 우려 vs 자금조달 호재 양분된 시각. 외인 -188,460 강력 매도가 위험 신호. 차백신은 만성 적자 바이오라 CB는 보통 악재.",
+          "entry": 4200,
+          "tp1": 4500,
+          "tp2": 4700,
+          "sl": 4100,
+          "entry_comment": "추격 금지, 외인 매도가 진정될 때까지 관망",
+          "catalysts": [
+            "40억 CB 발행 운영자금 확보",
+            "경영지배인 선임",
+            "거래대금 1,431억 폭증"
+          ],
+          "risks": [
+            "전환사채 희석 우려",
+            "외인 -188,460 강력 매도",
+            "바이오 만성 적자",
+            "19.81% 일중 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 143,
+              "sentiment": 0.9
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 47,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "더팍스",
+              "count": 35,
+              "sentiment": 0.8
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "차백신연구소, 40억 규모 전환사채 발행 결정",
+              "source": "한국경제",
+              "ago": "오늘 08:53"
+            },
+            {
+              "title": "차백신연구소, 40억원 규모 전환사채 발행...운영자금 조달",
+              "source": "블로터",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 820.0,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "두산로보틱스",
+          "name": "두산로보틱스",
+          "sector": "기계",
+          "sector_full": "기계",
+          "price": 123900,
+          "change_pct": 16.01,
+          "score_total": 46.3,
+          "score_reddit": 95,
+          "score_news": 80,
+          "score_trends": 95,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "거래대금 9,590억 압도적 1위, 엔비디아 협업 + 기관 강력 매수",
+          "claude_signals": [
+            "거래대금 9,590억 1위",
+            "기관 +71,985 (백만)",
+            "엔비디아 협업 모멘텀",
+            "NXT 야간거래 가능",
+            "1Q26 매출 +189.7% YoY"
+          ],
+          "narrative": "엔비디아 협업 발표(2027 지능형 솔루션, 2028 휴머노이드). 북미 자동화 ONExia 인수. 1Q26 매출 152.95억(+189.7% YoY), 영업손실 -120.69억으로 적자 축소(-165억→-121억). 외인은 차익실현(-87,357) 시작했지만 기관 +71,985 강력 매수. 거래대금 9,590억 압도적 1위.",
+          "entry": 121000,
+          "tp1": 127000,
+          "tp2": 130000,
+          "sl": 121000,
+          "entry_comment": "시초 -2% 눌림에서 1차, 손절 121,000 엄수",
+          "catalysts": [
+            "엔비디아 협업 → 2028 휴머노이드",
+            "ONExia 인수 북미 확장",
+            "1Q 매출 +189.7% YoY",
+            "거래대금 9,590억 1위",
+            "NXT 야간거래"
+          ],
+          "risks": [
+            "외인 -87,357 차익실현 시작",
+            "영업손실 지속",
+            "약세장에서 단기 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 959,
+              "sentiment": 0.9
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 319,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "더팍스",
+              "count": 239,
+              "sentiment": 0.8
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "알테오젠 vs LG씨엔에스 vs 두산로보틱스 공략법",
+              "source": "머니투데이",
+              "ago": "오늘 장중"
+            },
+            {
+              "title": "협동로봇서 피지컬 AI로 넓어진 두산로보틱스",
+              "source": "톱스타뉴스",
+              "ago": "어제"
+            },
+            {
+              "title": "두산로보틱스 1Q26 매출 +189.7% YoY",
+              "source": "KB증권",
+              "ago": "3일 전"
+            }
+          ],
+          "trend_surge_pct": 785.3,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "로보스타",
+          "name": "로보스타",
+          "sector": "기계",
+          "sector_full": "기계",
+          "price": 86400,
+          "change_pct": 6.93,
+          "score_total": 39.2,
+          "score_reddit": 71,
+          "score_news": 80,
+          "score_trends": 66,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "⭐양수급 유일! 외인+기관 동시 매수 + LG전자 로봇사업 협력 기대감",
+          "claude_signals": [
+            "⭐양수급(외인+기관 동시 순매수)",
+            "LG전자 로봇 액추에이터 협력 기대",
+            "거래대금 1,829억 (전일 대비 ×3.2)",
+            "CES 2026 LG 모멘텀"
+          ],
+          "narrative": "⭐오늘 유일한 양수급 종목(외인+기관 동시 순매수). LG전자(최대주주 33.40%)의 CES 2026 LG 액추에이터 악시움 공개 후 로봇 부품 협력 기대감 부각. 약세장에서 +6.93%로 상대적 강세, AmountGrowth ×3.2.",
+          "entry": 85000,
+          "tp1": 89000,
+          "tp2": 92000,
+          "sl": 84500,
+          "entry_comment": "⭐양수급, 1차 메인 베팅. 시초 5분 관찰 후 진입",
+          "catalysts": [
+            "⭐양수급(외인+기관 동시 매수)",
+            "LG전자 로봇 액추에이터 협력",
+            "CES 2026 LG 모멘텀",
+            "약세장 상대 강세"
+          ],
+          "risks": [
+            "LG전자 의존도 높음",
+            "거래대금 1,829억으로 폭주 아님",
+            "로봇 테마 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 182,
+              "sentiment": 0.67325
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 60,
+              "sentiment": 0.654
+            },
+            {
+              "sub": "더팍스",
+              "count": 45,
+              "sentiment": 0.6386000000000001
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 로보스타, 최대주주 LG전자 로봇 사업 부각",
+              "source": "이투데이",
+              "ago": "오늘 09:07"
+            }
+          ],
+          "trend_surge_pct": 320.3,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "하나마이크론",
+          "name": "하나마이크론",
+          "sector": "반도체와반도",
+          "sector_full": "반도체와반도체장비",
+          "price": 51800,
+          "change_pct": 16.14,
+          "score_total": 38.4,
+          "score_reddit": 95,
+          "score_news": 80,
+          "score_trends": 92,
+          "score_options": 30,
+          "quadrant": "hot",
+          "claude_rank": 4,
+          "claude_summary": "DRAM 가격 +232% YoY 슈퍼사이클 + 기관 +138,980 매수",
+          "claude_signals": [
+            "DRAM +232% YoY 슈퍼사이클",
+            "기관 +138,980 매수",
+            "거래대금 6,513억",
+            "반도체 모멘텀 지속"
+          ],
+          "narrative": "DRAM 가격 전월 +25%, 전년 +232.8% 폭등. 4월 수출물가지수 28년 만의 최고치(+40.8% YoY), 컴퓨터/전자/광학기기 +88.7%. 美 마이크론 +15% 폭등 영향. 기관 +138,980 강력 매수, 외인 -326,325 매도라 수급 충돌.",
+          "entry": 50500,
+          "tp1": 53500,
+          "tp2": 56000,
+          "sl": 50500,
+          "entry_comment": "외인 매도 부담 → 소량만",
+          "catalysts": [
+            "DRAM +232% YoY 슈퍼사이클",
+            "마이크론 +15% 미국 폭등",
+            "기관 +138,980 매수",
+            "4월 수출물가 28년 최고"
+          ],
+          "risks": [
+            "외인 -326,325 강력 매도",
+            "수급 충돌",
+            "반도체 가격 정점론 부담"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 651,
+              "sentiment": 0.9
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 217,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "더팍스",
+              "count": 162,
+              "sentiment": 0.8
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "하나마이크론 주가, 5월 15일 장중 52,000원 16.59% 상승",
+              "source": "중앙이코노미",
+              "ago": "오늘 장중"
+            },
+            {
+              "title": "DRAM 가격 +232% YoY, 수출물가 28년 만의 최고치",
+              "source": "EBN",
+              "ago": "오늘"
+            },
+            {
+              "title": "마이크론 15% 폭등, 월요일 30만전자 촉매제 되나",
+              "source": "뉴스1",
+              "ago": "5일 전"
+            }
+          ],
+          "trend_surge_pct": 654.4,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "LG",
+          "name": "LG",
+          "sector": "복합기업",
+          "sector_full": "복합기업",
+          "price": 126300,
+          "change_pct": 7.95,
+          "score_total": 32.5,
+          "score_reddit": 74,
+          "score_news": 50,
+          "score_trends": 81,
+          "score_options": 30,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "NXT 야간거래 대상. 기관 +106,831 매수, 외인 -87,460 매도. LG그룹 지주사로 변동성 작음. AI/로봇 사업 부각 기대.",
+          "entry": 124000,
+          "tp1": 128000,
+          "tp2": 131000,
+          "sl": 123500,
+          "entry_comment": "대형주, 변동성 작음 → 패스 권장",
+          "catalysts": [
+            "NXT 야간거래",
+            "기관 +106,831 매수",
+            "LG그룹 디스카운트 해소 기대"
+          ],
+          "risks": [
+            "외인 매도",
+            "대형주 변동성 제한",
+            "약세장"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 321,
+              "sentiment": 0.69875
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 107,
+              "sentiment": 0.6766666666666666
+            },
+            {
+              "sub": "더팍스",
+              "count": 80,
+              "sentiment": 0.659
+            }
+          ],
+          "news_headlines": [],
+          "trend_surge_pct": 508.2,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "LG디스플레이",
+          "name": "LG디스플레이",
+          "sector": "디스플레이패",
+          "sector_full": "디스플레이패널",
+          "price": 13830,
+          "change_pct": -9.84,
+          "score_total": 31.4,
+          "score_reddit": 20,
+          "score_news": 80,
+          "score_trends": 49,
+          "score_options": 30,
+          "quadrant": "overheat",
+          "claude_rank": 5,
+          "claude_summary": "외인 +5.6조 단일 종목 폭풍 매수 + NXT, 다만 -9.84% 갭하락 추격 위험",
+          "claude_signals": [
+            "외인 +5,617,671 폭풍매수 (단일 1위)",
+            "NXT 야간거래",
+            "P/B 0.7배 저평가",
+            "-9.84% 갭하락 주의"
+          ],
+          "narrative": "외인 +5,617,671(백만, 약 5.6조 노출) 단일종목 매수 1위 폭풍. 1Q26 매출 5.534조(-8.8% YoY), 영업익 1,467억 흑자(외환손실로 순손실 5,757억). OLED 매출 비중 60%(+5%p), 신규시설 1.106조 투자. 키움 BUY 16,000원 / P/B 0.7배. 다만 -9.84% 갭하락 추격은 위험.",
+          "entry": 13500,
+          "tp1": 14300,
+          "tp2": 14800,
+          "sl": 13400,
+          "entry_comment": "반등 확인(전일 종가 13,830 회복) 후만 진입",
+          "catalysts": [
+            "외인 +5.6조 폭풍매수 (단일 1위)",
+            "OLED 매출 비중 60%",
+            "1.1조 신규 시설 투자",
+            "키움 목표 16,000원, P/B 0.7",
+            "NXT 야간거래"
+          ],
+          "risks": [
+            "-9.84% 갭하락 추격 위험",
+            "외환손실 5,757억 순손실",
+            "약세장 디스플레이 업황 부담"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 537,
+              "sentiment": 0.254
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 179,
+              "sentiment": 0.2813333333333333
+            },
+            {
+              "sub": "더팍스",
+              "count": 134,
+              "sentiment": 0.3032
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "LG디스플레이 1Q 컨퍼런스콜: 난관 속 OLED 강점 부각",
+              "source": "Investing",
+              "ago": "전월"
+            },
+            {
+              "title": "LG디플, 비수기 뚫고 영업익 4배 껑충…순손실 확대는 숙제",
+              "source": "다음",
+              "ago": "전월"
+            }
+          ],
+          "trend_surge_pct": 117.9,
+          "options_detail": null
         }
       ]
     }
