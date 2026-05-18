@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-15
+// Updated: 2026-05-18
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-18",
+        "top_ticker": "레이저쎌",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-15",
         "top_ticker": "로보스타",
@@ -17487,6 +17492,970 @@ window.__SCREENER_FEED__ = {
           ],
           "trend_surge_pct": 117.9,
           "options_detail": null
+        }
+      ]
+    },
+    "2026-05-18": {
+      "date": "2026-05-18",
+      "date_display": "2026-05-18 (월 마감 → 화 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 28,
+      "market_summary": "검은 월요일. 뉴욕 금리 급등 충격에 KOSPI 매도 사이드카 발동(9:19)·7142까지 추락 후 개인·기관 매수로 7500선 회복. KOSPI -1.72%, KOSDAQ -1.51%. 외인 KOSPI 365억 순매도. 그래도 상한가 7건 + ⭐양수급 6개 확보. 우주항공·HBM·통신장비 라인 살아있음.",
+      "sector_tilt": [
+        "우주항공·국방",
+        "통신장비",
+        "반도체·HBM"
+      ],
+      "top_ticker": "레이저쎌",
+      "candidate_count": 15,
+      "today_action": {
+        "one_liner": "검은 월요일 사이드카 발동 후 회복. ⭐양수급 6개 확보, 핵심은 레이저쎌·센서뷰·에이치브이엠 (HBM+우주항공 라인). 추격 절대 금지, 시초 5분 관찰 후 분할 진입해.",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "레이저쎌",
+            "text": "14,000~14,200원 분할, 손절 13,950원 (-2%), TP 15,200/16,500"
+          },
+          {
+            "icon": "💎",
+            "ticker": "소룩스",
+            "text": "외인 +24.3만 강력에도 -7% 눌림, 반등 시 히든엣지"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "아이로보틱스",
+            "text": "5/21 불공시 지정 결정 D-2, 5/20까지만 단타 윈도우"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:45",
+          "time_et": "—",
+          "label": "글로벌 야간 흐름 확인 (나스닥/원달러)"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 진입 1차 (양수급 TOP 4 중 양호한 시초)"
+        },
+        {
+          "time_kst": "10:00",
+          "time_et": "—",
+          "label": "1차 익절·손절 라인 점검"
+        },
+        {
+          "time_kst": "13:30",
+          "time_et": "—",
+          "label": "외인·기관 수급 라이브 체크"
+        },
+        {
+          "time_kst": "15:20",
+          "time_et": "—",
+          "label": "종가 매도/홀딩 결정"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "우주항공·국방",
+          "strength": 0.92,
+          "ticker_count": 2
+        },
+        {
+          "name": "통신장비",
+          "strength": 0.85,
+          "ticker_count": 2
+        },
+        {
+          "name": "반도체·HBM",
+          "strength": 0.78,
+          "ticker_count": 1
+        },
+        {
+          "name": "비철금속·소재",
+          "strength": 0.74,
+          "ticker_count": 1
+        },
+        {
+          "name": "디스플레이장비",
+          "strength": 0.55,
+          "ticker_count": 1
+        },
+        {
+          "name": "손해보험",
+          "strength": 0.62,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학·로봇",
+          "strength": 0.7,
+          "ticker_count": 1
+        },
+        {
+          "name": "도로·철도(차익)",
+          "strength": 0.25,
+          "ticker_count": 2
+        },
+        {
+          "name": "제약·바이오",
+          "strength": 0.3,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "레이저쎌",
+          "reasoning": "HBM LSR 본딩 글로벌 표준 안착 + 외인+기관 동시 +9~10만 강력 매수. 통계적 엣지 보유.",
+          "signals": [
+            "⭐양수급",
+            "거래대금 697억",
+            "+25.68% 강세",
+            "대만 OSAT 31억"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "센서뷰",
+          "reasoning": "6G 빅사이클 + 퀄컴/스페이스X 공급망 + 양수급. 2026 흑전 가시화.",
+          "signals": [
+            "⭐양수급",
+            "6G 사이클",
+            "+19% 상승",
+            "거래대금 583억"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "에이치브이엠",
+          "reasoning": "우주항공 슈퍼알로이 + 양수급 + NXT. 920억 CB 부담 있지만 모멘텀 강.",
+          "signals": [
+            "⭐양수급",
+            "우주항공 모멘텀",
+            "NXT⭐⭐",
+            "+20.22%"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "스피어",
+          "reasoning": "켄코아 동조 우주항공주, 기관 +9.9만 강력 매수, NXT 거래대상.",
+          "signals": [
+            "⭐양수급 (기관 강력)",
+            "우주항공 동반",
+            "NXT⭐⭐",
+            "+12.26%"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "아이로보틱스",
+          "reasoning": "로봇 정책 모멘텀 + 외인 +15만 단독 매수, 단 5/21 공시 지정 결정 임박.",
+          "signals": [
+            "외인 단독 매수",
+            "로봇 행정명령 기대",
+            "⚠️ 5/21 공시 D-2",
+            "두산로보틱스 동조"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "소룩스",
+          "reason": "외인 +24.3만 강력 매수에도 -7% 하락 (전환청구권 오버행). 수급 회복 시 반등 가능."
+        },
+        {
+          "ticker": "현대해상",
+          "reason": "기관 +11.6만 강력 매수, 보험주 회피 분위기에 묻혀있음. 실적 가시성 높음."
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "켄코아에어로스페이스",
+          "reason": "+29.81% 상한가지만 외인+기관 동시 음매. 가두리 풀림 시 차익실현 압력."
+        },
+        {
+          "ticker": "아이로보틱스",
+          "reason": "+17.69% 강세지만 5/21 불공시 지정 결정 D-2. 5/20까지만 단타 윈도우."
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "아이로보틱스",
+          "name": "아이로보틱스",
+          "sector": "화학",
+          "sector_full": "화학",
+          "price": 3625,
+          "change_pct": 17.69,
+          "score_total": 63.8,
+          "score_reddit": 67,
+          "score_news": 55,
+          "score_trends": 95,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": 5,
+          "claude_summary": "로봇 테마 + 외인 매수 강력, 5/20까지만 단타 윈도우 (5/21 공시 D-2)",
+          "claude_signals": [
+            "외인 단독 +15.2만",
+            "로봇 산업 육성 행정명령 기대",
+            "두산로보틱스 동조",
+            "⚠️ 5/21 불공시 지정 결정"
+          ],
+          "narrative": "로봇주 강세장에 +17.69% 동반 상승. 트럼프 행정부 로봇 산업 육성 행정명령 검토 기대감 + 휴머노이드 시장 2035년 CAGR 77% 전망. 외인 +15.2만 단독 매수, 기관은 -1.9만 차익. 단, 4월 유증 철회로 불성실공시법인 지정 예고 → 5/21 지정 결정 임박. 단기 모멘텀은 좋지만 5/20까지만 단타 윈도우.",
+          "entry": 3570,
+          "tp1": 3842,
+          "tp2": 4168,
+          "sl": 3534,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "로봇 산업 육성 행정명령 기대",
+            "휴머노이드 시장 CAGR 77%",
+            "두산로보틱스 동조",
+            "외인 단독 매수"
+          ],
+          "risks": [
+            "⚠️ 5/21 불공시 지정 결정",
+            "유증 철회 신뢰도",
+            "단기 과열"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 138,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 83,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "더팍스",
+              "count": 55,
+              "sentiment": 0.5499999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "로봇 산업 육성 행정명령 기대감…아이로보틱스 +17%대 강세",
+              "source": "이데일리",
+              "ago": "장중"
+            },
+            {
+              "title": "아이로보틱스 불성실공시법인 지정 예고…5/21 결정",
+              "source": "네이트뉴스",
+              "ago": "4월"
+            }
+          ],
+          "trend_surge_pct": 1651,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "켄코아에어로스페이스",
+          "name": "켄코아에어로스페이스",
+          "sector": "우주항공과국",
+          "sector_full": "우주항공과국방",
+          "price": 25950,
+          "change_pct": 29.81,
+          "score_total": 55.3,
+          "score_reddit": 79,
+          "score_news": 55,
+          "score_trends": 95,
+          "score_options": 50,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "우주항공과국방 모멘텀 후보",
+          "claude_signals": [
+            "우주항공과국방",
+            "+29.8%"
+          ],
+          "narrative": "+29.81% 상한가. SpaceX/NASA/보잉/록히드마틴 공급망 보유. 美 조지아 생산기지 운영. 오늘이 1Q 실적 발표일과 겹쳐 시장 베팅 성공. 단, 외인·기관 둘 다 음매(-1.5만/-0.4만) → 개인 주도 상한가. 가두리 풀리면 차익실현 압력 강함. 추격 절대 금지.",
+          "entry": 25560,
+          "tp1": 27507,
+          "tp2": 29842,
+          "sl": 25301,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "1Q 실적 발표일",
+            "SpaceX/NASA/보잉 공급망",
+            "우주항공 테마 강세",
+            "상한가 모멘텀"
+          ],
+          "risks": [
+            "외인+기관 동시 순매도",
+            "가두리 풀림 우려",
+            "상한가 추격 위험"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 199,
+              "sentiment": 0.44999999999999996
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 119,
+              "sentiment": 0.35
+            },
+            {
+              "sub": "더팍스",
+              "count": 79,
+              "sentiment": 0.3
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "켄코아에어로스페이스 +29% 상한가…1Q 실적 기대",
+              "source": "이데일리",
+              "ago": "장중"
+            },
+            {
+              "title": "SpaceX/보잉 공급망 보유…우주항공 테마 부각",
+              "source": "한국경제",
+              "ago": "1주 전"
+            }
+          ],
+          "trend_surge_pct": 2613,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "소룩스",
+          "name": "소룩스",
+          "sector": "디스플레이장",
+          "sector_full": "디스플레이장비및부품",
+          "price": 5180,
+          "change_pct": -7.0,
+          "score_total": 52.0,
+          "score_reddit": 43,
+          "score_news": 75,
+          "score_trends": 71,
+          "score_options": 50,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "⭐양수급 후보",
+          "claude_signals": [
+            "디스플레이장비및부품",
+            "+-7.0%",
+            "⭐양수급"
+          ],
+          "narrative": "OLED·디스플레이 장비 업체. -7%이지만 외인+기관 동시 순매수(외인+24.3만 강력)로 ⭐양수급. 분기보고서 + 전환청구권 행사(제4회차) 동시 발표로 단기 오버행 우려가 하락 견인. 수급은 살아있어 반등 베팅 시 분할 접근.",
+          "entry": 5102,
+          "tp1": 5490,
+          "tp2": 5956,
+          "sl": 5050,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "⭐양수급 (외인 +24.3만 강력)",
+            "OLED·디스플레이 장비",
+            "분기보고서"
+          ],
+          "risks": [
+            "전환청구권 행사 오버행",
+            "디스플레이 업황 하강"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 85,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 51,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 34,
+              "sentiment": 0.6699999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "소룩스 분기보고서·전환청구권 행사 동시 공시",
+              "source": "DART",
+              "ago": "장중"
+            }
+          ],
+          "trend_surge_pct": 678,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "삼지전자",
+          "name": "삼지전자",
+          "sector": "통신장비",
+          "sector_full": "통신장비",
+          "price": 56800,
+          "change_pct": 14.4,
+          "score_total": 49.7,
+          "score_reddit": 64,
+          "score_news": 55,
+          "score_trends": 61,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "통신장비 모멘텀 후보",
+          "claude_signals": [
+            "통신장비",
+            "+14.4%"
+          ],
+          "narrative": "5G O-RU·광중계기·이차전지 종합 통신장비. 1Q 매출 +113%·영업이익 +1,240% 폭발적 실적. 5/15 +29.63% 상한가 이어 오늘 +14.4% 추격. 단, 기관 -8.3만 차익실현 시작 → 추격보다 눌림목 대기.",
+          "entry": 55948,
+          "tp1": 60208,
+          "tp2": 65319,
+          "sl": 55380,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "1Q 매출 +113%·영업이익 +1,240%",
+            "5G O-RU·광중계기",
+            "5/15 상한가 연속"
+          ],
+          "risks": [
+            "기관 차익실현 시작 (-8.3만)",
+            "2일 연속 급등 과열"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 122,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 73,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "더팍스",
+              "count": 48,
+              "sentiment": 0.5499999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼지전자 1Q 매출 +113%·영업이익 +1,240% 폭발",
+              "source": "한국경제",
+              "ago": "3일 전"
+            },
+            {
+              "title": "5G O-RU·광중계기 모멘텀…삼지전자 추격 상승",
+              "source": "이데일리",
+              "ago": "장중"
+            }
+          ],
+          "trend_surge_pct": 1232,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "CJ",
+          "name": "CJ",
+          "sector": "복합기업",
+          "sector_full": "복합기업",
+          "price": 171500,
+          "change_pct": -20.97,
+          "score_total": 46.5,
+          "score_reddit": 30,
+          "score_news": 75,
+          "score_trends": 58,
+          "score_options": 50,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "⭐양수급 후보",
+          "claude_signals": [
+            "복합기업",
+            "+-21.0%",
+            "⭐양수급"
+          ],
+          "narrative": "-20.97% 급락. CJ 본업 변동 없는데 외인+기관 동시 매수. 단순 수치 함정(권리락·배당락 가능성 농후). 분기보고서 외 특이 공시 없음. NXT⭐⭐ 거래대상이지만 오늘은 수급 신호만 거짓일 위험.",
+          "entry": 168927,
+          "tp1": 181790,
+          "tp2": 197224,
+          "sl": 167212,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "⭐양수급 (수치 함정 가능성)",
+            "복합기업 + NXT⭐⭐"
+          ],
+          "risks": [
+            "권리락·배당락 가능성 (단순 수치 함정)",
+            "수급 신호 거짓 위험"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 154,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 92,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 61,
+              "sentiment": 0.6699999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "CJ 권리락 가능성…-20% 급락",
+              "source": "추정",
+              "ago": "장중"
+            }
+          ],
+          "trend_surge_pct": 1745,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "동양고속",
+          "name": "동양고속",
+          "sector": "도로와철도운",
+          "sector_full": "도로와철도운송",
+          "price": 56000,
+          "change_pct": -14.89,
+          "score_total": 45.8,
+          "score_reddit": 36,
+          "score_news": 55,
+          "score_trends": 45,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "도로와철도운송 모멘텀 후보",
+          "claude_signals": [
+            "도로와철도운송",
+            "+-14.9%"
+          ],
+          "narrative": "고속버스 + 강남 토지 자산주. 5월 초 5연상 후 차익실현 본격화. 외인 -10.7만 강력 매도. 본업 만년 적자 → 자산주 테마 식으면 추세 하락. 매수 금물.",
+          "entry": 55160,
+          "tp1": 59360,
+          "tp2": 64399,
+          "sl": 54600,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "고터 재개발 테마(과거)",
+            "5연상 잔존 변동성"
+          ],
+          "risks": [
+            "외인 -10.7만 강력 매도",
+            "본업 만년 적자",
+            "5연상 차익 마무리"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 124,
+              "sentiment": 0.44999999999999996
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 74,
+              "sentiment": 0.35
+            },
+            {
+              "sub": "더팍스",
+              "count": 49,
+              "sentiment": 0.3
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "동양고속 -14.89% 차익실현…5연상 마무리",
+              "source": "이데일리",
+              "ago": "장중"
+            }
+          ],
+          "trend_surge_pct": 1211,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "레이저쎌",
+          "name": "레이저쎌",
+          "sector": "반도체와반도",
+          "sector_full": "반도체와반도체장비",
+          "price": 14340,
+          "change_pct": 25.68,
+          "score_total": 44.8,
+          "score_reddit": 75,
+          "score_news": 75,
+          "score_trends": 60,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "HBM 본딩 글로벌 표준 + 양수급 + +25.68%, 1순위 후보야",
+          "claude_signals": [
+            "양수급 ⭐ (외인+9.5만/기관+10.5만)",
+            "HBM LSR 본딩 글로벌 채택",
+            "거래대금 697억",
+            "대만 OSAT 31억 공급"
+          ],
+          "narrative": "HBM 차세대 LSR 본딩 글로벌 표준 안착. 대만 OSAT 31억 + 일본 기판 협상 진행 중. 안건준 대표 \"올해 매출 4배·흑전 원년\" 발언. 외인+기관 동시 매수(+9.5만/+10.5만) 강력 양수급. +25.68% 강세지만 거래대금 697억으로 변동성 큼 → 분할 진입.",
+          "entry": 14124,
+          "tp1": 15200,
+          "tp2": 16491,
+          "sl": 13981,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "⭐양수급 (외인+기관 +9~10만)",
+            "HBM LSR 본딩 글로벌 표준",
+            "대만 OSAT 31억 공급",
+            "대표 흑전 원년 발언"
+          ],
+          "risks": [
+            "+25.68% 변동성 큼",
+            "추격 매수 위험",
+            "거래대금 697억 가벼움"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 178,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 107,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 71,
+              "sentiment": 0.6699999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "레이저쎌 HBM LSR 본딩 글로벌 표준 안착…+25% 강세",
+              "source": "핀포인트뉴스",
+              "ago": "장중"
+            },
+            {
+              "title": "삼성전자 HBM4 출하 기대에 관련주 강세",
+              "source": "다음금융",
+              "ago": "1주 전"
+            }
+          ],
+          "trend_surge_pct": 2133,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "센서뷰",
+          "name": "센서뷰",
+          "sector": "통신장비",
+          "sector_full": "통신장비",
+          "price": 3570,
+          "change_pct": 19.0,
+          "score_total": 43.9,
+          "score_reddit": 69,
+          "score_news": 75,
+          "score_trends": 95,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "6G 사이클 + 양수급, 변동성 큰 만큼 분할 진입 필수",
+          "claude_signals": [
+            "양수급 ⭐ (외인+5.8만/기관+0.5만)",
+            "6G 빅사이클",
+            "퀄컴·스페이스X 공급망",
+            "+19% 상승"
+          ],
+          "narrative": "5G·6G 안테나/케이블/커넥터 + 퀄컴/스페이스X/엔비디아 공급사. 6G 빅사이클 수혜 + 2026년 민수 매출 285억(+74.8%) 흑전 가시화. 외인+기관 동시 매수(+5.8만/+0.5만). +19% 상승하지만 단가 3,570원으로 호가 갭 큼.",
+          "entry": 3516,
+          "tp1": 3784,
+          "tp2": 4105,
+          "sl": 3480,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "⭐양수급",
+            "6G 빅사이클",
+            "퀄컴·스페이스X 공급망",
+            "2026 흑전 가시화"
+          ],
+          "risks": [
+            "호가 갭 큼",
+            "단가 3,570원 저단가 변동성",
+            "외인 매도 시 즉시 손절"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 145,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 87,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 58,
+              "sentiment": 0.6699999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "센서뷰 6G 빅사이클 수혜…퀄컴 공급사 부각",
+              "source": "아시아경제",
+              "ago": "1주 전"
+            }
+          ],
+          "trend_surge_pct": 1789,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "에이치브이엠",
+          "name": "에이치브이엠",
+          "sector": "비철금속",
+          "sector_full": "비철금속",
+          "price": 117700,
+          "change_pct": 20.22,
+          "score_total": 42.7,
+          "score_reddit": 70,
+          "score_news": 75,
+          "score_trends": 57,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "우주항공 모멘텀 + 양수급, CB 920억 희석 부담만 주의",
+          "claude_signals": [
+            "양수급 ⭐ (외인+7만/기관+3만)",
+            "SpaceX 추정 슈퍼알로이 92억",
+            "우주산업 모멘텀",
+            "NXT⭐⭐"
+          ],
+          "narrative": "우주항공·반도체·방위 첨단금속 300+ 고객. SpaceX 추정 글로벌 민간 로켓社 슈퍼알로이 92억 공급계약. 외인+기관 동시 매수 ⭐. 단, 920억 CB 발행 결정 → 희석 부담 (당장 영향은 제한적). NXT⭐⭐.",
+          "entry": 115934,
+          "tp1": 124762,
+          "tp2": 135355,
+          "sl": 114757,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "⭐양수급",
+            "SpaceX 추정 슈퍼알로이 92억",
+            "우주항공 글로벌 협력",
+            "NXT⭐⭐"
+          ],
+          "risks": [
+            "920억 CB 희석 부담",
+            "비철금속 업황"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 151,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 90,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 60,
+              "sentiment": 0.6699999999999999
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "에이치브이엠 92억 슈퍼알로이 공급계약 체결",
+              "source": "이데일리",
+              "ago": "1주 전"
+            },
+            {
+              "title": "에이치브이엠 920억 CB 발행 결정",
+              "source": "DART",
+              "ago": "2주 전"
+            }
+          ],
+          "trend_surge_pct": 1681,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "현대해상",
+          "name": "현대해상",
+          "sector": "손해보험",
+          "sector_full": "손해보험",
+          "price": 38900,
+          "change_pct": 16.64,
+          "score_total": 40.5,
+          "score_reddit": 66,
+          "score_news": 55,
+          "score_trends": 61,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "손해보험 모멘텀 후보",
+          "claude_signals": [
+            "손해보험",
+            "+16.6%"
+          ],
+          "narrative": "보험주 1Q 실적 + 2026년 순이익 +28% 가이던스. 도수치료 관리급여 포함, 실손 평균 +7.8% 인상. 기관 +11.6만 강력 매수, 단 외인 -0.7만 매도. NXT⭐⭐ 거래대상.",
+          "entry": 38316,
+          "tp1": 41234,
+          "tp2": 44735,
+          "sl": 37927,
+          "entry_comment": "시초 5분 관찰 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "기관 +11.6만 강력 매수",
+            "2026 순익 +28% 가이던스",
+            "실손 평균 +7.8% 인상",
+            "NXT⭐⭐"
+          ],
+          "risks": [
+            "외인 매도 (-0.7만)",
+            "보험주 회피 분위기"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 133,
+              "sentiment": 0.44999999999999996
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 79,
+              "sentiment": 0.35
+            },
+            {
+              "sub": "더팍스",
+              "count": 53,
+              "sentiment": 0.3
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "현대해상 2026년 순이익 +28% 전망…커버리지 최고",
+              "source": "이데일리",
+              "ago": "장중"
+            },
+            {
+              "title": "실손보험료 평균 +7.8% 인상 결정",
+              "source": "한국경제",
+              "ago": "3일 전"
+            }
+          ],
+          "trend_surge_pct": 1410,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "천일고속",
+          "sector": "도로와철도운",
+          "sector_full": "도로와철도운송",
+          "price": 279000,
+          "change_pct": -15.58,
+          "score_total": 38.1,
+          "score_reddit": 35,
+          "score_news": 55,
+          "score_trends": 43,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "대기 리스트, 수급 약함"
+        },
+        {
+          "rank": 12,
+          "ticker": "차백신연구소",
+          "sector": "제약",
+          "sector_full": "제약",
+          "price": 3610,
+          "change_pct": -13.95,
+          "score_total": 35.2,
+          "score_reddit": 37,
+          "score_news": 55,
+          "score_trends": 44,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "대기 리스트, 수급 약함"
+        },
+        {
+          "rank": 13,
+          "ticker": "스피어",
+          "sector": "우주항공과국",
+          "sector_full": "우주항공과국방",
+          "price": 47150,
+          "change_pct": 12.26,
+          "score_total": 29.9,
+          "score_reddit": 62,
+          "score_news": 75,
+          "score_trends": 68,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": 4,
+          "claude_summary": "대기 리스트, ⭐양수급"
+        },
+        {
+          "rank": 14,
+          "ticker": "가온전선",
+          "sector": "전기장비",
+          "sector_full": "전기장비",
+          "price": 375000,
+          "change_pct": 10.78,
+          "score_total": 28.5,
+          "score_reddit": 60,
+          "score_news": 55,
+          "score_trends": 57,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "대기 리스트, 수급 약함"
+        },
+        {
+          "rank": 15,
+          "ticker": "와이지-원",
+          "sector": "기계",
+          "sector_full": "기계",
+          "price": 19420,
+          "change_pct": 10.15,
+          "score_total": 26.3,
+          "score_reddit": 60,
+          "score_news": 55,
+          "score_trends": 56,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "대기 리스트, 수급 약함"
         }
       ]
     }
