@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-18
+// Updated: 2026-05-19
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-19",
+        "top_ticker": "켄코아에어로스페이스",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-18",
         "top_ticker": "레이저쎌",
@@ -18456,6 +18461,791 @@ window.__SCREENER_FEED__ = {
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "대기 리스트, 수급 약함"
+        }
+      ]
+    },
+    "2026-05-19": {
+      "date": "2026-05-19",
+      "date_display": "2026-05-19 (화 마감 → 5/20 수요일 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 22,
+      "market_summary": "KOSPI 평균 -1.96%, KOSDAQ -1.80% 약세장. 외국인 1조원 가량 코스피 순매도로 지수 끌어내림. 반도체 대형주 -2%대 하락, 그 와중에 우주항공·방산만 외로운 강세. 후보 9개로 슬림, 켄코아만 외인+기관 동시 순매수 ⭐.",
+      "sector_tilt": [
+        "우주항공·방산",
+        "로봇",
+        "제약·진단"
+      ],
+      "top_ticker": "켄코아에어로스페이스 (274090) ⭐",
+      "candidate_count": 9,
+      "today_action": {
+        "one_liner": "약세장에서 ⭐양수급 켄코아가 유일한 통계적 엣지야. 우주항공·방산 컨셉 살아있고 거래대금 1위. 단 변동성 커서 분할 필수.",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "274090",
+            "text": "켄코아 27,200~27,800원 분할 진입, TP1 29,500 / SL 26,800"
+          },
+          {
+            "icon": "💎",
+            "ticker": "452280",
+            "text": "한선엔지니어링 기관 +290K 강매집, 비중 절반만"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "005500",
+            "text": "삼진제약 상한가지만 외인·기관 둘다 매도 → 추격 금지"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:50",
+          "time_et": "—",
+          "label": "스페이스X·록히드마틴·보잉 야간 동향 체크"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 진입 1차 (켄코아 우선)"
+        },
+        {
+          "time_kst": "10:30",
+          "time_et": "—",
+          "label": "외국인 매도 흐름 9일 연속 여부 체크"
+        },
+        {
+          "time_kst": "12:30",
+          "time_et": "—",
+          "label": "오전 마감 정리, TP1 도달시 분할 익절"
+        },
+        {
+          "time_kst": "14:30",
+          "time_et": "—",
+          "label": "동시호가 30분 전 포지션 정리"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "통신장비",
+          "strength": 0.67,
+          "ticker_count": 2
+        },
+        {
+          "name": "제약",
+          "strength": 0.33,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학",
+          "strength": 0.33,
+          "ticker_count": 1
+        },
+        {
+          "name": "우주항공과국방",
+          "strength": 0.33,
+          "ticker_count": 1
+        },
+        {
+          "name": "기계",
+          "strength": 0.33,
+          "ticker_count": 1
+        },
+        {
+          "name": "건강관리장비와용품",
+          "strength": 0.33,
+          "ticker_count": 1
+        },
+        {
+          "name": "전자장비와기기",
+          "strength": 0.33,
+          "ticker_count": 1
+        },
+        {
+          "name": "디스플레이장비및부품",
+          "strength": 0.33,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "274090",
+          "reasoning": "오늘 유일한 ⭐양수급, 거래대금 1위 (3,359억), 약세장에서 우주항공·방산 외로운 강세",
+          "signals": [
+            "외인+기관 동시 순매수 ⭐",
+            "거래대금 3,359억 (후보 1위)",
+            "스페이스X·NASA 컨셉"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "452280",
+          "reasoning": "상한가 + 기관 +290K 강매집. 외인 매도라 양수급 아님, 비중 절반만",
+          "signals": [
+            "상한가 ↑",
+            "기관 +290K 강매집",
+            "외인 매도라 비중 절반만"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "066430",
+          "reasoning": "로봇 테마 동반 급등, 거래대금 2,569억 (2위), 기관 매수 위주",
+          "signals": [
+            "로봇 테마 동반 (두산로보틱스 +17%)",
+            "거래대금 2,569억",
+            "기관 +125K 매수"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "005500",
+          "reasoning": "상한가지만 외인·기관 둘다 매도 → 추격 위험. 5/14 이후 단발 모멘텀 연장",
+          "signals": [
+            "상한가 ↑",
+            "아티반 공급 인수",
+            "수급 둘다 매도"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "142280",
+          "reasoning": "감염병 테마 2차 모멘텀. 5/12 +18% 이후 재상승. 1Q 흑자전환",
+          "signals": [
+            "한타바이러스·코로나 진단키트",
+            "5/12 이후 2차 모멘텀",
+            "1Q 흑자전환"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "274090",
+          "reason": "약세장 외인 매도세 속 유일한 ⭐양수급. 백테스트상 +0.75%/trade 통계 엣지 유일하게 충족"
+        },
+        {
+          "ticker": "066430",
+          "reason": "외인은 팔지만 기관 강매수, 로봇 테마 전체 흐름 동반. 거래대금 2,569억"
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "005500",
+          "reason": "5/14 상한가 후 추가 상한가지만 외인·기관 둘다 매도. 갭업 추격은 통계상 -2.11% 평균"
+        },
+        {
+          "ticker": "031330",
+          "reason": "-13% 급락에 거래대금 1,594억 동반, 외인·기관 모두 강매도. 반등 노림은 위험"
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "005500",
+          "name": "삼진제약",
+          "sector": "제약",
+          "sector_full": "제약",
+          "price": 24600,
+          "change_pct": 23.37,
+          "score_total": 70.1,
+          "score_reddit": 84.2,
+          "score_news": 77.2,
+          "score_trends": 91.2,
+          "score_options": 0,
+          "quadrant": "overheat",
+          "claude_rank": 4,
+          "claude_summary": "상한가지만 외인·기관 둘다 매도 → 추격 위험",
+          "narrative": "삼진제약은 일동제약이 40년 넘게 공급해 온 응급의약품 아티반(로라제팜) 주사제 공급을 인수받기로 했어. 5/14에 이어 5/19에도 상한가 직행. 다만 약가가 782원이라 수익성은 낮고, 외인·기관 둘다 매도라 통계상 추격은 위험해. 약세장 단발성 모멘텀으로만 접근.",
+          "entry": 24000,
+          "tp1": 26500,
+          "tp2": 28500,
+          "sl": 23500,
+          "entry_comment": "약세장 단발 모멘텀, -2% 눌림 대기",
+          "catalysts": [
+            "아티반(로라제팜) 주사제 공급 인수",
+            "응급의약품 필수의약품",
+            "5/14에 이어 추가 상한가"
+          ],
+          "risks": [
+            "외인·기관 둘다 매도",
+            "약가 782원 낮은 수익성",
+            "갭업 추격 위험"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 380,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 240,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "더팍스",
+              "count": 110,
+              "sentiment": 0.62
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼진제약이 상한가 간 진짜 이유…'782원 생명약' 구원자 역할",
+              "source": "바이오북미디어",
+              "ago": "5/14"
+            },
+            {
+              "title": "[급등락주 짚어보기] SK네트웍스·삼진제약 등 '上'",
+              "source": "네이트뉴스",
+              "ago": "5/14"
+            }
+          ],
+          "trend_surge_pct": 180,
+          "claude_signals": [
+            "+23.4% 급등",
+            "거래대금 804억",
+            "NXT ⭐⭐"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "066430",
+          "name": "아이로보틱스",
+          "sector": "화학",
+          "sector_full": "화학",
+          "price": 4670,
+          "change_pct": 16.75,
+          "score_total": 54.5,
+          "score_reddit": 65.4,
+          "score_news": 60.0,
+          "score_trends": 70.9,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": 3,
+          "claude_summary": "로봇 테마 동반 급등, 거래대금 2,569억, 기관 매수 위주",
+          "narrative": "로봇 테마 동반 급등. 두산로보틱스 +17%대 같이 가면서 '반도체 다음 주자' 컨셉으로 자금 들어왔어. 외인은 -168K 매도지만 기관 +125K 매수가 받쳐줬어. 거래대금 2,569억으로 후보 중 2위. 단 4월에 불성실공시법인 지정 예고가 있었던 점은 리스크.",
+          "entry": 4500,
+          "tp1": 5000,
+          "tp2": 5300,
+          "sl": 4400,
+          "entry_comment": "로봇 테마 흐름 따라 분할",
+          "catalysts": [
+            "로봇 테마 동반 급등 (두산로보틱스 +17%)",
+            "반도체 다음 주자 컨셉"
+          ],
+          "risks": [
+            "외인 매도 -168K",
+            "4월 불성실공시법인 지정 예고 이력"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 290,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 260,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 80,
+              "sentiment": 0.55
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "반도체 다음 주자 로봇주들 급등…두산로보틱스 +17%",
+              "source": "한경",
+              "ago": "오늘"
+            },
+            {
+              "title": "아이로보틱스, 4월 불성실공시법인 지정 예고",
+              "source": "네이트뉴스",
+              "ago": "4/24"
+            }
+          ],
+          "trend_surge_pct": 150,
+          "claude_signals": [
+            "+16.8% 급등",
+            "거래대금 2,569억",
+            "거래대금 폭증"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "274090",
+          "name": "켄코아에어로스페이스",
+          "sector": "우주항공과국방",
+          "sector_full": "우주항공과국방",
+          "price": 27850,
+          "change_pct": 7.32,
+          "score_total": 52.9,
+          "score_reddit": 63.5,
+          "score_news": 58.2,
+          "score_trends": 68.8,
+          "score_options": 0,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "양수급 ⭐ 유일, 우주항공 외로운 강세, 거래대금 1위 (3,359억)",
+          "narrative": "오늘의 ⭐양수급 1티어. 스페이스X·NASA·보잉·록히드마틴 고객사를 갖고 있고 미국 조지아 현지 생산법인 켄코아 USA를 보유. 약세장 외인 매도세 속에서 외인+기관 동시 순매수가 들어온 유일한 종목이야. 장중 VI 여러 차례 발동, 한때 +26.49%까지 갔다가 +7.32%로 마감. 스페이스X 상장 기대감 + 아르테미스 파트너 컨셉이 살아있어. 변동성은 크니까 분할 진입 필수.",
+          "entry": 27200,
+          "tp1": 29500,
+          "tp2": 31000,
+          "sl": 26800,
+          "entry_comment": "⭐양수급 우선순위, 시가 -2% 눌림 대기",
+          "catalysts": [
+            "스페이스X·NASA·보잉·록히드마틴 고객사",
+            "스페이스X 2026 상장 기대감",
+            "아르테미스 파트너",
+            "외인+기관 동시 순매수 ⭐"
+          ],
+          "risks": [
+            "변동성 큼 (한때 +26% → +7%)",
+            "VI 다수 발동",
+            "약세장 전체 동조 가능"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 520,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 420,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "더팍스",
+              "count": 160,
+              "sentiment": 0.78
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[속보] 켄코아에어로스페이스 VI 발동, 주가 장초반부터 급등",
+              "source": "CBC뉴스",
+              "ago": "오늘"
+            },
+            {
+              "title": "외인 '8일 연속 순매도'에 힘 잃은 코스피… 방산만 외로운 불기둥",
+              "source": "서울경제",
+              "ago": "오늘"
+            },
+            {
+              "title": "NASA 아르테미스 파트너 켄코아…스페이스X 상장 기대감",
+              "source": "머니투데이",
+              "ago": "6시간 전"
+            }
+          ],
+          "trend_surge_pct": 245,
+          "claude_signals": [
+            "외인+기관 동시 순매수 ⭐",
+            "거래대금 3,359억",
+            "거래대금 폭증"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "452280",
+          "name": "한선엔지니어링",
+          "sector": "기계",
+          "sector_full": "기계",
+          "price": 34700,
+          "change_pct": 24.6,
+          "score_total": 44.2,
+          "score_reddit": 53.0,
+          "score_news": 48.6,
+          "score_trends": 57.5,
+          "score_options": 0,
+          "quadrant": "overheat",
+          "claude_rank": 2,
+          "claude_summary": "상한가 + 기관 +290K 강매집, 외인 매도라 비중 절반만",
+          "narrative": "기계/측정·밸브·배관 부품주. 상한가 직행이면서 기관 +290K 강력 매집이 들어왔는데 외인은 -45K 매도. 양수급은 아니라 통계 엣지 약함. 시장 약세장 속 소외 중소형 컨셉 모멘텀으로 보여. 비중 절반만 잡고 손절 빠르게.",
+          "entry": 34000,
+          "tp1": 37500,
+          "tp2": 41500,
+          "sl": 33000,
+          "entry_comment": "기관 매집 동조, 비중 절반",
+          "catalysts": [
+            "상한가 + 기관 +290K 강매집",
+            "측정·밸브·배관 부품 모멘텀"
+          ],
+          "risks": [
+            "외인 매도 -45K",
+            "양수급 아님",
+            "갭업 추격 위험"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 140,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 90,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 35,
+              "sentiment": 0.48
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한선엔지니어링, 거래대금 급증하며 상한가",
+              "source": "인포스탁",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 95,
+          "claude_signals": [
+            "+24.6% 급등",
+            "거래대금 799억"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "142280",
+          "name": "녹십자엠에스",
+          "sector": "건강관리장비와용품",
+          "sector_full": "건강관리장비와용품",
+          "price": 4700,
+          "change_pct": 15.06,
+          "score_total": 38.8,
+          "score_reddit": 46.6,
+          "score_news": 42.7,
+          "score_trends": 50.5,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": 5,
+          "claude_summary": "감염병 테마 2차 모멘텀, 단발성 위주",
+          "narrative": "한타바이러스 집단감염 여파 지속 + 코로나19 관련주 부각으로 진단키트 수혜. 5/12에도 +18.28% 한번 갔다가 오늘 +15%로 2차 모멘텀. 1Q에 흑자전환 (당기순이익 2.2억) 펀더도 받쳐줘. 외인 매도지만 감염병 테마는 빠른 회전이 핵심이라 익절 빠르게.",
+          "entry": 4500,
+          "tp1": 5000,
+          "tp2": 5400,
+          "sl": 4400,
+          "entry_comment": "감염병 테마, 익절 빠르게",
+          "catalysts": [
+            "한타바이러스 집단감염 여파",
+            "감염병 진단키트 수혜",
+            "1Q 흑자전환 (당기순이익 2.2억)"
+          ],
+          "risks": [
+            "외인 매도 -119K",
+            "감염병 테마 단발성",
+            "공포 진정시 빠른 차익실현"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 210,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 150,
+              "sentiment": 0.6
+            },
+            {
+              "sub": "더팍스",
+              "count": 55,
+              "sentiment": 0.58
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "5월 12일 상승률 TOP20…녹십자엠에스 +18.28%",
+              "source": "한경유레카",
+              "ago": "5/12"
+            },
+            {
+              "title": "녹십자엠에스, 1Q 당기순이익 흑자전환…매출 235억",
+              "source": "디지털투데이",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 110,
+          "claude_signals": [
+            "+15.1% 급등",
+            "거래대금 759억"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "031330",
+          "name": "에스에이엠티",
+          "sector": "전자장비와기기",
+          "sector_full": "전자장비와기기",
+          "price": 16160,
+          "change_pct": -13.07,
+          "score_total": 35.5,
+          "score_reddit": 42.6,
+          "score_news": 39.1,
+          "score_trends": 46.2,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "narrative": "에스에이엠티는 전자장비와기기 섹터에서 오늘 -13.07% 등락을 보였어. 거래대금 1594억으로 자금 유입은 있지만 수급 경계 필요.",
+          "entry": 15500,
+          "tp1": 16500,
+          "tp2": 17500,
+          "sl": 14500,
+          "entry_comment": "-13% 급락, 반등 노림 차원",
+          "catalysts": [
+            "전자장비 약세, 거래대금 1,594억 동반"
+          ],
+          "risks": [
+            "외인·기관 모두 강매도",
+            "-13% 급락 후 추가 약세 가능"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 180,
+              "sentiment": 0.25
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 130,
+              "sentiment": 0.22
+            },
+            {
+              "sub": "더팍스",
+              "count": 40,
+              "sentiment": 0.3
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "에스에이엠티 거래대금 동반 등락",
+              "source": "인포스탁",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 70,
+          "claude_signals": [
+            "-13.1% 급락",
+            "거래대금 1,594억"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "037460",
+          "name": "삼지전자",
+          "sector": "통신장비",
+          "sector_full": "통신장비",
+          "price": 49150,
+          "change_pct": -12.85,
+          "score_total": 28.0,
+          "score_reddit": 33.7,
+          "score_news": 30.9,
+          "score_trends": 36.5,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "narrative": "삼지전자는 통신장비 섹터에서 오늘 -12.85% 등락을 보였어. 거래대금 761억으로 자금 유입은 있지만 수급 경계 필요.",
+          "entry": 47000,
+          "tp1": 50500,
+          "tp2": 53500,
+          "sl": 45500,
+          "entry_comment": "지분 변동 이슈, 추격 금지",
+          "catalysts": [
+            "주식등의 대량보유상황보고서(일반) 공시"
+          ],
+          "risks": [
+            "5%보유 공시로 지분 변동 이슈",
+            "-12.85% 급락"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 120,
+              "sentiment": 0.3
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 75,
+              "sentiment": 0.28
+            },
+            {
+              "sub": "더팍스",
+              "count": 25,
+              "sentiment": 0.32
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼지전자 거래대금 동반 등락",
+              "source": "인포스탁",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 55,
+          "claude_signals": [
+            "-12.8% 급락",
+            "거래대금 761억",
+            "공시 1건"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "290690",
+          "name": "소룩스",
+          "sector": "디스플레이장비및부품",
+          "sector_full": "디스플레이장비및부품",
+          "price": 6070,
+          "change_pct": 5.93,
+          "score_total": 25.6,
+          "score_reddit": 30.7,
+          "score_news": 28.2,
+          "score_trends": 33.3,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "narrative": "소룩스는 디스플레이장비및부품 섹터에서 오늘 +5.93% 등락을 보였어. 거래대금 1392억으로 자금 유입은 있지만 수급 경계 필요.",
+          "entry": 5800,
+          "tp1": 6300,
+          "tp2": 6700,
+          "sl": 5500,
+          "entry_comment": "CB발행 정정 부담, 단발",
+          "catalysts": [
+            "[기재정정] CB(전환사채권) 발행결정"
+          ],
+          "risks": [
+            "CB발행 → 희석 우려"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 95,
+              "sentiment": 0.35
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 60,
+              "sentiment": 0.32
+            },
+            {
+              "sub": "더팍스",
+              "count": 20,
+              "sentiment": 0.38
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "소룩스 거래대금 동반 등락",
+              "source": "인포스탁",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 40,
+          "claude_signals": [
+            "거래대금 1,392억",
+            "공시 2건"
+          ],
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "321370",
+          "name": "센서뷰",
+          "sector": "통신장비",
+          "sector_full": "통신장비",
+          "price": 3915,
+          "change_pct": 6.24,
+          "score_total": 25.3,
+          "score_reddit": 30.3,
+          "score_news": 27.8,
+          "score_trends": 32.8,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "narrative": "센서뷰는 통신장비 섹터에서 오늘 +6.24% 등락을 보였어. 거래대금 694억으로 자금 유입은 있지만 수급 경계 필요.",
+          "entry": 3800,
+          "tp1": 4100,
+          "tp2": 4400,
+          "sl": 3600,
+          "entry_comment": "IR + 신고서, 작은 관찰",
+          "catalysts": [
+            "[기재정정] 증권신고서(지분증권)",
+            "IR 개최"
+          ],
+          "risks": [
+            "증권신고서 → 추가 발행 가능"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.52
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 55,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "더팍스",
+              "count": 18,
+              "sentiment": 0.48
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "센서뷰 거래대금 동반 등락",
+              "source": "인포스탁",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 35,
+          "claude_signals": [
+            "거래대금 694억",
+            "공시 2건"
+          ],
+          "options_detail": null
         }
       ]
     }
