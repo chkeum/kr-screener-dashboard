@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-19
+// Updated: 2026-05-20
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-20",
+        "top_ticker": "진원생명과학",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-19",
         "top_ticker": "켄코아에어로스페이스",
@@ -19245,6 +19250,661 @@ window.__SCREENER_FEED__ = {
             "거래대금 694억",
             "공시 2건"
           ],
+          "options_detail": null
+        }
+      ]
+    },
+    "2026-05-20": {
+      "date": "2026-05-20",
+      "date_display": "2026-05-20 (수 마감 → 다음 거래일 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 28,
+      "market_summary": "KOSPI -2.27% / KOSDAQ -2.10% 동반 급락. 외인 KOSPI -2.93조 폭탄매도. 상승 388 / 하락 2,262 / 상한가 11개. 약세장 속 진단키트(+5/19 부각) + 5G 통신장비 + 로봇 테마 분기. ⭐양수급 3종목: 진원생명과학·이노인스트루먼트·이수화학. 다음 개장 시초가 5분 관찰 후 분할 진입 원칙.",
+      "sector_tilt": [
+        "진단키트",
+        "통신장비",
+        "화학"
+      ],
+      "top_ticker": "진원생명과학",
+      "candidate_count": 7,
+      "today_action": {
+        "one_liner": "찬현아, 오늘 시장 KOSPI -2.27%로 약세장이었지만 ⭐양수급 3종목(진원/이노/이수)이 살아남았어. 다음 개장 시초가 5분 관망 후 분할 진입해.",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "진원생명과학",
+            "text": "1,600원 눌림 분할 / 외인 290만주 매수 + 진단키트 테마"
+          },
+          {
+            "icon": "💎",
+            "ticker": "이수화학",
+            "text": "13,800원 눌림 / 양수급 중 가장 안정적, 화학섹터 반등"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "이노인스트루먼트",
+            "text": "상한가 다음날 갭다운 -2~3% 눌림에서만, 갭업 추격 금지"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:50",
+          "time_et": "—",
+          "label": "미증시 마감 + 환율 + 미 10년물 체크"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "진원생명과학 갭 확인 → 1차 분할"
+        },
+        {
+          "time_kst": "09:10",
+          "time_et": "—",
+          "label": "이수화학 13,800원 눌림 진입"
+        },
+        {
+          "time_kst": "11:30",
+          "time_et": "—",
+          "label": "TP1 도달시 절반 익절"
+        },
+        {
+          "time_kst": "13:30",
+          "time_et": "—",
+          "label": "오후장 추세 점검 / 로스컷 재확인"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "진단키트",
+          "strength": 0.85,
+          "ticker_count": 3
+        },
+        {
+          "name": "통신장비",
+          "strength": 0.78,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학",
+          "strength": 0.62,
+          "ticker_count": 1
+        },
+        {
+          "name": "전기제품(MLCC)",
+          "strength": 0.55,
+          "ticker_count": 1
+        },
+        {
+          "name": "기계/로봇",
+          "strength": 0.52,
+          "ticker_count": 1
+        },
+        {
+          "name": "생물공학",
+          "strength": 0.72,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "진원생명과학",
+          "reasoning": "양수급 ⭐ + 외인 290만주 폭증 매수 + 진단키트 테마 재점화 + CDMO 펀더",
+          "signals": [
+            "⭐양수급",
+            "외인 +2,902,163",
+            "진단키트 모멘텀",
+            "CDMO/DNA백신"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "이노인스트루먼트",
+          "reasoning": "양수급 ⭐ + 상한가 + 외인 35.8만주 강매수 / 단점: 상한가 다음날 갭 리스크",
+          "signals": [
+            "⭐양수급",
+            "상한가 +29.80%",
+            "통신장비 테마"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "이수화학",
+          "reasoning": "양수급 ⭐ + 화학섹터 반등 + 거래대금 1,496억, 가장 안정적",
+          "signals": [
+            "⭐양수급",
+            "외인 +371,411",
+            "기관 +70,235"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "제닉스로보틱스",
+          "reasoning": "쿠팡 3조원 로봇 자동화 + 거래대금 21배 폭증 / 단점: 기관 0 (양수급 미달)",
+          "signals": [
+            "거래대금 21배",
+            "쿠팡 로봇 모멘텀"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "삼화콘덴서",
+          "reasoning": "MLCC 펀더 + Score 1위지만 외인 -30,054 매도라 수급 디스카운트",
+          "signals": [
+            "MLCC 슈퍼사이클",
+            "iM증권 BUY 51,000원",
+            "외인 -30,054 (감점)"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "이수화학",
+          "reason": "양수급인데 거래대금/검색트렌드는 상대적으로 조용. 화학섹터 반등 흐름 타고 추가 상승 여력."
+        },
+        {
+          "ticker": "진원생명과학",
+          "reason": "주가 1,634원 저점대 + 외인 290만주 강매수, 시총 1,485억으로 가벼움."
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "이노인스트루먼트",
+          "reason": "상한가 + 거래대금 폭증. 백테스트상 상한가 다음날 추격은 평균 -2.11%. 갭업 진입 금지."
+        },
+        {
+          "ticker": "수젠텍",
+          "reason": "4월에 이미 +30% 상한가 친 이력 + 기관 -1 양수급 미달. 단발성 모멘텀 위험."
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "삼화콘덴서",
+          "name": "삼화콘덴서",
+          "sector": "전기제품",
+          "sector_full": "KOSPI / 전기제품",
+          "price": 78600,
+          "change_pct": 23.0,
+          "score_total": 54.5,
+          "score_reddit": 100,
+          "score_news": 90,
+          "score_trends": 75.0,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": 5,
+          "claude_summary": "MLCC 슈퍼사이클 + DC-Link 모멘텀, 단 외인 매도 디스카운트",
+          "claude_signals": [
+            "거래대금 2,195억",
+            "ChangesRatio +23.00%",
+            "외인 -30,054 (수급 불일치)"
+          ],
+          "narrative": "AI 서버용 MLCC 수요 폭증 + 현대차그룹 DC-Link Capacitor 탑재 확대로 iM증권 목표가 51,000원. 스크리너 Score 1위지만 외인 -30,054 매도라 양수급 아님. MLCC 테마 살아있을 때만 들어가, 시초가 추격 금지.",
+          "entry": 76000,
+          "tp1": 80000,
+          "tp2": 82000,
+          "sl": 74500,
+          "entry_comment": "76,000~77,000 눌림 대기, 시초가 추격 금지",
+          "catalysts": [
+            "MLCC 가격 인상 기대",
+            "DC-Link 매출 성장",
+            "AI 서버 수요"
+          ],
+          "risks": [
+            "외인 매도 (-30,054)",
+            "단기 급등 과열",
+            "테마 약화시 급락"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1280,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 540,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "더팍스",
+              "count": 320,
+              "sentiment": 0.66
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "MLCC 가격 상승 기대…삼화콘덴서 상한가 육박",
+              "source": "중앙이코노미",
+              "ago": "오늘"
+            },
+            {
+              "title": "iM증권, 목표가 51,000원 BUY",
+              "source": "iM증권",
+              "ago": "1주 전"
+            }
+          ],
+          "trend_surge_pct": 180,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "녹십자엠에스",
+          "name": "녹십자엠에스",
+          "sector": "건강관리장비와용품",
+          "sector_full": "KOSDAQ / 건강관리장비와용품",
+          "price": 6230,
+          "change_pct": 28.19,
+          "score_total": 51.3,
+          "score_reddit": 100,
+          "score_news": 90,
+          "score_trends": 85.0,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "1Q 흑전 + 진단키트 테마 부각, 단 신주인수권행사 부담",
+          "claude_signals": [
+            "+28.19% 상한가 근접",
+            "외인 +80,194",
+            "신주인수권행사 공시"
+          ],
+          "narrative": "녹십자엠에스가 1Q 당기순이익 흑자전환 + 5/19 진단키트 테마 부각으로 급등. 외인은 +80,194 매수했지만 기관 -3,233에 당일 신주인수권행사 공시까지 떠서 양수급 미달. 진단키트 모멘텀 살아있을 때 단기 트레이드만.",
+          "entry": 6100,
+          "tp1": 6500,
+          "tp2": 6800,
+          "sl": 5950,
+          "entry_comment": "6,100원 눌림 대기, 신주인수권 변수 주의",
+          "catalysts": [
+            "1Q 흑자전환",
+            "진단키트 테마",
+            "코로나 변이 재확산"
+          ],
+          "risks": [
+            "신주인수권행사 공시",
+            "기관 매도",
+            "테마 단기성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1850,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 720,
+              "sentiment": 0.62
+            },
+            {
+              "sub": "더팍스",
+              "count": 410,
+              "sentiment": 0.65
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "오후 이슈 [진단키트] 진원생명과학·녹십자엠에스 등",
+              "source": "파이낸셜뉴스",
+              "ago": "어제"
+            },
+            {
+              "title": "녹십자엠에스 1분기 당기순이익 흑자전환",
+              "source": "디지털투데이",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 220,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "이노인스트루먼트",
+          "name": "이노인스트루먼트",
+          "sector": "통신장비",
+          "sector_full": "KOSDAQ / 통신장비",
+          "price": 2265,
+          "change_pct": 29.8,
+          "score_total": 49.9,
+          "score_reddit": 100,
+          "score_news": 65,
+          "score_trends": 100,
+          "score_options": 0,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "코스닥 통신장비 상한가 + 외인 강매수, 양수급 ⭐",
+          "claude_signals": [
+            "상한가 +29.80%",
+            "외인 +358,377",
+            "기관 +424 (양수급)"
+          ],
+          "narrative": "코스닥 통신장비 대장주 상한가. 외인 35.8만주 강매수에 기관도 동반(+424)으로 양수급 성립. 5G/통신장비 테마 모멘텀. 다만 상한가 종목은 다음날 갭 리스크라 -2~3% 눌림에서 분할.",
+          "entry": 2200,
+          "tp1": 2400,
+          "tp2": 2600,
+          "sl": 2150,
+          "entry_comment": "갭다운 -2~3% 눌림 대기, 갭업 추격 금지",
+          "catalysts": [
+            "통신장비 테마",
+            "외인 강매수",
+            "5G 인프라"
+          ],
+          "risks": [
+            "상한가 후 갭다운",
+            "거래대금 폭증 단기성",
+            "변동성 큼"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 980,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 460,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 220,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "코스닥 통신장비 상한가 행진",
+              "source": "이데일리",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 380,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "진원생명과학",
+          "name": "진원생명과학",
+          "sector": "생물공학",
+          "sector_full": "KOSPI / 생물공학",
+          "price": 1634,
+          "change_pct": 19.62,
+          "score_total": 39.0,
+          "score_reddit": 100,
+          "score_news": 90,
+          "score_trends": 100,
+          "score_options": 0,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "외인 290만주 폭증 매수 + 진단키트 테마, Claude 1픽 ⭐",
+          "claude_signals": [
+            "외인 +2,902,163 (폭증)",
+            "기관 +39,523 (양수급)",
+            "진단키트 테마 부각"
+          ],
+          "narrative": "외국인이 290만주 폭증 매수, 기관도 +39,523 동반. CDMO(미 자회사 VGXI) + DNA백신 + 5/19 진단키트 테마 모멘텀이 합쳐졌어. 양수급 3종목 중 외인 매수 강도 압도적. 시초가 -1% 눌림에서 분할 진입.",
+          "entry": 1600,
+          "tp1": 1720,
+          "tp2": 1820,
+          "sl": 1580,
+          "entry_comment": "1,600~1,620원 눌림 분할, 시초가 +3% 이상 갭업이면 패스",
+          "catalysts": [
+            "진단키트 테마 재점화",
+            "외인 290만주 매수",
+            "CDMO 파이프라인",
+            "DNA백신"
+          ],
+          "risks": [
+            "바이오 변동성",
+            "테마 단기성",
+            "코로나 모멘텀 소진"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 2840,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 1120,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 580,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "오후 이슈 [진단키트] 진원생명과학·휴온스·녹십자엠에스",
+              "source": "파이낸셜뉴스",
+              "ago": "어제"
+            },
+            {
+              "title": "코로나 변이 재확산 우려…진단키트·백신株 줄줄이 상한가",
+              "source": "서울경제",
+              "ago": "이번주"
+            }
+          ],
+          "trend_surge_pct": 450,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "이수화학",
+          "name": "이수화학",
+          "sector": "화학",
+          "sector_full": "KOSPI / 화학",
+          "price": 14080,
+          "change_pct": 15.41,
+          "score_total": 37.0,
+          "score_reddit": 78.5,
+          "score_news": 65,
+          "score_trends": 53.8,
+          "score_options": 0,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "황 가격 상승 + 화학 섹터 반등, 양수급 ⭐ 안정형",
+          "claude_signals": [
+            "외인 +371,411",
+            "기관 +70,235 (양수급)",
+            "거래대금 1,496억"
+          ],
+          "narrative": "황 관련 화학 종목. 외인 37.1만주 + 기관 7만주 동반 매수로 양수급 3종목 중 가장 안정적. 거래대금도 1,496억으로 견고. 약세장에서 화학 섹터 반등 흐름이 일봉 깨지지 않으면 홀딩 가능.",
+          "entry": 13800,
+          "tp1": 14800,
+          "tp2": 15500,
+          "sl": 13500,
+          "entry_comment": "13,800~13,900원 눌림 대기",
+          "catalysts": [
+            "화학 섹터 반등",
+            "양수급 강세",
+            "황 가격"
+          ],
+          "risks": [
+            "원자재 가격 변동",
+            "약세장 동반 하락"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 620,
+              "sentiment": 0.58
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 280,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 150,
+              "sentiment": 0.58
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "이수화학 급등, 화학 섹터 반등 흐름",
+              "source": "이데일리",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 95,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "제닉스로보틱스",
+          "name": "제닉스로보틱스",
+          "sector": "기계",
+          "sector_full": "KOSDAQ / 기계",
+          "price": 11490,
+          "change_pct": 14.79,
+          "score_total": 34.9,
+          "score_reddit": 100,
+          "score_news": 65,
+          "score_trends": 100,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": 4,
+          "claude_summary": "쿠팡 로봇 자동화 3조 투자 모멘텀, 거래대금 21배 폭증",
+          "claude_signals": [
+            "거래대금 21배↑",
+            "외인 +40,889",
+            "기관 0 (양수급 미달)"
+          ],
+          "narrative": "쿠팡이 2026년까지 9개 풀필먼트센터에 3조원+ 투자, AI·로봇 자동화 핵심. AMHS 스토커 + AGV/AMR 전문기술. 거래대금 21배 폭증이 매력적이지만 기관 0이라 양수급 미달. 타이트하게.",
+          "entry": 11000,
+          "tp1": 12000,
+          "tp2": 12500,
+          "sl": 10700,
+          "entry_comment": "11,000~11,200원 눌림, 짧게 끊고 나오기",
+          "catalysts": [
+            "쿠팡 3조원 로봇 투자",
+            "물류 자동화 테마",
+            "AMHS 솔루션"
+          ],
+          "risks": [
+            "기관 미참여",
+            "단발성 가능",
+            "로봇 테마 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1450,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 680,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "더팍스",
+              "count": 320,
+              "sentiment": 0.63
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "쿠팡 로봇 자동화 3조원 투자 소식에 산업용 로봇 부각",
+              "source": "와이드경제",
+              "ago": "오늘"
+            }
+          ],
+          "trend_surge_pct": 310,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "수젠텍",
+          "name": "수젠텍",
+          "sector": "건강관리장비와용품",
+          "sector_full": "KOSDAQ / 건강관리장비와용품",
+          "price": 7630,
+          "change_pct": 15.08,
+          "score_total": 32.6,
+          "score_reddit": 100,
+          "score_news": 65,
+          "score_trends": 100,
+          "score_options": 0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "코로나 변이 재유행 + RBM 파트너십, 단 양수급 미달",
+          "claude_signals": [
+            "+15.08%",
+            "외인 +7,178",
+            "기관 -1 (양수급 미달)"
+          ],
+          "narrative": "4월에 시카다 변이로 한차례 +30% 상한가 친 전력. 캐나다 RBM과 전략적 파트너십 + 코로나 변이 재확산 모멘텀. 다만 기관 -1로 양수급 미달. 거래대금 1,653억으로 강하지만 단발성 가능.",
+          "entry": 7400,
+          "tp1": 7900,
+          "tp2": 8200,
+          "sl": 7200,
+          "entry_comment": "7,400원 눌림, 변이 뉴스 추가 없으면 단발성",
+          "catalysts": [
+            "코로나 변이 재유행",
+            "RBM 파트너십",
+            "진단키트 테마"
+          ],
+          "risks": [
+            "기관 미참여",
+            "테마 단기성",
+            "엔데믹 이후 펀더 약화"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 1620,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 720,
+              "sentiment": 0.62
+            },
+            {
+              "sub": "더팍스",
+              "count": 390,
+              "sentiment": 0.66
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "다시 불어닥친 감염병 진단·백신 테마풍…수젠텍 상한가",
+              "source": "다음",
+              "ago": "어제"
+            }
+          ],
+          "trend_surge_pct": 290,
           "options_detail": null
         }
       ]
