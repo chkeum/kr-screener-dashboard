@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-20
+// Updated: 2026-05-21
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-21",
+        "top_ticker": "LG전자",
+        "mood": "bullish"
+      },
       {
         "date": "2026-05-20",
         "top_ticker": "진원생명과학",
@@ -19906,6 +19911,1092 @@ window.__SCREENER_FEED__ = {
           ],
           "trend_surge_pct": 290,
           "options_detail": null
+        }
+      ]
+    },
+    "2026-05-21": {
+      "date": "2026-05-21",
+      "date_display": "2026-05-21 (목 마감 → 금요일 프리뷰)",
+      "market_mood": "bullish",
+      "market_mood_score": 88,
+      "market_summary": "KOSPI +8% 폭발 강세. 보스턴다이내믹스 IPO + LG 로봇 + 삼성 노사합의 + 미-이란 종전기대 + AI 메모리 등 5개 호재 복합. 17개 상한가 발생. KOSPI 기관 +2.9조 강매수 (외인 -0.22조). 로봇·피지컬AI 테마 LG전자(+29.83% 상한가) 대장주 부상.",
+      "sector_tilt": [
+        "반도체",
+        "기계(로봇)",
+        "전기장비",
+        "자동차부품"
+      ],
+      "top_ticker": "LG전자",
+      "candidate_count": 20,
+      "today_action": {
+        "one_liner": "KOSPI +8% 폭발 강세 (보스턴다이내믹스 IPO + LG로봇 + 삼성노사합의 + 이란종전 + AI메모리). 17개 상한가. 백테스트 엣지인 양수급 종목 위주로 진입하자 (LG, 한온시스템, SFA반도체).",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "LG (003550)",
+            "text": "진입 120,000~122,000원. 외인+기관 양수급, 시총 19조 안정형"
+          },
+          {
+            "icon": "💎",
+            "ticker": "이수화학 (005950)",
+            "text": "외인+기관 양수급 최대규모 ⭐⭐. 시총 4천억 변동성 주의"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "마키나락스 (477850)",
+            "text": "신규상장 따따블+상한가. 추격 절대 금지"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:50",
+          "time_et": "—",
+          "label": "야간 NXT 거래 모니터링 (LG/LG전자/현대모비스)",
+          "key": false
+        },
+        {
+          "time_kst": "08:55",
+          "time_et": "—",
+          "label": "미국장 마감 체크 (필라델피아 반도체)",
+          "key": false
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 5분 관망",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 진입 1차 (Claude TOP 3: LG, 한온시스템, SFA반도체)",
+          "key": false
+        },
+        {
+          "time_kst": "09:30",
+          "time_et": "—",
+          "label": "갭상승 +3% 이상 종목은 -1% 눌림 대기",
+          "key": false
+        },
+        {
+          "time_kst": "11:00",
+          "time_et": "—",
+          "label": "오전장 중간 점검 - 1차 익절 검토 (TP1 도달분)",
+          "key": false
+        },
+        {
+          "time_kst": "13:30",
+          "time_et": "—",
+          "label": "오후장 추세 확인 - 추격 매수 금지",
+          "key": false
+        },
+        {
+          "time_kst": "15:20",
+          "time_et": "—",
+          "label": "동시호가 진입 - 종가 매매 확정",
+          "key": false
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "🔔 장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "반도체",
+          "strength": 0.8,
+          "ticker_count": 4
+        },
+        {
+          "name": "기계(로봇)",
+          "strength": 0.6,
+          "ticker_count": 3
+        },
+        {
+          "name": "전기장비",
+          "strength": 0.6,
+          "ticker_count": 3
+        },
+        {
+          "name": "자동차부품",
+          "strength": 0.4,
+          "ticker_count": 2
+        },
+        {
+          "name": "전기제품",
+          "strength": 0.4,
+          "ticker_count": 2
+        },
+        {
+          "name": "전자제품",
+          "strength": 0.2,
+          "ticker_count": 1
+        },
+        {
+          "name": "AI소프트웨어",
+          "strength": 0.2,
+          "ticker_count": 1
+        },
+        {
+          "name": "지주사",
+          "strength": 0.2,
+          "ticker_count": 1
+        },
+        {
+          "name": "PCB/반도체장비",
+          "strength": 0.2,
+          "ticker_count": 1
+        },
+        {
+          "name": "IT서비스",
+          "strength": 0.2,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학",
+          "strength": 0.2,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "LG",
+          "reasoning": "LG 그룹 지주사 + 외인+기관 동시 양수급(전일) + 시총 19조 안정형. 로봇 그룹 전체 수혜 모회사 포지션이라 LG전자 변동성 헷지 가능. NXT 거래 가능.",
+          "signals": [
+            "양수급 ⭐",
+            "시총 19조 안정형",
+            "LG 그룹주",
+            "NXT ⭐"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "한온시스템",
+          "reasoning": "외인 +208,763 압도적 강매수(전일) + 자동차부품 섹터 동반 강세. 시총 5조 적정 사이즈. 현대모비스 옆에서 모비스 강세 수혜.",
+          "signals": [
+            "외인 강매수 ⭐",
+            "자동차부품 섹터",
+            "시총 5조"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "SFA반도체",
+          "reasoning": "외인+기관 양수급(전일) + 반도체 후공정 + 등락률 +15% 진정한 \"숨은 종목\". 시총 1.47조 적정 사이즈에 NXT 거래 가능.",
+          "signals": [
+            "양수급 ⭐",
+            "반도체 후공정",
+            "NXT ⭐"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "이수화학",
+          "reasoning": "외인 +394,052 + 기관 +232,181 합계 최대 양수급 규모. 화학 섹터 독자 강세라 시장 테마 차익실현 영향 최소. 시총 4,168억 소형주라 변동성 있음.",
+          "signals": [
+            "양수급 최대규모 ⭐⭐",
+            "독자 모멘텀",
+            "화학"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "산일전기",
+          "reasoning": "외인+기관 양수급(전일) + 변압기 수출주 (미국 전력망 수혜). 시총 8.45조 안정형.",
+          "signals": [
+            "양수급 ⭐",
+            "변압기 수출",
+            "시총 8.4조"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "이수화학",
+          "reason": "외인+기관 양수급 최대규모 (합계 626,233주). 화학 섹터 독자 강세로 시장 차익실현 영향 최소"
+        },
+        {
+          "ticker": "SFA반도체",
+          "reason": "외인+기관 양수급 + 등락률 +15.04%로 톱10 중 가장 진정한 '숨은 종목'. 시총 1.47조 적정 사이즈"
+        },
+        {
+          "ticker": "한온시스템",
+          "reason": "외인 +208,763 압도적 매수. 자동차부품 섹터 (현대모비스 옆) 동반 강세 + 시총 5조 안정형"
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "마키나락스",
+          "reason": "⚠️ 신규상장 2일 연속 상한가 (공모가 대비 +900% 수준). 백테스트 가장 위험한 패턴. 양매도(F-I 동시 매도) 신호"
+        },
+        {
+          "ticker": "LG전자",
+          "reason": "한 달 +88% 후 상한가. 상한가 다음날 갭하락 + 외인 -76,959 매도(전일) - 차익실현 압력"
+        },
+        {
+          "ticker": "현대모비스",
+          "reason": "외인 -318,602 대량 매도(전일). 시총 60조에서 단일일 +25% 비정상 (정상 BD IPO 호재 모멘텀 vs 차익실현 충돌)"
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "로보스타",
+          "name": "로보스타",
+          "sector": "기계(로봇)",
+          "sector_full": "기계(로봇) / 기계",
+          "price": 89600,
+          "change_pct": 27.45,
+          "score_total": 99.4,
+          "score_reddit": 82.9,
+          "score_news": 85.7,
+          "score_trends": 95,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "LG전자 자회사. 로봇 테마 풀가동. 외인+기관 양수급(전일) + 기관 5일 연속 순매수. 시총 8,700억으로 변동성 큼. 보스턴다이내믹스 IPO 일정 가시화될수록 모멘텀 강해질 가능성. 다만 LG전자가 흔들리면 동반 변동.",
+          "entry": 88256,
+          "tp1": 93184,
+          "tp2": 95872,
+          "sl": 86912,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "LG전자 자회사 로봇 테마 직접 수혜",
+            "기관 5일 연속 순매수",
+            "보스턴다이내믹스 IPO 모멘텀"
+          ],
+          "risks": [
+            "시총 8,700억 소형주 변동성",
+            "BD IPO 일정 지연 시 모멘텀 약화"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 219,
+              "sentiment": 0.8245
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 82,
+              "sentiment": 0.72875
+            },
+            {
+              "sub": "더팍스",
+              "count": 54,
+              "sentiment": 0.7995454545454546
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 로보스타, +27.4% 강세… 기계(로봇) 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 로보스타 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 219,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "LG전자",
+          "name": "LG전자",
+          "sector": "전자제품",
+          "sector_full": "전자제품 / 전자제품",
+          "price": 235000,
+          "change_pct": 29.83,
+          "score_total": 97.8,
+          "score_reddit": 85,
+          "score_news": 88.8,
+          "score_trends": 95,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "LG전자 +29.83% 상한가. 한 달 +88% 폭등한 로봇·AI 대장주. 보스턴다이내믹스 IPO 모멘텀 + LG 자체 로보틱스 신사업 + 1Q 호실적 + 삼성전자 노사합의·미이란 종전기대·AI메모리 등 5개 호재 복합. 시총 38조 대형주에 상한가는 이례적. 다만 한 달 +88% 후 상한가라 다음날 차익실현 압력 극대화. 외인은 전일 -76,959 매도로 일찍 차익실현 중.",
+          "entry": 231475,
+          "tp1": 244400,
+          "tp2": 251450,
+          "sl": 227950,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "로봇·AI 대장주 부상 (한 달 +88%)",
+            "하나증권 목표가 23만원 상향",
+            "1Q 영업이익 1.67조 (YoY +35%)",
+            "LG 그룹 로봇 사업 가속화"
+          ],
+          "risks": [
+            "단기 +88% 과열",
+            "상한가 다음날 차익실현 매물",
+            "외인 -76,959 매도(전일)"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 238,
+              "sentiment": 0.8483
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 89,
+              "sentiment": 0.7485833333333334
+            },
+            {
+              "sub": "더팍스",
+              "count": 59,
+              "sentiment": 0.8211818181818182
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] LG전자, +29.8% 강세… 전자제품 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 LG전자 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 238,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "티씨머티리얼즈",
+          "name": "티씨머티리얼즈",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / 전기장비",
+          "price": 9630,
+          "change_pct": 29.96,
+          "score_total": 94.5,
+          "score_reddit": 85,
+          "score_news": 88.9,
+          "score_trends": 95,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "전기장비/변압기 섹터. 미국 전력망 투자 + 데이터센터 전력수요 수혜 테마. 시총 3,374억 소형주라 변동성 크지만 거래대금 1,187억 폭증.",
+          "entry": 9485,
+          "tp1": 10015,
+          "tp2": 10304,
+          "sl": 9341,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "전기장비 섹터 동반 강세",
+            "변압기·전력기기 수출 호조",
+            "거래대금 1,187억 폭증"
+          ],
+          "risks": [
+            "상한가 다음날 갭하락 가능성",
+            "외인 -117,362 매도"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 239,
+              "sentiment": 0.8496000000000001
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 89,
+              "sentiment": 0.7496666666666667
+            },
+            {
+              "sub": "더팍스",
+              "count": 59,
+              "sentiment": 0.8223636363636364
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 티씨머티리얼즈, +30.0% 강세… 전기장비 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 티씨머티리얼즈 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 239,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "현대모비스",
+          "name": "현대모비스",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품 / 자동차부품",
+          "price": 670000,
+          "change_pct": 25.23,
+          "score_total": 89.7,
+          "score_reddit": 80.3,
+          "score_news": 82.8,
+          "score_trends": 92.8,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "시총 60조 초대형주가 +25.23% 급등. 보스턴다이내믹스 액츄에이터 독점공급 예상이 핵심. 삼성증권 목표가 65만원 (현재 67만원으로 이미 도달). 외인은 전일 -318,602 대량 매도 중이라 차익실현 신호 강해. NXT 거래로 야간 모니터링 가능.",
+          "entry": 659950,
+          "tp1": 696800,
+          "tp2": 716900,
+          "sl": 649900,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "보스턴다이내믹스 IPO 추진 핵심 수혜주",
+            "액츄에이터 공급 독점 예상",
+            "삼성증권 목표가 65만원",
+            "자율주행 신기술 50건 공개"
+          ],
+          "risks": [
+            "외인 -318,602 대량 매도 (전일)",
+            "BD IPO 시기 불확실"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 201,
+              "sentiment": 0.8023
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 75,
+              "sentiment": 0.71025
+            },
+            {
+              "sub": "더팍스",
+              "count": 50,
+              "sentiment": 0.7793636363636365
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 현대모비스, +25.2% 강세… 자동차부품 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 현대모비스 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 201,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "마키나락스",
+          "name": "마키나락스",
+          "sector": "AI소프트웨어",
+          "sector_full": "AI소프트웨어 / 소프트웨어",
+          "price": 78000,
+          "change_pct": 30.0,
+          "score_total": 89.3,
+          "score_reddit": 85,
+          "score_news": 89.0,
+          "score_trends": 95,
+          "score_options": 50.0,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "⚠️ 신규상장 2일 연속 상한가. 공모가 1.5만원 → 7.8만원 (+420%). 따따블+상한가 후 급락 사례 다수. 양매도(F-I 동시) 신호. 백테스트 가장 위험한 패턴 - 추격 절대 금지.",
+          "entry": 76830,
+          "tp1": 81120,
+          "tp2": 83460,
+          "sl": 75660,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "상장 2일째 연속 상한가 (공모가 대비 +900%)",
+            "엔터프라이즈 AI OS '런웨이' 보유",
+            "1Q 수주액 75억 (전년 대비 +2.8배)"
+          ],
+          "risks": [
+            "신규상장 변동성 극단적",
+            "양매도 (F-I 동시) 신호",
+            "차익실현 압력 극대화"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 240,
+              "sentiment": 0.8500000000000001
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 90,
+              "sentiment": 0.75
+            },
+            {
+              "sub": "더팍스",
+              "count": 60,
+              "sentiment": 0.8227272727272728
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 마키나락스, +30.0% 강세… AI소프트웨어 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 마키나락스 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 240,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "LG",
+          "name": "LG",
+          "sector": "지주사",
+          "sector_full": "지주사 / 복합기업",
+          "price": 123000,
+          "change_pct": 19.3,
+          "score_total": 87.9,
+          "score_reddit": 73.2,
+          "score_news": 75.1,
+          "score_trends": 84.0,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "LG 그룹 지주사 + 외인+기관 동시 양수급(전일) + 시총 19조 안정형. 로봇 그룹 전체 수혜 모회사 포지션이라 LG전자 변동성 헷지 가능. NXT 거래 가능.",
+          "claude_signals": [
+            "양수급 ⭐",
+            "시총 19조 안정형",
+            "LG 그룹주",
+            "NXT ⭐"
+          ],
+          "narrative": "LG 그룹 지주사. 외인+기관 양수급 ⭐ + 시총 19조 안정형. LG전자/LG화학/LG디스플레이/LG이노텍/로보스타 등 그룹 전체 수혜. LG전자가 흔들려도 충격 흡수력. NXT 거래로 야간 추세 확인 가능. Claude 판단 1위.",
+          "entry": 121155,
+          "tp1": 127920,
+          "tp2": 131610,
+          "sl": 119310,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "LG 그룹 지주사 - 로봇 그룹 전체 수혜",
+            "외인+기관 양수급 ⭐ (전일)",
+            "시총 19조 안정형"
+          ],
+          "risks": [
+            "지주사 디스카운트",
+            "로봇 테마 약화 시 동반 조정"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 154,
+              "sentiment": 0.7430000000000001
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 57,
+              "sentiment": 0.6608333333333334
+            },
+            {
+              "sub": "더팍스",
+              "count": 38,
+              "sentiment": 0.7254545454545456
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] LG, +19.3% 강세… 지주사 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 LG 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 154,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "에스피지",
+          "name": "에스피지",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / 전기제품",
+          "price": 125900,
+          "change_pct": 23.8,
+          "score_total": 83.3,
+          "score_reddit": 78.6,
+          "score_news": 80.9,
+          "score_trends": 90.7,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "감속기 제조사 (로봇 핵심부품). 외인 +90,097(전일) 매수했지만 기관 -96,726 강매도로 양상 엇갈림. 시총 2.79조.",
+          "entry": 124011,
+          "tp1": 130936,
+          "tp2": 134713,
+          "sl": 122123,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "감속기 제조사 - 로봇 핵심부품",
+            "외인 +90,097 매수(전일)"
+          ],
+          "risks": [
+            "기관 -96,726 강매도(전일)"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 190,
+              "sentiment": 0.788
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 71,
+              "sentiment": 0.6983333333333334
+            },
+            {
+              "sub": "더팍스",
+              "count": 47,
+              "sentiment": 0.7663636363636364
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 에스피지, +23.8% 강세… 전기제품 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 에스피지 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 190,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "제주반도체",
+          "name": "제주반도체",
+          "sector": "반도체",
+          "sector_full": "반도체 / 반도체와반도체장비",
+          "price": 117800,
+          "change_pct": 24.26,
+          "score_total": 83.2,
+          "score_reddit": 79.1,
+          "score_news": 81.5,
+          "score_trends": 91.4,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "제주반도체 +24.26%, 거래대금 9,451억 폭증. HBM/AI 메모리 테마 직접 수혜. 다만 외인+기관 동반 매도(전일)는 경계.",
+          "entry": 116033,
+          "tp1": 122512,
+          "tp2": 126046,
+          "sl": 114266,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "HBM·AI 메모리 기대감",
+            "거래대금 9,451억 폭증",
+            "시총 4조"
+          ],
+          "risks": [
+            "외인+기관 동반 매도(전일)"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 194,
+              "sentiment": 0.7926000000000001
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 72,
+              "sentiment": 0.7021666666666667
+            },
+            {
+              "sub": "더팍스",
+              "count": 48,
+              "sentiment": 0.7705454545454546
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 제주반도체, +24.3% 강세… 반도체 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 제주반도체 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 194,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "심텍",
+          "name": "심텍",
+          "sector": "PCB/반도체장비",
+          "sector_full": "PCB/반도체장비 / 전자장비와기기",
+          "price": 125500,
+          "change_pct": 21.14,
+          "score_total": 80.5,
+          "score_reddit": 75.4,
+          "score_news": 77.5,
+          "score_trends": 86.7,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "PCB 후공정. 반도체 동반 강세 + 기관 +106,685 강매수(전일). 외인은 -149,662로 엇갈림. NXT 거래.",
+          "entry": 123617,
+          "tp1": 130520,
+          "tp2": 134285,
+          "sl": 121735,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "PCB 후공정 강세",
+            "기관 +106,685 강매수(전일)"
+          ],
+          "risks": [
+            "외인 -149,662 대량 매도(전일)"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 169,
+              "sentiment": 0.7614000000000001
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 63,
+              "sentiment": 0.6761666666666667
+            },
+            {
+              "sub": "더팍스",
+              "count": 42,
+              "sentiment": 0.7421818181818183
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] 심텍, +21.1% 강세… PCB/반도체장비 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 심텍 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 169,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "SFA반도체",
+          "name": "SFA반도체",
+          "sector": "반도체",
+          "sector_full": "반도체 / 반도체와반도체장비",
+          "price": 8950,
+          "change_pct": 15.04,
+          "score_total": 80.1,
+          "score_reddit": 68.0,
+          "score_news": 69.6,
+          "score_trends": 77.6,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "외인+기관 양수급(전일) + 반도체 후공정 + 등락률 +15% 진정한 \"숨은 종목\". 시총 1.47조 적정 사이즈에 NXT 거래 가능.",
+          "claude_signals": [
+            "양수급 ⭐",
+            "반도체 후공정",
+            "NXT ⭐"
+          ],
+          "narrative": "반도체 후공정 OSAT. 외인+기관 양수급 ⭐ (전일) + 등락률 +15.04%로 톱10 중 가장 진정한 '숨은 종목'. 시총 1.47조 적정. NXT 거래.",
+          "entry": 8815,
+          "tp1": 9308,
+          "tp2": 9576,
+          "sl": 8681,
+          "entry_comment": "-1.5% 눌림 대기 → 분할 매수. 로스컷 -3%.",
+          "catalysts": [
+            "외인+기관 양수급 ⭐ (전일)",
+            "반도체 후공정",
+            "NXT 거래 가능"
+          ],
+          "risks": [
+            "시총 1.47조 적정 사이즈"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 120,
+              "sentiment": 0.7004
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 45,
+              "sentiment": 0.6253333333333333
+            },
+            {
+              "sub": "더팍스",
+              "count": 30,
+              "sentiment": 0.6867272727272727
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[특징주] SFA반도체, +15.0% 강세… 반도체 테마",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "코스피 8% 급등 속 SFA반도체 동반 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 120,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "LG씨엔에스",
+          "name": "LG씨엔에스",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / IT서비스",
+          "price": 80200,
+          "change_pct": 12.64,
+          "score_total": 77.0,
+          "score_reddit": 65.2,
+          "score_news": 66.4,
+          "score_trends": 74.0,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": []
+        },
+        {
+          "rank": 12,
+          "ticker": "현대무벡스",
+          "name": "현대무벡스",
+          "sector": "기계(로봇)",
+          "sector_full": "기계(로봇) / 기계",
+          "price": 38500,
+          "change_pct": 19.01,
+          "score_total": 76.6,
+          "score_reddit": 72.8,
+          "score_news": 74.7,
+          "score_trends": 83.5,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": []
+        },
+        {
+          "rank": 13,
+          "ticker": "이오테크닉스",
+          "name": "이오테크닉스",
+          "sector": "반도체",
+          "sector_full": "반도체 / 반도체와반도체장비",
+          "price": 549000,
+          "change_pct": 18.83,
+          "score_total": 75.8,
+          "score_reddit": 72.6,
+          "score_news": 74.5,
+          "score_trends": 83.2,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": []
+        },
+        {
+          "rank": 14,
+          "ticker": "이수화학",
+          "name": "이수화학",
+          "sector": "화학",
+          "sector_full": "화학 / 화학",
+          "price": 15850,
+          "change_pct": 12.57,
+          "score_total": 75.5,
+          "score_reddit": 65.1,
+          "score_news": 66.3,
+          "score_trends": 73.9,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": 4,
+          "claude_summary": "",
+          "claude_signals": [
+            "양수급 최대규모 ⭐⭐",
+            "독자 모멘텀",
+            "화학"
+          ]
+        },
+        {
+          "rank": 15,
+          "ticker": "산일전기",
+          "name": "산일전기",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / 전기장비",
+          "price": 276000,
+          "change_pct": 12.42,
+          "score_total": 75.4,
+          "score_reddit": 64.9,
+          "score_news": 66.1,
+          "score_trends": 73.6,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": 5,
+          "claude_summary": "",
+          "claude_signals": [
+            "양수급 ⭐",
+            "변압기 수출",
+            "시총 8.4조"
+          ]
+        },
+        {
+          "rank": 16,
+          "ticker": "LS머트리얼즈",
+          "name": "LS머트리얼즈",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / 전기제품",
+          "price": 22500,
+          "change_pct": 11.94,
+          "score_total": 73.3,
+          "score_reddit": 64.3,
+          "score_news": 65.5,
+          "score_trends": 72.9,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": []
+        },
+        {
+          "rank": 17,
+          "ticker": "로보티즈",
+          "name": "로보티즈",
+          "sector": "기계(로봇)",
+          "sector_full": "기계(로봇) / 기계",
+          "price": 303500,
+          "change_pct": 17.41,
+          "score_total": 73.0,
+          "score_reddit": 70.9,
+          "score_news": 72.6,
+          "score_trends": 81.1,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": []
+        },
+        {
+          "rank": 18,
+          "ticker": "한온시스템",
+          "name": "한온시스템",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품 / 자동차부품",
+          "price": 4835,
+          "change_pct": 11.02,
+          "score_total": 72.6,
+          "score_reddit": 63.2,
+          "score_news": 64.3,
+          "score_trends": 71.5,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": 2,
+          "claude_summary": "",
+          "claude_signals": [
+            "외인 강매수 ⭐",
+            "자동차부품 섹터",
+            "시총 5조"
+          ]
+        },
+        {
+          "rank": 19,
+          "ticker": "가온전선",
+          "name": "가온전선",
+          "sector": "전기장비",
+          "sector_full": "전기장비 / 전기장비",
+          "price": 409000,
+          "change_pct": 17.02,
+          "score_total": 72.4,
+          "score_reddit": 70.4,
+          "score_news": 72.1,
+          "score_trends": 80.5,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": []
+        },
+        {
+          "rank": 20,
+          "ticker": "엠케이전자",
+          "name": "엠케이전자",
+          "sector": "반도체",
+          "sector_full": "반도체 / 반도체와반도체장비",
+          "price": 34000,
+          "change_pct": 16.84,
+          "score_total": 72.3,
+          "score_reddit": 70.2,
+          "score_news": 71.9,
+          "score_trends": 80.3,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": []
         }
       ]
     }
