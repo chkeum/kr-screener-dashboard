@@ -8,7 +8,7 @@ window.__SCREENER_FEED__ = {
     "reports": [
       {
         "date": "2026-05-26",
-        "top_ticker": "빛과전자",
+        "top_ticker": "한국첨단소재",
         "mood": "bullish"
       },
       {
@@ -21007,34 +21007,35 @@ window.__SCREENER_FEED__ = {
     },
     "2026-05-26": {
       "date": "2026-05-26",
-      "date_display": "2026-05-26 (화 장중 스냅샷 → 잔여 장중·내일 프리뷰)",
+      "date_display": "2026-05-26 (화 마감 → 5/27 수요일 프리뷰)",
       "market_mood": "bullish",
-      "market_mood_score": 72,
-      "market_summary": "KOSPI/KOSDAQ 동반 +1.17% 강세. 상승 1,811 vs 하락 677로 광범위한 매수세. 외인 KOSPI +29.87억·KOSDAQ +20.40억, 기관 KOSPI +50.37억·KOSDAQ +7.45억 — 양 시장 외인+기관 동시 순매수. 상한가 4종목. 단, 이번 리포트는 09:52 KST 장중에 실행된 백업 스냅샷으로 후보 2개만 잡힘.",
+      "market_mood_score": 78,
+      "market_summary": "KOSPI 사상최고 8,100 돌파(장중 8,131). 상승 1,811 vs 하락 677로 압도적 매수우위, 상한가 4개. 엔비디아 광반도체 테마로 한국첨단소재·빛과전자 폭등, 삼화콘덴서 기관 8연속 매수로 +30% 상한가. ⭐ 양수급 종목 4개 확보(통계적 엣지 유효).",
       "sector_tilt": [
-        "AI MLCC",
-        "광통신·데이터센터",
-        "방산"
+        "통신장비",
+        "전기제품",
+        "IT서비스",
+        "우주항공과국방"
       ],
-      "top_ticker": "빛과전자",
-      "candidate_count": 2,
+      "top_ticker": "한국첨단소재",
+      "candidate_count": 13,
       "today_action": {
-        "one_liner": "장중 스냅샷 — 양수급 환경이라 분위기는 좋아. 빛과전자 외인 매집 우선, 아모텍 추격은 절대 금지하고 되돌림만 노려.",
+        "one_liner": "오늘은 양수급 ⭐ 4개 확보 + 광반도체/MLCC 테마 폭발이야. 시초 추격 절대 금지하고 -1% 눌림에서만 분할 진입해. 갭업 다음날 평균 -2.11% 통계 잊지 마.",
         "priorities": [
           {
             "icon": "🎯",
-            "ticker": "빛과전자",
-            "text": "7,000원 부근 분할 진입 · TP 7,400/7,800 · SL 6,900"
+            "ticker": "한국첨단소재",
+            "text": "광반도체 테마 1순위, 3,950원 눌림 분할 / 비중 15% 이내"
           },
           {
             "icon": "💎",
             "ticker": "빛과전자",
-            "text": "외인 +58억 단독 매집 · 광통신·데이터센터·방산 트리플 테마"
+            "text": "외인 581만주 폭매수 매집, 등락 낮아 진입부담 최저"
           },
           {
             "icon": "🚨",
-            "ticker": "아모텍",
-            "text": "+26% 폭등 + 외인·기관 동시 순매도 — 추격 금지, 23,500원 되돌림 대기"
+            "ticker": "아모텍·케이씨에스",
+            "text": "상한가지만 외인 매도 → 양매도 패턴, 진입 보류"
           }
         ]
       },
@@ -21042,243 +21043,901 @@ window.__SCREENER_FEED__ = {
         {
           "time_kst": "08:30",
           "time_et": "—",
-          "label": "Notion 리포트 + 대시보드 점검",
-          "active": false
+          "label": "미국장 마감 + Notion 리포트 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:50",
+          "time_et": "—",
+          "label": "진입 후보 3종 가격알람 설정"
         },
         {
           "time_kst": "09:00",
           "time_et": "—",
-          "label": "🔔 한국장 개장 · 관망 5분",
-          "key": true,
-          "active": false
+          "label": "🔔 한국장 개장 · 5분 관망",
+          "key": true
         },
         {
-          "time_kst": "09:52",
+          "time_kst": "09:05",
           "time_et": "—",
-          "label": "📍 현재 — 백업 스냅샷 실행",
-          "active": true
+          "label": "분할 진입 1차 (시초 추격 금지)"
         },
         {
-          "time_kst": "10:00",
+          "time_kst": "09:30",
           "time_et": "—",
-          "label": "빛과전자 7,000원 지지 확인",
-          "active": false
+          "label": "외인·기관 실시간 수급 재확인"
         },
         {
-          "time_kst": "11:00",
+          "time_kst": "12:30",
           "time_et": "—",
-          "label": "양수급 종목 추가 모니터링",
-          "active": false
+          "label": "점심 무렵 추세 점검"
         },
         {
           "time_kst": "14:00",
           "time_et": "—",
-          "label": "장 후반 모멘텀 점검",
-          "active": false
+          "label": "TP1 도달 시 50% 익절"
+        },
+        {
+          "time_kst": "15:20",
+          "time_et": "—",
+          "label": "마감 10분 전 포지션 정리 결정"
         },
         {
           "time_kst": "15:30",
           "time_et": "—",
-          "label": "장 마감 · 일지 작성",
-          "key": true,
-          "active": false
+          "label": "🔔 장 마감 · 일지 작성",
+          "key": true
         }
       ],
       "sectors": [
         {
-          "name": "AI MLCC",
-          "strength": 0.85,
-          "ticker_count": 1
+          "name": "통신장비",
+          "strength": 0.95,
+          "ticker_count": 3
         },
         {
-          "name": "광통신·5G",
-          "strength": 0.75,
-          "ticker_count": 1
+          "name": "전기제품",
+          "strength": 0.88,
+          "ticker_count": 3
         },
         {
-          "name": "방산",
-          "strength": 0.65,
+          "name": "IT서비스",
+          "strength": 0.82,
           "ticker_count": 2
+        },
+        {
+          "name": "우주항공과국방",
+          "strength": 0.75,
+          "ticker_count": 2
+        },
+        {
+          "name": "핸드셋",
+          "strength": 0.65,
+          "ticker_count": 1
+        },
+        {
+          "name": "복합기업",
+          "strength": 0.7,
+          "ticker_count": 1
+        },
+        {
+          "name": "기계",
+          "strength": 0.6,
+          "ticker_count": 1
         }
       ],
       "claude_ranking": [
         {
           "rank": 1,
-          "ticker": "빛과전자",
-          "reasoning": "외인 +58.2억 단독 강매수 + 광통신·데이터센터·방산 트리플 테마. +6.5%의 안정적 강세로 추격 가능 구간.",
+          "ticker": "한국첨단소재",
+          "reasoning": "양수급 ⭐ + 엔비디아 광반도체 테마 + 외인 118만주 매수",
           "signals": [
-            "외인 강매집",
-            "트리플 테마",
-            "거래대금 839억"
+            "양수급 ⭐",
+            "거래대금 1,042억",
+            "엔비디아 광반도체 수혜",
+            "3거래일 연속 강세"
           ]
         },
         {
           "rank": 2,
-          "ticker": "아모텍",
-          "reasoning": "+26.10% 폭발이지만 외인+기관 동시 순매도. 단기 모멘텀 최강이나 추격 위험 — 되돌림 대기.",
+          "ticker": "삼화콘덴서",
+          "reasoning": "양수급 ⭐ + 기관 8일 연속 매수 + MLCC 슈퍼사이클",
           "signals": [
-            "거래대금 575억",
-            "거래량 5.3배",
-            "⚠️ 양수급 미충족"
+            "양수급 ⭐",
+            "기관 8일 연속 매수",
+            "MLCC 슈퍼사이클",
+            "거래대금 2,423억"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "빛과전자",
+          "reasoning": "양수급 ⭐ + 외인 581만주 폭매수 + 광통신 직접관련주",
+          "signals": [
+            "양수급 ⭐",
+            "외인 +581만주(최대)",
+            "광통신 직접관련",
+            "등락 낮음(진입부담↓)"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "SK네트웍스",
+          "reasoning": "거래대금 1위 5,068억 + 실적 +102% 모멘텀 (기관 매도가 흠)",
+          "signals": [
+            "거래대금 5,068억(1위)",
+            "실적 +102%",
+            "외인 +34.8만주",
+            "기관 -8.3만주"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "삼화전기",
+          "reasoning": "양수급 ⭐ + 삼화콘덴서 동조 + 등락 낮아 안전형",
+          "signals": [
+            "양수급 ⭐",
+            "전기제품 동조",
+            "등락 +9.05% 안전형"
           ]
         }
       ],
       "hidden_edges": [
         {
           "ticker": "빛과전자",
-          "reason": "외인 단독 +58.2억 매집은 시장이 아직 발견 못한 모멘텀. 광통신+AI 데이터센터+방산 트리플 테마 융합."
+          "reason": "등락 +6.2%로 낮지만 외인 581만주 매집 → 매집 단계 추정"
+        },
+        {
+          "ticker": "삼화전기",
+          "reason": "양수급 ⭐인데 등락 +9% 수준 → 다음 사이클 대장주 가능성"
         }
       ],
       "overheated": [
         {
           "ticker": "아모텍",
-          "reason": "+26.10% 폭발 + 거래량 5.3배인데 외인/기관 모두 순매도. 차익 매물 회피 신호 — 추격 시 -10% 이상 손실 위험."
+          "reason": "상한가지만 외인-39.6만주+기관-4만주 양매도, 개인 추격매수 의존"
         }
       ],
       "tickers": [
         {
           "rank": 1,
-          "ticker": "빛과전자",
-          "name": "빛과전자",
+          "ticker": "한국첨단소재",
+          "name": "한국첨단소재",
           "sector": "통신장비",
-          "sector_full": "통신장비 / 광통신·5G·데이터센터",
-          "price": 7040,
-          "change_pct": 6.51,
-          "score_total": 26.9,
-          "score_reddit": 55,
-          "score_news": 70,
-          "score_trends": 87,
-          "score_options": 30,
-          "quadrant": "hidden",
+          "sector_full": "통신장비 / 광반도체·광통신",
+          "price": 4105,
+          "change_pct": 29.91,
+          "score_total": 52,
+          "score_reddit": 86,
+          "score_news": 92,
+          "score_trends": 71,
+          "score_options": 50,
+          "quadrant": "hot",
           "claude_rank": 1,
-          "claude_summary": "외인 +58억 단독 매수, 광통신·데이터센터·방산 트리플 테마. 안정적 +6.5% 마감.",
+          "claude_summary": "엔비디아 광반도체 테마 직격 + 양수급 ⭐ 3연속 상한가, 시초 추격 금지야",
           "claude_signals": [
-            "외인 +58.2억 강한 매집",
-            "광통신 + AI 데이터센터 + 방산",
-            "5/11 +16.73% 이력",
-            "거래대금 839억"
+            "양수급 ⭐",
+            "외인 +118만주",
+            "거래대금 1,042억",
+            "엔비디아 광반도체 수혜",
+            "3거래일 연속 강세"
           ],
-          "narrative": "빛과전자(라이트론)는 5G 기지국 광모듈과 유선 광가입자망 광모듈 주력 사업자야. 인도 시장 진출 가속화와 데이터센터용 광모듈 라인업 확장이 핵심 모멘텀이고, 방산사업본부 발족으로 사업 다각화 진행 중. 오늘 +6.51% 상승 + 외국인 단독 +58억 매수가 들어왔어 — 기관은 미미하지만 외인 단독 강매수도 통계적 엣지가 있는 신호야. 5월 11일 +16.73% 급등 이후 차분한 매집 흐름 → 안정적인 +5~10% 노릴 만함.",
-          "entry": 7000,
-          "tp1": 7400,
-          "tp2": 7800,
-          "sl": 6900,
-          "entry_comment": "시초가 5분 관망 후 7,000원 부근 분할 진입",
+          "narrative": "한국첨단소재는 광반도체·광통신 부품 기업으로, 젠슨 황의 \"광반도체\" 언급과 엔비디아의 미국 광통신 기업 투자 확대 보도가 직접 호재로 작용해 2거래일 연속 상한가 뒤 오늘도 +29.91% 상한가로 3연속 임박이야. 외국인 118만주 순매수에 기관도 동반(소액이지만 양수급 ⭐). 거래대금 1,042억으로 일일 거래대금 폭증. 광통신은 단기 테마가 아닌 AI 데이터센터 전환의 구조적 트렌드라는 게 컨센서스. 다만 3연상 직후라 시초 추격은 절대 금지 — 시가 5분 관찰 후 -1% 눌림 분할 매수만!",
+          "entry": 3950,
+          "tp1": 4400,
+          "tp2": 4700,
+          "sl": 3920,
+          "entry_comment": "시초 5분 관망 → -1% 눌림 분할 매수, 비중 15% 이내",
           "catalysts": [
-            "AI 데이터센터 광모듈 수요 확대",
-            "인도 시장 진출",
-            "방산사업본부 신설",
-            "5G 기지국 인프라"
+            "엔비디아 광반도체 언급",
+            "미국 광통신사 투자 확대",
+            "광통신 ETF 자금 유입",
+            "양수급 ⭐"
           ],
           "risks": [
-            "기관 수급 미미 (외인 단독)",
-            "광통신 업황 변동성",
-            "중국 업체 경쟁"
+            "3거래일 연속 상한가 → 갭다운 위험",
+            "단기 과열",
+            "갭업 다음날 평균 -2.11% 통계"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 580,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 220,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "더팍스",
+              "count": 95,
+              "sentiment": 0.78
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한국첨단소재, 연속 상한가 뒤 또 급등…엔비디아와 무슨 관련 있나",
+              "source": "와이드경제",
+              "ago": "4시간 전"
+            },
+            {
+              "title": "엔비디아 광반도체 테마 폭발, 광통신 관련주 일제 강세",
+              "source": "한국경제",
+              "ago": "6시간 전"
+            }
+          ],
+          "trend_surge_pct": 320,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "삼화콘덴서",
+          "name": "삼화콘덴서",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / MLCC·콘덴서",
+          "price": 132600,
+          "change_pct": 30.0,
+          "score_total": 51,
+          "score_reddit": 86,
+          "score_news": 95,
+          "score_trends": 65,
+          "score_options": 50,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "양수급 ⭐ + 기관 8일 연속 순매수 + AI MLCC 슈퍼사이클 = 백테스트 최강 엣지",
+          "claude_signals": [
+            "양수급 ⭐",
+            "기관 8일 연속 순매수",
+            "MLCC 슈퍼사이클",
+            "거래대금 2,423억",
+            "상한가"
+          ],
+          "narrative": "삼화콘덴서는 국내 MLCC 대표주로 오늘 +30% 상한가, 거래대금 2,423억(상위권). 무엇보다 기관이 8거래일 연속 순매수 행진을 이어왔고 외인도 동반(양수급 ⭐). AI 데이터센터 캐패시터 수요 폭증으로 MLCC 슈퍼사이클 진입 컨센서스 형성 중. 백테스트(v5) 기준 외인+기관 동시 순매수 종목은 평균 +0.75%/trade의 유일한 통계적 엣지를 보였는데, 본 종목이 그 조건에 정확히 부합해. 다음 거래일 시초 5분 관찰 후 130,000원 지지 확인 시 분할 진입 고려.",
+          "entry": 131000,
+          "tp1": 142000,
+          "tp2": 152000,
+          "sl": 130000,
+          "entry_comment": "시가 5분 관망 → 130,000 라인 지지 확인 후 분할, 비중 15% 이내",
+          "catalysts": [
+            "기관 8일 연속 순매수",
+            "MLCC 슈퍼사이클",
+            "AI 데이터센터 캐패시터 수요",
+            "양수급 ⭐"
+          ],
+          "risks": [
+            "상한가 직후 차익실현 매물",
+            "갭업 다음날 -2.11% 통계",
+            "단기 급등 부담"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 720,
+              "sentiment": 0.86
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 180,
+              "sentiment": 0.75
+            },
+            {
+              "sub": "더팍스",
+              "count": 110,
+              "sentiment": 0.8
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼화콘덴서, 기관 8일 연속 순매수행진... 주가 +24.22%",
+              "source": "뉴스핌",
+              "ago": "5시간 전"
+            },
+            {
+              "title": "삼화콘덴서 주가, 5월 26일 장중 127,600원 25.09% 상승",
+              "source": "톱스타뉴스",
+              "ago": "6시간 전"
+            }
+          ],
+          "trend_surge_pct": 280,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "아모텍",
+          "name": "아모텍",
+          "sector": "핸드셋",
+          "sector_full": "핸드셋 / EMC·BLDC 모터",
+          "price": 29600,
+          "change_pct": 29.82,
+          "score_total": 50,
+          "score_reddit": 86,
+          "score_news": 95,
+          "score_trends": 78,
+          "score_options": 50,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "+29.82% 상한가지만 외인+기관 동시 매도 → 진입 부적합, 관망",
+          "claude_signals": [
+            "상한가",
+            "거래대금 1,146억",
+            "⚠️ 외인 -39.6만주",
+            "⚠️ 기관 -4만주"
+          ],
+          "narrative": "아모텍은 EMC 부품 + BLDC 모터 제조사로 오늘 +29.82% 상한가. 다만 외인이 -39.6만주, 기관도 -4만주 동반 매도 → 양매도 패턴이야. 개인 매수세만으로 상한가 끌어올린 모양으로 백테스트상 가장 위험한 시그널. IBK증권 목표가 2만원 유지 중. 상한가지만 통계적 엣지 부족 → 관망 권고.",
+          "entry": 28000,
+          "tp1": 31500,
+          "tp2": 34000,
+          "sl": 27900,
+          "entry_comment": "양매도 종목 → 진입 보류 권고",
+          "catalysts": [
+            "상한가",
+            "전장 EMC 수요"
+          ],
+          "risks": [
+            "외인+기관 동반 매도",
+            "개인 추격매수 의존",
+            "백테스트상 통계 엣지 없음"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 320,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 140,
+              "sentiment": 0.48
+            },
+            {
+              "sub": "더팍스",
+              "count": 60,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "아모텍, BLDC 모터·EMC 부품 수요 기대",
+              "source": "IBK투자증권",
+              "ago": "8시간 전"
+            }
+          ],
+          "trend_surge_pct": 90,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "SK네트웍스",
+          "name": "SK네트웍스",
+          "sector": "복합기업",
+          "sector_full": "복합기업 / 정보통신·워커힐·렌터카",
+          "price": 10560,
+          "change_pct": 25.71,
+          "score_total": 50,
+          "score_reddit": 81,
+          "score_news": 95,
+          "score_trends": 79,
+          "score_options": 50,
+          "quadrant": "overheat",
+          "claude_rank": 4,
+          "claude_summary": "거래대금 5,068억 압도 + 외인 단독매수 + 실적호조 모멘텀 지속",
+          "claude_signals": [
+            "거래대금 1위",
+            "외인 +34.8만주",
+            "실적 +102%",
+            "⚠️ 기관 -8.3만주"
+          ],
+          "narrative": "SK네트웍스는 1분기 영업이익 +102% 호조와 SK인텔릭스·정보통신·워커힐 사업부 정상화 기대로 5/14~15 급등 후 오늘 +25.71% 재상승. 거래대금 5,068억으로 후보 중 압도적 1위. 흥국증권 목표가 1만원 상향. 외인 +34.8만주 매수했으나 기관이 -8.3만주 매도 → 양수급은 아님(4순위 우선순위). 시초 10,500원 부근 관망 → 10,300~10,400 분할 매수.",
+          "entry": 10350,
+          "tp1": 11300,
+          "tp2": 12000,
+          "sl": 10350,
+          "entry_comment": "시초 관망 → -1% 눌림 분할, 비중 10% 이내",
+          "catalysts": [
+            "1분기 영업이익 +102%",
+            "SK인텔릭스 정상화",
+            "흥국 목표가 1만원 상향",
+            "거래대금 최대"
+          ],
+          "risks": [
+            "기관 단독 매도",
+            "단기 급등 후 차익실현",
+            "외인만 단독"
           ],
           "reddit_sentiment_label": "긍정",
           "reddit_breakdown": [
             {
               "sub": "종토방",
-              "count": 120,
+              "count": 880,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 310,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 145,
+              "sentiment": 0.75
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "SK네트웍스, 실적 호조에 재평가 지속…목표가 1만원으로 상향-흥국",
+              "source": "다음 금융",
+              "ago": "11일 전"
+            },
+            {
+              "title": "SK네트웍스 \"2026년 영업이익 3배 달성 목표\"",
+              "source": "소비자경제",
+              "ago": "2주 전"
+            }
+          ],
+          "trend_surge_pct": 165,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "케이씨에스",
+          "name": "케이씨에스",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / 금융SI·보안솔루션",
+          "price": 20450,
+          "change_pct": 29.02,
+          "score_total": 50,
+          "score_reddit": 85,
+          "score_news": 89,
+          "score_trends": 73,
+          "score_options": 50,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "양자컴퓨팅 테마 재차 상한가, 외인 매도 -8.3만주는 부담",
+          "claude_signals": [
+            "상한가",
+            "거래대금 978억",
+            "양자컴 테마",
+            "⚠️ 외인 -8.3만주"
+          ],
+          "narrative": "케이씨에스는 금융SI·보안솔루션 기업으로 4월 16일 양자컴퓨팅 테마로 상한가 후, 오늘 재차 +29.02% 상한가. 엔비디아 양자 기술 발표 학습효과로 따라잡기 매수 분위기. 다만 양자컴 하드웨어 직접 보유 기업은 아니라 간접 연관. 외인 -8.3만주 매도, 기관 무행동 → 양수급 아님. 5순위 권고.",
+          "entry": 20000,
+          "tp1": 21900,
+          "tp2": 23500,
+          "sl": 19850,
+          "entry_comment": "시초 5분 관망 → 양자 모멘텀 지속 확인 시 소액 진입",
+          "catalysts": [
+            "양자컴퓨팅 테마",
+            "엔비디아 양자 기술 발표",
+            "IT보안 인증"
+          ],
+          "risks": [
+            "외인 매도",
+            "양자 직접 기술 부재",
+            "4월 상한가 후 조정 가능성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 410,
+              "sentiment": 0.75
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 200,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 80,
+              "sentiment": 0.72
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "케이씨에스 주가, 상한가... 왜?",
+              "source": "금강일보",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 180,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "나무기술",
+          "name": "나무기술",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / 클라우드·AI MLOps",
+          "price": 6250,
+          "change_pct": 24.01,
+          "score_total": 48,
+          "score_reddit": 79,
+          "score_news": 70,
+          "score_trends": 84,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "글로벌 ML 운영환경 수주 + 칵테일클라우드 모멘텀",
+          "claude_signals": [
+            "외인 +26.6만주",
+            "거래대금 596억",
+            "ML 수주 호재"
+          ],
+          "narrative": "나무기술은 가상화·클라우드·MLOps 전문 기업. 글로벌 제조사 S사의 ML 운영환경 중대형 확장 수주(2025-12) + 칵테일클라우드 라이선스 증설 모멘텀. 오늘 +24.01% VI 발동. 외인 +26.6만주 단독매수, 기관 무행동. AI 워크로드 폭증으로 클라우드 인프라 수요 구조적 성장.",
+          "entry": 6100,
+          "tp1": 6700,
+          "tp2": 7200,
+          "sl": 6125,
+          "entry_comment": "시초 추격 금지 → 6,000 눌림 대기",
+          "catalysts": [
+            "글로벌 S사 ML 수주",
+            "칵테일클라우드 라이선스",
+            "AI 클라우드 수요"
+          ],
+          "risks": [
+            "외인 단독 (기관 미참여)",
+            "소형주 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 350,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 150,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 65,
+              "sentiment": 0.74
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "[속보] 나무기술 VI 발동, 주가 19%↑",
+              "source": "CBC뉴스",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 220,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "켄코아에어로스페이스",
+          "name": "켄코아에어로스페이스",
+          "sector": "우주항공과국방",
+          "sector_full": "우주항공과국방 / 항공부품·NASA 파트너",
+          "price": 34000,
+          "change_pct": 19.3,
+          "score_total": 38,
+          "score_reddit": 73,
+          "score_news": 95,
+          "score_trends": 69,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "NASA 아르테미스·SpaceX·보잉 파트너, 거래대금 1,788억 양호",
+          "claude_signals": [
+            "거래대금 1,788억",
+            "NASA 파트너",
+            "외인 +1.6만주(소액)"
+          ],
+          "narrative": "켄코아에어로스페이스는 SpaceX·NASA·보잉 등 고객사 보유, NASA 아르테미스 프로그램 파트너. 오늘 장중 상한가 도달 후 +19.30%로 마감. 외인 +1.6만주 소액 매수, 기관 미참여. 우주항공 테마 갤러리 분위기 양호. 33,000원 지지 확인 후 분할 진입 고려.",
+          "entry": 33500,
+          "tp1": 36000,
+          "tp2": 38500,
+          "sl": 33320,
+          "entry_comment": "시초 관망 → 33,000 지지 확인 후 진입",
+          "catalysts": [
+            "NASA 아르테미스 파트너",
+            "SpaceX/보잉 고객사",
+            "우주항공 테마"
+          ],
+          "risks": [
+            "수급 양호하지 않음",
+            "단기 급등 부담"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 380,
+              "sentiment": 0.74
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 160,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 70,
+              "sentiment": 0.72
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "켄코아에어로스페이스 주가, 5월 26일 장중 한때 상한가 33,800원 18.60% 상승",
+              "source": "중앙이코노미뉴스",
+              "ago": "7시간 전"
+            }
+          ],
+          "trend_surge_pct": 145,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "제닉스로보틱스",
+          "name": "제닉스로보틱스",
+          "sector": "기계",
+          "sector_full": "기계 / 스마트항만 AGV·로봇",
+          "price": 13710,
+          "change_pct": 17.48,
+          "score_total": 35,
+          "score_reddit": 71,
+          "score_news": 70,
+          "score_trends": 67,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "거래량 11.4배 폭증 + 스마트항만 면허 취득, 변동성 큰 신규 테마",
+          "claude_signals": [
+            "거래량 11.4배",
+            "외인 +5.1만주",
+            "스마트항만 AGV"
+          ],
+          "narrative": "제닉스로보틱스(Clean AGV)는 스마트항만 사업 면허 취득 후 본격 진입 준비 중. 오늘 +17.48%, 거래량 11.4배 폭증. 외인 +5.1만주 매수, 기관 미참여. 스마트항만 AGV 시장 2022~2026 1.2조원 → 2027~2031 3.9조원 전망. 다만 신규 테마라 변동성 크고 따라잡기 매수 주의.",
+          "entry": 13500,
+          "tp1": 14700,
+          "tp2": 16000,
+          "sl": 13435,
+          "entry_comment": "시초 관망 → 변동성 큰 신규 테마, 소액만",
+          "catalysts": [
+            "스마트항만 면허 취득",
+            "AI 관제 플랫폼",
+            "글로벌 스마트팩토리"
+          ],
+          "risks": [
+            "거래량 폭증 후 급락 위험",
+            "신규 테마 변동성",
+            "기관 미참여"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 240,
               "sentiment": 0.62
             },
             {
               "sub": "DC주식갤",
-              "count": 45,
+              "count": 110,
               "sentiment": 0.58
             },
             {
               "sub": "더팍스",
-              "count": 30,
+              "count": 45,
               "sentiment": 0.6
             }
           ],
           "news_headlines": [
             {
-              "title": "빛과전자, 외국인 강한 매수세 유입 +6.5%",
-              "source": "한경",
-              "ago": "1시간 전"
-            },
-            {
-              "title": "라이트론, 데이터센터 광모듈 라인업 확장",
-              "source": "이데일리",
-              "ago": "3일 전"
+              "title": "제닉스로보틱스, 스마트 항만 사업 면허 취득",
+              "source": "씽크풀",
+              "ago": "3주 전"
             }
           ],
-          "trend_surge_pct": 35,
+          "trend_surge_pct": 95,
           "options_detail": null
         },
         {
-          "rank": 2,
-          "ticker": "아모텍",
-          "name": "아모텍",
-          "sector": "핸드셋",
-          "sector_full": "핸드셋 / AI MLCC·EMP 방산",
-          "price": 28750,
-          "change_pct": 26.1,
-          "score_total": 42.6,
-          "score_reddit": 55,
-          "score_news": 70,
-          "score_trends": 130,
-          "score_options": 30,
-          "quadrant": "overheat",
-          "claude_rank": 2,
-          "claude_summary": "+26% 거의 상한가 폭발. AI MLCC + EMP 방산 동시 부각이지만 외인+기관 동시 순매도 — 추격 절대 금지.",
+          "rank": 9,
+          "ticker": "아이씨티케이",
+          "name": "아이씨티케이",
+          "sector": "통신장비",
+          "sector_full": "통신장비 / 양자보안·PUF",
+          "price": 30400,
+          "change_pct": 14.5,
+          "score_total": 31,
+          "score_reddit": 67,
+          "score_news": 95,
+          "score_trends": 65,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "MWC 2026 양자보안 비전, 하나증권 목표가 4만원",
           "claude_signals": [
-            "거래대금 575억 폭발",
-            "거래량 5.3배 급증",
-            "AI 서버 MLCC + EMP 방산",
-            "⚠️ 외인+기관 동시 순매도"
+            "거래대금 1,308억",
+            "양자보안 PQC",
+            "MWC 이벤트"
           ],
-          "narrative": "아모텍은 핸드셋 부품 + AI 서버용 MLCC + EMP 방산 테마가 동시 부각된 종목이야. 2024년 적자 → 2025년 흑자전환 → 2026년 영업이익 186~220억 예상으로 실적 개선 사이클 진행 중이고, AI 데이터센터용 광 인터커넥트 부품 공급 기대감도 있어. 오늘 +26.10% 폭발은 거래대금 575억 + 거래량 5.3배 급증으로 시초가 갭상승 + 상한가 임박까지 갔어. 하지만 ⚠️ 외인 -4억, 기관 -0.4억으로 양수급은 미달 — 단기 모멘텀은 최강이지만 추격은 위험. 23,000~24,500원 되돌림 대기 추천.",
-          "entry": 23500,
-          "tp1": 31000,
+          "narrative": "아이씨티케이는 VIA PUF 기반 보안칩 양산 단계 진입 + 양자내성암호(PQC) 기술 보유. MWC 2026에서 글로벌 양자보안 표준 비전 제시, 배터리 인증 보안칩 MTB 출시 예정. 트럼프 행정부 사이버보안 전략 호재. 오늘 +14.50%, 외인 소액 매수 +6,477주. 하나증권 목표가 4만원.",
+          "entry": 30100,
+          "tp1": 32500,
           "tp2": 35000,
-          "sl": 22500,
-          "entry_comment": "현재가 추격 절대 금지 — 되돌림 시 1/3만 진입",
+          "sl": 29800,
+          "entry_comment": "시초 관망 → 30,000원 지지 확인 후 분할",
           "catalysts": [
-            "AI 서버용 MLCC 매출 본격화",
-            "EMP 방산 테마",
-            "2026 영업이익 186~220억 예상",
-            "AI 데이터센터 광 인터커넥트"
+            "MWC 2026 양자보안 비전",
+            "PQC 보안칩 양산",
+            "하나증권 목표가 4만원",
+            "MTB 신제품 출시"
           ],
           "risks": [
-            "⚠️ 외인+기관 동시 순매도 (양수급 미충족)",
-            "단기 +26% 폭등 과열",
-            "단기 차익 매물 출회 가능성"
+            "소액 수급",
+            "양자 테마 변동성"
           ],
           "reddit_sentiment_label": "긍정",
           "reddit_breakdown": [
             {
               "sub": "종토방",
-              "count": 280,
-              "sentiment": 0.68
+              "count": 290,
+              "sentiment": 0.76
             },
             {
               "sub": "DC주식갤",
-              "count": 110,
-              "sentiment": 0.55
+              "count": 130,
+              "sentiment": 0.72
             },
             {
               "sub": "더팍스",
-              "count": 65,
-              "sentiment": 0.62
+              "count": 55,
+              "sentiment": 0.74
             }
           ],
           "news_headlines": [
             {
-              "title": "아모텍, AI MLCC·EMP 방산 테마 부각 +26% 폭등",
-              "source": "한경",
-              "ago": "30분 전"
-            },
-            {
-              "title": "아모텍, 2026년 영업이익 200억 돌파 전망",
-              "source": "이데일리",
-              "ago": "1일 전"
+              "title": "아이씨티케이(ICTK), MWC 2026서 양자보안 글로벌 표준 비전 제시",
+              "source": "데일리시큐",
+              "ago": "2주 전"
             }
           ],
-          "trend_surge_pct": 120,
+          "trend_surge_pct": 130,
           "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "삼화전기",
+          "name": "삼화전기",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / 콘덴서·전기차 부품",
+          "price": 45800,
+          "change_pct": 9.05,
+          "score_total": 28,
+          "score_reddit": 61,
+          "score_news": 80,
+          "score_trends": 76,
+          "score_options": 50,
+          "quadrant": "hidden",
+          "claude_rank": 5,
+          "claude_summary": "양수급 ⭐ + 삼화콘덴서 동조 상승, 등락 낮아 안전형 진입",
+          "claude_signals": [
+            "양수급 ⭐",
+            "외인 +6.9만주",
+            "기관 +683주",
+            "삼화콘덴서 동조"
+          ],
+          "narrative": "삼화전기는 삼화콘덴서 그룹주로 전기제품 섹터 동반 상승. 오늘 +9.05%로 등락 낮아 추격 부담 적음. 외인 +69,073주 + 기관 +683주 → 양수급 ⭐(소액이지만 통계적 엣지 충족). 본 종목과 1위 삼화콘덴서 동조 → 섹터 모멘텀 지속 시 안정적 수익 가능.",
+          "entry": 45500,
+          "tp1": 49000,
+          "tp2": 52000,
+          "sl": 44900,
+          "entry_comment": "시초 부근 분할 1차 → 45,000 지지 확인 후 2차",
+          "catalysts": [
+            "양수급 ⭐",
+            "전기제품 섹터 동조",
+            "삼화콘덴서 그룹주"
+          ],
+          "risks": [
+            "소액 수급",
+            "대장주(삼화콘덴서) 조정 시 동반 하락"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 260,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 90,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "더팍스",
+              "count": 55,
+              "sentiment": 0.7
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼화전기, 삼화콘덴서 그룹주 동반 강세",
+              "source": "한국경제",
+              "ago": "6시간 전"
+            }
+          ],
+          "trend_surge_pct": 80,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "빛과전자",
+          "name": "빛과전자",
+          "sector": "통신장비",
+          "sector_full": "통신장비 / 광트랜시버·광통신",
+          "price": 7020,
+          "change_pct": 6.2,
+          "score_total": 28,
+          "score_reddit": 57,
+          "score_news": 95,
+          "score_trends": 74,
+          "score_options": 50,
+          "quadrant": "hidden",
+          "claude_rank": 3,
+          "claude_summary": "양수급 ⭐ + 외인 581만주 폭매수 + 광통신 직접관련, 등락 낮아 매력적",
+          "claude_signals": [
+            "양수급 ⭐",
+            "외인 +581만주(최대)",
+            "광통신 수혜",
+            "거래대금 4,673억"
+          ]
+        },
+        {
+          "rank": 12,
+          "ticker": "스피어",
+          "name": "스피어",
+          "sector": "우주항공과국방",
+          "sector_full": "우주항공과국방 / NXT 거래대상",
+          "price": 46000,
+          "change_pct": 7.48,
+          "score_total": 22,
+          "score_reddit": 59,
+          "score_news": 95,
+          "score_trends": 65,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "NXT⭐⭐ + 양매도, 진입 보류",
+          "claude_signals": [
+            "NXT 거래대상 ⭐⭐",
+            "거래대금 1,831억",
+            "⚠️ 외인 -13.8만주",
+            "⚠️ 기관 -6,207주"
+          ]
+        },
+        {
+          "rank": 13,
+          "ticker": "코칩",
+          "name": "코칩",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / 콘덴서 부품",
+          "price": 23900,
+          "change_pct": 7.66,
+          "score_total": 22,
+          "score_reddit": 59,
+          "score_news": 68,
+          "score_trends": 64,
+          "score_options": 50,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "기관 단독 매수 +2,607주, 외인 매도로 우선순위 낮음",
+          "claude_signals": [
+            "기관 +2,607주(소액)",
+            "⚠️ 외인 -6.7만주",
+            "거래대금 567억"
+          ]
         }
       ]
     }
