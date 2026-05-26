@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-21
+// Updated: 2026-05-26
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-26",
+        "top_ticker": "빛과전자",
+        "mood": "bullish"
+      },
       {
         "date": "2026-05-21",
         "top_ticker": "LG전자",
@@ -20997,6 +21002,283 @@ window.__SCREENER_FEED__ = {
           "claude_rank": null,
           "claude_summary": "",
           "claude_signals": []
+        }
+      ]
+    },
+    "2026-05-26": {
+      "date": "2026-05-26",
+      "date_display": "2026-05-26 (화 장중 스냅샷 → 잔여 장중·내일 프리뷰)",
+      "market_mood": "bullish",
+      "market_mood_score": 72,
+      "market_summary": "KOSPI/KOSDAQ 동반 +1.17% 강세. 상승 1,811 vs 하락 677로 광범위한 매수세. 외인 KOSPI +29.87억·KOSDAQ +20.40억, 기관 KOSPI +50.37억·KOSDAQ +7.45억 — 양 시장 외인+기관 동시 순매수. 상한가 4종목. 단, 이번 리포트는 09:52 KST 장중에 실행된 백업 스냅샷으로 후보 2개만 잡힘.",
+      "sector_tilt": [
+        "AI MLCC",
+        "광통신·데이터센터",
+        "방산"
+      ],
+      "top_ticker": "빛과전자",
+      "candidate_count": 2,
+      "today_action": {
+        "one_liner": "장중 스냅샷 — 양수급 환경이라 분위기는 좋아. 빛과전자 외인 매집 우선, 아모텍 추격은 절대 금지하고 되돌림만 노려.",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "빛과전자",
+            "text": "7,000원 부근 분할 진입 · TP 7,400/7,800 · SL 6,900"
+          },
+          {
+            "icon": "💎",
+            "ticker": "빛과전자",
+            "text": "외인 +58억 단독 매집 · 광통신·데이터센터·방산 트리플 테마"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "아모텍",
+            "text": "+26% 폭등 + 외인·기관 동시 순매도 — 추격 금지, 23,500원 되돌림 대기"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 점검",
+          "active": false
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true,
+          "active": false
+        },
+        {
+          "time_kst": "09:52",
+          "time_et": "—",
+          "label": "📍 현재 — 백업 스냅샷 실행",
+          "active": true
+        },
+        {
+          "time_kst": "10:00",
+          "time_et": "—",
+          "label": "빛과전자 7,000원 지지 확인",
+          "active": false
+        },
+        {
+          "time_kst": "11:00",
+          "time_et": "—",
+          "label": "양수급 종목 추가 모니터링",
+          "active": false
+        },
+        {
+          "time_kst": "14:00",
+          "time_et": "—",
+          "label": "장 후반 모멘텀 점검",
+          "active": false
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true,
+          "active": false
+        }
+      ],
+      "sectors": [
+        {
+          "name": "AI MLCC",
+          "strength": 0.85,
+          "ticker_count": 1
+        },
+        {
+          "name": "광통신·5G",
+          "strength": 0.75,
+          "ticker_count": 1
+        },
+        {
+          "name": "방산",
+          "strength": 0.65,
+          "ticker_count": 2
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "빛과전자",
+          "reasoning": "외인 +58.2억 단독 강매수 + 광통신·데이터센터·방산 트리플 테마. +6.5%의 안정적 강세로 추격 가능 구간.",
+          "signals": [
+            "외인 강매집",
+            "트리플 테마",
+            "거래대금 839억"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "아모텍",
+          "reasoning": "+26.10% 폭발이지만 외인+기관 동시 순매도. 단기 모멘텀 최강이나 추격 위험 — 되돌림 대기.",
+          "signals": [
+            "거래대금 575억",
+            "거래량 5.3배",
+            "⚠️ 양수급 미충족"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "빛과전자",
+          "reason": "외인 단독 +58.2억 매집은 시장이 아직 발견 못한 모멘텀. 광통신+AI 데이터센터+방산 트리플 테마 융합."
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "아모텍",
+          "reason": "+26.10% 폭발 + 거래량 5.3배인데 외인/기관 모두 순매도. 차익 매물 회피 신호 — 추격 시 -10% 이상 손실 위험."
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "빛과전자",
+          "name": "빛과전자",
+          "sector": "통신장비",
+          "sector_full": "통신장비 / 광통신·5G·데이터센터",
+          "price": 7040,
+          "change_pct": 6.51,
+          "score_total": 26.9,
+          "score_reddit": 55,
+          "score_news": 70,
+          "score_trends": 87,
+          "score_options": 30,
+          "quadrant": "hidden",
+          "claude_rank": 1,
+          "claude_summary": "외인 +58억 단독 매수, 광통신·데이터센터·방산 트리플 테마. 안정적 +6.5% 마감.",
+          "claude_signals": [
+            "외인 +58.2억 강한 매집",
+            "광통신 + AI 데이터센터 + 방산",
+            "5/11 +16.73% 이력",
+            "거래대금 839억"
+          ],
+          "narrative": "빛과전자(라이트론)는 5G 기지국 광모듈과 유선 광가입자망 광모듈 주력 사업자야. 인도 시장 진출 가속화와 데이터센터용 광모듈 라인업 확장이 핵심 모멘텀이고, 방산사업본부 발족으로 사업 다각화 진행 중. 오늘 +6.51% 상승 + 외국인 단독 +58억 매수가 들어왔어 — 기관은 미미하지만 외인 단독 강매수도 통계적 엣지가 있는 신호야. 5월 11일 +16.73% 급등 이후 차분한 매집 흐름 → 안정적인 +5~10% 노릴 만함.",
+          "entry": 7000,
+          "tp1": 7400,
+          "tp2": 7800,
+          "sl": 6900,
+          "entry_comment": "시초가 5분 관망 후 7,000원 부근 분할 진입",
+          "catalysts": [
+            "AI 데이터센터 광모듈 수요 확대",
+            "인도 시장 진출",
+            "방산사업본부 신설",
+            "5G 기지국 인프라"
+          ],
+          "risks": [
+            "기관 수급 미미 (외인 단독)",
+            "광통신 업황 변동성",
+            "중국 업체 경쟁"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 120,
+              "sentiment": 0.62
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 45,
+              "sentiment": 0.58
+            },
+            {
+              "sub": "더팍스",
+              "count": 30,
+              "sentiment": 0.6
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "빛과전자, 외국인 강한 매수세 유입 +6.5%",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "라이트론, 데이터센터 광모듈 라인업 확장",
+              "source": "이데일리",
+              "ago": "3일 전"
+            }
+          ],
+          "trend_surge_pct": 35,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "아모텍",
+          "name": "아모텍",
+          "sector": "핸드셋",
+          "sector_full": "핸드셋 / AI MLCC·EMP 방산",
+          "price": 28750,
+          "change_pct": 26.1,
+          "score_total": 42.6,
+          "score_reddit": 55,
+          "score_news": 70,
+          "score_trends": 130,
+          "score_options": 30,
+          "quadrant": "overheat",
+          "claude_rank": 2,
+          "claude_summary": "+26% 거의 상한가 폭발. AI MLCC + EMP 방산 동시 부각이지만 외인+기관 동시 순매도 — 추격 절대 금지.",
+          "claude_signals": [
+            "거래대금 575억 폭발",
+            "거래량 5.3배 급증",
+            "AI 서버 MLCC + EMP 방산",
+            "⚠️ 외인+기관 동시 순매도"
+          ],
+          "narrative": "아모텍은 핸드셋 부품 + AI 서버용 MLCC + EMP 방산 테마가 동시 부각된 종목이야. 2024년 적자 → 2025년 흑자전환 → 2026년 영업이익 186~220억 예상으로 실적 개선 사이클 진행 중이고, AI 데이터센터용 광 인터커넥트 부품 공급 기대감도 있어. 오늘 +26.10% 폭발은 거래대금 575억 + 거래량 5.3배 급증으로 시초가 갭상승 + 상한가 임박까지 갔어. 하지만 ⚠️ 외인 -4억, 기관 -0.4억으로 양수급은 미달 — 단기 모멘텀은 최강이지만 추격은 위험. 23,000~24,500원 되돌림 대기 추천.",
+          "entry": 23500,
+          "tp1": 31000,
+          "tp2": 35000,
+          "sl": 22500,
+          "entry_comment": "현재가 추격 절대 금지 — 되돌림 시 1/3만 진입",
+          "catalysts": [
+            "AI 서버용 MLCC 매출 본격화",
+            "EMP 방산 테마",
+            "2026 영업이익 186~220억 예상",
+            "AI 데이터센터 광 인터커넥트"
+          ],
+          "risks": [
+            "⚠️ 외인+기관 동시 순매도 (양수급 미충족)",
+            "단기 +26% 폭등 과열",
+            "단기 차익 매물 출회 가능성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 280,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 110,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 65,
+              "sentiment": 0.62
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "아모텍, AI MLCC·EMP 방산 테마 부각 +26% 폭등",
+              "source": "한경",
+              "ago": "30분 전"
+            },
+            {
+              "title": "아모텍, 2026년 영업이익 200억 돌파 전망",
+              "source": "이데일리",
+              "ago": "1일 전"
+            }
+          ],
+          "trend_surge_pct": 120,
+          "options_detail": null
         }
       ]
     }
