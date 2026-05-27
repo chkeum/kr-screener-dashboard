@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-26
+// Updated: 2026-05-27
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-27",
+        "top_ticker": "현대오토에버",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-26",
         "top_ticker": "한국첨단소재",
@@ -335,7 +340,7 @@ window.__SCREENER_FEED__ = {
           "sector_full": "반도체와반도체장비 / 플라즈마 장비",
           "price": 11150,
           "change_pct": 29.95,
-          "score_total": 82.0,
+          "score_total": 82,
           "score_reddit": 94.9,
           "score_news": 70,
           "score_trends": 99,
@@ -404,9 +409,9 @@ window.__SCREENER_FEED__ = {
           "sector": "백화점과일반상점",
           "sector_full": "백화점과일반상점 / 유통·면세",
           "price": 3640,
-          "change_pct": 30.0,
+          "change_pct": 30,
           "score_total": 62.9,
-          "score_reddit": 95.0,
+          "score_reddit": 95,
           "score_news": 65,
           "score_trends": 99,
           "score_options": 0,
@@ -476,7 +481,7 @@ window.__SCREENER_FEED__ = {
           "price": 12380,
           "change_pct": 12.65,
           "score_total": 45.5,
-          "score_reddit": 69.0,
+          "score_reddit": 69,
           "score_news": 58,
           "score_trends": 88.9,
           "score_options": 0,
@@ -746,7 +751,7 @@ window.__SCREENER_FEED__ = {
           "price": 51000,
           "change_pct": 22.01,
           "score_total": 39.4,
-          "score_reddit": 83.0,
+          "score_reddit": 83,
           "score_news": 65,
           "score_trends": 90.3,
           "score_options": 0,
@@ -950,10 +955,10 @@ window.__SCREENER_FEED__ = {
           "sector_full": "디스플레이패널 / OLED",
           "price": 14170,
           "change_pct": 11.05,
-          "score_total": 38.0,
+          "score_total": 38,
           "score_reddit": 66.6,
           "score_news": 63,
-          "score_trends": 73.0,
+          "score_trends": 73,
           "score_options": 0,
           "quadrant": "hot",
           "claude_rank": 2,
@@ -1024,7 +1029,7 @@ window.__SCREENER_FEED__ = {
           "score_total": 36.7,
           "score_reddit": 27.9,
           "score_news": 58,
-          "score_trends": 47.0,
+          "score_trends": 47,
           "score_options": 0,
           "quadrant": "hidden",
           "claude_rank": null,
@@ -1064,7 +1069,7 @@ window.__SCREENER_FEED__ = {
           "sector_full": "항공화물운송과물류 / 자동차 물류",
           "price": 284000,
           "change_pct": 6.97,
-          "score_total": 25.0,
+          "score_total": 25,
           "score_reddit": 60.5,
           "score_news": 53,
           "score_trends": 60.2,
@@ -1214,7 +1219,7 @@ window.__SCREENER_FEED__ = {
       "sectors": [
         {
           "name": "기계",
-          "strength": 1.0,
+          "strength": 1,
           "ticker_count": 3
         },
         {
@@ -1473,7 +1478,7 @@ window.__SCREENER_FEED__ = {
           "change_pct": 29.96,
           "score_total": 83.8,
           "score_reddit": 84.9,
-          "score_news": 79.0,
+          "score_news": 79,
           "score_trends": 93.4,
           "score_options": 0,
           "quadrant": "overheat",
@@ -1607,8 +1612,8 @@ window.__SCREENER_FEED__ = {
           "change_pct": 22.48,
           "score_total": 72.5,
           "score_reddit": 73.7,
-          "score_news": 68.0,
-          "score_trends": 77.0,
+          "score_news": 68,
+          "score_trends": 77,
           "score_options": 0,
           "quadrant": "hot",
           "claude_rank": null,
@@ -1926,7 +1931,7 @@ window.__SCREENER_FEED__ = {
           "sector_full": "기계 / 물류자동화",
           "price": 42150,
           "change_pct": 8.91,
-          "score_total": 60.0,
+          "score_total": 60,
           "score_reddit": 53.4,
           "score_news": 73.4,
           "score_trends": 85.1,
@@ -2320,7 +2325,7 @@ window.__SCREENER_FEED__ = {
           "score_total": 55.7,
           "score_reddit": 60.1,
           "score_news": 77.2,
-          "score_trends": 80.0,
+          "score_trends": 80,
           "score_options": 0,
           "quadrant": "overheat",
           "claude_rank": 4,
@@ -2386,7 +2391,7 @@ window.__SCREENER_FEED__ = {
           "score_total": 47.6,
           "score_reddit": 42.8,
           "score_news": 40.2,
-          "score_trends": 60.0,
+          "score_trends": 60,
           "score_options": 0,
           "quadrant": "overheat",
           "claude_rank": 5,
@@ -2452,7 +2457,7 @@ window.__SCREENER_FEED__ = {
           "score_total": 44.8,
           "score_reddit": 40.3,
           "score_news": 68.7,
-          "score_trends": 45.0,
+          "score_trends": 45,
           "score_options": 0,
           "quadrant": "hot",
           "claude_rank": null,
@@ -2589,8 +2594,8 @@ window.__SCREENER_FEED__ = {
           "change_pct": 8.61,
           "score_total": 36.2,
           "score_reddit": 42.6,
-          "score_news": 86.0,
-          "score_trends": 70.0,
+          "score_news": 86,
+          "score_trends": 70,
           "score_options": 25.4,
           "quadrant": "hot",
           "claude_rank": 3,
@@ -2734,7 +2739,7 @@ window.__SCREENER_FEED__ = {
           "score_total": 30.9,
           "score_reddit": 27.8,
           "score_news": 36.5,
-          "score_trends": 20.0,
+          "score_trends": 20,
           "score_options": 21.6,
           "quadrant": "watch",
           "claude_rank": null,
@@ -2944,7 +2949,7 @@ window.__SCREENER_FEED__ = {
       "sectors": [
         {
           "name": "자동차부품",
-          "strength": 1.0,
+          "strength": 1,
           "ticker_count": 4
         },
         {
@@ -3923,7 +3928,7 @@ window.__SCREENER_FEED__ = {
       "sectors": [
         {
           "name": "기계",
-          "strength": 1.0,
+          "strength": 1,
           "ticker_count": 5
         },
         {
@@ -4631,7 +4636,7 @@ window.__SCREENER_FEED__ = {
           "sector": "건설",
           "sector_full": "건설",
           "price": 63600,
-          "change_pct": 20.0,
+          "change_pct": 20,
           "score_total": 39,
           "score_reddit": 66,
           "score_news": 34,
@@ -4937,7 +4942,7 @@ window.__SCREENER_FEED__ = {
       "sectors": [
         {
           "name": "전기제품",
-          "strength": 1.0,
+          "strength": 1,
           "ticker_count": 4
         },
         {
@@ -5277,7 +5282,7 @@ window.__SCREENER_FEED__ = {
           "sector": "화학",
           "sector_full": "화학",
           "price": 161200,
-          "change_pct": 30.0,
+          "change_pct": 30,
           "score_total": 80,
           "score_reddit": 75,
           "score_news": 70,
@@ -5822,7 +5827,7 @@ window.__SCREENER_FEED__ = {
           "sector": "디스플레이장비및",
           "sector_full": "디스플레이장비및부품",
           "price": 4420,
-          "change_pct": 30.0,
+          "change_pct": 30,
           "score_total": 46,
           "score_reddit": 50,
           "score_news": 60,
@@ -17031,7 +17036,7 @@ window.__SCREENER_FEED__ = {
           "sector_full": "복합기업",
           "price": 8890,
           "change_pct": 12.53,
-          "score_total": 60.0,
+          "score_total": 60,
           "score_reddit": 88,
           "score_news": 80,
           "score_trends": 76,
@@ -17159,7 +17164,7 @@ window.__SCREENER_FEED__ = {
               "ago": "오늘"
             }
           ],
-          "trend_surge_pct": 820.0,
+          "trend_surge_pct": 820,
           "options_detail": null
         },
         {
@@ -17867,8 +17872,8 @@ window.__SCREENER_FEED__ = {
           "sector": "디스플레이장",
           "sector_full": "디스플레이장비및부품",
           "price": 5180,
-          "change_pct": -7.0,
-          "score_total": 52.0,
+          "change_pct": -7,
+          "score_total": 52,
           "score_reddit": 43,
           "score_news": 75,
           "score_trends": 71,
@@ -18197,7 +18202,7 @@ window.__SCREENER_FEED__ = {
           "sector": "통신장비",
           "sector_full": "통신장비",
           "price": 3570,
-          "change_pct": 19.0,
+          "change_pct": 19,
           "score_total": 43.9,
           "score_reddit": 69,
           "score_news": 75,
@@ -18752,7 +18757,7 @@ window.__SCREENER_FEED__ = {
           "change_pct": 16.75,
           "score_total": 54.5,
           "score_reddit": 65.4,
-          "score_news": 60.0,
+          "score_news": 60,
           "score_trends": 70.9,
           "score_options": 0,
           "quadrant": "watch",
@@ -18895,7 +18900,7 @@ window.__SCREENER_FEED__ = {
           "price": 34700,
           "change_pct": 24.6,
           "score_total": 44.2,
-          "score_reddit": 53.0,
+          "score_reddit": 53,
           "score_news": 48.6,
           "score_trends": 57.5,
           "score_options": 0,
@@ -19087,7 +19092,7 @@ window.__SCREENER_FEED__ = {
           "sector_full": "통신장비",
           "price": 49150,
           "change_pct": -12.85,
-          "score_total": 28.0,
+          "score_total": 28,
           "score_reddit": 33.7,
           "score_news": 30.9,
           "score_trends": 36.5,
@@ -19454,11 +19459,11 @@ window.__SCREENER_FEED__ = {
           "sector": "전기제품",
           "sector_full": "KOSPI / 전기제품",
           "price": 78600,
-          "change_pct": 23.0,
+          "change_pct": 23,
           "score_total": 54.5,
           "score_reddit": 100,
           "score_news": 90,
-          "score_trends": 75.0,
+          "score_trends": 75,
           "score_options": 0,
           "quadrant": "watch",
           "claude_rank": 5,
@@ -19528,7 +19533,7 @@ window.__SCREENER_FEED__ = {
           "score_total": 51.3,
           "score_reddit": 100,
           "score_news": 90,
-          "score_trends": 85.0,
+          "score_trends": 85,
           "score_options": 0,
           "quadrant": "watch",
           "claude_rank": null,
@@ -19660,7 +19665,7 @@ window.__SCREENER_FEED__ = {
           "sector_full": "KOSPI / 생물공학",
           "price": 1634,
           "change_pct": 19.62,
-          "score_total": 39.0,
+          "score_total": 39,
           "score_reddit": 100,
           "score_news": 90,
           "score_trends": 100,
@@ -19731,7 +19736,7 @@ window.__SCREENER_FEED__ = {
           "sector_full": "KOSPI / 화학",
           "price": 14080,
           "change_pct": 15.41,
-          "score_total": 37.0,
+          "score_total": 37,
           "score_reddit": 78.5,
           "score_news": 65,
           "score_trends": 53.8,
@@ -20166,7 +20171,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 82.9,
           "score_news": 85.7,
           "score_trends": 95,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20231,7 +20236,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 85,
           "score_news": 88.8,
           "score_trends": 95,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20298,7 +20303,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 85,
           "score_news": 88.9,
           "score_trends": 95,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20363,7 +20368,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 80.3,
           "score_news": 82.8,
           "score_trends": 92.8,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20424,12 +20429,12 @@ window.__SCREENER_FEED__ = {
           "sector": "AI소프트웨어",
           "sector_full": "AI소프트웨어 / 소프트웨어",
           "price": 78000,
-          "change_pct": 30.0,
+          "change_pct": 30,
           "score_total": 89.3,
           "score_reddit": 85,
-          "score_news": 89.0,
+          "score_news": 89,
           "score_trends": 95,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "overheat",
           "claude_rank": null,
           "claude_summary": "",
@@ -20494,8 +20499,8 @@ window.__SCREENER_FEED__ = {
           "score_total": 87.9,
           "score_reddit": 73.2,
           "score_news": 75.1,
-          "score_trends": 84.0,
-          "score_options": 50.0,
+          "score_trends": 84,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": 1,
           "claude_summary": "LG 그룹 지주사 + 외인+기관 동시 양수급(전일) + 시총 19조 안정형. 로봇 그룹 전체 수혜 모회사 포지션이라 LG전자 변동성 헷지 가능. NXT 거래 가능.",
@@ -20565,7 +20570,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 78.6,
           "score_news": 80.9,
           "score_trends": 90.7,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20628,7 +20633,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 79.1,
           "score_news": 81.5,
           "score_trends": 91.4,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20692,7 +20697,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 75.4,
           "score_news": 77.5,
           "score_trends": 86.7,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20752,10 +20757,10 @@ window.__SCREENER_FEED__ = {
           "price": 8950,
           "change_pct": 15.04,
           "score_total": 80.1,
-          "score_reddit": 68.0,
+          "score_reddit": 68,
           "score_news": 69.6,
           "score_trends": 77.6,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": 3,
           "claude_summary": "외인+기관 양수급(전일) + 반도체 후공정 + 등락률 +15% 진정한 \"숨은 종목\". 시총 1.47조 적정 사이즈에 NXT 거래 가능.",
@@ -20819,11 +20824,11 @@ window.__SCREENER_FEED__ = {
           "sector_full": "IT서비스 / IT서비스",
           "price": 80200,
           "change_pct": 12.64,
-          "score_total": 77.0,
+          "score_total": 77,
           "score_reddit": 65.2,
           "score_news": 66.4,
-          "score_trends": 74.0,
-          "score_options": 50.0,
+          "score_trends": 74,
+          "score_options": 50,
           "quadrant": "hidden",
           "claude_rank": null,
           "claude_summary": "",
@@ -20841,7 +20846,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 72.8,
           "score_news": 74.7,
           "score_trends": 83.5,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20859,7 +20864,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 72.6,
           "score_news": 74.5,
           "score_trends": 83.2,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20877,7 +20882,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 65.1,
           "score_news": 66.3,
           "score_trends": 73.9,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hidden",
           "claude_rank": 4,
           "claude_summary": "",
@@ -20899,7 +20904,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 64.9,
           "score_news": 66.1,
           "score_trends": 73.6,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hidden",
           "claude_rank": 5,
           "claude_summary": "",
@@ -20921,7 +20926,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 64.3,
           "score_news": 65.5,
           "score_trends": 72.9,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hidden",
           "claude_rank": null,
           "claude_summary": "",
@@ -20935,11 +20940,11 @@ window.__SCREENER_FEED__ = {
           "sector_full": "기계(로봇) / 기계",
           "price": 303500,
           "change_pct": 17.41,
-          "score_total": 73.0,
+          "score_total": 73,
           "score_reddit": 70.9,
           "score_news": 72.6,
           "score_trends": 81.1,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20957,7 +20962,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 63.2,
           "score_news": 64.3,
           "score_trends": 71.5,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hidden",
           "claude_rank": 2,
           "claude_summary": "",
@@ -20979,7 +20984,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 70.4,
           "score_news": 72.1,
           "score_trends": 80.5,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -20997,7 +21002,7 @@ window.__SCREENER_FEED__ = {
           "score_reddit": 70.2,
           "score_news": 71.9,
           "score_trends": 80.3,
-          "score_options": 50.0,
+          "score_options": 50,
           "quadrant": "hot",
           "claude_rank": null,
           "claude_summary": "",
@@ -21279,7 +21284,7 @@ window.__SCREENER_FEED__ = {
           "sector": "전기제품",
           "sector_full": "전기제품 / MLCC·콘덴서",
           "price": 132600,
-          "change_pct": 30.0,
+          "change_pct": 30,
           "score_total": 51,
           "score_reddit": 86,
           "score_news": 95,
@@ -21938,6 +21943,1059 @@ window.__SCREENER_FEED__ = {
             "⚠️ 외인 -6.7만주",
             "거래대금 567억"
           ]
+        }
+      ]
+    },
+    "2026-05-27": {
+      "date": "2026-05-27",
+      "date_display": "2026-05-27 (수 마감 → 다음 거래일 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 33,
+      "market_summary": "코스피 -1.07%, 코스닥 -3.39%로 외인 양매도 속 지수 약세(상승 873 vs 하락 3113). 그래도 삼성SDS(AI컴퓨팅센터)·디앤디파마텍(MASH 임상) 상한가 등 상한가 10개. 양수급 ⭐ 8종목. 인덱스보다 개별 테마주 장.",
+      "sector_tilt": [
+        "IT서비스",
+        "제약/바이오",
+        "반도체장비"
+      ],
+      "top_ticker": "현대오토에버",
+      "candidate_count": 20,
+      "today_action": {
+        "one_liner": "지수는 약세지만 돈은 AI인프라·바이오로 쏠린 하루야. 실전 1픽은 ⭐양수급+강재료+대량거래 3박자 갖춘 현대오토에버. 상한가 2종목은 외인 매도라 추격 금물!",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "현대오토에버",
+            "text": "758,000 눌림 분할 / TP 795k·825k / SL 745k — 오늘의 진짜 1픽"
+          },
+          {
+            "icon": "💎",
+            "ticker": "LG디스플레이",
+            "text": "-9.6%인데 외인+기관 190만주 저점 매집 ⭐, 반등 시 단타"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "삼성에스디에스",
+            "text": "상한가지만 외인 순매도 → 추격 금지, 눌림만"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "미국 증시(나스닥·반도체) 마감 + Notion 리포트 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:40",
+          "time_et": "—",
+          "label": "NXT 프리마켓 호가 점검(삼성SDS·현대오토에버·한올·LGD)"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "현대오토에버 758,000 눌림 1차 분할 진입"
+        },
+        {
+          "time_kst": "09:30",
+          "time_et": "—",
+          "label": "한올·아이씨티케이 수급 재확인 후 2차"
+        },
+        {
+          "time_kst": "12:00",
+          "time_et": "—",
+          "label": "오전 강세주 점검 · 손절 라인 재정렬"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 매매일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "반도체와반도체장비",
+          "strength": 0.78,
+          "ticker_count": 4
+        },
+        {
+          "name": "IT서비스",
+          "strength": 0.95,
+          "ticker_count": 3
+        },
+        {
+          "name": "제약/바이오",
+          "strength": 0.9,
+          "ticker_count": 3
+        },
+        {
+          "name": "통신장비",
+          "strength": 0.82,
+          "ticker_count": 2
+        },
+        {
+          "name": "전자장비와기기",
+          "strength": 0.7,
+          "ticker_count": 2
+        },
+        {
+          "name": "디스플레이패널",
+          "strength": 0.55,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학",
+          "strength": 0.45,
+          "ticker_count": 1
+        },
+        {
+          "name": "건강관리장비와용품",
+          "strength": 0.5,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "현대오토에버",
+          "reasoning": "⭐양수급(외인+기관) + SDV·로보틱스 강재료 + 거래대금 4,477억. 백테스트 엣지에 정확히 부합한 유일 종목",
+          "signals": [
+            "⭐양수급",
+            "거래대금 4,477억",
+            "SDV·로보틱스 재평가",
+            "NXT 거래대상"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "한올바이오파마",
+          "reasoning": "⭐양수급, 특히 기관 +107k 대량 매수 + IMVT-1402 임상 호조",
+          "signals": [
+            "⭐양수급(기관 대량)",
+            "임상 모멘텀",
+            "NXT"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "아이씨티케이",
+          "reasoning": "⭐양수급(외인 +229k) + 양자보안 PQC 흑자전환 스토리",
+          "signals": [
+            "⭐양수급(외인 대량)",
+            "양자보안 PQC",
+            "2026 흑전 기대"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "삼성에스디에스",
+          "reasoning": "2.5조 AI컴퓨팅센터 상한가 + 거래대금 최대. 단 외인 순매도라 추격 금지 조건부",
+          "signals": [
+            "상한가",
+            "AI컴퓨팅센터 2.5조",
+            "⚠️ 외인 순매도"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "디앤디파마텍",
+          "reasoning": "MASH 임상 2상 성공 상한가. 외인 매도·바이오 변동성으로 5위",
+          "signals": [
+            "상한가",
+            "MASH 임상 성공",
+            "⚠️ 외인 순매도"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "LG디스플레이",
+          "reason": "-9.6% 하락에도 외인+기관 190만주 저점 매집 ⭐, NXT 거래대상 — 반등 시 우선"
+        },
+        {
+          "ticker": "고영",
+          "reason": "-9.31%에도 ⭐외인+기관 동시 매수, 반도체 검사장비 대표주 낙폭 과대"
+        },
+        {
+          "ticker": "한국첨단소재",
+          "reason": "광반도체 대장 -16.57% 조정인데 외인 270만주 매집 → 눌림목"
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "삼성에스디에스",
+          "reason": "상한가지만 외인 순매도 동반, 기관·개인 의존 — 차익 매물 경계"
+        },
+        {
+          "ticker": "드림시큐리티",
+          "reason": "양자보안 테마 과열 후 -17.66% 급락, 추격 위험"
+        },
+        {
+          "ticker": "라온로보틱스",
+          "reason": "+22.28%지만 외인·기관 동시 순매도, 개인 추격 의존"
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "삼성에스디에스",
+          "name": "삼성에스디에스",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / SI·클라우드",
+          "price": 261500,
+          "change_pct": 29.78,
+          "score_total": 97,
+          "quadrant": "overheat",
+          "claude_rank": 4,
+          "claude_summary": "2.5조 AI컴퓨팅센터 수혜 상한가지만 외인 순매도 동반 → 추격 금지, 눌림만 봐야 해",
+          "score_reddit": 88,
+          "score_news": 90,
+          "score_trends": 95,
+          "score_options": 50,
+          "claude_signals": [
+            "상한가 +29.78%",
+            "거래대금 7,498억(최대)",
+            "AI컴퓨팅센터 2.5조",
+            "⚠️ 외인 순매도"
+          ],
+          "narrative": "삼성에스디에스가 정부 '국가 AI컴퓨팅 센터(총 2.5조원, 2028년까지 AI반도체 1.5만장)' 민간참여 사업자로 최종 선정되며 상한가 직행. 네이버클라우드·카카오·삼성전자·KT 컨소시엄으로 'AI 고속도로' 핵심 인프라 테마의 대장이 됐어. 거래대금 7,498억으로 오늘 후보 중 최대. 다만 외국인은 순매도(기관만 매수)라 ⭐양수급은 아니야. 상한가 + 외인 매도 조합은 차익 매물 경계 신호. 갭상승이면 관망, 눌림 줄 때만 소액 대응.",
+          "entry": 259000,
+          "tp1": 272000,
+          "tp2": 285000,
+          "sl": 254000,
+          "entry_comment": "갭 확인 후 -1% 눌림만, 추격 금지",
+          "catalysts": [
+            "국가 AI컴퓨팅센터 2.5조 선정",
+            "AI 고속도로 인프라 테마",
+            "네이버·카카오·KT 컨소시엄"
+          ],
+          "risks": [
+            "외인 순매도 동반 상한가",
+            "상한가 후 차익 매물",
+            "대형주 갭 변동성"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 640,
+              "sentiment": 0.82
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 240,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "더팍스",
+              "count": 110,
+              "sentiment": 0.75
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼성SDS, 국가 AI컴퓨팅센터 사업자 최종 선정…상한가",
+              "source": "한국경제",
+              "ago": "3시간 전"
+            },
+            {
+              "title": "AI 고속도로 컨소시엄 2.5조 투자…삼성SDS 주도",
+              "source": "이데일리",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 290,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "디앤디파마텍",
+          "name": "디앤디파마텍",
+          "sector": "제약/바이오",
+          "sector_full": "생물공학 / MASH 신약",
+          "price": 98800,
+          "change_pct": 30.0,
+          "score_total": 96,
+          "quadrant": "overheat",
+          "claude_rank": 5,
+          "claude_summary": "MASH 임상 2상 성공으로 상한가, 외인 매도라 바이오 변동성 큼 — 소액·짧게",
+          "score_reddit": 88,
+          "score_news": 90,
+          "score_trends": 95,
+          "score_options": 50,
+          "claude_signals": [
+            "상한가 +30.00%",
+            "MASH 임상 2상 유의성",
+            "EASL 2026 발표",
+            "⚠️ 외인 순매도"
+          ],
+          "narrative": "디앤디파마텍이 대사이상지방간염(MASH) 치료제 후보 DD01의 임상 2상 48주 조직생검에서 '섬유화 개선·MASH 해소' 등 핵심 허가지표 전반에 통계적 유의성을 확보, 유럽간학회(EASL 2026)에서 발표하며 상한가. 신약 임상 성공은 바이오 최대 호재지만 외국인은 순매도(기관 매수)라 양수급은 아니야. 바이오 상한가는 다음날 양봉/음봉 갈림이 심해서 비중 작게, 익절 빠르게.",
+          "entry": 97000,
+          "tp1": 103000,
+          "tp2": 109000,
+          "sl": 94800,
+          "entry_comment": "바이오 상한가 변동성 큼, 소액 분할",
+          "catalysts": [
+            "MASH DD01 임상 2상 성공",
+            "EASL 2026 발표",
+            "허가지표 전반 유의성"
+          ],
+          "risks": [
+            "외인 순매도",
+            "바이오 상한가 갭 변동성",
+            "차익 실현 매물"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 420,
+              "sentiment": 0.84
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 180,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "더팍스",
+              "count": 70,
+              "sentiment": 0.79
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "디앤디파마텍 상한가, MASH 임상 2상 핵심지표 유의성 확보",
+              "source": "뉴스핌",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "DD01 EASL 발표…간섬유화 개선 입증",
+              "source": "팜이데일리",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 260,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "현대오토에버",
+          "name": "현대오토에버",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / SDV·로보틱스",
+          "price": 765000,
+          "change_pct": 19.91,
+          "score_total": 90,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "⭐양수급 + SDV/로봇 재평가 + 거래대금 4,477억, 오늘의 진짜 1픽이야",
+          "score_reddit": 76,
+          "score_news": 80,
+          "score_trends": 91,
+          "score_options": 50,
+          "claude_signals": [
+            "⭐양수급(외인+기관)",
+            "거래대금 4,477억",
+            "SDV·로보틱스 재평가",
+            "NXT⭐⭐"
+          ],
+          "narrative": "현대오토에버가 SDV(소프트웨어 정의 차량)·로보틱스 신사업 가치 재평가와 '영업이익 감소는 일시적 이연'이라는 해석에 +19.91% 급등. 외국인·기관이 동시에 순매수한 ⭐양수급 종목이라 백테스트 엣지(외인+기관 동시 순매수, +0.75%/trade)에 정확히 부합해. 거래대금 4,477억으로 유동성도 충분하고 NXT 거래대상이라 프리마켓 대응도 가능. 오늘 후보 중 '강재료+양수급+대량거래' 3박자를 모두 갖춘 유일 종목이라 Claude 판단 1위.",
+          "entry": 758000,
+          "tp1": 795000,
+          "tp2": 825000,
+          "sl": 745000,
+          "entry_comment": "시초 5분 관망 → 분할 진입, 비중 우선",
+          "catalysts": [
+            "SDV·로보틱스 성장성 재평가",
+            "⭐외인+기관 동시 순매수",
+            "현대차그룹 AI 모멘텀",
+            "NXT 거래대상"
+          ],
+          "risks": [
+            "대형주 단기 급등 후 차익",
+            "시초 추격 금지"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 380,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 140,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 90,
+              "sentiment": 0.74
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "현대오토에버 14% 급등…로봇·AI 기대감 증폭",
+              "source": "CBC뉴스",
+              "ago": "3시간 전"
+            },
+            {
+              "title": "SDV·로보틱스 재평가…52주 신고가",
+              "source": "한국경제",
+              "ago": "5시간 전"
+            }
+          ],
+          "trend_surge_pct": 180,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "한올바이오파마",
+          "name": "한올바이오파마",
+          "sector": "제약",
+          "sector_full": "제약 / 자가면역 신약",
+          "price": 70700,
+          "change_pct": 19.63,
+          "score_total": 88,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "⭐양수급(기관 +107k 대량) + 파트너 임상 호조, 수급 신뢰도 최상",
+          "score_reddit": 88,
+          "score_news": 80,
+          "score_trends": 95,
+          "score_options": 50,
+          "claude_signals": [
+            "⭐양수급(기관 대량)",
+            "IMVT-1402 임상 호조",
+            "거래대금 1,545억",
+            "NXT⭐⭐"
+          ],
+          "narrative": "한올바이오파마가 파트너사 이뮤노반트의 IMVT-1402(난치성 류마티스관절염) 16주 중간분석 ACR20 72.7% 등 기대치 상회 소식에 +19.63%. 외국인+기관 동시 순매수 ⭐양수급인데 특히 기관이 +107k 대량 매수해서 수급 신뢰도가 높아. NXT 거래대상. 임상 모멘텀은 며칠 이어질 수 있어 눌림 분할 접근 유효.",
+          "entry": 70000,
+          "tp1": 73500,
+          "tp2": 77000,
+          "sl": 68500,
+          "entry_comment": "기관 매수 확인, 눌림 분할",
+          "catalysts": [
+            "IMVT-1402 임상 호조",
+            "⭐외인+기관 동시 매수",
+            "자가면역 파이프라인 기대",
+            "NXT"
+          ],
+          "risks": [
+            "임상 기대 선반영 시 차익",
+            "바이오 변동성"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 460,
+              "sentiment": 0.83
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 200,
+              "sentiment": 0.79
+            },
+            {
+              "sub": "더팍스",
+              "count": 80,
+              "sentiment": 0.77
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한올바이오파마, 파트너 임상 호조에 급등",
+              "source": "파이낸셜뉴스",
+              "ago": "4시간 전"
+            },
+            {
+              "title": "IMVT-1402 ACR20 72.7%…기대치 상회",
+              "source": "인포스탁",
+              "ago": "6시간 전"
+            }
+          ],
+          "trend_surge_pct": 210,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "아이씨티케이",
+          "name": "아이씨티케이",
+          "sector": "통신장비",
+          "sector_full": "통신장비 / 양자보안칩",
+          "price": 36350,
+          "change_pct": 18.02,
+          "score_total": 86,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "⭐양수급(외인 +229k) + 양자보안 PQC 흑전 스토리, 테마 변동성만 주의",
+          "score_reddit": 76,
+          "score_news": 80,
+          "score_trends": 95,
+          "score_options": 50,
+          "claude_signals": [
+            "⭐양수급(외인 대량)",
+            "양자보안 PQC",
+            "2026 흑자전환 기대",
+            "거래대금 2,629억"
+          ],
+          "narrative": "아이씨티케이가 양자내성암호(PQC) 수요 확대와 세계최초 양자보안칩 G5 기반 eSIM/USIM 라인업 확장 기대에 +18.02%. 외국인이 +229k 대량 순매수하며 ⭐양수급. 2026년 매출 +289%·흑자전환 전망이 스토리 핵심. 국내 유일 VIA-PUF 칩 제조사라는 희소성도 부각. 양자 테마라 변동성 크니 분할·칼손절 필수.",
+          "entry": 36000,
+          "tp1": 38000,
+          "tp2": 40000,
+          "sl": 35200,
+          "entry_comment": "테마 변동성 큼, 분할+칼손절",
+          "catalysts": [
+            "양자보안 PQC 수요 확대",
+            "G5 양자보안칩 eSIM/USIM",
+            "2026 흑자전환 전망",
+            "⭐외인 대량 매수"
+          ],
+          "risks": [
+            "양자 테마 변동성",
+            "흑전은 기대치 단계"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 350,
+              "sentiment": 0.8
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 260,
+              "sentiment": 0.76
+            },
+            {
+              "sub": "더팍스",
+              "count": 60,
+              "sentiment": 0.73
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "아이씨티케이, 양자보안칩 수요↑ 급등",
+              "source": "데일리인베스트",
+              "ago": "5시간 전"
+            },
+            {
+              "title": "PQC 흑자전환 기대…VIA-PUF 희소성",
+              "source": "버핏리포트",
+              "ago": "8시간 전"
+            }
+          ],
+          "trend_surge_pct": 240,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "드림시큐리티",
+          "name": "드림시큐리티",
+          "sector": "보안",
+          "sector_full": "상업서비스 / 양자보안",
+          "price": 3800,
+          "change_pct": -17.66,
+          "score_total": 84,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "양자보안 대장 -17.66% 급락인데 외인 640만주 저점 매집 — 반등 단타만",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 82,
+          "score_options": 50,
+          "claude_signals": [
+            "⭐양수급(외인 640만주)",
+            "-17.66% 급락",
+            "양자보안 대장",
+            "테마 과열 차익"
+          ],
+          "narrative": "드림시큐리티는 양자보안 대장주로 테마 과열 후 차익 매물에 -17.66% 급락했지만, 외국인이 640만주 대량 순매수하며 기관도 동반 ⭐양수급. 급락 속 외인 매집은 저점 인식 신호일 수 있어. 다만 테마 식은 직후라 추격은 위험하고 반등 확인 후 단타 관점만.",
+          "entry": 3700,
+          "tp1": 3950,
+          "tp2": 4200,
+          "sl": 3620,
+          "entry_comment": "반등 확인 후 단타, 추격 금지",
+          "catalysts": [
+            "외인 640만주 저점 매집",
+            "양자보안 대장 지위"
+          ],
+          "risks": [
+            "양자 테마 과열 후 추가 조정",
+            "-17% 당일 급락"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 520,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 310,
+              "sentiment": 0.45
+            },
+            {
+              "sub": "더팍스",
+              "count": 70,
+              "sentiment": 0.48
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "드림시큐리티, 양자보안 테마 과열 속 급락",
+              "source": "중앙이코노미",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 150,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "피델릭스",
+          "name": "피델릭스",
+          "sector": "반도체",
+          "sector_full": "반도체와반도체장비 / 메모리",
+          "price": 6280,
+          "change_pct": -25.77,
+          "score_total": 82,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "-25.77% 급락, 수급 비어있어 — 이유 불명, 관망 권장",
+          "score_reddit": 30,
+          "score_news": 60,
+          "score_trends": 65,
+          "score_options": 50,
+          "claude_signals": [
+            "-25.77% 급락",
+            "수급 중립(0)",
+            "거래대금 1,034억",
+            "이유 불명"
+          ],
+          "narrative": "피델릭스가 -25.77% 급락했는데 외국인·기관 수급은 비어 있어(중립). 뚜렷한 급락 이유가 확인 안 돼서 개인 물량 출회 가능성. 수급 근거가 없으니 진입 근거도 약해 — 관망이 정답.",
+          "entry": 6200,
+          "tp1": 6550,
+          "tp2": 6900,
+          "sl": 6080,
+          "entry_comment": "근거 약함, 관망 우선",
+          "catalysts": [
+            "낙폭 과대 기술적 반등 가능"
+          ],
+          "risks": [
+            "급락 이유 불명",
+            "수급 부재"
+          ],
+          "reddit_sentiment_label": "부정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 180,
+              "sentiment": 0.3
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 120,
+              "sentiment": 0.28
+            },
+            {
+              "sub": "더팍스",
+              "count": 30,
+              "sentiment": 0.32
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "피델릭스 급락…뚜렷한 악재 확인 안 돼",
+              "source": "-",
+              "ago": "당일"
+            }
+          ],
+          "trend_surge_pct": 90,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "차백신연구소",
+          "name": "차백신연구소",
+          "sector": "제약",
+          "sector_full": "제약 / 백신·아리바이오",
+          "price": 3960,
+          "change_pct": 22.79,
+          "score_total": 82,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+22.79% 아리바이오 테마 연동, 외인 매수 — 테마주 변동성 주의",
+          "score_reddit": 76,
+          "score_news": 80,
+          "score_trends": 88,
+          "score_options": 50,
+          "claude_signals": [
+            "+22.79%",
+            "아리바이오 테마 연동",
+            "외인 순매수",
+            "지배구조 시너지"
+          ],
+          "narrative": "차백신연구소가 아리바이오 7조 기술수출 호재와 소룩스-아리바이오-차백신 지배구조 개편·R&D 시너지 기대에 +22.79%. 외국인 순매수 유입. 테마 연동주라 아리바이오 흐름에 좌우되니 변동성 관리가 핵심.",
+          "entry": 3900,
+          "tp1": 4150,
+          "tp2": 4400,
+          "sl": 3820,
+          "entry_comment": "테마 연동, 분할+칼손절",
+          "catalysts": [
+            "아리바이오 7조 기술수출 연동",
+            "지배구조 개편·R&D 시너지"
+          ],
+          "risks": [
+            "테마 연동 변동성",
+            "CB 발행 물량"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 300,
+              "sentiment": 0.75
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 170,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "더팍스",
+              "count": 40,
+              "sentiment": 0.68
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "차백신연구소, 아리바이오 잭팟에 강세",
+              "source": "이데일리",
+              "ago": "6시간 전"
+            }
+          ],
+          "trend_surge_pct": 170,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "한국첨단소재",
+          "name": "한국첨단소재",
+          "sector": "통신장비",
+          "sector_full": "통신장비 / 광반도체",
+          "price": 3425,
+          "change_pct": -16.57,
+          "score_total": 82,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "어제 대장이 -16.57% 조정인데 외인 270만주 매집 ⭐ — 눌림목 후보",
+          "score_reddit": 76,
+          "score_news": 60,
+          "score_trends": 95,
+          "score_options": 50,
+          "claude_signals": [
+            "⭐양수급(외인 270만주)",
+            "-16.57% 조정",
+            "광반도체 테마",
+            "전일 대장 눌림"
+          ],
+          "narrative": "한국첨단소재는 엔비디아 광반도체 테마 대장으로 연속 강세 뒤 오늘 -16.57% 차익 조정. 그런데 외국인이 270만주 대량 순매수하며 ⭐양수급 유지 — 매집 관점의 눌림목일 수 있어. 광통신은 AI 데이터센터 구조적 트렌드라 테마 자체는 유효. 반등 확인 후 분할.",
+          "entry": 3380,
+          "tp1": 3600,
+          "tp2": 3850,
+          "sl": 3300,
+          "entry_comment": "눌림목, 반등 확인 후 분할",
+          "catalysts": [
+            "⭐외인 270만주 매집",
+            "엔비디아 광반도체 테마",
+            "AI 데이터센터 광통신"
+          ],
+          "risks": [
+            "연속 급등 후 조정 지속 가능",
+            "테마 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 410,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 230,
+              "sentiment": 0.68
+            },
+            {
+              "sub": "더팍스",
+              "count": 55,
+              "sentiment": 0.66
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한국첨단소재, 광반도체 테마 조정 속 외인 매집",
+              "source": "와이드경제",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 200,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "나노팀",
+          "name": "나노팀",
+          "sector": "전자장비",
+          "sector_full": "전자장비와기기 / 방열소재",
+          "price": 12560,
+          "change_pct": 19.62,
+          "score_total": 77,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+19.62% 급등이나 수급 약함 — 재료 확인 전 신중",
+          "score_reddit": 52,
+          "score_news": 80,
+          "score_trends": 77,
+          "score_options": 50,
+          "claude_signals": [
+            "+19.62%",
+            "수급 약함",
+            "거래대금 1,139억",
+            "전자장비"
+          ],
+          "narrative": "나노팀이 +19.62% 급등했지만 외국인·기관 수급은 약해(외인 소폭 매도). 거래대금은 1,139억으로 관심은 받았지만 수급 근거가 약하니 재료 확인 전엔 신중. 단타 관점만.",
+          "entry": 12400,
+          "tp1": 13200,
+          "tp2": 14000,
+          "sl": 12150,
+          "entry_comment": "수급 약함, 단타만",
+          "catalysts": [
+            "방열소재 수요 기대"
+          ],
+          "risks": [
+            "수급 근거 약함",
+            "급등 후 변동성"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 210,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 130,
+              "sentiment": 0.52
+            },
+            {
+              "sub": "더팍스",
+              "count": 35,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "나노팀 급등…방열소재 기대감",
+              "source": "-",
+              "ago": "당일"
+            }
+          ],
+          "trend_surge_pct": 130,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "라온로보틱스",
+          "name": "라온로보틱스",
+          "sector": "반도체",
+          "sector_full": "반도체와반도체장비 / 로봇",
+          "price": 22500,
+          "change_pct": 22.28,
+          "score_total": 77,
+          "quadrant": "overheat",
+          "claude_rank": null,
+          "claude_summary": "+22.28%지만 외인·기관 동시 순매도, 개인 추격 의존 — 경계",
+          "score_reddit": 52,
+          "score_news": 80,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 12,
+          "ticker": "미래에셋 레버리지 SK하이닉스 단일종목ETN",
+          "name": "미래에셋 레버리지 SK하이닉스 단일종목ETN",
+          "sector": "ETN",
+          "sector_full": "ETN / SK하이닉스 레버리지",
+          "price": 27200,
+          "change_pct": 21.97,
+          "score_total": 75,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "SK하이닉스 2배 ETN, 지수·하이닉스 방향에 베팅하는 도구일 뿐",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 13,
+          "ticker": "티이엠씨",
+          "name": "티이엠씨",
+          "sector": "반도체",
+          "sector_full": "반도체와반도체장비 / 소재",
+          "price": 22300,
+          "change_pct": -17.71,
+          "score_total": 73,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "-17.71% 급락, 외인 매도·기관 소폭 매수 혼조 — 관망",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 14,
+          "ticker": "리브스메드",
+          "name": "리브스메드",
+          "sector": "의료기기",
+          "sector_full": "건강관리장비와용품 / 수술기구",
+          "price": 61700,
+          "change_pct": -16.85,
+          "score_total": 71,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "-16.85% 급락에 외인만 매수, 기관 매도 — 혼조, 관망",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 15,
+          "ticker": "LG디스플레이",
+          "name": "LG디스플레이",
+          "sector": "디스플레이",
+          "sector_full": "디스플레이패널 / OLED",
+          "price": 14130,
+          "change_pct": -9.6,
+          "score_total": 71,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "-9.60%인데 외인+기관 190만주 저점 매집 ⭐, NXT — 히든 1픽",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 16,
+          "ticker": "삼영",
+          "name": "삼영",
+          "sector": "화학",
+          "sector_full": "화학 / 정밀화학",
+          "price": 11100,
+          "change_pct": -16.23,
+          "score_total": 70,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "-16.23% 급락, 기관 매수·외인 대량 매도 혼조 — 관망",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 17,
+          "ticker": "LG씨엔에스",
+          "name": "LG씨엔에스",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / SI·클라우드",
+          "price": 94600,
+          "change_pct": 14.11,
+          "score_total": 70,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "+14.11% IT서비스 동반 강세, 기관 +120k 매수 — 삼성SDS 따라가기",
+          "score_reddit": 52,
+          "score_news": 80,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 18,
+          "ticker": "SOL SK하이닉스단일종목레버리지",
+          "name": "SOL SK하이닉스단일종목레버리지",
+          "sector": "ETN",
+          "sector_full": "ETN / SK하이닉스 레버리지",
+          "price": 23750,
+          "change_pct": 18.78,
+          "score_total": 70,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "SK하이닉스 단일종목 레버리지, 방향성 베팅 도구",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 19,
+          "ticker": "해성디에스",
+          "name": "해성디에스",
+          "sector": "반도체",
+          "sector_full": "반도체와반도체장비 / 리드프레임",
+          "price": 92300,
+          "change_pct": -9.86,
+          "score_total": 70,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "-9.86%에도 ⭐양수급, NXT — 반도체 낙폭 과대 반등 후보",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
+        },
+        {
+          "rank": 20,
+          "ticker": "고영",
+          "name": "고영",
+          "sector": "전자장비",
+          "sector_full": "전자장비와기기 / 검사장비",
+          "price": 37000,
+          "change_pct": -9.31,
+          "score_total": 70,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": "-9.31%에도 ⭐외인+기관 동시 매수, 검사장비 대표주 — 히든 후보",
+          "score_reddit": 52,
+          "score_news": 60,
+          "score_trends": 74,
+          "score_options": 50,
+          "claude_signals": []
         }
       ]
     }
