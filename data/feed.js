@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-27
+// Updated: 2026-05-28
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-28",
+        "top_ticker": "삼화콘덴서",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-27",
         "top_ticker": "현대오토에버",
@@ -22996,6 +23001,939 @@ window.__SCREENER_FEED__ = {
           "score_trends": 74,
           "score_options": 50,
           "claude_signals": []
+        }
+      ]
+    },
+    "2026-05-28": {
+      "date": "2026-05-28",
+      "date_display": "2026-05-28 (목 마감 → 6월 1일 월요일 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 35,
+      "market_summary": "KOSPI 8000 돌파 후 차익실현 → KOSPI -1.19% / KOSDAQ -1.92%. 외인 KOSPI 매도(-28,963억)·KOSDAQ 매수(+3,819억) 양분 흐름. AI MLCC 테마(삼화콘덴서·코칩·삼화전자·한켐) 대폭발 + LG에너지솔루션 2.4조 ESS 수주 호재로 개별 강세. 양수급 0개라 실전 보수적 진입.",
+      "sector_tilt": [
+        "전기제품 (MLCC)",
+        "전자장비",
+        "생물공학"
+      ],
+      "top_ticker": "삼화콘덴서",
+      "candidate_count": 12,
+      "today_action": {
+        "one_liner": "AI MLCC 사이클 본격 진입! 삼화콘덴서 메인픽이지만 22% 급등 후라 갭다운 -1% 눌림에서 분할로. 양수급 0개라 포지션 1~2개로 줄여 ㅎㅎ",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "삼화콘덴서",
+            "text": "진입 152,000 / TP 162,000 / SL 149,000 (-2%) · 거래대금 1위 메인픽"
+          },
+          {
+            "icon": "💎",
+            "ticker": "나무기술",
+            "text": "외인 +1,112억 단독 매수 → 시초가 7,400 분할 진입 후보"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "PKC",
+            "text": "상한가지만 외인+기관 동시 매도 → 추격 절대 금지"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:45",
+          "time_et": "—",
+          "label": "미국 증시 마감 체크 + NXT 야간거래 점검",
+          "active": false
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "삼화콘덴서/디앤디파마텍 시초가 확인",
+          "active": false
+        },
+        {
+          "time_kst": "09:10",
+          "time_et": "—",
+          "label": "분할 진입 1차 (메인 픽 50%)",
+          "active": false
+        },
+        {
+          "time_kst": "09:30",
+          "time_et": "—",
+          "label": "수급 흐름 재점검 (외인 매수 지속?)",
+          "active": false
+        },
+        {
+          "time_kst": "10:00",
+          "time_et": "—",
+          "label": "오전 강세 확인 시 2차 진입",
+          "active": false
+        },
+        {
+          "time_kst": "13:00",
+          "time_et": "—",
+          "label": "점심 후 흐름 재진단",
+          "active": false
+        },
+        {
+          "time_kst": "14:50",
+          "time_et": "—",
+          "label": "동시호가 진입 결정 (홀딩/익절)",
+          "active": false
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "전기제품 (MLCC)",
+          "strength": 1.0,
+          "ticker_count": 4
+        },
+        {
+          "name": "전자장비와기기",
+          "strength": 0.75,
+          "ticker_count": 2
+        },
+        {
+          "name": "자동차부품",
+          "strength": 0.5,
+          "ticker_count": 1
+        },
+        {
+          "name": "디스플레이",
+          "strength": 0.45,
+          "ticker_count": 1
+        },
+        {
+          "name": "생물공학",
+          "strength": 0.7,
+          "ticker_count": 1
+        },
+        {
+          "name": "IT서비스",
+          "strength": 0.6,
+          "ticker_count": 1
+        },
+        {
+          "name": "복합기업",
+          "strength": 0.3,
+          "ticker_count": 1
+        },
+        {
+          "name": "화학",
+          "strength": 0.4,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "삼화콘덴서",
+          "reasoning": "거래대금 압도적 7,882억(1위) + AI MLCC 사이클 본격 진입 + 외인 +15,026 매수",
+          "signals": [
+            "거래대금 7,882억",
+            "외인 +15,026 매수",
+            "52주 신고가",
+            "AI MLCC 사이클"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "디앤디파마텍",
+          "reasoning": "임상 2상 성공 헤드라인 + 기관 +539,191 압도적 매수 + 거래대금 6,342억",
+          "signals": [
+            "임상 2상 통계 유의성 확보",
+            "기관 +539,191 강매수",
+            "EASL 2026 발표"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "LG에너지솔루션",
+          "reasoning": "2.4조 ESS 계약 + 시총 100조 회복 + NXT 야간 거래",
+          "signals": [
+            "DTE 2.4조 ESS 수주",
+            "시총 100조 회복",
+            "NXT ⭐⭐",
+            "북미 ESS 사이클"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "나무기술",
+          "reasoning": "외인 +111,243 단독 매수 (강력 매집 신호) + IT서비스 모멘텀",
+          "signals": [
+            "외인 +111,243 단독매수",
+            "거래대금 1,313억",
+            "기관 중립"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "코칩",
+          "reasoning": "MLCC 테마 상한가 + 외인 +59,727 매수",
+          "signals": [
+            "상한가 +29.96%",
+            "외인 +59,727 매수",
+            "MLCC 테마 동조"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "나무기술",
+          "reason": "외인 +111,243 단독 매수가 들어왔는데 시장 관심도는 낮아. 메이저 매집 가능성"
+        },
+        {
+          "ticker": "엘앤에프",
+          "reason": "키움 목표주가 24만원 + 삼성SDI LFP 첫 공급 + NXT⭐⭐. 양극재 사이클 회복 초기"
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "PKC",
+          "reason": "상한가지만 외인 -469억 + 기관 -8억 동시 매도. 단발 모멘텀, 추격 절대 금지"
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "PKC",
+          "name": "PKC",
+          "sector": "화학",
+          "sector_full": "화학 / 정밀화학",
+          "price": 7680,
+          "change_pct": 29.95,
+          "score_total": 77.6,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": null,
+          "claude_signals": [
+            "상위권 후보",
+            "거래대금 활발",
+            "관망"
+          ],
+          "narrative": "PKC가 화학주 중 단발 상한가로 튀어올랐어. 거래대금 640억으로 크지 않은데도 상한가 진입한 건 작은 유통주식수 영향이 커. 다만 외인 -469억, 기관 -8억 동시 매도로 수급은 텅 빈 상태라 다음날 추격은 절대 금지. 단타성 모멘텀으로 단순 관망 권장.",
+          "entry": 7600,
+          "tp1": 8000,
+          "tp2": 8300,
+          "sl": 7400,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "화학주 단발 상한가",
+            "시가총액 작아 변동성 큼"
+          ],
+          "risks": [
+            "외인+기관 동시 매도",
+            "뚜렷한 펀더 재료 부재",
+            "상한가 다음날 평균 -2.11% 통계"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 35,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 18,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 10,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "PKC +29.95% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "화학 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 80,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "나노팀",
+          "name": "나노팀",
+          "sector": "전자장비",
+          "sector_full": "전자장비와기기 / 부품",
+          "price": 14650,
+          "change_pct": 16.64,
+          "score_total": 63.3,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": null,
+          "claude_signals": [
+            "상위권 후보",
+            "거래대금 활발",
+            "관망"
+          ],
+          "narrative": "나노팀은 전기차 배터리팩 갭필러 소재주야. 거래대금 2,879억 터지면서 +16.64% 급등했고 배터리 테마와 동조했지만 외인 -654억 / 기관 -2억 동시 매도라 추격 진입은 위험. 거래대금만 보고 들어가긴 부담스러워.",
+          "entry": 14500,
+          "tp1": 15200,
+          "tp2": 15800,
+          "sl": 14200,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "배터리 갭필러 소재 테마",
+            "LG에너지솔루션 수주 효과 연동"
+          ],
+          "risks": [
+            "외인+기관 동시 매도",
+            "단발성 모멘텀 가능성"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 40,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 21,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 12,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "나노팀 +16.64% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "전자장비와기기 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 110,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "삼성공조",
+          "name": "삼성공조",
+          "sector": "자동차부품",
+          "sector_full": "자동차부품",
+          "price": 17010,
+          "change_pct": 9.6,
+          "score_total": 55.0,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": null,
+          "claude_signals": [
+            "상위권 후보",
+            "거래대금 활발",
+            "관망"
+          ],
+          "narrative": "삼성공조는 자동차 라디에터·오일쿨러 OEM 부품사야. 데이터센터 냉각 테마와 연동될 가능성도 거론되지만 오늘은 외인 -200억 매도 / 기관 +8억 소량 매수로 명확한 매집 신호는 없어. 거래대금 2,587억으로 회전은 활발했지만 단발성 모멘텀 의심.",
+          "entry": 16800,
+          "tp1": 17700,
+          "tp2": 18400,
+          "sl": 16500,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "자동차부품 + 냉각 테마 연동 가능성",
+            "거래대금 회전 활발"
+          ],
+          "risks": [
+            "외인 매도",
+            "명확한 공시 재료 부재"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 45,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 24,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 14,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼성공조 +9.60% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "자동차부품 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 60,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "삼화전자",
+          "name": "삼화전자",
+          "sector": "전자장비",
+          "sector_full": "전자장비와기기 / 부품",
+          "price": 3905,
+          "change_pct": 8.17,
+          "score_total": 52.2,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": null,
+          "claude_signals": [
+            "상위권 후보",
+            "거래대금 활발",
+            "관망"
+          ],
+          "narrative": "삼화전자는 MLCC 후발주로 삼화콘덴서 대장의 동반 상승 영향을 받았어. +8.17%로 강도는 약했고 외인 -1,693억 / 기관 -1,533억 둘 다 큰 폭 매도라 메인이 빠지면 같이 빠질 가능성 큼. 본 메인(삼화콘덴서)이 빠질 때 헤지/단타 대상.",
+          "entry": 3900,
+          "tp1": 4100,
+          "tp2": 4200,
+          "sl": 3800,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "MLCC 테마 동반 상승"
+          ],
+          "risks": [
+            "외인+기관 동시 대량 매도",
+            "메인주 의존도 높음"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 50,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 27,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 16,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼화전자 +8.17% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "전자장비와기기 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 90,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "코칩",
+          "name": "코칩",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / MLCC·배터리",
+          "price": 30800,
+          "change_pct": 29.96,
+          "score_total": 50.7,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 5,
+          "claude_summary": "MLCC 테마 상한가 + 외인 매수 유입, 다음날 변동성 큼",
+          "claude_signals": [
+            "상한가 +29.96%",
+            "외인 +59,727 매수",
+            "MLCC 테마 동조"
+          ],
+          "narrative": "코칩은 슈퍼커패시터 + MLCC 유통사로 삼성전기 협력업체야. AI MLCC 테마로 두 번째 상한가 진입(+29.96%)이고 외인 +59,727 매수, 기관 -50억 소량 매도라 수급이 우호적인 편. 다만 상한가 다음날 통계상 -2.11% 평균이라 시초 추격은 절대 금지하고 갭다운 시 진입 보류.",
+          "entry": 30500,
+          "tp1": 32000,
+          "tp2": 33300,
+          "sl": 29900,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "MLCC 테마 상한가 두 번째",
+            "외인 매수 유입",
+            "삼성전기 파트너사 부각"
+          ],
+          "risks": [
+            "상한가 다음날 변동성 평균 -2%",
+            "추격매수 자제"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 55,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 30,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 18,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "코칩 +29.96% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "전기제품 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 180,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "한켐",
+          "name": "한켐",
+          "sector": "디스플레이",
+          "sector_full": "디스플레이장비및부품",
+          "price": 11910,
+          "change_pct": 5.77,
+          "score_total": 49.7,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": null,
+          "claude_signals": [
+            "상위권 후보",
+            "거래대금 활발",
+            "관망"
+          ],
+          "narrative": "한켐은 디스플레이장비/부품 위주지만 MLCC 테마 막내로 분류돼서 동반 상승. +5.77%로 강도는 미미하지만 기관 +81억 소량 매수가 들어왔어. 본 종목(삼화콘덴서/코칩)이 빠질 때 대안으로 볼 만한 후순위 픽.",
+          "entry": 11800,
+          "tp1": 12400,
+          "tp2": 12900,
+          "sl": 11600,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "MLCC 테마 후발",
+            "기관 소량 매수"
+          ],
+          "risks": [
+            "모멘텀 약함",
+            "거래대금 1,076억으로 활기 부족"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 60,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 33,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 20,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "한켐 +5.77% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "디스플레이장비및부품 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 50,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "삼화콘덴서",
+          "name": "삼화콘덴서",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / MLCC·배터리",
+          "price": 154400,
+          "change_pct": 22.64,
+          "score_total": 48.6,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "AI MLCC 사이클 메인주, 거래대금 1위 + 외인 매수 유입",
+          "claude_signals": [
+            "거래대금 7,882억 (1위)",
+            "외인 +15,026 매수",
+            "AI MLCC 사이클 본격화"
+          ],
+          "narrative": "오늘 시장 1픽이야. AI MLCC 사이클이 본격적으로 진입하면서 +22.64% 급등하고 거래대금 7,882억으로 전 종목 1위. 외인 +15,026 매수가 들어왔지만 기관 -291,203 차익실현 매도가 부담. 무라타·삼성전기 가격 인상 예고 + 용인공장 증설 효과로 2분기부터 본격 실적 반영 기대. 다만 22% 급등 후라 시가 추격은 절대 금지하고 갭다운 -1% 눌림목 대기.",
+          "entry": 152900,
+          "tp1": 160600,
+          "tp2": 166800,
+          "sl": 149800,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "AI MLCC 가격 인상 사이클",
+            "용인 공장 증설 효과",
+            "외인 매수 유입",
+            "52주 신고가 경신"
+          ],
+          "risks": [
+            "22% 급등 후 단기 차익실현 압력",
+            "기관 대규모 매도",
+            "추격매수 금지"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 65,
+              "sentiment": 0.85
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 36,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 22,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼화콘덴서 +22.64% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "전기제품 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 250,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "디앤디파마텍",
+          "name": "디앤디파마텍",
+          "sector": "생물공학",
+          "sector_full": "생물공학 / 신약개발",
+          "price": 107500,
+          "change_pct": 8.81,
+          "score_total": 39.7,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "임상 2상 성공 헤드라인 + 기관 +539억 강력 매수",
+          "claude_signals": [
+            "MASH 임상 2상 통계 유의성 확보",
+            "기관 +539,191 강매수",
+            "EASL 2026 발표"
+          ],
+          "narrative": "디앤디파마텍은 MASH 신약 DD01 임상 2상에서 통계적 유의성 확보 후 이틀 연속 강세(+8.81%). 섬유화 개선 +34.2% (p=0.0323), MASH 해소 +57.2% (p=0.0003)로 핵심 지표 모두 위약 우위. EASL 2026 발표 일정에 맞춰 기관 +539,191 압도적 매수 진입. 외인은 -606억 매도지만 기관 매수가 훨씬 강해서 모멘텀 유지 가능.",
+          "entry": 106400,
+          "tp1": 111800,
+          "tp2": 116100,
+          "sl": 104300,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "MASH 임상 2상 통계 유의성 확보",
+            "기관 +539,191 강매수",
+            "EASL 2026 학회 발표"
+          ],
+          "risks": [
+            "외인 매도 부담",
+            "바이오 변동성 큼",
+            "뉴스 소진 후 차익실현"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 70,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 39,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 24,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "디앤디파마텍 +8.81% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "생물공학 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 200,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "나무기술",
+          "name": "나무기술",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스",
+          "price": 7490,
+          "change_pct": 13.14,
+          "score_total": 34.4,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hidden",
+          "claude_rank": 4,
+          "claude_summary": "외인 +1,112억 단독 매수, IT서비스 모멘텀 후보",
+          "claude_signals": [
+            "외인 +111,243 단독매수",
+            "거래대금 1,313억",
+            "기관 중립"
+          ],
+          "narrative": "나무기술은 IT서비스 종목인데 외인 +111,243 단독 매수가 들어왔어. 기관은 0, 개인은 매도 추정이라 외인 매집 패턴이 명확한 편. 거래대금 1,313억으로 적당히 회전. 외인 매수 지속 여부 확인하면서 작게 시작하는 게 안전.",
+          "entry": 7400,
+          "tp1": 7800,
+          "tp2": 8100,
+          "sl": 7300,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "외인 +111,243 단독 매수",
+            "IT서비스 모멘텀",
+            "기관 중립"
+          ],
+          "risks": [
+            "기관 동참 여부 미확정",
+            "외인 매도 전환 시 급락 가능"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 75,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 42,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 26,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "나무기술 +13.14% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "IT서비스 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 90,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "LG에너지솔루션",
+          "name": "LG에너지솔루션",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / MLCC·배터리",
+          "price": 440500,
+          "change_pct": 14.86,
+          "score_total": 33.0,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "hot",
+          "claude_rank": 3,
+          "claude_summary": "2.4조 ESS 수주 + 시총 100조 회복, NXT 야간거래 가능",
+          "claude_signals": [
+            "DTE 2.4조 ESS 계약",
+            "시총 100조 회복",
+            "NXT ⭐⭐"
+          ],
+          "narrative": "LG에너지솔루션이 미국 DTE에너지와 2년 6GWh, 2.4조원 규모 ESS 공급계약을 체결했어. 장 초반 +12% 급등으로 시총 100조 회복. 북미 AI 데이터센터 + 재생에너지 ESS 주문 급증 사이클의 직접 수혜. 외인 +93억 / 기관 -1,337억 매도지만 대형주라 안정적이고 NXT 야간거래도 가능. 분할 매수 전략 적합.",
+          "entry": 436100,
+          "tp1": 458100,
+          "tp2": 475700,
+          "sl": 427300,
+          "entry_comment": "시초 5분 관망 → 분할 매수, 로스컷 -2% 엄수",
+          "catalysts": [
+            "DTE 2.4조 ESS 공급계약",
+            "시총 100조 회복",
+            "NXT ⭐⭐ 야간거래",
+            "북미 ESS 사이클"
+          ],
+          "risks": [
+            "기관 -1,337억 차익실현 매도",
+            "대형주라 상승 여력 제한"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 80,
+              "sentiment": 0.7
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 45,
+              "sentiment": 0.55
+            },
+            {
+              "sub": "더팍스",
+              "count": 28,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "LG에너지솔루션 +14.86% 급등",
+              "source": "한경",
+              "ago": "1시간 전"
+            },
+            {
+              "title": "전기제품 테마 강세",
+              "source": "머니투데이",
+              "ago": "3시간 전"
+            }
+          ],
+          "trend_surge_pct": 220,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "엘앤에프",
+          "name": "엘앤에프",
+          "sector": "전기제품",
+          "sector_full": "전기제품 / MLCC·배터리",
+          "price": 169200,
+          "change_pct": 13.03,
+          "score_total": 29.1,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": null
+        },
+        {
+          "rank": 12,
+          "ticker": "SK네트웍스",
+          "name": "SK네트웍스",
+          "sector": "복합",
+          "sector_full": "복합기업",
+          "price": 12020,
+          "change_pct": 5.62,
+          "score_total": 21.8,
+          "score_reddit": 50.0,
+          "score_news": 50.0,
+          "score_trends": 50.0,
+          "score_options": 50.0,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": null
         }
       ]
     }
