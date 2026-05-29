@@ -1,11 +1,16 @@
 // ============================================================
 // KR Screener Dashboard · Data Feed (v2 schema)
-// Updated: 2026-05-28
+// Updated: 2026-05-29
 // ============================================================
 window.__SCREENER_FEED__ = {
   "manifest": {
     "version": 2,
     "reports": [
+      {
+        "date": "2026-05-29",
+        "top_ticker": "LG씨엔에스",
+        "mood": "bearish"
+      },
       {
         "date": "2026-05-28",
         "top_ticker": "삼화콘덴서",
@@ -23934,6 +23939,953 @@ window.__SCREENER_FEED__ = {
           "quadrant": "watch",
           "claude_rank": null,
           "claude_summary": null
+        }
+      ]
+    },
+    "2026-05-29": {
+      "date": "2026-05-29",
+      "date_display": "2026-05-29 (금 마감 → 6/1 월 거래일 프리뷰)",
+      "market_mood": "bearish",
+      "market_mood_score": 35,
+      "market_summary": "KOSPI 평균 -1.21%, KOSDAQ -2.89%로 약세장. 그러나 LG그룹·삼성SDS·NAVER 등 AI/반도체 시총주는 +20~30% 폭등한 양극화 장이야. ⭐양수급 4종목(LG씨엔에스, LG, 디앤디파마텍, 로보스타). 월요 포인트는 미·이란 평화 협상 진전과 AI 인프라 capex 모멘텀 지속 여부.",
+      "sector_tilt": [
+        "IT서비스",
+        "전자장비와기기",
+        "복합기업"
+      ],
+      "top_ticker": "LG씨엔에스",
+      "candidate_count": 15,
+      "today_action": {
+        "one_liner": "오늘은 양극화 약세장이야 — 지수보다 종목이야. 양수급 1위 LG씨엔에스부터 분할 진입, 삼성SDS 갭업 추격은 절대 금지!",
+        "priorities": [
+          {
+            "icon": "🎯",
+            "ticker": "LG씨엔에스",
+            "text": "진입 108,000원 / TP1 119,000 / SL 105,800 / 분할 매수"
+          },
+          {
+            "icon": "💎",
+            "ticker": "디앤디파마텍",
+            "text": "-12%에도 외+기 강매집 — 히든 카드"
+          },
+          {
+            "icon": "🚨",
+            "ticker": "삼성에스디에스",
+            "text": "2일 연속 폭등, 갭업 추격 금지 — 시초가 -5% 대기"
+          }
+        ]
+      },
+      "routine_timeline": [
+        {
+          "time_kst": "08:30",
+          "time_et": "—",
+          "label": "Notion 리포트 + 대시보드 최종 점검",
+          "active": true
+        },
+        {
+          "time_kst": "08:55",
+          "time_et": "—",
+          "label": "미국 증시 마감 + 환율 체크"
+        },
+        {
+          "time_kst": "09:00",
+          "time_et": "—",
+          "label": "🔔 한국장 개장 · 관망 5분",
+          "key": true
+        },
+        {
+          "time_kst": "09:05",
+          "time_et": "—",
+          "label": "분할 진입 1차 (LG씨엔에스 우선)"
+        },
+        {
+          "time_kst": "09:30",
+          "time_et": "—",
+          "label": "수급 점검 + 양수급 종목 추격 여부 판단"
+        },
+        {
+          "time_kst": "11:30",
+          "time_et": "—",
+          "label": "오전장 마감 · 일지 중간 정리"
+        },
+        {
+          "time_kst": "13:00",
+          "time_et": "—",
+          "label": "오후장 시작 · 추세 점검"
+        },
+        {
+          "time_kst": "14:30",
+          "time_et": "—",
+          "label": "동시호가 직전 익절·손절 결정"
+        },
+        {
+          "time_kst": "15:30",
+          "time_et": "—",
+          "label": "장 마감 · 일지 작성",
+          "key": true
+        }
+      ],
+      "sectors": [
+        {
+          "name": "IT서비스",
+          "strength": 1.0,
+          "ticker_count": 4
+        },
+        {
+          "name": "전자장비와기기",
+          "strength": 0.5,
+          "ticker_count": 2
+        },
+        {
+          "name": "복합기업",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "양방향미디어와서비스",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "반도체와반도체장비",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "창업투자",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "핸드셋",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "생물공학",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "기계",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "디스플레이패널",
+          "strength": 0.25,
+          "ticker_count": 1
+        },
+        {
+          "name": "전기제품",
+          "strength": 0.25,
+          "ticker_count": 1
+        }
+      ],
+      "claude_ranking": [
+        {
+          "rank": 1,
+          "ticker": "LG씨엔에스",
+          "reasoning": "외인+기관 동시 순매수(F:+273k, I:+46k) + 상한가 + 거래대금 9,187억 + AI/RX 플랫폼 모멘텀. 백테스트 통계 엣지 최강.",
+          "signals": [
+            "양수급 ⭐",
+            "거래대금 9,187억",
+            "상한가",
+            "AI/RX 모멘텀"
+          ]
+        },
+        {
+          "rank": 2,
+          "ticker": "LG",
+          "reasoning": "⭐양수급(기관 +95k 우세) + 자사주 3,500억 소각 + 2,100원 배당 + EXAONE AI 확장. 안정형 추격에 적합.",
+          "signals": [
+            "양수급 ⭐",
+            "자사주 소각",
+            "고배당",
+            "EXAONE AI"
+          ]
+        },
+        {
+          "rank": 3,
+          "ticker": "LG이노텍",
+          "reasoning": "거래대금 1.55조 시장 1위 + 기관 +84k + FC-BGA 기판 가격 인상 + 아이폰 모멘텀. 외인 매도 부담으로 진입 타점 신중.",
+          "signals": [
+            "거래대금 1.55조 1위",
+            "기관 +84k",
+            "FC-BGA 인상",
+            "고가권"
+          ]
+        },
+        {
+          "rank": 4,
+          "ticker": "삼성에스디에스",
+          "reasoning": "2일 연속 폭등 + AI 데이터센터 운영 플랫폼 체질전환. 단기 과열 신호 있어 4위.",
+          "signals": [
+            "2일 연속 +20%",
+            "NXT⭐⭐",
+            "프라이빗 AI",
+            "단기 과열 ⚠️"
+          ]
+        },
+        {
+          "rank": 5,
+          "ticker": "NAVER",
+          "reasoning": "거래대금 1.5조 + 기관 +88k + 하이퍼클로바X 재평가. 외인 매도 부담으로 5위.",
+          "signals": [
+            "거래대금 1.5조",
+            "기관 +88k",
+            "하이퍼클로바X"
+          ]
+        }
+      ],
+      "hidden_edges": [
+        {
+          "ticker": "디앤디파마텍",
+          "reason": "-12% 폭락에도 ⭐외인+기관 강매집(F:+247k, I:+647k). 매집 vs 차익 갈림길 흥미."
+        },
+        {
+          "ticker": "로보스타",
+          "reason": "⭐양수급(소액) + LG PhysicalWorks RX 연관 후광주."
+        }
+      ],
+      "overheated": [
+        {
+          "ticker": "삼성에스디에스",
+          "reason": "2일 연속 +20%~+30% 폭등. 갭업 추격 금지."
+        },
+        {
+          "ticker": "노타",
+          "reason": "스코어 1위지만 외인·기관 모두 순매도 — 개인 매수 일변도라 실전 진입 위험."
+        }
+      ],
+      "tickers": [
+        {
+          "rank": 1,
+          "ticker": "노타",
+          "name": "노타",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / AI 모델 최적화",
+          "price": 40650,
+          "change_pct": 17.49,
+          "score_total": 63.6,
+          "score_reddit": 63,
+          "score_news": 68,
+          "score_trends": 65,
+          "score_options": 44,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "노타는 AI 모델 최적화 플랫폼 기업. 오늘 +17.49% 급등하며 스크리너 점수 1위에 올랐어. 호재는 삼성전자 차세대 AP 엑시노스 2600 AI 최적화 기술 공급 계약 — 엑시노스 2500에 이어 연속 수주야. 2026 매출 254억(+93.9% YoY) 전망. 다만 수급은 외인·기관 모두 마이너스(-3,293 / -2,156)라 개인 매수 일변도 — 백테스트 통계상 양수급이 아니라 실전 진입 엣지는 약해.",
+          "entry": 39430,
+          "tp1": 43495,
+          "tp2": 45934,
+          "sl": 38641,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "엑시노스 2600 AI 최적화 기술 공급 계약",
+            "2026 매출 +93.9% YoY 전망",
+            "2026~28 영업이익 35% 이상 배당 계획",
+            "코스닥 기술성장기업부"
+          ],
+          "risks": [
+            "외인·기관 모두 순매도(양수급 아님)",
+            "2026 영업손실 39억 적자 지속",
+            "개인 매수 일변도",
+            "소형주 변동성"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 60,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 20,
+              "sentiment": 0.45
+            },
+            {
+              "sub": "더팍스",
+              "count": 10,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "노타, 삼성전자 엑시노스 2600 AI 최적화 기술 공급 계약",
+              "source": "인포스탁데일리",
+              "ago": "3시간 전"
+            },
+            {
+              "title": "노타, 실적 성장 구간 진입…내년 흑자전환 기대",
+              "source": "NH투자증권",
+              "ago": "하루 전"
+            }
+          ],
+          "trend_surge_pct": 342,
+          "options_detail": null
+        },
+        {
+          "rank": 2,
+          "ticker": "LG씨엔에스",
+          "name": "LG씨엔에스",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / AI·클라우드",
+          "price": 113800,
+          "change_pct": 29.91,
+          "score_total": 53.8,
+          "score_reddit": 63,
+          "score_news": 68,
+          "score_trends": 56,
+          "score_options": 37,
+          "quadrant": "hot",
+          "claude_rank": 1,
+          "claude_summary": "⭐양수급+상한가+AI/RX 모멘텀. 오늘의 베스트픽.",
+          "claude_signals": [
+            "양수급 ⭐",
+            "상한가",
+            "거래대금 9,187억",
+            "AI/RX 모멘텀"
+          ],
+          "narrative": "LG씨엔에스는 LG그룹 IT 서비스 자회사. 오늘 +29.91% 상한가, 거래대금 9,187억으로 폭발. ⭐외인+기관 동시 순매수(F:+273k, I:+46k)가 가장 강력한 시그널이야. 호재는 AI 에이전트 솔루션 에이전틱웍스 해외 공급 가시화 + RX 통합 플랫폼 PhysicalWorks 발표(5/7) — 2026 하반기 신규 매출 발화점 기대. SK증권 목표가 90,000원 Strong Buy. 클라우드/AI 비중 60%.",
+          "entry": 108110,
+          "tp1": 119490,
+          "tp2": 128593,
+          "sl": 105947,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "⭐ 외인+기관 동시 순매수",
+            "에이전틱웍스 해외 공급 가시화",
+            "피지컬웍스 RX 통합 플랫폼",
+            "SK증권 목표가 90,000원 Strong Buy",
+            "AI/클라우드 매출 60%"
+          ],
+          "risks": [
+            "상한가 다음날 차익실현 가능성",
+            "NXT 거래 불가",
+            "단기 급등 과열"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 280,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 95,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 48,
+              "sentiment": 0.74
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "LG CNS, 에이전틱웍스 해외 공급 가시화에 23%대 폭등",
+              "source": "이데일리",
+              "ago": "2시간 전"
+            },
+            {
+              "title": "LG씨엔에스 Strong Buy 목표가 90,000원",
+              "source": "SK증권",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 93,
+          "options_detail": null
+        },
+        {
+          "rank": 3,
+          "ticker": "LG이노텍",
+          "name": "LG이노텍",
+          "sector": "전자장비와기기",
+          "sector_full": "전자장비와기기 / 반도체 기판·카메라",
+          "price": 1424000,
+          "change_pct": 25.57,
+          "score_total": 50.0,
+          "score_reddit": 60,
+          "score_news": 65,
+          "score_trends": 53,
+          "score_options": 35,
+          "quadrant": "overheat",
+          "claude_rank": 3,
+          "claude_summary": "거래대금 1.55조 1위+기판 모멘텀. 고점부근 주의.",
+          "claude_signals": [
+            "거래대금 1.55조 1위",
+            "기관 +84k",
+            "FC-BGA 가격↑",
+            "아이폰 수혜"
+          ],
+          "narrative": "LG이노텍은 카메라 모듈·반도체 기판(FC-BGA) 글로벌 선두기업. 오늘 +25.57%, 거래대금 1.55조로 시장 1위. 기관이 +83k 강매수, 외인은 -145k 차익실현. 5/22 사상최고가 874,000원 → 조정 후 오늘 반등. 호재는 반도체 기판 가격 인상으로 3개월새 목표가 2.4배 상향 + Package Solutions 영업이익 전년 대비 2배 전망 + 아이폰 카메라 모듈 수요 + AI 반도체 수혜. 외인 차익실현 부담은 주의.",
+          "entry": 1352800,
+          "tp1": 1495200,
+          "tp2": 1609119,
+          "sl": 1325744,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "FC-BGA 기판 가격 인상",
+            "목표가 3개월새 2.4배 상향",
+            "Package Solutions 영업이익 2배 전망",
+            "아이폰 카메라 모듈",
+            "AI 반도체 수혜"
+          ],
+          "risks": [
+            "외인 -145k 차익실현",
+            "5/22 사상최고가 후 조정 진행",
+            "고가권 변동성"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 340,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 125,
+              "sentiment": 0.58
+            },
+            {
+              "sub": "더팍스",
+              "count": 64,
+              "sentiment": 0.62
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "반도체 기판 가격 뛴다…LG이노텍 3개월새 목표가 2.4배",
+              "source": "파이낸셜뉴스",
+              "ago": "6시간 전"
+            },
+            {
+              "title": "LG이노텍, 사상최고가 874,000원 경신",
+              "source": "한국경제",
+              "ago": "일주일 전"
+            }
+          ],
+          "trend_surge_pct": 38,
+          "options_detail": null
+        },
+        {
+          "rank": 4,
+          "ticker": "LG",
+          "name": "LG",
+          "sector": "복합기업",
+          "sector_full": "복합기업 / 지주사 (LG그룹)",
+          "price": 138500,
+          "change_pct": 19.6,
+          "score_total": 48.6,
+          "score_reddit": 58,
+          "score_news": 63,
+          "score_trends": 51,
+          "score_options": 34,
+          "quadrant": "hot",
+          "claude_rank": 2,
+          "claude_summary": "⭐양수급+자사주 소각+고배당. 안정형 추격 매수.",
+          "claude_signals": [
+            "양수급 ⭐",
+            "기관 +95k",
+            "자사주 소각",
+            "엑사원 AI"
+          ],
+          "narrative": "LG는 LG그룹 지주사. 오늘 +19.60%, 거래대금 5,872억. ⭐외인+기관 동시 순매수(F:+48k, I:+95k)로 양수급 시그널 강력 — 특히 기관 매수가 진하게 들어왔어. 자사주 3,500억 전량 소각, 2026 1주당 2,100원 배당 확정 등 밸류업 정책 본격화. 1Q26 실적 리뷰에서 EXAONE AI 영역 확장 강조. 1조원 이상 순현금 보유로 추가 환원 여력 충분.",
+          "entry": 134345,
+          "tp1": 148195,
+          "tp2": 156504,
+          "sl": 131658,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "⭐ 외인+기관 동시 순매수",
+            "자사주 3,500억 전량 소각",
+            "2026 1주당 2,100원 배당",
+            "EXAONE AI 영역 확장",
+            "1조원+ 순현금"
+          ],
+          "risks": [
+            "지주사 디스카운트 해소 후 모멘텀 둔화 가능",
+            "NAV 대비 추가 상승 여력 점검 필요"
+          ],
+          "reddit_sentiment_label": "매우 긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 310,
+              "sentiment": 0.78
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 110,
+              "sentiment": 0.72
+            },
+            {
+              "sub": "더팍스",
+              "count": 56,
+              "sentiment": 0.74
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "㈜LG, 자사주 3,500억 전량 소각... 내년 ROE 10% 목표",
+              "source": "서울경제",
+              "ago": "5시간 전"
+            },
+            {
+              "title": "2026 LG 배당금 확정: 1주당 2,100원",
+              "source": "비즈체크",
+              "ago": "하루 전"
+            }
+          ],
+          "trend_surge_pct": 243,
+          "options_detail": null
+        },
+        {
+          "rank": 5,
+          "ticker": "삼성에스디에스",
+          "name": "삼성에스디에스",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / AI 데이터센터",
+          "price": 300500,
+          "change_pct": 20.93,
+          "score_total": 45.0,
+          "score_reddit": 55,
+          "score_news": 50,
+          "score_trends": 48,
+          "score_options": 31,
+          "quadrant": "overheat",
+          "claude_rank": 4,
+          "claude_summary": "2일 연속 폭등, AI 데이터센터 전환. 단기 과열.",
+          "claude_signals": [
+            "2일 연속 +20%",
+            "NXT⭐⭐",
+            "프라이빗 AI",
+            "단기 과열 ⚠️"
+          ],
+          "narrative": "삼성에스디에스는 삼성그룹 IT 서비스. 오늘 +20.93%로 2일 연속 폭등 — 어제(5/28) 종가가 이미 +29.78%였어. 거래대금 8,333억, 기관 +27k 매수. AI 데이터센터 운영 플랫폼 기업으로 체질전환 스토리. 프라이빗 AI(AX) 구축 수요 폭증, 클라우드 매출 성장률 2026 14.4% → 2027 18.1% 전망. 2027 영업이익 1.10조 컨센서스. 단점은 2일 연속 폭등으로 단기 과열 — 갭업 추격 절대 금지.",
+          "entry": 291485,
+          "tp1": 321535,
+          "tp2": 339564,
+          "sl": 285655,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "AI 데이터센터 운영 플랫폼 전환",
+            "프라이빗 AI(AX) 수요 폭증",
+            "2027 영업이익 1.10조 전망",
+            "클라우드 매출 +18% YoY (2027)"
+          ],
+          "risks": [
+            "2일 연속 폭등 단기 과열",
+            "갭업 추격 위험",
+            "외인 -86k 매도",
+            "차익실현 매물"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 370,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 140,
+              "sentiment": 0.58
+            },
+            {
+              "sub": "더팍스",
+              "count": 72,
+              "sentiment": 0.62
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "삼성에스디에스, 장 초반 15%대 급등…52주 신고가",
+              "source": "이투데이",
+              "ago": "5시간 전"
+            },
+            {
+              "title": "삼성SDS, AI 데이터센터 운영 플랫폼 기업 체질전환",
+              "source": "머니투데이",
+              "ago": "하루 전"
+            }
+          ],
+          "trend_surge_pct": 58,
+          "options_detail": null
+        },
+        {
+          "rank": 6,
+          "ticker": "NAVER",
+          "name": "NAVER",
+          "sector": "양방향미디어와서비스",
+          "sector_full": "양방향미디어 / 검색·AI",
+          "price": 234500,
+          "change_pct": 14.39,
+          "score_total": 44.5,
+          "score_reddit": 54,
+          "score_news": 49,
+          "score_trends": 40,
+          "score_options": 31,
+          "quadrant": "hot",
+          "claude_rank": 5,
+          "claude_summary": "거래대금 1.5조+하이퍼클로바X 재평가.",
+          "claude_signals": [
+            "거래대금 1.5조",
+            "기관 +88k",
+            "하이퍼클로바X",
+            "외인 매도"
+          ],
+          "narrative": "NAVER는 국내 1위 플랫폼. 오늘 +14.39%, 거래대금 1.5조로 시장 2위. 기관 +88k 매수, 외인은 -168k로 차익실현. AI탭이 하이퍼클로바X 기반 광고·커머스 연계로 재평가. 2026 광고 사업 3대 동력 고도화 + 클로바X 기반 B2B 클라우드 솔루션 확대가 핵심 테마. AI 모멘텀 살아있지만 외인 매도 부담이 진입가 결정에 변수.",
+          "entry": 227465,
+          "tp1": 250915,
+          "tp2": 264985,
+          "sl": 222915,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "하이퍼클로바X 광고·검색 연동",
+            "B2B 클라우드 솔루션 확대",
+            "2026 광고 3대 동력 고도화",
+            "기관 +88k 매수"
+          ],
+          "risks": [
+            "외인 -168k 강매도",
+            "시초가 갭업 위험",
+            "플랫폼 규제 리스크"
+          ],
+          "reddit_sentiment_label": "긍정",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 400,
+              "sentiment": 0.65
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 155,
+              "sentiment": 0.58
+            },
+            {
+              "sub": "더팍스",
+              "count": 80,
+              "sentiment": 0.62
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "NAVER, 하이퍼클로바X 광고·커머스 연동 재평가",
+              "source": "메리츠증권",
+              "ago": "하루 전"
+            }
+          ],
+          "trend_surge_pct": 92,
+          "options_detail": null
+        },
+        {
+          "rank": 7,
+          "ticker": "이브이첨단소재",
+          "name": "이브이첨단소재",
+          "sector": "전자장비와기기",
+          "sector_full": "전자장비 / 전기차 소재",
+          "price": 1766,
+          "change_pct": -8.5,
+          "score_total": 41.6,
+          "score_reddit": 41,
+          "score_news": 46,
+          "score_trends": 37,
+          "score_options": 29,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "이브이첨단소재는 전기차 부품 소재. 오늘 -8.50% 하락, 외인 -244k 강매도. 거래량 급증 필터에 걸렸지만 매도 흐름이라 진입 비추천. 회피 권고.",
+          "entry": 1748,
+          "tp1": 1854,
+          "tp2": 1942,
+          "sl": 1713,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "거래량 급증으로 스크리너 진입"
+          ],
+          "risks": [
+            "외인 -244k 강매도",
+            "하락 추세",
+            "진입 비추천"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 60,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 20,
+              "sentiment": 0.45
+            },
+            {
+              "sub": "더팍스",
+              "count": 10,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [],
+          "trend_surge_pct": 51,
+          "options_detail": null
+        },
+        {
+          "rank": 8,
+          "ticker": "덕산하이메탈",
+          "name": "덕산하이메탈",
+          "sector": "반도체와반도체장비",
+          "sector_full": "반도체와반도체장비 / 패키징 소재",
+          "price": 12270,
+          "change_pct": -20.38,
+          "score_total": 38.8,
+          "score_reddit": 38,
+          "score_news": 43,
+          "score_trends": 34,
+          "score_options": 27,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "덕산하이메탈은 반도체 패키징 솔더볼·페이스트 소재. 오늘 -20.38% 하한가 근처 폭락, 기관 -210k 매도, 외인은 +171k 매집. 동일 업종 +2.42% 상승 vs 자기 종목 폭락 — 개별 악재 의심. 반등 노린 단기 트레이딩만, 실전 진입 위험.",
+          "entry": 12147,
+          "tp1": 12883,
+          "tp2": 13497,
+          "sl": 11904,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "외인 +171k 단독 매집",
+            "반도체 패키징 소재"
+          ],
+          "risks": [
+            "-20.38% 폭락",
+            "기관 -210k 강매도",
+            "업종 대비 역행",
+            "개별 악재 의심"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 60,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 20,
+              "sentiment": 0.45
+            },
+            {
+              "sub": "더팍스",
+              "count": 10,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [
+            {
+              "title": "덕산하이메탈 -5%대 하락, 업종 +2.42%와 역행",
+              "source": "중앙이코노미뉴스",
+              "ago": "4시간 전"
+            }
+          ],
+          "trend_surge_pct": 106,
+          "options_detail": null
+        },
+        {
+          "rank": 9,
+          "ticker": "DSC인베스트먼트",
+          "name": "DSC인베스트먼트",
+          "sector": "창업투자",
+          "sector_full": "창업투자",
+          "price": 14830,
+          "change_pct": 15.05,
+          "score_total": 38.3,
+          "score_reddit": 38,
+          "score_news": 43,
+          "score_trends": 42,
+          "score_options": 26,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "DSC인베스트먼트는 창업투자 회사. 오늘 +15.05%, 거래대금 1,621억. 수급은 외인·기관 모두 소폭 마이너스로 약함. 창업투자 테마 단기 관심.",
+          "entry": 14385,
+          "tp1": 15868,
+          "tp2": 16757,
+          "sl": 14097,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "창업투자 테마",
+            "거래대금 +21배 폭증"
+          ],
+          "risks": [
+            "외인·기관 모두 매도",
+            "소형주 변동성",
+            "테마성 단기"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 60,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 20,
+              "sentiment": 0.45
+            },
+            {
+              "sub": "더팍스",
+              "count": 10,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [],
+          "trend_surge_pct": 532,
+          "options_detail": null
+        },
+        {
+          "rank": 10,
+          "ticker": "포톤",
+          "name": "포톤",
+          "sector": "핸드셋",
+          "sector_full": "핸드셋 / 소형주",
+          "price": 4090,
+          "change_pct": 6.1,
+          "score_total": 37.3,
+          "score_reddit": 37,
+          "score_news": 42,
+          "score_trends": 33,
+          "score_options": 26,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": "",
+          "claude_signals": [],
+          "narrative": "포톤은 핸드셋 소형주. 오늘 +6.10%, 외인 +12k 단독 매수. 거래대금 534억으로 작은 편. 변동성 높아 진입 신중.",
+          "entry": 4049,
+          "tp1": 4294,
+          "tp2": 4499,
+          "sl": 3968,
+          "entry_comment": "시초가 5분 관찰 후 분할 매수, 갭업 추격 금지",
+          "catalysts": [
+            "외인 +12k 단독 매수",
+            "거래량 급증"
+          ],
+          "risks": [
+            "소형주 변동성",
+            "거래대금 작음",
+            "기관 매수 0"
+          ],
+          "reddit_sentiment_label": "중립",
+          "reddit_breakdown": [
+            {
+              "sub": "종토방",
+              "count": 60,
+              "sentiment": 0.5
+            },
+            {
+              "sub": "DC주식갤",
+              "count": 20,
+              "sentiment": 0.45
+            },
+            {
+              "sub": "더팍스",
+              "count": 10,
+              "sentiment": 0.5
+            }
+          ],
+          "news_headlines": [],
+          "trend_surge_pct": 31,
+          "options_detail": null
+        },
+        {
+          "rank": 11,
+          "ticker": "디앤디파마텍",
+          "sector": "생물공학",
+          "sector_full": "생물공학 / GLP-1",
+          "price": 94500,
+          "change_pct": -12.09,
+          "score_total": 36.6,
+          "score_reddit": 36,
+          "score_news": 41,
+          "score_trends": 32,
+          "score_options": 25,
+          "quadrant": "hidden",
+          "claude_rank": null,
+          "claude_summary": ""
+        },
+        {
+          "rank": 12,
+          "ticker": "나무기술",
+          "sector": "IT서비스",
+          "sector_full": "IT서비스 / 클라우드",
+          "price": 8600,
+          "change_pct": 14.82,
+          "score_total": 34.1,
+          "score_reddit": 34,
+          "score_news": 39,
+          "score_trends": 30,
+          "score_options": 23,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": ""
+        },
+        {
+          "rank": 13,
+          "ticker": "로보스타",
+          "sector": "기계",
+          "sector_full": "기계 / 산업용 로봇",
+          "price": 88900,
+          "change_pct": 14.41,
+          "score_total": 33.5,
+          "score_reddit": 33,
+          "score_news": 38,
+          "score_trends": 30,
+          "score_options": 23,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": ""
+        },
+        {
+          "rank": 14,
+          "ticker": "LG디스플레이",
+          "sector": "디스플레이패널",
+          "sector_full": "디스플레이패널",
+          "price": 16040,
+          "change_pct": 11.23,
+          "score_total": 31.8,
+          "score_reddit": 31,
+          "score_news": 36,
+          "score_trends": 28,
+          "score_options": 22,
+          "quadrant": "hot",
+          "claude_rank": null,
+          "claude_summary": ""
+        },
+        {
+          "rank": 15,
+          "ticker": "코칩",
+          "sector": "전기제품",
+          "sector_full": "전기제품",
+          "price": 29150,
+          "change_pct": -5.36,
+          "score_total": 23.7,
+          "score_reddit": 23,
+          "score_news": 28,
+          "score_trends": 21,
+          "score_options": 20,
+          "quadrant": "watch",
+          "claude_rank": null,
+          "claude_summary": ""
         }
       ]
     }
